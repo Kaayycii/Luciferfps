@@ -47,9 +47,13 @@ The complete reference deconstruction, implementation locations, adaptations and
 
 ## Data and 12-hour refresh
 
+Game imagery is bundled with the app in `public/media`, with verified source mappings and provenance in `data/asset-manifest.json`. Every indexed hero has local portrait/full artwork and every published ability has a real icon. All 17 map records include local scenery and published overhead layouts for the planner. Official tournament graphics supply verified team marks. Player photos and additional team marks are recovered only when their source is available; unrelated images are never presented as identity photos.
+
+`npm run media:check` verifies that the referenced image files exist and contain real image bytes. `npm run media:sync` maintains the public image catalog while retaining verified files on source failures. The regular build checks image coverage in GitHub Actions. The scheduled updater refreshes and commits image assets along with meaningful source data changes.
+
 `data/siteData.json` is the central checked-in snapshot. `scripts/sync-data.mjs` fetches published public feeds, normalizes documented records, validates the result and writes atomically only when source content changes. Failed, forbidden, redacted or suspiciously partial responses do not replace the last good snapshot. The build works with the included snapshot if the source is unavailable.
 
-The scheduled workflow checks data, runs tests and builds **before** committing changes. It pushes only the data file and optionally calls the deployment hook after a changed push. It does not force-push. `GITHUB_TOKEN` pushes do not start another ordinary Actions push workflow; no such chaining is assumed.
+The scheduled workflow checks data and image coverage, runs tests and builds **before** committing changes. It pushes only the data snapshot, image manifest and bundled image files, and optionally calls the deployment hook after a changed push. It does not force-push. `GITHUB_TOKEN` pushes do not start another ordinary Actions push workflow; no such chaining is assumed.
 
 Manual update:
 

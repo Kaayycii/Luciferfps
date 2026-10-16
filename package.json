@@ -9,6 +9,8 @@
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1",
     "sync": "node scripts/sync-data.mjs",
+    "media:sync": "node scripts/image-assets.mjs",
+    "media:check": "node scripts/check-media.mjs",
     "check": "node scripts/check-data.mjs",
     "test": "node --test"
   },
