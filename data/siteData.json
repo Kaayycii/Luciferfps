@@ -20,7 +20,8 @@
       "teams": 67,
       "players": 531,
       "staff": 55,
-      "patches": 60
+      "patches": 60,
+      "maps": 24
     },
     "limitations": [
       "Restricted or redacted source fields remain unavailable.",
@@ -65,7 +66,13 @@
         "id": "teamupDefinitions",
         "url": "https://api.arianwever.com/public-teamup-icons.php"
       }
-    ]
+    ],
+    "officialCatalog": {
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "updatedAt": "2026-10-16T15:09:51.485Z",
+      "publishedMapCount": 23,
+      "publishedHeroCount": 54
+    }
   },
   "heroes": [
     {
@@ -11088,9 +11095,87 @@
         }
       ],
       "forms": null,
-      "balanceHistory": [],
+      "balanceHistory": [
+        {
+          "id": "2026-10-09",
+          "date": "2026-10-09",
+          "title": "Patch - October 9 2026",
+          "url": "https://www.marvelrivals.com/gameupdate/20261006/41548_1315865.html",
+          "changes": [
+            {
+              "id": "gorr-the-god-butcher-0",
+              "hero": "Gorr",
+              "section": "Gorr the God Butcher",
+              "scope": "hero",
+              "type": "buff",
+              "text": "Reduce Living Abyss cooldown from 15s to 12s.",
+              "facts": [
+                "15s",
+                "12s"
+              ],
+              "sourceHero": "Gorr the God Butcher"
+            },
+            {
+              "id": "gorr-the-god-butcher-1",
+              "hero": "Gorr",
+              "section": "Gorr the God Butcher",
+              "scope": "hero",
+              "type": "nerf",
+              "text": "Reduce Movement Speed during Living Abyss from 13m/s to 10m/s.",
+              "facts": [
+                "13m/s",
+                "10m/s"
+              ],
+              "sourceHero": "Gorr the God Butcher"
+            },
+            {
+              "id": "gorr-the-god-butcher-2",
+              "hero": "Gorr",
+              "section": "Gorr the God Butcher",
+              "scope": "hero",
+              "type": "nerf",
+              "text": "Adjust Shadow Scythe damage from 55 +2% of target's Maximum Health to 50 +2% of target's Maximum Health. Reduce Shockwave damage from 60 to 55.",
+              "facts": [
+                "55",
+                "2%",
+                "50",
+                "2%",
+                "60",
+                "55"
+              ],
+              "sourceHero": "Gorr the God Butcher"
+            },
+            {
+              "id": "gorr-the-god-butcher-3",
+              "hero": "Gorr",
+              "section": "Gorr the God Butcher",
+              "scope": "hero",
+              "type": "nerf",
+              "text": "Reduce Twilight of the Gods (Ultimate Ability) duration from 12s to 10s.",
+              "facts": [
+                "12s",
+                "10s"
+              ],
+              "sourceHero": "Gorr the God Butcher"
+            }
+          ]
+        }
+      ],
       "sourceUrl": "https://www.marvelrivals.com/heroes/",
-      "thumbnail": null
+      "thumbnail": null,
+      "sourceConflicts": [
+        {
+          "hero": "Gorr",
+          "ability": "Living Abyss",
+          "field": "Cooldown",
+          "heroPageValue": "13s",
+          "patchValue": "12s",
+          "heroSourceUrl": "https://www.marvelrivals.com/20260911/41360_1313617.html",
+          "patchSourceUrl": "https://www.marvelrivals.com/balancepost/20261006/41667_1315864.html",
+          "effectiveDate": "2026-10-09",
+          "message": "The official hero page lists 13s; the linked balance note lists 12s. These published sources disagree. Verify the current value in-game; the hero-page value has not been silently overwritten."
+        }
+      ]
     },
     {
       "id": "groot",
@@ -34986,39 +35071,133 @@
   ],
   "maps": [
     {
+      "id": "alchemax-headquarters",
+      "name": "Alchemax Headquarters",
+      "officialName": "Alchemax Headquarters",
+      "image": "https://www.marvelrivals.com/pc/gw/20241128194803/img/19_246b0db4.jpg",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "modes": [
+        "Doom Match",
+        "18 VS.18"
+      ],
+      "classification": "arcade",
+      "modeSourceUrl": "https://www.marvelrivals.com/gameupdate/20261006/41548_1315865.html",
+      "modeSourceUrls": [
+        "https://www.marvelrivals.com/gameupdate/20261006/41548_1315865.html",
+        "https://www.marvelrivals.com/gameupdate/20260527/41548_1301784.html"
+      ],
+      "modePublishedDate": "2026-10-06",
+      "modeEffectiveDate": "2026-10-09",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/alchemax-headquarters/",
+      "mode": "Doom Match / 18 VS.18",
+      "stats": {
+        "matches": 0
+      }
+    },
+    {
       "id": "arakko",
       "name": "Arakko",
-      "image": "https://arianwever.com/Graphics/Map%20icons/Arrako_Map.webp",
+      "image": "https://www.marvelrivals.com/pc/gw/20241128194803/img/1_623bc550.jpg",
       "mode": "Convoy",
       "stats": {
         "matches": 9
-      }
+      },
+      "officialName": "HELLFIRE GALA:ARAKKO",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/arakko/"
     },
     {
       "id": "birnin-t-challa",
       "name": "Birnin T'Challa",
-      "image": "https://arianwever.com/Graphics/Map%20icons/Warrior_falls_tchalla.webp",
+      "image": "https://r.res.easebar.com/pic/20250117/7778aff0-3f9e-4823-9d20-e87ac2460973.jpg",
       "mode": "Domination",
       "stats": {
         "matches": 52
-      }
+      },
+      "officialName": "INTERGALACTIC EMPIRE OF WAKANDA: BIRNIN T'CHALLA",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/birnin-t-challa/"
     },
     {
       "id": "celestial-husk",
       "name": "Celestial Husk",
-      "image": "https://arianwever.com/Graphics/Map%20icons/Klyntar_Husk_map.webp",
+      "image": "https://www.marvelrivals.com/pc/gw/20241128194803/img/4_d02459c8.jpg",
       "mode": "Domination",
       "stats": {
         "matches": 53
-      }
+      },
+      "officialName": "Klyntar Awakens: The Celestial Husk",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/celestial-husk/"
     },
     {
       "id": "central-park",
       "name": "Central Park",
-      "image": "https://arianwever.com/Graphics/Map%20icons/Central_Park_Map_artwork.webp",
+      "image": "https://www.marvelrivals.com/pc/gw/20241128194803/img/2_b035ed34.jpg",
       "mode": "Convergence",
       "stats": {
         "matches": 35
+      },
+      "officialName": "EMPIRE OF ETERNAL NIGHT:CENTRAL PARK",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/central-park/"
+    },
+    {
+      "id": "god-quarry",
+      "name": "God Quarry",
+      "officialName": "The God Quarry",
+      "image": "https://www.marvelrivals.com/pc/gw/20241128194803/img/22_213fa5f7.jpg",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "modes": [
+        "Domination"
+      ],
+      "classification": "standard",
+      "modeSourceUrl": "https://www.marvelrivals.com/gameupdate/20260923/41548_1314808.html",
+      "modeSourceUrls": [
+        "https://www.marvelrivals.com/gameupdate/20260923/41548_1314808.html"
+      ],
+      "modePublishedDate": "2026-09-23",
+      "modeEffectiveDate": "2026-09-24",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/god-quarry/",
+      "mode": "Domination",
+      "stats": {
+        "matches": 0
+      }
+    },
+    {
+      "id": "grand-garden",
+      "name": "Grand Garden",
+      "officialName": "Grand Garden",
+      "image": "https://www.marvelrivals.com/pc/gw/20241128194803/img/8_ecaa3f49.jpg",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "modes": [
+        "Annihilation (18 VS.18 Domination)"
+      ],
+      "classification": "arcade",
+      "modeSourceUrl": "https://www.marvelrivals.com/gameupdate/20251126/41548_1273366.html",
+      "modeSourceUrls": [
+        "https://www.marvelrivals.com/gameupdate/20251126/41548_1273366.html"
+      ],
+      "modePublishedDate": "2025-11-26",
+      "modeEffectiveDate": "2025-11-27",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/grand-garden/",
+      "mode": "Annihilation (18 VS.18 Domination)",
+      "stats": {
+        "matches": 0
       }
     },
     {
@@ -35033,62 +35212,145 @@
     {
       "id": "heart-of-heaven",
       "name": "Heart of Heaven",
-      "image": "https://arianwever.com/Graphics/Map%20icons/Heart_Of_Heaven_image.webp",
+      "image": "https://www.marvelrivals.com/pc/gw/20241128194803/img/6_977327e9.jpg",
       "mode": "Convergence",
       "stats": {
         "matches": 9
-      }
+      },
+      "officialName": "K'un-Lun: Heart of Heaven",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/heart-of-heaven/"
     },
     {
       "id": "hell-s-heaven",
       "name": "Hell's Heaven",
-      "image": "https://arianwever.com/Graphics/Map%20icons/Hydra_Charteris_Base_artwork.webp",
+      "image": "https://r.res.easebar.com/pic/20250117/a37fc3b8-4b00-41c0-b527-41cd87d1908b.jpg",
       "mode": "Domination",
       "stats": {
         "matches": 53
-      }
+      },
+      "officialName": "HYDRA CHARTERIS BASE: HELL'S HEAVEN",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/hell-s-heaven/"
     },
     {
       "id": "krakoa",
       "name": "Krakoa",
-      "image": "https://arianwever.com/Graphics/Map%20icons/Krakoa_Map_artwork.webp",
+      "image": "https://www.marvelrivals.com/pc/gw/20241128194803/img/3_3799bc77.jpg",
       "mode": "Domination",
       "stats": {
         "matches": 41
-      }
+      },
+      "officialName": "HELLFIRE GALA: KRAKOA",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/krakoa/"
     },
     {
       "id": "lower-manhattan",
       "name": "Lower Manhattan",
-      "image": "https://arianwever.com/Graphics/Map%20icons/Lower_Manhattan_Map.webp",
+      "image": "https://www.marvelrivals.com/pc/gw/20241128194803/img/18_bd1c448f.jpg",
       "mode": "Convergence",
       "stats": {
         "matches": 17
-      }
+      },
+      "officialName": "Lower Manhattan",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/lower-manhattan/"
     },
     {
       "id": "midtown",
       "name": "Midtown",
-      "image": "https://arianwever.com/Graphics/Map%20icons/Midtown_artwork.webp",
+      "image": "https://r.res.easebar.com/pic/20250117/592ea2df-1fa8-4e49-af04-b4b94ad38690.jpg",
       "mode": "Convoy",
       "stats": {
         "matches": 28
-      }
+      },
+      "officialName": "EMPIRE OF ETERNAL NIGHT: MIDTOWN",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/midtown/"
     },
     {
       "id": "museum-of-contemplation",
       "name": "Museum of Contemplation",
-      "image": "https://arianwever.com/Graphics/Map%20icons/Museum_of_Contemplation_Map.webp",
+      "image": "https://www.marvelrivals.com/pc/gw/20241128194803/img/9_d1e6afd2.jpg",
       "mode": "Convoy",
       "stats": {
         "matches": 87
-      }
+      },
+      "officialName": "Museum of Contemplation",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/museum-of-contemplation/"
     },
     {
       "id": "royal-palace",
       "name": "Royal Palace",
-      "image": "https://arianwever.com/Graphics/Map%20icons/Royal_Palace.webp",
+      "image": "https://r.res.easebar.com/pic/20250117/ed61b662-1a71-48b5-bd61-f950326c2569.jpg",
       "mode": "Unreported",
+      "stats": {
+        "matches": 0
+      },
+      "officialName": "YGGSGARD: YGGDRASILL PATH AND ROYAL PALACE",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/royal-palace/"
+    },
+    {
+      "id": "sanctum-sanctorum",
+      "name": "Sanctum Sanctorum",
+      "officialName": "EMPIRE OF ETERNAL NIGHT: SANCTUM SANCTORUM",
+      "image": "https://r.res.easebar.com/pic/20250117/edb3223e-8a2c-45b2-b220-b518c31fcf16.jpg",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "modes": [
+        "Doom Match"
+      ],
+      "classification": "arcade",
+      "modeSourceUrl": "https://www.marvelrivals.com/gameupdate/20250904/41548_1257695.html",
+      "modeSourceUrls": [
+        "https://www.marvelrivals.com/gameupdate/20250904/41548_1257695.html"
+      ],
+      "modePublishedDate": "2025-09-04",
+      "modeEffectiveDate": "2025-09-12",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/sanctum-sanctorum/",
+      "mode": "Doom Match",
+      "stats": {
+        "matches": 0
+      }
+    },
+    {
+      "id": "shenloong-arena",
+      "name": "Shenloong Arena",
+      "officialName": "K'un-Lun: Shenloong Arena",
+      "image": "https://www.marvelrivals.com/pc/gw/20241128194803/img/20_eff4a975.jpg",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "modes": [
+        "Bounty Annihilation (18 VS.18)"
+      ],
+      "classification": "arcade",
+      "modeSourceUrl": "https://www.marvelrivals.com/20260610/41525_1303717.html",
+      "modeSourceUrls": [
+        "https://www.marvelrivals.com/20260610/41525_1303717.html"
+      ],
+      "modePublishedDate": "2026-06-10",
+      "modeEffectiveDate": "2026-06-12",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/shenloong-arena/",
+      "mode": "Bounty Annihilation (18 VS.18)",
       "stats": {
         "matches": 0
       }
@@ -35096,47 +35358,119 @@
     {
       "id": "shin-shibuya",
       "name": "Shin-Shibuya",
-      "image": "https://arianwever.com/Graphics/Map%20icons/Shin-Shibuya.webp",
+      "image": "https://r.res.easebar.com/pic/20250117/15d2a8ff-4fbf-4323-a30f-bdf8f27744b1.jpg",
       "mode": "Convergence",
       "stats": {
         "matches": 6
-      }
+      },
+      "officialName": "TOKYO 2099: SHIN-SHIBUYA",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/shin-shibuya/"
     },
     {
       "id": "spider-islands",
       "name": "Spider-Islands",
-      "image": "https://arianwever.com/Graphics/Map%20icons/Spider-Islands.webp",
+      "image": "https://r.res.easebar.com/pic/20250117/68cce399-b15b-429b-8966-eb34f880e94b.jpg",
       "mode": "Convoy",
       "stats": {
         "matches": 18
-      }
+      },
+      "officialName": "TOKYO 2099: SPIDER-ISLANDS",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/spider-islands/"
     },
     {
       "id": "symbiotic-surface",
       "name": "Symbiotic Surface",
-      "image": "https://arianwever.com/Graphics/Map%20icons/Klyntar_Symbiotic_surface_artwork.webp",
+      "image": "https://r.res.easebar.com/pic/20250117/322ccfb2-0dc6-4746-9610-da03ec019701.jpg",
       "mode": "Convergence",
       "stats": {
         "matches": 16
-      }
+      },
+      "officialName": "KLYNTAR: SYMBIOTIC SURFACE",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/symbiotic-surface/"
     },
     {
       "id": "thebes",
       "name": "Thebes",
-      "image": "https://arianwever.com/Graphics/Map%20icons/Thebes_Map.jpg",
+      "image": "https://www.marvelrivals.com/pc/gw/20241128194803/img/21_484fcb82.jpg",
       "mode": "Convoy",
       "stats": {
         "matches": 6
+      },
+      "officialName": "Thebes",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/thebes/"
+    },
+    {
+      "id": "throne-of-knull",
+      "name": "Throne of Knull",
+      "officialName": "Klyntar: Throne of Knull",
+      "image": "https://www.marvelrivals.com/pc/gw/20241128194803/img/5_407a76f0.jpg",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "modes": [
+        "Resource Rumble"
+      ],
+      "classification": "arcade",
+      "modeSourceUrl": "https://www.marvelrivals.com/gameupdate/20250819/41548_1254783.html",
+      "modeSourceUrls": [
+        "https://www.marvelrivals.com/gameupdate/20250819/41548_1254783.html"
+      ],
+      "modePublishedDate": "2025-08-20",
+      "modeEffectiveDate": "2025-08-21",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/throne-of-knull/",
+      "mode": "Resource Rumble",
+      "stats": {
+        "matches": 0
+      }
+    },
+    {
+      "id": "times-square",
+      "name": "Times Square",
+      "officialName": "Times Square",
+      "image": "https://www.marvelrivals.com/pc/gw/20241128194803/img/7_df8eaf86.jpg",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "modes": [
+        "Social hub"
+      ],
+      "classification": "social",
+      "modeSourceUrl": "https://www.marvelrivals.com/",
+      "modeSourceUrls": [
+        "https://www.marvelrivals.com/"
+      ],
+      "maxPlayers": 100,
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/times-square/",
+      "mode": "Social hub",
+      "stats": {
+        "matches": 0
       }
     },
     {
       "id": "yggdrasill-path",
       "name": "Yggdrasill Path",
-      "image": "https://arianwever.com/Graphics/Map%20icons/Yggdrasill_Path.webp",
+      "image": "https://r.res.easebar.com/pic/20250117/ed61b662-1a71-48b5-bd61-f950326c2569.jpg",
       "mode": "Convoy",
       "stats": {
         "matches": 19
-      }
+      },
+      "officialName": "YGGSGARD: YGGDRASILL PATH AND ROYAL PALACE",
+      "sourceUrl": "https://www.marvelrivals.com/",
+      "catalogSource": "official",
+      "layoutAvailability": "source-listed",
+      "layoutSourceUrl": "https://rivals.gs/maps/yggdrasill-path/"
     }
   ],
   "matches": [
@@ -220761,7 +221095,7 @@
         },
         {
           "id": "gorr-the-god-butcher-0",
-          "hero": "Gorr the God Butcher",
+          "hero": "Gorr",
           "section": "Gorr the God Butcher",
           "scope": "hero",
           "type": "buff",
@@ -220769,11 +221103,12 @@
           "facts": [
             "15s",
             "12s"
-          ]
+          ],
+          "sourceHero": "Gorr the God Butcher"
         },
         {
           "id": "gorr-the-god-butcher-1",
-          "hero": "Gorr the God Butcher",
+          "hero": "Gorr",
           "section": "Gorr the God Butcher",
           "scope": "hero",
           "type": "nerf",
@@ -220781,11 +221116,12 @@
           "facts": [
             "13m/s",
             "10m/s"
-          ]
+          ],
+          "sourceHero": "Gorr the God Butcher"
         },
         {
           "id": "gorr-the-god-butcher-2",
-          "hero": "Gorr the God Butcher",
+          "hero": "Gorr",
           "section": "Gorr the God Butcher",
           "scope": "hero",
           "type": "nerf",
@@ -220797,11 +221133,12 @@
             "2%",
             "60",
             "55"
-          ]
+          ],
+          "sourceHero": "Gorr the God Butcher"
         },
         {
           "id": "gorr-the-god-butcher-3",
-          "hero": "Gorr the God Butcher",
+          "hero": "Gorr",
           "section": "Gorr the God Butcher",
           "scope": "hero",
           "type": "nerf",
@@ -220809,7 +221146,8 @@
           "facts": [
             "12s",
             "10s"
-          ]
+          ],
+          "sourceHero": "Gorr the God Butcher"
         },
         {
           "id": "hawkeye-0",
