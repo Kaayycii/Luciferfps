@@ -33,7 +33,10 @@ for(const teamup of data.teamUps||[])if(!paths.has(manifest.assets?.[teamup.imag
 for(const map of data.maps){
   const record=manifest.entities?.maps?.[map.id];
   if(!record?.image||!paths.has(record.image))errors.push(`Missing local map artwork for ${map.name}`);
-  if(!record?.layouts?.length)errors.push(`Missing real overhead layouts for ${map.name}`);
+  // A genuinely new publisher map may precede its verified tactical layout.
+  // It must still have local scene artwork and an explicit sourced absence,
+  // never a fabricated floor plan or a silent blank.
+  if(!record?.layouts?.length && !(record?.layoutAvailability==='unavailable' && record?.layoutNote && /^https:\/\/rivals\.gs\/maps\//.test(record?.layoutSourcePage||'')))errors.push(`Missing real overhead layouts or sourced unavailable status for ${map.name}`);
   for(const layout of record?.layouts||[])if(!paths.has(layout.image)||!layout.floorplan||!layout.name||!Number.isFinite(layout.width)||!Number.isFinite(layout.height)||layout.width<=0||layout.height<=0)errors.push(`Invalid overhead layout: ${map.name} / ${layout.id}`);
 }
 for(const [id,team] of Object.entries(manifest.entities?.teams||{})){

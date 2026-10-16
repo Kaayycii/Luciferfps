@@ -166,7 +166,7 @@ export async function syncImageAssets() {
   const mapCatalog=parseMapCatalog((await fetchBuffer(OFFICIAL)).bytes.toString());
   const mapAliases={arakko:'hellfiregala arakko', 'celestial-husk':'klyntarawakens thecelestialhusk','central-park':'empireofeternalnight centralpark','heart-of-heaven':'kunlun heartofheaven','hell-s-heaven':'hydracharterisbase hellsheaven',krakoa:'hellfiregala krakoa',midtown:'empireofeternalnight midtown','symbiotic-surface':'klyntar symbioticsurface','shin-shibuya':'tokyo2099 shinshibuya','spider-islands':'tokyo2099 spiderislands','birnin-t-challa':'intergalacticempireofwakanda birnintchalla','royal-palace':'yggsgard yggdrasillpathandroyalpalace','yggdrasill-path':'yggsgard yggdrasillpathandroyalpalace'};
   await pool(data.maps,async map=>{
-    const key=normalize(mapAliases[map.id]||map.name);
+    const key=normalize(map.officialName||mapAliases[map.id]||map.name);
     let source=mapCatalog.find(item=>normalize(item.name)===key);
     if(!source && map.id==='hall-of-djalia') {
       // A named game artwork credited to NetEase; the official site's current
@@ -174,6 +174,7 @@ export async function syncImageAssets() {
       const sourcePage='https://beebom.com/all-marvel-rivals-game-modes/';
       try { const page=(await fetchBuffer(sourcePage)).bytes.toString();const tag=[...page.matchAll(/<img[^>]+>/gi)].find(match=>/alt="Marvel Rivals Hall of Djalia map"/.test(match[0]))?.[0];const image=tag?.match(/\bsrc="([^"]+)/)?.[1];if(image)source={name:map.name,image,sourcePage}; }catch(error){failures.push({map:map.name,error:error.message});}
     }
+    if(!source && map.catalogSource==='official' && map.image && map.sourceUrl===OFFICIAL)source={name:map.officialName||map.name,image:map.image,sourcePage:map.sourceUrl};
     if(!source){failures.push({map:map.name,error:'No exact named official map artwork'});return;}
     const image=await vendor(source.image,'maps',source.sourcePage||OFFICIAL,{maxWidth:1600,maxHeight:1000});
     if(image){manifest.assets[map.image]=image;manifest.entities.maps[map.id]={...manifest.entities.maps[map.id],name:map.name,image,sourceName:source.name,sourcePage:source.sourcePage||OFFICIAL,kind:'official-scene-artwork',floorplan:false};}
@@ -185,7 +186,12 @@ export async function syncImageAssets() {
     const indexHTML=(await fetchBuffer(indexPage)).bytes.toString();
     const links=new Set([...indexHTML.matchAll(/<a[^>]*href="(\/maps\/[^\"]+\/)"/g)].map(match=>match[1]));
     await pool(data.maps,async map=>{
-      const path=`/maps/${map.id}/`;if(!links.has(path))return;
+      const path=`/maps/${map.id}/`;
+      if(!links.has(path)){
+        const previous=manifest.entities.maps[map.id]||{};
+        if(!previous.layouts?.length)manifest.entities.maps[map.id]={...previous,layoutAvailability:'unavailable',layoutSourcePage:indexPage,layoutNote:'No verified overhead layout is published in the current source index. Artwork is a scene reference, not tactical geometry.'};
+        return;
+      }
       const sourcePage=safeUrl(path,indexPage);
       try{
         const html=(await fetchBuffer(sourcePage)).bytes.toString();
@@ -194,11 +200,12 @@ export async function syncImageAssets() {
         for(const layout of layouts){
           const image=await vendor(layout.sourceImage,'layouts',sourcePage,{preserve:true});
           const details=structured.get(layout.id),previous=manifest.entities.maps[map.id]?.layouts?.find(old=>old.id===layout.id);
-          const tutorial=layout.id.startsWith('novicelevel_');
-          const name=details?.name || (tutorial?(/basictutorial/.test(layout.id)?'Basic tutorial':'Escort tutorial'):/^Layout \d+$/.test(layout.name)?map.name:layout.name);
+          const tutorial=/^novicel+evel_/.test(layout.id);
+          const name=details?.name || (tutorial?(/basictutorial/.test(layout.id)?'Basic tutorial':/resourcerumble/.test(layout.id)?'Resource Rumble tutorial':'Escort tutorial'):/^Layout \d+$/.test(layout.name)?(map.id==='alchemax-headquarters'?(/cq/.test(layout.id)?'18 VS.18 variant':'Doom Match variant'):map.name):layout.name);
           if(image)localLayouts.push({...previous,...layout,...(details||{}),name,tutorial,image});
         }
-        if(localLayouts.length)manifest.entities.maps[map.id]={...manifest.entities.maps[map.id],layouts:localLayouts,layoutSourcePage:sourcePage};
+        if(localLayouts.length){manifest.entities.maps[map.id]={...manifest.entities.maps[map.id],layouts:localLayouts,layoutSourcePage:sourcePage,layoutAvailability:'available'};delete manifest.entities.maps[map.id].layoutNote;}
+        else if(!manifest.entities.maps[map.id]?.layouts?.length)manifest.entities.maps[map.id]={...manifest.entities.maps[map.id],layoutAvailability:'unavailable',layoutSourcePage:sourcePage,layoutNote:'The source page currently publishes no verified overhead layout. Artwork is a scene reference, not tactical geometry.'};
       }catch(error){failures.push({map:map.name,error:`Layout: ${error.message}`});}
     },4);
   }catch(error){failures.push({source:'https://rivals.gs/maps/',error:error.message});}

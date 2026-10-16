@@ -3,6 +3,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { canonicalHeroName } from '../src/lib/hero-identity.js';
+import { applyOfficialCatalog, canonicalBalanceHero, loadOfficialCatalog } from './official-catalog.mjs';
 
 const ROOT = fileURLToPath(new URL('../', import.meta.url));
 export const DEFAULT_API = 'https://api.arianwever.com/';
@@ -21,7 +22,7 @@ export const FEEDS = Object.freeze({
 export const slug = value => String(value ?? '').normalize('NFKD').toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const text = value => String(value ?? '').trim();
 const numeric = value => value === '' || value === null || value === undefined || !Number.isFinite(Number(value)) ? null : Number(value);
-export const canonicalHero = (name, knownHeroes = []) => canonicalHeroName(name, knownHeroes);
+export const canonicalHero = (name, knownHeroes = []) => canonicalHeroName(canonicalBalanceHero(name, knownHeroes), knownHeroes);
 const array = value => Array.isArray(value) ? value : [];
 const sort = items => items.sort((a, b) => text(a.id || a.name).localeCompare(text(b.id || b.name), 'en'));
 const safeUrl = (value, base = DEFAULT_REFERENCE) => {
@@ -132,7 +133,7 @@ export function summarizePatch(value) {
   return (facts.join(' ') || sentences[0] || 'See source patch.').replace(/\b(?:Significantly|Drastically|absurdly)\s+/gi, '').slice(0, 1000);
 }
 
-export function normalizeData(feeds, catalog, { now = new Date().toISOString(), reference = DEFAULT_REFERENCE, api = DEFAULT_API } = {}) {
+export function normalizeData(feeds, catalog, { now = new Date().toISOString(), reference = DEFAULT_REFERENCE, api = DEFAULT_API, officialCatalog = null } = {}) {
   for (const [name, feed] of Object.entries(feeds)) checkFeed(name, feed);
   const { directory, dashboard, summary, matchIndex, kits, patches } = feeds;
   const resolveHero = value => canonicalHero(value, catalog.heroes);
@@ -185,7 +186,7 @@ export function normalizeData(feeds, catalog, { now = new Date().toISOString(), 
     };
   }).sort((a, b) => b.date.localeCompare(a.date) || (b.playedTime || '').localeCompare(a.playedTime || '') || a.id.localeCompare(b.id));
   const changesFor = patch => array(patch.sections).flatMap(section => array(section.changes).map((change, index) => ({
-    id: `${slug(section.label)}-${index}`, hero: section.hero || null, section: section.label, scope: section.scope, type: change.tag || 'neutral',
+    id: `${slug(section.label)}-${index}`, hero: resolveHero(section.hero) || null, ...(section.hero && resolveHero(section.hero) !== section.hero ? { sourceHero: section.hero } : {}), section: section.label, scope: section.scope, type: change.tag || 'neutral',
     text: summarizePatch(change.text),
     facts: [...text(change.text).matchAll(/(?:\d+(?:\.\d+)?(?:\s?(?:%|m\/s|s|m|HP))?)/g)].map(value => value[0]).slice(0, 20),
   })));
@@ -198,7 +199,7 @@ export function normalizeData(feeds, catalog, { now = new Date().toISOString(), 
     const stats = { ...kits.baseStats?.[name], ...(sourceVariant !== undefined ? baseStatVariants[0]?.stats : {}), appearances: games, wins, winRate: games ? wins / games * 100 : null, sample: 'recorded player appearances; not global ranked' };
     const abilities = array(kits.heroes?.[hero.name] || kits.heroes?.[name]).filter(ability => sourceVariant === undefined || !array(ability.sourceVariants).length || ability.sourceVariants.includes(sourceVariant)).map((ability, index) => ({ id: `${slug(hero.name)}-${slug(ability.name)}-${index}`, name: ability.name, key: ability.key, type: ability.type, description: summarizeStats(ability.stats), stats: array(ability.stats), sourceVariants: ability.sourceVariants || null, teamupIcon: safeUrl(ability.teamupIcon), patchEffects: array(ability.patchEffects).map(effect => ({ patch: effect.patch, type: effect.tag, url: safeUrl(effect.sourceUrl) })) }));
     return { id: slug(hero.name), name: hero.name, role: hero.role, image: hero.image, thumbnail: catalog.assets.hero_thumbnails?.[slug(name)] || null, art: catalog.assets.home_full_art?.[slug(name)] || null, baseName: name, variant: hero.variant, description: `${hero.role} · ${abilities.length} published ability records.`, stats, baseStatVariants, abilities, forms: kits.forms?.[hero.name] || kits.forms?.[name] || null,
-      balanceHistory: patchRecords.filter(patch => patch.changes.some(change => change.hero === name)).map(patch => ({ id: patch.id, date: patch.date, title: patch.title, url: patch.url, changes: patch.changes.filter(change => change.hero === name) })), sourceUrl: 'https://www.marvelrivals.com/heroes/' };
+      balanceHistory: patchRecords.filter(patch => patch.changes.some(change => change.hero === resolveHero(name))).map(patch => ({ id: patch.id, date: patch.date, title: patch.title, url: patch.url, changes: patch.changes.filter(change => change.hero === resolveHero(name)) })), sourceUrl: 'https://www.marvelrivals.com/heroes/' };
   });
   const maps = catalog.maps.map(map => { const mapMatches = matches.filter(match => slug(match.map) === map.id); return { ...map, mode: [...new Set(mapMatches.map(match => match.mode))].join(' / ') || 'Unreported', stats: { matches: mapMatches.length } }; });
   teams.forEach(team => { const played = matches.filter(match => match.teamAId === team.id || match.teamBId === team.id), decided = played.filter(match => match.winner); team.stats = { matches: played.length, wins: played.filter(match => match.winner === team.name).length, winRate: decided.length ? decided.filter(match => match.winner === team.name).length / decided.length * 100 : null }; });
@@ -222,8 +223,9 @@ export function normalizeData(feeds, catalog, { now = new Date().toISOString(), 
     heroes: sort(heroRecords), maps: sort(maps), matches, teams, players, staff, teamUps, teamUpSummary, patches: patchRecords, streams,
     streamDirectory: streamProfiles,
   };
-  validateData(result);
-  return result;
+  const enriched = applyOfficialCatalog(result, officialCatalog);
+  validateData(enriched);
+  return enriched;
 }
 
 export function validateData(data) {
@@ -271,7 +273,7 @@ export async function atomicUpdate(path, next, { minimumRatio = 0.8 } = {}) {
   return { changed: true, data: next };
 }
 
-export async function sync({ output = resolve(ROOT, 'data/siteData.json'), reference = process.env.REFERENCE_SITE_URL || DEFAULT_REFERENCE, api = process.env.SOURCE_API_URL || DEFAULT_API, fetchImpl = fetch, now = new Date().toISOString(), catalog: providedCatalog, feeds: providedFeeds } = {}) {
+export async function sync({ output = resolve(ROOT, 'data/siteData.json'), reference = process.env.REFERENCE_SITE_URL || DEFAULT_REFERENCE, api = process.env.SOURCE_API_URL || DEFAULT_API, fetchImpl = fetch, now = new Date().toISOString(), catalog: providedCatalog, feeds: providedFeeds, officialCatalog: providedOfficialCatalog } = {}) {
   const options = { fetchImpl };
   const feeds = providedFeeds || {};
   if (!providedFeeds) {
@@ -284,7 +286,8 @@ export async function sync({ output = resolve(ROOT, 'data/siteData.json'), refer
     }
   }
   const catalog = providedCatalog || await getCatalog(reference, options);
-  const normalized = normalizeData(feeds, catalog, { now, reference, api });
+  const officialCatalog = providedOfficialCatalog === undefined ? (providedCatalog || providedFeeds ? null : await loadOfficialCatalog()) : providedOfficialCatalog;
+  const normalized = normalizeData(feeds, catalog, { now, reference, api, officialCatalog });
   return atomicUpdate(output, normalized);
 }
 
