@@ -28,10 +28,14 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Read public feeds and preserve last good snapshot on failure
+        continue-on-error: true
         run: npm run sync
+      - name: Refresh bundled hero, ability and map images
+        run: npm run media:sync
       - name: Validate data, functionality and production build
         run: |
           npm run check
+          npm run media:check
           npm test
           npm run build
       - name: Commit only a meaningful data change
@@ -40,14 +44,14 @@ jobs:
         env:
           DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
-          if git diff --quiet -- data/siteData.json; then
+          git add -- data/siteData.json data/asset-manifest.json public/media
+          if git diff --cached --quiet; then
             echo 'changed=false' >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- data/siteData.json
-          git commit -m 'data: refresh public Marvel Rivals snapshot'
+          git commit -m 'data: refresh public snapshot and bundled artwork'
           git push origin "HEAD:$DEFAULT_BRANCH"
           echo 'changed=true' >> "$GITHUB_OUTPUT"
       - name: Notify configured hosting deploy hook
