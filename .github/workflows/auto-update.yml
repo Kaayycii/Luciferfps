@@ -27,6 +27,10 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci
+      - name: Refresh official game, balance and esports bulletins
+        run: npm run official:sync
+      - name: Refresh official hero and map catalog independently
+        run: npm run catalog:sync
       - name: Read public feeds and preserve last good snapshot on failure
         continue-on-error: true
         run: npm run sync
@@ -44,7 +48,7 @@ jobs:
         env:
           DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
-          git add -- data/siteData.json data/asset-manifest.json public/media
+          git add -- data/siteData.json data/official-catalog.json data/rivals-updates.json data/asset-manifest.json public/media
           if git diff --cached --quiet; then
             echo 'changed=false' >> "$GITHUB_OUTPUT"
             exit 0
