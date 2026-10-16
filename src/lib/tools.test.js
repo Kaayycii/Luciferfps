@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { createHistoryState, decodeSnapshot, encodeSnapshot, getDragId, historyCommit, historyRedo, historyUndo, resizeBingo, safeRead, setDragId, snapshotFromSearch, validBingo, validDraft, validPlan, validTier } from './tools.js';
+import { createHistoryState, decodeSnapshot, encodeSnapshot, fitMapImage, getDragId, historyCommit, historyRedo, historyUndo, projectMapPoint, resizeBingo, safeRead, setDragId, snapshotFromSearch, validBingo, validDraft, validPlan, validTier } from './tools.js';
 
 function draft() { return { title: 'Opening · 日本語', preset: 'tournament', blue: { timeline: Array(7).fill(null), comp: Array(6).fill(null), notes: '' }, red: { timeline: Array(7).fill(null), comp: Array(6).fill(null), notes: '' } }; }
 function bingo() { return { title: 'Session', size: 7, free: true, cells: Array.from({ length: 49 }, (_, i) => `Moment ${i}`), marks: [0, 24, 48] }; }
@@ -41,6 +41,37 @@ test('Planner rejects malformed drawing points and non-finite geometry before SV
   const stroke = { id: 'pen-1', type: 'pen', x: 5, y: 10, points: [{ x: 5, y: 10 }, { x: 15, y: 50 }] };
   assert.equal(validPlan(plan([stroke])), true);
   for (const input of [plan([{ ...stroke, points: null }]), plan([{ ...stroke, points: [null] }]), plan([{ ...stroke, points: [{ x: 1, y: '2' }] }]), plan([{ ...stroke, x: Infinity }]), plan([{ ...stroke, type: 'iframe' }]), plan([{ id: 'missing-endpoint', type: 'arrow', x: 1, y: 2 }]), plan([{ ...stroke, color: 'url(https://example.com)' }])]) assert.equal(validPlan(input), false);
+});
+
+test('Planner preserves actual ability identity and allows bounded raster reference images only', () => {
+  const token = { id: 'hero-1', type: 'hero', heroId: 'adam-warlock', abilityId: 'adam-warlock-soul-bond-3', label: 'Soul Bond', x: 100, y: 120 };
+  const withImage = { ...plan([token]), referenceImage: 'data:image/jpeg;base64,AA==', referenceName: 'My top-down screenshot.jpg' };
+  assert.equal(validPlan(withImage), true);
+  assert.deepEqual(snapshotFromSearch(`?plan=${encodeSnapshot(withImage)}`, 'plan', validPlan), withImage);
+  for (const image of ['https://example.com/fake-floorplan.jpg', 'data:image/svg+xml;base64,AA==', 'data:image/png;base64,<script>', `data:image/jpeg;base64,${'A'.repeat(2_000_000)}`]) assert.equal(validPlan({ ...withImage, referenceImage: image }), false);
+  assert.equal(validPlan({ ...withImage, referenceName: 'a'.repeat(121) }), false);
+  assert.equal(validPlan(plan([{ ...token, abilityId: {} }])), false);
+  assert.equal(validPlan(plan([token])), true);
+});
+
+test('Floor plan markers retain the source aspect ratio and normalized coordinates after letterboxing', () => {
+  const frame = fitMapImage(1600, 1295);
+  const near = (actual, expected) => assert.ok(Math.abs(actual - expected) < 1e-9);
+  near(frame.height, 760);
+  near(frame.width, 1600 * 760 / 1295);
+  const center = projectMapPoint([.5, .5], frame), corner = projectMapPoint([0, 0], frame);
+  near(center.x, 600); near(center.y, 380);
+  near(corner.x, frame.x); near(corner.y, 0);
+  const offMap = projectMapPoint([1.1, -.1], frame);
+  assert.ok(offMap.x > frame.x + frame.width);
+  near(offMap.y, -76);
+  assert.equal(fitMapImage(0, 1200), null);
+  assert.equal(fitMapImage(1600, Infinity), null);
+  assert.equal(projectMapPoint([0, '1'], frame), null);
+  const input = { ...plan(), layoutId: 'krakoac02', referenceMode: 'floorplan' };
+  assert.deepEqual(snapshotFromSearch(`?plan=${encodeSnapshot(input)}`, 'plan', validPlan), input);
+  assert.equal(validPlan({ ...input, layoutId: [] }), false);
+  assert.equal(validPlan({ ...input, referenceMode: 'guessed-terrain' }), false);
 });
 
 test('Tier and bingo imports enforce stable item and board shapes', () => {
