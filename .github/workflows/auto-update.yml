@@ -2,7 +2,7 @@ name: Refresh public game data
 
 on:
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '0 14 * * 1'
   workflow_dispatch:
 
 permissions:
