@@ -1,5 +1,9 @@
 # Lucifer.fps
 
+Official game and esports updates now have a separate `/updates` page and homepage section. The 12-hour workflow refreshes official bulletin metadata and map catalogs independently of the competitive source. Reviewed knowledge notes retain their source and review dates. See [the update policy](docs/UPDATE-POLICY.md) for cadence, source conflicts and the recurring research review.
+
+Maintenance commands: `npm run official:sync` refreshes publisher bulletins; `npm run catalog:sync` refreshes and applies the official map catalog; `npm run sync` refreshes competitive records; `npm run media:sync` refreshes bundled artwork.
+
 An original Marvel Rivals intelligence and practice platform built with React, Vite and Tailwind CSS. Obsidian surfaces, crimson and cyan accents, self-hosted fonts, compact mobile navigation, source-aware analytics and persistent tactical tools.
 
 ## Deploy in three steps
