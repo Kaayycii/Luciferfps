@@ -1,0 +1,692 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-16T15:14:32.604Z",
+  "sources": [
+    {
+      "id": "game-home",
+      "url": "https://www.marvelrivals.com/",
+      "category": "announcements",
+      "status": "ok",
+      "articleCount": 13,
+      "articleIds": [
+        "game-1316802",
+        "game-1316797",
+        "game-1316588",
+        "game-1315872",
+        "game-1315864",
+        "game-1315865",
+        "game-1315568",
+        "game-1314808",
+        "game-1314225",
+        "game-1314013",
+        "game-1313397",
+        "game-1313441",
+        "game-1313334"
+      ],
+      "contentFingerprint": "0ee2f8fc93b94cbde72699dc593814b17e735c3e1ae45f98301d730ee25b1353",
+      "lastContentChangeAt": "2026-10-16T15:10:20.403Z"
+    },
+    {
+      "id": "game-updates",
+      "url": "https://www.marvelrivals.com/gameupdate/",
+      "category": "patches",
+      "status": "ok",
+      "articleCount": 9,
+      "articleIds": [
+        "game-1316588",
+        "game-1315865",
+        "game-1315568",
+        "game-1314808",
+        "game-1314013",
+        "game-1313441",
+        "game-1312948",
+        "game-1312268",
+        "game-1311622"
+      ],
+      "contentFingerprint": "993b80a2121ef356ba128476c9cd708b748116d06ea4099d39daafecf637ae70",
+      "lastContentChangeAt": "2026-10-16T15:10:20.403Z"
+    },
+    {
+      "id": "game-balance",
+      "url": "https://www.marvelrivals.com/balancepost/",
+      "category": "balance",
+      "status": "ok",
+      "articleCount": 9,
+      "articleIds": [
+        "game-1315864",
+        "game-1313334",
+        "game-1309952",
+        "game-1307328",
+        "game-1306647",
+        "game-1303507",
+        "game-1299947",
+        "game-1295988",
+        "game-1292877"
+      ],
+      "contentFingerprint": "ac3ce1afa29197c5dddbf5cc24616e2becc25862dbe118462685291831bd9cce",
+      "lastContentChangeAt": "2026-10-16T15:10:20.403Z"
+    },
+    {
+      "id": "game-announcements",
+      "url": "https://www.marvelrivals.com/announcements/",
+      "category": "announcements",
+      "status": "ok",
+      "articleCount": 9,
+      "articleIds": [
+        "game-1316802",
+        "game-1316797",
+        "game-1314225",
+        "game-1313065",
+        "game-1312335",
+        "game-1311340",
+        "game-1308181",
+        "game-1306499",
+        "game-1306504"
+      ],
+      "contentFingerprint": "948f5bc6905b11aeecd898c43e043178992916289c0b9c6218d233d1aea4df2d",
+      "lastContentChangeAt": "2026-10-16T15:10:20.403Z"
+    },
+    {
+      "id": "ignite-official",
+      "url": "https://www.marvelrivalsesports.com/news/official/index.html",
+      "category": "esports",
+      "status": "ok",
+      "articleCount": 12,
+      "articleIds": [
+        "ignite-1313342",
+        "ignite-1312965",
+        "ignite-1310349",
+        "ignite-1306744",
+        "ignite-1306640",
+        "ignite-1305457",
+        "ignite-1300009",
+        "ignite-1295963",
+        "ignite-1293068",
+        "ignite-1293092",
+        "ignite-1286303",
+        "ignite-1282275"
+      ],
+      "contentFingerprint": "0eb8d01720bd27c62919ad9beb97fb0fba83aee77b1d2b05c40084ffd80ecf76",
+      "lastContentChangeAt": "2026-10-16T15:10:20.403Z"
+    }
+  ],
+  "articles": [
+    {
+      "id": "game-1316802",
+      "title": "Speech Moderation and Penalties",
+      "url": "https://www.marvelrivals.com/announcements/20261016/40955_1316802.html",
+      "publishedAt": "2026-10-16",
+      "category": "announcements",
+      "sourceIds": [
+        "game-announcements",
+        "game-home"
+      ]
+    },
+    {
+      "id": "game-1316797",
+      "title": "Use of Mods and Violation Management",
+      "url": "https://www.marvelrivals.com/announcements/20261015/40955_1316797.html",
+      "publishedAt": "2026-10-15",
+      "category": "announcements",
+      "sourceIds": [
+        "game-announcements",
+        "game-home"
+      ]
+    },
+    {
+      "id": "game-1316588",
+      "title": "Marvel Rivals Version 20261015 Patch Notes",
+      "url": "https://www.marvelrivals.com/gameupdate/20261014/41548_1316588.html",
+      "publishedAt": "2026-10-14",
+      "category": "patches",
+      "effectiveAt": "2026-10-15",
+      "sourceIds": [
+        "game-home",
+        "game-updates"
+      ]
+    },
+    {
+      "id": "game-1315872",
+      "title": "Season 10.5: New Modes and Halloween // Dev Vision Vol. 22 | Marvel Rivals",
+      "url": "https://www.marvelrivals.com/devdiaries/20261007/40954_1315872.html",
+      "publishedAt": "2026-10-07",
+      "category": "development",
+      "sourceIds": [
+        "game-home"
+      ]
+    },
+    {
+      "id": "game-1315864",
+      "title": "Marvel Rivals Version 20261009 Balance Post",
+      "url": "https://www.marvelrivals.com/balancepost/20261006/41667_1315864.html",
+      "publishedAt": "2026-10-06",
+      "category": "balance",
+      "effectiveAt": "2026-10-09",
+      "sourceIds": [
+        "game-balance",
+        "game-home"
+      ]
+    },
+    {
+      "id": "game-1315865",
+      "title": "Marvel Rivals Version 20261009 Patch Notes - Season 10.5 Arrives",
+      "url": "https://www.marvelrivals.com/gameupdate/20261006/41548_1315865.html",
+      "publishedAt": "2026-10-06",
+      "category": "patches",
+      "effectiveAt": "2026-10-09",
+      "sourceIds": [
+        "game-home",
+        "game-updates"
+      ]
+    },
+    {
+      "id": "game-1315568",
+      "title": "Marvel Rivals Version 20261001 Patch Notes",
+      "url": "https://www.marvelrivals.com/gameupdate/20260930/41548_1315568.html",
+      "publishedAt": "2026-09-30",
+      "category": "patches",
+      "effectiveAt": "2026-10-01",
+      "sourceIds": [
+        "game-home",
+        "game-updates"
+      ]
+    },
+    {
+      "id": "game-1314808",
+      "title": "Marvel Rivals Version 20260924 Patch Notes",
+      "url": "https://www.marvelrivals.com/gameupdate/20260923/41548_1314808.html",
+      "publishedAt": "2026-09-23",
+      "category": "patches",
+      "effectiveAt": "2026-09-24",
+      "sourceIds": [
+        "game-home",
+        "game-updates"
+      ]
+    },
+    {
+      "id": "game-1314225",
+      "title": "Stricter Penalties for Inactivity, Throwing, and Leaving Matches Early",
+      "url": "https://www.marvelrivals.com/announcements/20260917/40955_1314225.html",
+      "publishedAt": "2026-09-17",
+      "category": "announcements",
+      "sourceIds": [
+        "game-announcements",
+        "game-home"
+      ]
+    },
+    {
+      "id": "game-1314013",
+      "title": "Marvel Rivals Version 20260917 Patch Notes",
+      "url": "https://www.marvelrivals.com/gameupdate/20260916/41548_1314013.html",
+      "publishedAt": "2026-09-16",
+      "category": "patches",
+      "effectiveAt": "2026-09-17",
+      "sourceIds": [
+        "game-home",
+        "game-updates"
+      ]
+    },
+    {
+      "id": "game-1313397",
+      "title": "Season 10: Butcher's Blasphemy // Dev Vision Vol. 21 | Marvel Rivals",
+      "url": "https://www.marvelrivals.com/devdiaries/20260909/40954_1313397.html",
+      "publishedAt": "2026-09-09",
+      "category": "development",
+      "sourceIds": [
+        "game-home"
+      ]
+    },
+    {
+      "id": "game-1313441",
+      "title": "Marvel Rivals Version 20260911 Patch Notes - Season 10 Arrives",
+      "url": "https://www.marvelrivals.com/gameupdate/20260909/41548_1313441.html",
+      "publishedAt": "2026-09-09",
+      "category": "patches",
+      "effectiveAt": "2026-09-11",
+      "sourceIds": [
+        "game-home",
+        "game-updates"
+      ]
+    },
+    {
+      "id": "game-1313334",
+      "title": "Marvel Rivals Version 20260911 Balance Post",
+      "url": "https://www.marvelrivals.com/balancepost/20260908/41667_1313334.html",
+      "publishedAt": "2026-09-08",
+      "category": "balance",
+      "effectiveAt": "2026-09-11",
+      "sourceIds": [
+        "game-balance",
+        "game-home"
+      ]
+    },
+    {
+      "id": "ignite-1313342",
+      "title": "Marvel Rivals Ignite 2026 Stage 2: The Road Ahead",
+      "url": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+      "publishedAt": "2026-09-08",
+      "category": "esports",
+      "sourceIds": [
+        "ignite-official"
+      ]
+    },
+    {
+      "id": "game-1313065",
+      "title": "S9“The Rivals Moment” Incentive Event – Winners Announcement",
+      "url": "https://www.marvelrivals.com/announcements/20260903/40955_1313065.html",
+      "publishedAt": "2026-09-03",
+      "category": "announcements",
+      "sourceIds": [
+        "game-announcements"
+      ]
+    },
+    {
+      "id": "game-1312948",
+      "title": "Marvel Rivals Version 20260903 Patch Notes",
+      "url": "https://www.marvelrivals.com/gameupdate/20260902/41548_1312948.html",
+      "publishedAt": "2026-09-02",
+      "category": "patches",
+      "effectiveAt": "2026-09-03",
+      "sourceIds": [
+        "game-updates"
+      ]
+    },
+    {
+      "id": "ignite-1312965",
+      "title": "NAVI: Inside the Mindset of Champions",
+      "url": "https://www.marvelrivalsesports.com/20260902/42828_1312965.html",
+      "publishedAt": "2026-09-02",
+      "category": "esports",
+      "sourceIds": [
+        "ignite-official"
+      ]
+    },
+    {
+      "id": "game-1312268",
+      "title": "Marvel Rivals Version 20260827 Patch Notes",
+      "url": "https://www.marvelrivals.com/gameupdate/20260826/41548_1312268.html",
+      "publishedAt": "2026-08-26",
+      "category": "patches",
+      "effectiveAt": "2026-08-27",
+      "sourceIds": [
+        "game-updates"
+      ]
+    },
+    {
+      "id": "game-1312335",
+      "title": "S9 Incentive Event – Winners Announcement",
+      "url": "https://www.marvelrivals.com/announcements/20260826/40955_1312335.html",
+      "publishedAt": "2026-08-26",
+      "category": "announcements",
+      "sourceIds": [
+        "game-announcements"
+      ]
+    },
+    {
+      "id": "game-1311622",
+      "title": "Marvel Rivals Version 20260820 Patch Notes",
+      "url": "https://www.marvelrivals.com/gameupdate/20260819/41548_1311622.html",
+      "publishedAt": "2026-08-19",
+      "category": "patches",
+      "effectiveAt": "2026-08-20",
+      "sourceIds": [
+        "game-updates"
+      ]
+    },
+    {
+      "id": "game-1311340",
+      "title": "Notice of PlayStation Store Service Adjustments in Select Regions",
+      "url": "https://www.marvelrivals.com/announcements/20260817/40955_1311340.html",
+      "publishedAt": "2026-08-17",
+      "category": "announcements",
+      "sourceIds": [
+        "game-announcements"
+      ]
+    },
+    {
+      "id": "ignite-1310349",
+      "title": "NAVI Win Marvel Rivals Ignite Mid-Season Finals 2026",
+      "url": "https://www.marvelrivalsesports.com/20260806/42828_1310349.html",
+      "publishedAt": "2026-08-06",
+      "category": "esports",
+      "sourceIds": [
+        "ignite-official"
+      ]
+    },
+    {
+      "id": "game-1309952",
+      "title": "Marvel Rivals Version 20260807 Balance Post",
+      "url": "https://www.marvelrivals.com/balancepost/20260804/41667_1309952.html",
+      "publishedAt": "2026-08-04",
+      "category": "balance",
+      "effectiveAt": "2026-08-07",
+      "sourceIds": [
+        "game-balance"
+      ]
+    },
+    {
+      "id": "game-1308181",
+      "title": "S8.5 Incentive Event – Winners Announcement",
+      "url": "https://www.marvelrivals.com/announcements/20260717/40955_1308181.html",
+      "publishedAt": "2026-07-17",
+      "category": "announcements",
+      "sourceIds": [
+        "game-announcements"
+      ]
+    },
+    {
+      "id": "game-1307328",
+      "title": "Marvel Rivals Version 20260711 Balance Post",
+      "url": "https://www.marvelrivals.com/balancepost/20260711/41667_1307328.html",
+      "publishedAt": "2026-07-11",
+      "category": "balance",
+      "effectiveAt": "2026-07-11",
+      "sourceIds": [
+        "game-balance"
+      ]
+    },
+    {
+      "id": "ignite-1306744",
+      "title": "Tickets On Sale July 7 — Marvel Rivals Ignite 2026 Mid-Season Finals, Los Angeles",
+      "url": "https://www.marvelrivalsesports.com/20260707/42828_1306744.html",
+      "publishedAt": "2026-07-07",
+      "category": "esports",
+      "sourceIds": [
+        "ignite-official"
+      ]
+    },
+    {
+      "id": "game-1306647",
+      "title": "Marvel Rivals Version 20260710 Balance Post",
+      "url": "https://www.marvelrivals.com/balancepost/20260706/41667_1306647.html",
+      "publishedAt": "2026-07-06",
+      "category": "balance",
+      "effectiveAt": "2026-07-10",
+      "sourceIds": [
+        "game-balance"
+      ]
+    },
+    {
+      "id": "ignite-1306640",
+      "title": "MARVEL RIVALS IGNITE 2026 - Mid-Season Finals Now Coming to Los Angeles",
+      "url": "https://www.marvelrivalsesports.com/20260706/42828_1306640.html",
+      "publishedAt": "2026-07-06",
+      "category": "esports",
+      "sourceIds": [
+        "ignite-official"
+      ]
+    },
+    {
+      "id": "game-1306499",
+      "title": "S8 Content Incentive Event – Winners Announcement",
+      "url": "https://www.marvelrivals.com/announcements/20260703/40955_1306499.html",
+      "publishedAt": "2026-07-03",
+      "category": "announcements",
+      "sourceIds": [
+        "game-announcements"
+      ]
+    },
+    {
+      "id": "game-1306504",
+      "title": "Marvel Rivals S8 Livestream Incentive Event – Winners Announcement",
+      "url": "https://www.marvelrivals.com/announcements/20260703/40955_1306504.html",
+      "publishedAt": "2026-07-03",
+      "category": "announcements",
+      "sourceIds": [
+        "game-announcements"
+      ]
+    },
+    {
+      "id": "ignite-1305457",
+      "title": "Ignite Stage 1 Playoffs Viewer Guide",
+      "url": "https://www.marvelrivalsesports.com/20260624/42828_1305457.html",
+      "publishedAt": "2026-06-24",
+      "category": "esports",
+      "sourceIds": [
+        "ignite-official"
+      ]
+    },
+    {
+      "id": "game-1303507",
+      "title": "Marvel Rivals Version 20260612 Balance Post",
+      "url": "https://www.marvelrivals.com/balancepost/20260609/41667_1303507.html",
+      "publishedAt": "2026-06-09",
+      "category": "balance",
+      "effectiveAt": "2026-06-12",
+      "sourceIds": [
+        "game-balance"
+      ]
+    },
+    {
+      "id": "game-1299947",
+      "title": "Marvel Rivals Version 20260515 Balance Post",
+      "url": "https://www.marvelrivals.com/balancepost/20260512/41667_1299947.html",
+      "publishedAt": "2026-05-12",
+      "category": "balance",
+      "effectiveAt": "2026-05-15",
+      "sourceIds": [
+        "game-balance"
+      ]
+    },
+    {
+      "id": "ignite-1300009",
+      "title": "Marvel Rivals Ignite 2026 Stage 1: Your Ultimate Guide",
+      "url": "https://www.marvelrivalsesports.com/20260512/42828_1300009.html",
+      "publishedAt": "2026-05-12",
+      "category": "esports",
+      "sourceIds": [
+        "ignite-official"
+      ]
+    },
+    {
+      "id": "game-1295988",
+      "title": "Marvel Rivals Version 20260417 Balance Post",
+      "url": "https://www.marvelrivals.com/balancepost/20260414/41667_1295988.html",
+      "publishedAt": "2026-04-14",
+      "category": "balance",
+      "effectiveAt": "2026-04-17",
+      "sourceIds": [
+        "game-balance"
+      ]
+    },
+    {
+      "id": "ignite-1295963",
+      "title": "Marvel Rivals Ignite: In‑game Team Certification Program Now Open",
+      "url": "https://www.marvelrivalsesports.com/20260414/42828_1295963.html",
+      "publishedAt": "2026-04-14",
+      "category": "esports",
+      "sourceIds": [
+        "ignite-official"
+      ]
+    },
+    {
+      "id": "ignite-1293068",
+      "title": "Season 7 Marvel Rivals Championship: The hunt is on",
+      "url": "https://www.marvelrivalsesports.com/20260326/42828_1293068.html",
+      "publishedAt": "2026-03-26",
+      "category": "esports",
+      "sourceIds": [
+        "ignite-official"
+      ]
+    },
+    {
+      "id": "ignite-1293092",
+      "title": "Partner Team Bundles Are Now Available",
+      "url": "https://www.marvelrivalsesports.com/20260326/42828_1293092.html",
+      "publishedAt": "2026-03-26",
+      "category": "esports",
+      "sourceIds": [
+        "ignite-official"
+      ]
+    },
+    {
+      "id": "game-1292877",
+      "title": "Marvel Rivals Version 20260326 Balance Post",
+      "url": "https://www.marvelrivals.com/balancepost/20260325/41667_1292877.html",
+      "publishedAt": "2026-03-25",
+      "category": "balance",
+      "effectiveAt": "2026-03-26",
+      "sourceIds": [
+        "game-balance"
+      ]
+    },
+    {
+      "id": "ignite-1286303",
+      "title": "Ignite 2026 Partner Teams Announcement",
+      "url": "https://www.marvelrivalsesports.com/20260210/42828_1286303.html",
+      "publishedAt": "2026-02-10",
+      "category": "esports",
+      "sourceIds": [
+        "ignite-official"
+      ]
+    },
+    {
+      "id": "ignite-1282275",
+      "title": "Season 6 Marvel Rivals Championship: Night at the Museum",
+      "url": "https://www.marvelrivalsesports.com/20260116/42828_1282275.html",
+      "publishedAt": "2026-01-16",
+      "category": "esports",
+      "sourceIds": [
+        "ignite-official"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "patch-20261015",
+      "title": "October 15 patch: hero fixes and map collisions",
+      "category": "patches",
+      "summary": "This patch fixes Jeff’s Blood Hunt Reservoir interaction, Black Widow’s excessive movement from Widow’s Bite Slam, and collision problems that could trap heroes. It also starts the Halloween event. No new balance table is published in these notes.",
+      "sourceUrl": "https://www.marvelrivals.com/gameupdate/20261014/41548_1316588.html",
+      "publishedAt": "2026-10-14",
+      "effectiveAt": "2026-10-15T09:00:00Z",
+      "reviewedAt": "2026-10-16",
+      "relatedHeroIds": [
+        "jeff-the-land-shark",
+        "black-widow"
+      ]
+    },
+    {
+      "id": "season-10-5-20261009",
+      "title": "Season 10.5: live-game update",
+      "category": "season",
+      "summary": "Season 10.5 adds an Infinity War mode with six duo squads, each racing to collect six Infinity Stones. Alchemax Headquarters joins 18 vs. 18. Gorr gains a Shadow Harvest targeting-sensitivity setting, and Winter Soldier receives response improvements under high latency.",
+      "sourceUrl": "https://www.marvelrivals.com/gameupdate/20261006/41548_1315865.html",
+      "publishedAt": "2026-10-06",
+      "effectiveAt": "2026-10-09T09:00:00Z",
+      "reviewedAt": "2026-10-16",
+      "relatedHeroIds": [
+        "gorr",
+        "winter-soldier"
+      ]
+    },
+    {
+      "id": "stage-2-2026-playoffs",
+      "title": "IGNITE Stage 2 playoffs: October 8–18",
+      "category": "esports",
+      "summary": "The official Stage 2 guide lists October 8–18 for playoffs, with the Pacific final on October 11 and Americas, EMEA, and China finals on October 18. Playoffs use double elimination, BO5 series, and BO7 grand finals. Twelve Grand Finals places are allocated: four Americas, four EMEA, two Pacific, and two China.",
+      "sourceUrl": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+      "publishedAt": "2026-09-08",
+      "effectiveAt": "2026-10-08",
+      "reviewedAt": "2026-10-16",
+      "event": {
+        "startAt": "2026-10-08",
+        "endAt": "2026-10-18",
+        "datePrecision": "day",
+        "gameVersion": "Season 10",
+        "regions": [
+          "AMER",
+          "EMEA",
+          "PAC",
+          "CN"
+        ]
+      }
+    },
+    {
+      "id": "stage-2-2026-version",
+      "title": "Tournament version differs from the live client",
+      "category": "esports",
+      "summary": "The Stage 2 guide specifies Season 10 across all regions. Do not assume live-client Season 10.5 balance applies to tournament matches. Thebes enters the Stage 2 pool; the guide also announces a new Domination map for playoffs without naming it in the text.",
+      "sourceUrl": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+      "publishedAt": "2026-09-08",
+      "effectiveAt": "2026-09-17",
+      "reviewedAt": "2026-10-16",
+      "event": {
+        "startAt": "2026-09-17",
+        "endAt": "2026-10-18",
+        "datePrecision": "day",
+        "gameVersion": "Season 10"
+      }
+    },
+    {
+      "id": "god-quarry-20260924",
+      "title": "God Quarry: new Domination map",
+      "category": "maps",
+      "summary": "God Quarry was added as a Domination map on September 24. Its dedicated Quick Match event ended September 29; that limited event window is separate from the map’s release.",
+      "sourceUrl": "https://www.marvelrivals.com/gameupdate/20260923/41548_1314808.html",
+      "publishedAt": "2026-09-23",
+      "effectiveAt": "2026-09-24T09:00:00Z",
+      "reviewedAt": "2026-10-16",
+      "relatedMapIds": [
+        "god-quarry"
+      ]
+    },
+    {
+      "id": "alchemax-headquarters-20261009",
+      "title": "Alchemax Headquarters joins 18 vs. 18",
+      "category": "maps",
+      "summary": "The October 9 update adds Alchemax Headquarters to 18 vs. 18. This is a mode-specific map addition; the announcement does not establish it as a ranked six-player map.",
+      "sourceUrl": "https://www.marvelrivals.com/gameupdate/20261006/41548_1315865.html",
+      "publishedAt": "2026-10-06",
+      "effectiveAt": "2026-10-09T09:00:00Z",
+      "reviewedAt": "2026-10-16",
+      "relatedMapIds": [
+        "alchemax-headquarters"
+      ]
+    },
+    {
+      "id": "balance-20261009-overview",
+      "title": "October 9 hero balance: what to recheck",
+      "category": "heroes",
+      "summary": "Iron Man’s Micro-Missile Barrage gains automatic tracking. Phoenix trades Spark-triggered self-healing for temporary bonus health. Jubilee gains healing during Sparking Sprint. The balance post covers additional hero and Team-Up changes; consult its full values before updating a practice routine.",
+      "sourceUrl": "https://www.marvelrivals.com/balancepost/20261006/41667_1315864.html",
+      "publishedAt": "2026-10-06",
+      "effectiveAt": "2026-10-09",
+      "reviewedAt": "2026-10-16",
+      "relatedHeroIds": [
+        "iron-man",
+        "phoenix",
+        "jubilee"
+      ]
+    },
+    {
+      "id": "gorr-living-abyss-source-conflict",
+      "title": "Gorr: official cooldown sources disagree",
+      "category": "heroes",
+      "summary": "The October 9 balance post changes Living Abyss from 15 to 12 seconds. The official hero page displays 13 seconds. These official sources disagree, so the cooldown remains flagged for verification rather than silently replaced with a guessed value.",
+      "sourceUrl": "https://www.marvelrivals.com/balancepost/20261006/41667_1315864.html",
+      "publishedAt": "2026-10-06",
+      "effectiveAt": "2026-10-09",
+      "reviewedAt": "2026-10-16",
+      "relatedHeroIds": [
+        "gorr"
+      ],
+      "conflict": {
+        "field": "Living Abyss cooldown",
+        "status": "unresolved",
+        "alternatives": [
+          {
+            "value": "12 seconds",
+            "sourceUrl": "https://www.marvelrivals.com/balancepost/20261006/41667_1315864.html",
+            "publishedAt": "2026-10-06"
+          },
+          {
+            "value": "13 seconds",
+            "sourceUrl": "https://www.marvelrivals.com/20260911/41360_1313617.html",
+            "publishedAt": "2026-09-11"
+          }
+        ]
+      }
+    }
+  ]
+}

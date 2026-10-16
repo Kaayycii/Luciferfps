@@ -576,6 +576,7 @@
     "https://r.res.easebar.com/pic/20250117/7778aff0-3f9e-4823-9d20-e87ac2460973.jpg": "/media/maps/67e3627b6a6a58a6b188.webp",
     "https://r.res.easebar.com/pic/20250117/a37fc3b8-4b00-41c0-b527-41cd87d1908b.jpg": "/media/maps/d7bf045ba40f9f7fbd05.webp",
     "https://r.res.easebar.com/pic/20250117/ed61b662-1a71-48b5-bd61-f950326c2569.jpg": "/media/maps/94ab385e6b3914e7f7f9.webp",
+    "https://r.res.easebar.com/pic/20250117/edb3223e-8a2c-45b2-b220-b518c31fcf16.jpg": "/media/maps/750ce8a8ee59c81d9ad9.webp",
     "https://r.res.easebar.com/pic/20250220/27486433-769b-4aec-ba7b-d7da3cabd52f.png": "/media/abilities/8230ededb994c7ce870a.webp",
     "https://r.res.easebar.com/pic/20250220/274bfd5f-02b6-4513-a80e-3f7685dc8556.png": "/media/abilities/477a3ebedaf3ebf5c05e.webp",
     "https://r.res.easebar.com/pic/20250220/2afdfcab-b55a-4a18-a47e-9c2a6bb175b8.png": "/media/abilities/9dcd5f1d48fc120670b8.webp",
@@ -896,6 +897,7 @@
     "https://r.res.easebar.com/pic/20260807/c12a3f6d-b7f9-4860-9137-6f64ebd9c8d7.png": "/media/abilities/a5c3975a3f360f93ed28.webp",
     "https://r.res.easebar.com/pic/20260807/d65c0319-1bc3-4016-83b6-a6bb492a0e24.png": "/media/abilities/6f3fd70957db315fb2aa.webp",
     "https://r.res.easebar.com/pic/20260807/fed34a32-9e45-4923-9506-cc652cb62d01.png": "/media/heroes/88066b0704e052845245.webp",
+    "https://r.res.easebar.com/pic/20260908/6dd652dd-bc9b-44e3-aad5-093fdc96968e.png": "/media/teams/stage2-2026-roster.png",
     "https://r.res.easebar.com/pic/20260911/134c9cee-1b32-40eb-8921-72fa35804c82.png": "/media/heroes/ed981e2fdd8fdb0d24e8.webp",
     "https://r.res.easebar.com/pic/20260911/1791f0e0-b7e6-4ff6-9ebb-5e36ed1a657a.png": "/media/abilities/71d73c6c1ab1ddecd30b.webp",
     "https://r.res.easebar.com/pic/20260911/5852ef31-3df1-4f8c-a44d-c618091da996.png": "/media/heroes/2220ac78aed50af63326.webp",
@@ -915,24 +917,35 @@
     "https://rivals.gs/img/layouts/asgardc02.webp": "/media/layouts/6c594495b23343a0dc64.webp",
     "https://rivals.gs/img/layouts/asgardc03.webp": "/media/layouts/02e87226dc831d7cc5fa.webp",
     "https://rivals.gs/img/layouts/asgarde01.webp": "/media/layouts/671ea80a57bdbd87ce64.webp",
+    "https://rivals.gs/img/layouts/gardencq01.webp": "/media/layouts/4a53a108683080c3ef68.webp",
+    "https://rivals.gs/img/layouts/godquarryc01.webp": "/media/layouts/c962e2fd0141ae985903.webp",
+    "https://rivals.gs/img/layouts/godquarryc02.webp": "/media/layouts/31242f0fc36e56732195.webp",
+    "https://rivals.gs/img/layouts/godquarryc03.webp": "/media/layouts/de966256904df1cfcf3a.webp",
     "https://rivals.gs/img/layouts/hydrac01.webp": "/media/layouts/1066bdda07c0a6f3f9a8.webp",
     "https://rivals.gs/img/layouts/hydrac02.webp": "/media/layouts/d0774090e141da7a0af9.webp",
     "https://rivals.gs/img/layouts/hydrac03.webp": "/media/layouts/9c6b506e81563f39f10a.webp",
     "https://rivals.gs/img/layouts/klyntarc01.webp": "/media/layouts/1581f36b1c4a064f34ed.webp",
     "https://rivals.gs/img/layouts/klyntarc02.webp": "/media/layouts/cef7d75606f76984bd7f.webp",
     "https://rivals.gs/img/layouts/klyntarc03.webp": "/media/layouts/dbd870abc820fa6058da.webp",
+    "https://rivals.gs/img/layouts/klyntarec01.webp": "/media/layouts/3e9a6cef825b4cc6c754.webp",
     "https://rivals.gs/img/layouts/klyntarh01.webp": "/media/layouts/a4b3b8863d5b7d439de4.webp",
     "https://rivals.gs/img/layouts/krakoac01.webp": "/media/layouts/a3abf5f1681bc2d7d146.webp",
     "https://rivals.gs/img/layouts/krakoac02.webp": "/media/layouts/9496a3d4e65885d13fa2.webp",
     "https://rivals.gs/img/layouts/krakoac03.webp": "/media/layouts/8f38e8d392550a7f8024.webp",
+    "https://rivals.gs/img/layouts/kunlunec01.webp": "/media/layouts/b516fdddad426b9ffbb4.webp",
     "https://rivals.gs/img/layouts/kunlunh01.webp": "/media/layouts/16ff8dec405b2c8d86d8.webp",
     "https://rivals.gs/img/layouts/museume01.webp": "/media/layouts/8bc7df342464d1a1a004.webp",
     "https://rivals.gs/img/layouts/newyorke01.webp": "/media/layouts/c828d6b832eee1484078.webp",
     "https://rivals.gs/img/layouts/newyorkh01.webp": "/media/layouts/bfaa624e80e172619f9f.webp",
     "https://rivals.gs/img/layouts/newyorkh02.webp": "/media/layouts/a5b4a6401e8ba83f7056.webp",
+    "https://rivals.gs/img/layouts/newyorkm01.webp": "/media/layouts/7404655d144e274b210a.webp",
     "https://rivals.gs/img/layouts/novicelevel_basictutorial_2.webp": "/media/layouts/6e4411072b21cbb72c36.webp",
     "https://rivals.gs/img/layouts/novicelevel_escorttutorial.webp": "/media/layouts/1261264d83fa27c88186.webp",
+    "https://rivals.gs/img/layouts/novicellevel_resourcerumbletutorial.webp": "/media/layouts/8358c878ab0e918482a8.webp",
+    "https://rivals.gs/img/layouts/nuevayorkcq01.webp": "/media/layouts/04fd7290b9ac2256adb1.webp",
+    "https://rivals.gs/img/layouts/nuevayorkm01.webp": "/media/layouts/e41303b0c8f5fbe95ab8.webp",
     "https://rivals.gs/img/layouts/thebese01.webp": "/media/layouts/16fa944689e80877d6f4.webp",
+    "https://rivals.gs/img/layouts/timesquare.webp": "/media/layouts/2816941bb3a5f2fb1bd8.webp",
     "https://rivals.gs/img/layouts/tokyoe01.webp": "/media/layouts/04ca649199ea845591f5.webp",
     "https://rivals.gs/img/layouts/tokyoh01.webp": "/media/layouts/7a744d47c20ed02b90a1.webp",
     "https://rivals.gs/img/layouts/wakandac01.webp": "/media/layouts/831da452fce064530404.webp",
@@ -942,11 +955,17 @@
     "https://static.beebom.com/wp-content/uploads/2024/12/Marvel-Rivals-Hall-of-Djalia-map.jpg?w=1024": "/media/maps/4a3174889194cd1a6301.webp",
     "https://www.marvelrivals.com/pc/gw/20241128194803/img/1_623bc550.jpg": "/media/maps/a03f75cfcfc55c740333.webp",
     "https://www.marvelrivals.com/pc/gw/20241128194803/img/18_bd1c448f.jpg": "/media/maps/e77b76c529a0096c0c21.webp",
+    "https://www.marvelrivals.com/pc/gw/20241128194803/img/19_246b0db4.jpg": "/media/maps/5899fcc92db7c4a8921f.webp",
     "https://www.marvelrivals.com/pc/gw/20241128194803/img/2_b035ed34.jpg": "/media/maps/5427969112ec7b973d18.webp",
+    "https://www.marvelrivals.com/pc/gw/20241128194803/img/20_eff4a975.jpg": "/media/maps/d4fcc8e51e96d9ea745c.webp",
     "https://www.marvelrivals.com/pc/gw/20241128194803/img/21_484fcb82.jpg": "/media/maps/8f3591041b9cbdcafc4a.webp",
+    "https://www.marvelrivals.com/pc/gw/20241128194803/img/22_213fa5f7.jpg": "/media/maps/b687fe20f2ba2371b083.webp",
     "https://www.marvelrivals.com/pc/gw/20241128194803/img/3_3799bc77.jpg": "/media/maps/00758541189bc3a51f2b.webp",
     "https://www.marvelrivals.com/pc/gw/20241128194803/img/4_d02459c8.jpg": "/media/maps/8ca20b4be27034d31a2a.webp",
+    "https://www.marvelrivals.com/pc/gw/20241128194803/img/5_407a76f0.jpg": "/media/maps/ba34f723cb69dcc996a7.webp",
     "https://www.marvelrivals.com/pc/gw/20241128194803/img/6_977327e9.jpg": "/media/maps/2abd58f14b930c68d447.webp",
+    "https://www.marvelrivals.com/pc/gw/20241128194803/img/7_df8eaf86.jpg": "/media/maps/2ca2310d91ef1a0f61dd.webp",
+    "https://www.marvelrivals.com/pc/gw/20241128194803/img/8_ecaa3f49.jpg": "/media/maps/bb981c5ff9a1ae2db467.webp",
     "https://www.marvelrivals.com/pc/gw/20241128194803/img/9_d1e6afd2.jpg": "/media/maps/8024ca198a79ab8cdd6e.webp",
     "https://www.marvelrivals.com/pc/gw/5da825b19a6a/heros/head_1.png": "/media/heroes/4992863f26c69573f611.webp",
     "https://www.marvelrivals.com/pc/gw/5da825b19a6a/heros/head_10.png": "/media/heroes/8f78b3ec63a58b9acb42.webp",
@@ -3051,7 +3070,8 @@
             "tutorial": false
           }
         ],
-        "layoutSourcePage": "https://rivals.gs/maps/hell-s-heaven/"
+        "layoutSourcePage": "https://rivals.gs/maps/hell-s-heaven/",
+        "layoutAvailability": "available"
       },
       "birnin-t-challa": {
         "name": "Birnin T'Challa",
@@ -3772,7 +3792,8 @@
             "tutorial": false
           }
         ],
-        "layoutSourcePage": "https://rivals.gs/maps/birnin-t-challa/"
+        "layoutSourcePage": "https://rivals.gs/maps/birnin-t-challa/",
+        "layoutAvailability": "available"
       },
       "central-park": {
         "name": "Central Park",
@@ -4538,7 +4559,8 @@
             "tutorial": false
           }
         ],
-        "layoutSourcePage": "https://rivals.gs/maps/central-park/"
+        "layoutSourcePage": "https://rivals.gs/maps/central-park/",
+        "layoutAvailability": "available"
       },
       "midtown": {
         "name": "Midtown",
@@ -5387,7 +5409,8 @@
             "tutorial": false
           }
         ],
-        "layoutSourcePage": "https://rivals.gs/maps/midtown/"
+        "layoutSourcePage": "https://rivals.gs/maps/midtown/",
+        "layoutAvailability": "available"
       },
       "krakoa": {
         "name": "Krakoa",
@@ -6211,7 +6234,8 @@
             "tutorial": false
           }
         ],
-        "layoutSourcePage": "https://rivals.gs/maps/krakoa/"
+        "layoutSourcePage": "https://rivals.gs/maps/krakoa/",
+        "layoutAvailability": "available"
       },
       "arakko": {
         "name": "Arakko",
@@ -7138,7 +7162,8 @@
             "tutorial": false
           }
         ],
-        "layoutSourcePage": "https://rivals.gs/maps/arakko/"
+        "layoutSourcePage": "https://rivals.gs/maps/arakko/",
+        "layoutAvailability": "available"
       },
       "royal-palace": {
         "name": "Royal Palace",
@@ -7812,7 +7837,8 @@
             "tutorial": false
           }
         ],
-        "layoutSourcePage": "https://rivals.gs/maps/royal-palace/"
+        "layoutSourcePage": "https://rivals.gs/maps/royal-palace/",
+        "layoutAvailability": "available"
       },
       "shin-shibuya": {
         "name": "Shin-Shibuya",
@@ -8548,7 +8574,8 @@
             "tutorial": true
           }
         ],
-        "layoutSourcePage": "https://rivals.gs/maps/shin-shibuya/"
+        "layoutSourcePage": "https://rivals.gs/maps/shin-shibuya/",
+        "layoutAvailability": "available"
       },
       "celestial-husk": {
         "name": "Celestial Husk",
@@ -9175,7 +9202,8 @@
             "tutorial": false
           }
         ],
-        "layoutSourcePage": "https://rivals.gs/maps/celestial-husk/"
+        "layoutSourcePage": "https://rivals.gs/maps/celestial-husk/",
+        "layoutAvailability": "available"
       },
       "museum-of-contemplation": {
         "name": "Museum of Contemplation",
@@ -10028,7 +10056,8 @@
             "tutorial": false
           }
         ],
-        "layoutSourcePage": "https://rivals.gs/maps/museum-of-contemplation/"
+        "layoutSourcePage": "https://rivals.gs/maps/museum-of-contemplation/",
+        "layoutAvailability": "available"
       },
       "yggdrasill-path": {
         "name": "Yggdrasill Path",
@@ -11711,7 +11740,8 @@
             "tutorial": true
           }
         ],
-        "layoutSourcePage": "https://rivals.gs/maps/yggdrasill-path/"
+        "layoutSourcePage": "https://rivals.gs/maps/yggdrasill-path/",
+        "layoutAvailability": "available"
       },
       "spider-islands": {
         "name": "Spider-Islands",
@@ -12767,7 +12797,8 @@
             "tutorial": false
           }
         ],
-        "layoutSourcePage": "https://rivals.gs/maps/spider-islands/"
+        "layoutSourcePage": "https://rivals.gs/maps/spider-islands/",
+        "layoutAvailability": "available"
       },
       "symbiotic-surface": {
         "name": "Symbiotic Surface",
@@ -13531,7 +13562,8 @@
             "tutorial": false
           }
         ],
-        "layoutSourcePage": "https://rivals.gs/maps/symbiotic-surface/"
+        "layoutSourcePage": "https://rivals.gs/maps/symbiotic-surface/",
+        "layoutAvailability": "available"
       },
       "lower-manhattan": {
         "name": "Lower Manhattan",
@@ -14405,7 +14437,8 @@
             "tutorial": false
           }
         ],
-        "layoutSourcePage": "https://rivals.gs/maps/lower-manhattan/"
+        "layoutSourcePage": "https://rivals.gs/maps/lower-manhattan/",
+        "layoutAvailability": "available"
       },
       "thebes": {
         "name": "Thebes",
@@ -15298,7 +15331,8 @@
             "tutorial": false
           }
         ],
-        "layoutSourcePage": "https://rivals.gs/maps/thebes/"
+        "layoutSourcePage": "https://rivals.gs/maps/thebes/",
+        "layoutAvailability": "available"
       },
       "hall-of-djalia": {
         "name": "Hall of Djalia",
@@ -16279,7 +16313,8 @@
             "tutorial": false
           }
         ],
-        "layoutSourcePage": "https://rivals.gs/maps/hall-of-djalia/"
+        "layoutSourcePage": "https://rivals.gs/maps/hall-of-djalia/",
+        "layoutAvailability": "available"
       },
       "heart-of-heaven": {
         "name": "Heart of Heaven",
@@ -17323,7 +17358,4638 @@
             "tutorial": false
           }
         ],
-        "layoutSourcePage": "https://rivals.gs/maps/heart-of-heaven/"
+        "layoutSourcePage": "https://rivals.gs/maps/heart-of-heaven/",
+        "layoutAvailability": "available"
+      },
+      "god-quarry": {
+        "name": "God Quarry",
+        "image": "/media/maps/b687fe20f2ba2371b083.webp",
+        "sourceName": "The God Quarry",
+        "sourcePage": "https://www.marvelrivals.com/",
+        "kind": "official-scene-artwork",
+        "floorplan": false,
+        "layouts": [
+          {
+            "id": "godquarryc01",
+            "name": "HALLS OF ALL-KNOWING",
+            "sourceImage": "https://rivals.gs/img/layouts/godquarryc01.webp",
+            "width": 1600,
+            "height": 640,
+            "sourceUrl": "https://rivals.gs/maps/god-quarry/",
+            "floorplan": true,
+            "metresPerPx": 0.2403,
+            "markers": [
+              {
+                "at": [
+                  0.1158,
+                  0.3901
+                ],
+                "kind": "spawn",
+                "side": "red",
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.8842,
+                  0.39
+                ],
+                "kind": "spawn",
+                "side": "blue",
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.2135,
+                  0.473
+                ],
+                "kind": "door",
+                "side": "red",
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.2136,
+                  0.3948
+                ],
+                "kind": "door",
+                "side": "red",
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.2134,
+                  0.3168
+                ],
+                "kind": "door",
+                "side": "red",
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.7866,
+                  0.3169
+                ],
+                "kind": "door",
+                "side": "blue",
+                "yaw": 90
+              },
+              {
+                "at": [
+                  0.7864,
+                  0.3949
+                ],
+                "kind": "door",
+                "side": "blue",
+                "yaw": 90
+              },
+              {
+                "at": [
+                  0.7866,
+                  0.473
+                ],
+                "kind": "door",
+                "side": "blue",
+                "yaw": 90
+              },
+              {
+                "at": [
+                  0.5,
+                  0.3863
+                ],
+                "kind": "point",
+                "side": null,
+                "yaw": 0,
+                "label": null,
+                "size": [
+                  0.0026,
+                  0.0065
+                ]
+              },
+              {
+                "at": [
+                  0.5,
+                  0.3949
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 0,
+                "size": [
+                  0.091,
+                  0.13
+                ]
+              },
+              {
+                "at": [
+                  0.5,
+                  0.1985
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 0,
+                "size": [
+                  0.013,
+                  0.0325
+                ]
+              },
+              {
+                "at": [
+                  0.4089,
+                  0.5444
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.3374,
+                  0.4891
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.6627,
+                  0.4891
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.5912,
+                  0.5444
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.4999,
+                  0.6419
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.4999,
+                  0.2648
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.405,
+                  0.2193
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.5951,
+                  0.2193
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.3621,
+                  0.2551
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.638,
+                  0.2551
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              }
+            ],
+            "tutorial": false,
+            "image": "/media/layouts/c962e2fd0141ae985903.webp"
+          },
+          {
+            "id": "godquarryc02",
+            "name": "HOUSE OF IDEAS",
+            "sourceImage": "https://rivals.gs/img/layouts/godquarryc02.webp",
+            "width": 1600,
+            "height": 643,
+            "sourceUrl": "https://rivals.gs/maps/god-quarry/",
+            "floorplan": true,
+            "metresPerPx": 0.1561,
+            "markers": [
+              {
+                "at": [
+                  0.9689,
+                  0.7289
+                ],
+                "kind": "spawn",
+                "side": "blue",
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.0311,
+                  0.7289
+                ],
+                "kind": "spawn",
+                "side": "red",
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.1152,
+                  0.7402
+                ],
+                "kind": "door",
+                "side": "red",
+                "yaw": 90
+              },
+              {
+                "at": [
+                  0.8848,
+                  0.7402
+                ],
+                "kind": "door",
+                "side": "blue",
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.8976,
+                  0.9088
+                ],
+                "kind": "door",
+                "side": "blue",
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.8836,
+                  0.5467
+                ],
+                "kind": "door",
+                "side": "blue",
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.102,
+                  0.9088
+                ],
+                "kind": "door",
+                "side": "red",
+                "yaw": 90
+              },
+              {
+                "at": [
+                  0.1164,
+                  0.5467
+                ],
+                "kind": "door",
+                "side": "red",
+                "yaw": 90
+              },
+              {
+                "at": [
+                  0.5,
+                  0.3218
+                ],
+                "kind": "point",
+                "side": null,
+                "yaw": 270,
+                "label": null,
+                "size": [
+                  0.004,
+                  0.01
+                ]
+              },
+              {
+                "at": [
+                  0.3899,
+                  -0.0319
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.01,
+                  0.0199
+                ]
+              },
+              {
+                "at": [
+                  0.5,
+                  -0.1365
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.046,
+                  0.2989
+                ]
+              },
+              {
+                "at": [
+                  0.5,
+                  1.0341
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.02,
+                  0.2989
+                ]
+              },
+              {
+                "at": [
+                  0.6181,
+                  -0.0369
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.01,
+                  0.0199
+                ]
+              },
+              {
+                "at": [
+                  0.6414,
+                  0.2798
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.5,
+                  0.541
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.1657,
+                  0.7353
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.8343,
+                  0.7353
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 90
+              },
+              {
+                "at": [
+                  0.3378,
+                  0.2969
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.3586,
+                  0.2798
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.3801,
+                  0.7723
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 315
+              },
+              {
+                "at": [
+                  0.5,
+                  0.1275
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.6622,
+                  0.2969
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 90
+              },
+              {
+                "at": [
+                  0.6199,
+                  0.7723
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 45
+              }
+            ],
+            "tutorial": false,
+            "image": "/media/layouts/31242f0fc36e56732195.webp"
+          },
+          {
+            "id": "godquarryc03",
+            "name": "CONFESSIONAL ETERNITY",
+            "sourceImage": "https://rivals.gs/img/layouts/godquarryc03.webp",
+            "width": 1600,
+            "height": 659,
+            "sourceUrl": "https://rivals.gs/maps/god-quarry/",
+            "floorplan": true,
+            "metresPerPx": 0.1883,
+            "markers": [
+              {
+                "at": [
+                  0.8676,
+                  0.2739
+                ],
+                "kind": "spawn",
+                "side": "blue",
+                "yaw": 330
+              },
+              {
+                "at": [
+                  0.041,
+                  0.2894
+                ],
+                "kind": "spawn",
+                "side": "red",
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.7912,
+                  0.2762
+                ],
+                "kind": "door",
+                "side": "blue",
+                "yaw": 60
+              },
+              {
+                "at": [
+                  0.8251,
+                  0.4104
+                ],
+                "kind": "door",
+                "side": "blue",
+                "yaw": 60
+              },
+              {
+                "at": [
+                  0.8653,
+                  0.4694
+                ],
+                "kind": "door",
+                "side": "blue",
+                "yaw": 330
+              },
+              {
+                "at": [
+                  0.1399,
+                  0.2713
+                ],
+                "kind": "door",
+                "side": "red",
+                "yaw": 300
+              },
+              {
+                "at": [
+                  0.1061,
+                  0.4103
+                ],
+                "kind": "door",
+                "side": "red",
+                "yaw": 300
+              },
+              {
+                "at": [
+                  0.0662,
+                  0.4745
+                ],
+                "kind": "door",
+                "side": "red",
+                "yaw": 30
+              },
+              {
+                "at": [
+                  0.4652,
+                  0.6106
+                ],
+                "kind": "point",
+                "side": null,
+                "yaw": 0,
+                "label": null,
+                "size": [
+                  0.0033,
+                  0.0081
+                ]
+              },
+              {
+                "at": [
+                  0.4652,
+                  0.0473
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 0,
+                "size": [
+                  0.1162,
+                  0.0492
+                ]
+              },
+              {
+                "at": [
+                  0.4652,
+                  1.0699
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 0,
+                "size": [
+                  0.1162,
+                  0.1317
+                ]
+              },
+              {
+                "at": [
+                  0.5531,
+                  0.3784
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.576,
+                  0.5766
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.3546,
+                  0.5766
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.3589,
+                  0.741
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.2096,
+                  0.7451
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.1897,
+                  0.2768
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.2411,
+                  0.484
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.281,
+                  0.2833
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.5714,
+                  0.741
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.7207,
+                  0.7451
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.7406,
+                  0.2768
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.6892,
+                  0.484
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.4652,
+                  0.3615
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.465,
+                  0.9058
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.6494,
+                  0.2833
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.3772,
+                  0.3784
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              }
+            ],
+            "tutorial": false,
+            "image": "/media/layouts/de966256904df1cfcf3a.webp"
+          }
+        ],
+        "layoutSourcePage": "https://rivals.gs/maps/god-quarry/",
+        "layoutAvailability": "available"
+      },
+      "grand-garden": {
+        "name": "Grand Garden",
+        "image": "/media/maps/bb981c5ff9a1ae2db467.webp",
+        "sourceName": "Grand Garden",
+        "sourcePage": "https://www.marvelrivals.com/",
+        "kind": "official-scene-artwork",
+        "floorplan": false,
+        "layouts": [
+          {
+            "id": "gardencq01",
+            "name": "Grand Garden",
+            "sourceImage": "https://rivals.gs/img/layouts/gardencq01.webp",
+            "width": 1198,
+            "height": 1600,
+            "sourceUrl": "https://rivals.gs/maps/grand-garden/",
+            "floorplan": true,
+            "metresPerPx": 0.0889,
+            "markers": [
+              {
+                "at": [
+                  0.5901,
+                  0.9408
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0376,
+                  0.1231
+                ]
+              },
+              {
+                "at": [
+                  1.0278,
+                  0.5048
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.2724,
+                  0.0492
+                ]
+              },
+              {
+                "at": [
+                  -0.5765,
+                  0.5048
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.2207,
+                  0.0844
+                ]
+              },
+              {
+                "at": [
+                  0.5901,
+                  0.0076
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0376,
+                  0.109
+                ]
+              },
+              {
+                "at": [
+                  0.5901,
+                  -0.432
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0798,
+                  0.109
+                ]
+              },
+              {
+                "at": [
+                  0.5901,
+                  1.5527
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.1268,
+                  0.1231
+                ]
+              },
+              {
+                "at": [
+                  0.7782,
+                  0.5007
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.7168,
+                  0.8644
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.7168,
+                  0.7237
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.672,
+                  0.5007
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.7168,
+                  0.2777
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.1553,
+                  0.3021
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.494,
+                  0.3317
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.302,
+                  0.5007
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.3757,
+                  0.8894
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.1202,
+                  0.7115
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.5611,
+                  0.3166
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.1188,
+                  0.2902
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  -0.008,
+                  0.5007
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.394,
+                  0.5011
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.1921,
+                  0.5011
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.3917,
+                  0.5007
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.7166,
+                  0.1355
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.3757,
+                  0.1123
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.5612,
+                  0.6855
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.931,
+                  0.5007
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.1554,
+                  0.7003
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.4926,
+                  0.6686
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.5023,
+                  0.5007
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 0,
+                "label": "PlatformTrace1",
+                "path": [
+                  [
+                    0.5023,
+                    0.5007
+                  ],
+                  [
+                    0.5023,
+                    0.5007
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  0.5938,
+                  0.4479
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 225,
+                "label": "A_Line_WQ_1",
+                "path": [
+                  [
+                    0.5938,
+                    0.4479
+                  ],
+                  [
+                    0.6,
+                    0.4437
+                  ],
+                  [
+                    0.6175,
+                    0.4257
+                  ],
+                  [
+                    0.6318,
+                    0.4161
+                  ],
+                  [
+                    0.6403,
+                    0.411
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  0.6878,
+                  0.4831
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 210,
+                "label": "A_Line_WP_1",
+                "path": [
+                  [
+                    0.6878,
+                    0.4831
+                  ],
+                  [
+                    0.7028,
+                    0.4697
+                  ],
+                  [
+                    0.7351,
+                    0.4486
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  0.6878,
+                  0.4831
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 255,
+                "label": "A_Line_WP_2",
+                "path": [
+                  [
+                    0.6878,
+                    0.4831
+                  ],
+                  [
+                    0.712,
+                    0.4822
+                  ],
+                  [
+                    0.7341,
+                    0.4828
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  0.5023,
+                  0.5007
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 0,
+                "label": "PlatformTrace1A",
+                "path": [
+                  [
+                    0.5023,
+                    0.5007
+                  ],
+                  [
+                    0.5023,
+                    0.5007
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  0.5938,
+                  0.5534
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 330,
+                "label": "A_Line_WB_2",
+                "path": [
+                  [
+                    0.5938,
+                    0.5534
+                  ],
+                  [
+                    0.6324,
+                    0.5772
+                  ],
+                  [
+                    0.6599,
+                    0.6
+                  ],
+                  [
+                    0.6876,
+                    0.6237
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  0.5938,
+                  0.5534
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 330,
+                "label": "A_Line_WB_1",
+                "path": [
+                  [
+                    0.5938,
+                    0.5534
+                  ],
+                  [
+                    0.6168,
+                    0.5812
+                  ],
+                  [
+                    0.641,
+                    0.5905
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  0.6878,
+                  0.6238
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 225,
+                "label": "A_Line_WN_1",
+                "path": [
+                  [
+                    0.6878,
+                    0.6238
+                  ],
+                  [
+                    0.7053,
+                    0.6022
+                  ],
+                  [
+                    0.7209,
+                    0.5786
+                  ],
+                  [
+                    0.7362,
+                    0.5535
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  0.6878,
+                  0.6238
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 135,
+                "label": "A_Line_WN_2",
+                "path": [
+                  [
+                    0.6878,
+                    0.6238
+                  ],
+                  [
+                    0.6248,
+                    0.6009
+                  ],
+                  [
+                    0.5921,
+                    0.5875
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  0.7817,
+                  0.5886
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 0,
+                "label": "PlatformTrace2",
+                "path": [
+                  [
+                    0.7817,
+                    0.5886
+                  ],
+                  [
+                    0.7817,
+                    0.5886
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  0.7817,
+                  0.4128
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 0,
+                "label": "PlatformTrace3",
+                "path": [
+                  [
+                    0.7817,
+                    0.4128
+                  ],
+                  [
+                    0.7817,
+                    0.4128
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  0.6878,
+                  0.5534
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 45,
+                "label": "A_Line_WK_2",
+                "path": [
+                  [
+                    0.6878,
+                    0.5534
+                  ],
+                  [
+                    0.6676,
+                    0.5548
+                  ],
+                  [
+                    0.6435,
+                    0.5539
+                  ],
+                  [
+                    0.6384,
+                    0.5549
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  0.6878,
+                  0.5534
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 270,
+                "label": "A_Line_WK_1",
+                "path": [
+                  [
+                    0.6878,
+                    0.5534
+                  ],
+                  [
+                    0.7088,
+                    0.5539
+                  ],
+                  [
+                    0.7361,
+                    0.5537
+                  ]
+                ]
+              }
+            ],
+            "tutorial": false,
+            "image": "/media/layouts/4a53a108683080c3ef68.webp"
+          }
+        ],
+        "layoutSourcePage": "https://rivals.gs/maps/grand-garden/",
+        "layoutAvailability": "available"
+      },
+      "alchemax-headquarters": {
+        "name": "Alchemax Headquarters",
+        "image": "/media/maps/5899fcc92db7c4a8921f.webp",
+        "sourceName": "Alchemax Headquarters",
+        "sourcePage": "https://www.marvelrivals.com/",
+        "kind": "official-scene-artwork",
+        "floorplan": false,
+        "layouts": [
+          {
+            "id": "nuevayorkm01",
+            "name": "Doom Match variant",
+            "sourceImage": "https://rivals.gs/img/layouts/nuevayorkm01.webp",
+            "width": 1600,
+            "height": 1431,
+            "sourceUrl": "https://rivals.gs/maps/alchemax-headquarters/",
+            "floorplan": true,
+            "metresPerPx": 0.0972,
+            "markers": [
+              {
+                "at": [
+                  0.462,
+                  0.6328
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 275,
+                "size": [
+                  0.1704,
+                  0.0935
+                ]
+              },
+              {
+                "at": [
+                  1.0001,
+                  0.5801
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 275,
+                "size": [
+                  0.1704,
+                  0.0935
+                ]
+              },
+              {
+                "at": [
+                  -0.3752,
+                  0.6576
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 275,
+                "size": [
+                  0.1784,
+                  0.0935
+                ]
+              },
+              {
+                "at": [
+                  0.2421,
+                  -0.8578
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 275,
+                "size": [
+                  0.1109,
+                  0.2031
+                ]
+              },
+              {
+                "at": [
+                  0.7222,
+                  0.7083
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 275
+              },
+              {
+                "at": [
+                  0.4525,
+                  0.5614
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 275
+              },
+              {
+                "at": [
+                  0.735,
+                  0.2228
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 255
+              },
+              {
+                "at": [
+                  0.343,
+                  0.4746
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 185
+              },
+              {
+                "at": [
+                  0.4293,
+                  0.2643
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 275
+              },
+              {
+                "at": [
+                  0.3003,
+                  0.183
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 275
+              },
+              {
+                "at": [
+                  0.5491,
+                  0.2224
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 320
+              },
+              {
+                "at": [
+                  0.7564,
+                  0.3652
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 255
+              },
+              {
+                "at": [
+                  0.8363,
+                  0.276
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 255
+              },
+              {
+                "at": [
+                  0.1637,
+                  0.8173
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 230
+              },
+              {
+                "at": [
+                  0.1671,
+                  0.3478
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 230
+              }
+            ],
+            "tutorial": false,
+            "image": "/media/layouts/e41303b0c8f5fbe95ab8.webp"
+          },
+          {
+            "id": "nuevayorkcq01",
+            "name": "18 VS.18 variant",
+            "sourceImage": "https://rivals.gs/img/layouts/nuevayorkcq01.webp",
+            "width": 1600,
+            "height": 1431,
+            "sourceUrl": "https://rivals.gs/maps/alchemax-headquarters/",
+            "floorplan": true,
+            "metresPerPx": 0.0972,
+            "markers": [
+              {
+                "at": [
+                  0.462,
+                  0.6328
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 275,
+                "size": [
+                  0.1704,
+                  0.0935
+                ]
+              },
+              {
+                "at": [
+                  1.0001,
+                  0.5801
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 275,
+                "size": [
+                  0.1704,
+                  0.0935
+                ]
+              },
+              {
+                "at": [
+                  -0.3752,
+                  0.6576
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 275,
+                "size": [
+                  0.1784,
+                  0.0935
+                ]
+              },
+              {
+                "at": [
+                  0.2421,
+                  -0.8578
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 275,
+                "size": [
+                  0.1109,
+                  0.2031
+                ]
+              },
+              {
+                "at": [
+                  0.7222,
+                  0.7083
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 275
+              },
+              {
+                "at": [
+                  0.4525,
+                  0.5614
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 275
+              },
+              {
+                "at": [
+                  0.735,
+                  0.2228
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 255
+              },
+              {
+                "at": [
+                  0.343,
+                  0.4746
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 185
+              },
+              {
+                "at": [
+                  0.4293,
+                  0.2643
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 275
+              },
+              {
+                "at": [
+                  0.3003,
+                  0.183
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 275
+              },
+              {
+                "at": [
+                  0.5491,
+                  0.2224
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 320
+              },
+              {
+                "at": [
+                  0.7564,
+                  0.3652
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 255
+              },
+              {
+                "at": [
+                  0.8363,
+                  0.276
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 255
+              },
+              {
+                "at": [
+                  0.1637,
+                  0.8173
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 230
+              },
+              {
+                "at": [
+                  0.1671,
+                  0.3478
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 230
+              }
+            ],
+            "tutorial": false,
+            "image": "/media/layouts/04fd7290b9ac2256adb1.webp"
+          }
+        ],
+        "layoutSourcePage": "https://rivals.gs/maps/alchemax-headquarters/",
+        "layoutAvailability": "available"
+      },
+      "times-square": {
+        "name": "Times Square",
+        "image": "/media/maps/2ca2310d91ef1a0f61dd.webp",
+        "sourceName": "Times Square",
+        "sourcePage": "https://www.marvelrivals.com/",
+        "kind": "official-scene-artwork",
+        "floorplan": false,
+        "layouts": [
+          {
+            "id": "timesquare",
+            "name": "Times Square",
+            "sourceImage": "https://rivals.gs/img/layouts/timesquare.webp",
+            "width": 1600,
+            "height": 1111,
+            "sourceUrl": "https://rivals.gs/maps/times-square/",
+            "floorplan": true,
+            "metresPerPx": 0.1197,
+            "markers": [
+              {
+                "at": [
+                  0.3935,
+                  0.5945
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 0,
+                "size": [
+                  0.1788,
+                  0.1391
+                ]
+              }
+            ],
+            "tutorial": false,
+            "image": "/media/layouts/2816941bb3a5f2fb1bd8.webp"
+          }
+        ],
+        "layoutSourcePage": "https://rivals.gs/maps/times-square/",
+        "layoutAvailability": "available"
+      },
+      "throne-of-knull": {
+        "name": "Throne of Knull",
+        "image": "/media/maps/ba34f723cb69dcc996a7.webp",
+        "sourceName": "Klyntar: Throne of Knull",
+        "sourcePage": "https://www.marvelrivals.com/",
+        "kind": "official-scene-artwork",
+        "floorplan": false,
+        "layouts": [
+          {
+            "id": "klyntarec01",
+            "name": "THRONE OF KNULL",
+            "sourceImage": "https://rivals.gs/img/layouts/klyntarec01.webp",
+            "width": 1499,
+            "height": 1600,
+            "sourceUrl": "https://rivals.gs/maps/throne-of-knull/",
+            "floorplan": true,
+            "metresPerPx": 0.19,
+            "markers": [
+              {
+                "at": [
+                  0.134,
+                  0.6566
+                ],
+                "kind": "door",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.867,
+                  0.5108
+                ],
+                "kind": "door",
+                "side": null,
+                "yaw": 90
+              },
+              {
+                "at": [
+                  0.1566,
+                  0.4087
+                ],
+                "kind": "door",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.8659,
+                  0.6566
+                ],
+                "kind": "door",
+                "side": null,
+                "yaw": 90
+              },
+              {
+                "at": [
+                  0.8433,
+                  0.409
+                ],
+                "kind": "door",
+                "side": null,
+                "yaw": 90.1
+              },
+              {
+                "at": [
+                  0.1328,
+                  0.5108
+                ],
+                "kind": "door",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.4975,
+                  0.4929
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 0,
+                "size": [
+                  0.0601,
+                  0.1394
+                ]
+              },
+              {
+                "at": [
+                  0.4975,
+                  0.4929
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 0,
+                "size": [
+                  0.2111,
+                  0.1394
+                ]
+              },
+              {
+                "at": [
+                  0.4975,
+                  0.3745
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 0,
+                "size": [
+                  0.0246,
+                  0.0074
+                ]
+              },
+              {
+                "at": [
+                  0.4975,
+                  0.0784
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 0,
+                "size": [
+                  0.0676,
+                  0.0132
+                ]
+              },
+              {
+                "at": [
+                  0.4975,
+                  1.0131
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 0,
+                "size": [
+                  0.068,
+                  0.0341
+                ]
+              },
+              {
+                "at": [
+                  0.4975,
+                  1.0131
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 0,
+                "size": [
+                  0.068,
+                  0.0341
+                ]
+              },
+              {
+                "at": [
+                  0.4975,
+                  0.0784
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 0,
+                "size": [
+                  0.0676,
+                  0.0132
+                ]
+              },
+              {
+                "at": [
+                  0.4999,
+                  0.7086
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.7072,
+                  0.853
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.2729,
+                  0.7222
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 50
+              },
+              {
+                "at": [
+                  0.3983,
+                  0.7727
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.6005,
+                  0.7727
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.2764,
+                  0.4896
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.4355,
+                  0.5333
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.2482,
+                  0.6404
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 45
+              },
+              {
+                "at": [
+                  0.7236,
+                  0.4898
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.6,
+                  0.3482
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.5659,
+                  0.5353
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.3999,
+                  0.3482
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.2312,
+                  0.2824
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.3242,
+                  0.1692
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.4999,
+                  0.2528
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.7656,
+                  0.2832
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.6761,
+                  0.1661
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0.2
+              },
+              {
+                "at": [
+                  0.4999,
+                  0.8755
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.7277,
+                  0.7215
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 310
+              },
+              {
+                "at": [
+                  0.2918,
+                  0.8533
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.4999,
+                  0.6116
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.4999,
+                  0.4387
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.8195,
+                  0.5098
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.7518,
+                  0.6406
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 315.3
+              },
+              {
+                "at": [
+                  0.4999,
+                  0.1245
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.1804,
+                  0.5098
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              }
+            ],
+            "tutorial": false,
+            "image": "/media/layouts/3e9a6cef825b4cc6c754.webp"
+          },
+          {
+            "id": "novicellevel_resourcerumbletutorial",
+            "name": "Resource Rumble tutorial",
+            "sourceImage": "https://rivals.gs/img/layouts/novicellevel_resourcerumbletutorial.webp",
+            "width": 1497,
+            "height": 1600,
+            "sourceUrl": "https://rivals.gs/maps/throne-of-knull/",
+            "floorplan": true,
+            "metresPerPx": 0.19,
+            "markers": [
+              {
+                "at": [
+                  0.133,
+                  0.6566
+                ],
+                "kind": "door",
+                "side": null,
+                "yaw": 267.2
+              },
+              {
+                "at": [
+                  0.8672,
+                  0.5107
+                ],
+                "kind": "door",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.1523,
+                  0.4087
+                ],
+                "kind": "door",
+                "side": null,
+                "yaw": 271.2
+              },
+              {
+                "at": [
+                  0.8661,
+                  0.6566
+                ],
+                "kind": "door",
+                "side": null,
+                "yaw": 272.8
+              },
+              {
+                "at": [
+                  0.8435,
+                  0.41
+                ],
+                "kind": "door",
+                "side": null,
+                "yaw": 268.8
+              },
+              {
+                "at": [
+                  0.1333,
+                  0.5107
+                ],
+                "kind": "door",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.4972,
+                  0.4929
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 0,
+                "size": [
+                  0.0602,
+                  0.1394
+                ]
+              },
+              {
+                "at": [
+                  0.4972,
+                  0.4929
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 0,
+                "size": [
+                  0.2114,
+                  0.1394
+                ]
+              },
+              {
+                "at": [
+                  0.5649,
+                  0.3642
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 0,
+                "size": [
+                  0.0105,
+                  0.0099
+                ]
+              },
+              {
+                "at": [
+                  0.4975,
+                  0.1527
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 0,
+                "size": [
+                  1.758,
+                  1.6448
+                ]
+              },
+              {
+                "at": [
+                  0.4224,
+                  0.3642
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 0,
+                "size": [
+                  0.0105,
+                  0.0099
+                ]
+              },
+              {
+                "at": [
+                  0.2767,
+                  0.4856
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.5643,
+                  0.5342
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.4996,
+                  0.6116
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.4996,
+                  0.4415
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.4376,
+                  0.5318
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.8196,
+                  0.5098
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.1797,
+                  0.5098
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.2718,
+                  0.7234
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 50
+              },
+              {
+                "at": [
+                  0.2475,
+                  0.6406
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 45
+              },
+              {
+                "at": [
+                  0.751,
+                  0.6413
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 315
+              },
+              {
+                "at": [
+                  0.7062,
+                  0.8567
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.4996,
+                  0.7086
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.3994,
+                  0.7727
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.5998,
+                  0.7727
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.2767,
+                  0.4856
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.7226,
+                  0.4856
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.4996,
+                  0.1245
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.5998,
+                  0.3482
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.3994,
+                  0.3482
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.2306,
+                  0.2824
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.3237,
+                  0.1692
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.4996,
+                  0.2528
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.7669,
+                  0.2829
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.676,
+                  0.1709
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.4996,
+                  0.8755
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.7281,
+                  0.7234
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 310
+              },
+              {
+                "at": [
+                  0.2931,
+                  0.8567
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 0
+              }
+            ],
+            "tutorial": true,
+            "image": "/media/layouts/8358c878ab0e918482a8.webp"
+          }
+        ],
+        "layoutSourcePage": "https://rivals.gs/maps/throne-of-knull/",
+        "layoutAvailability": "available"
+      },
+      "sanctum-sanctorum": {
+        "name": "Sanctum Sanctorum",
+        "image": "/media/maps/750ce8a8ee59c81d9ad9.webp",
+        "sourceName": "EMPIRE OF ETERNAL NIGHT: SANCTUM SANCTORUM",
+        "sourcePage": "https://www.marvelrivals.com/",
+        "kind": "official-scene-artwork",
+        "floorplan": false,
+        "layouts": [
+          {
+            "id": "newyorkm01",
+            "name": "Sanctum Sanctorum",
+            "sourceImage": "https://rivals.gs/img/layouts/newyorkm01.webp",
+            "width": 1600,
+            "height": 1361,
+            "sourceUrl": "https://rivals.gs/maps/sanctum-sanctorum/",
+            "floorplan": true,
+            "metresPerPx": 0.0806,
+            "markers": [
+              {
+                "at": [
+                  2.552,
+                  -3.2271
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0776,
+                  0.1595
+                ]
+              },
+              {
+                "at": [
+                  3.1656,
+                  -2.7431
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0078,
+                  0.0091
+                ]
+              },
+              {
+                "at": [
+                  2.7979,
+                  -2.382
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 180,
+                "size": [
+                  0.0078,
+                  0.0274
+                ]
+              },
+              {
+                "at": [
+                  2.6811,
+                  -2.4185
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 180,
+                "size": [
+                  0.0078,
+                  0.0182
+                ]
+              },
+              {
+                "at": [
+                  2.9884,
+                  -1.9213
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.1261,
+                  0.0889
+                ]
+              },
+              {
+                "at": [
+                  3.578,
+                  -3.1193
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0776,
+                  0.1595
+                ]
+              },
+              {
+                "at": [
+                  3.0362,
+                  -2.4063
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.1587,
+                  0.1595
+                ]
+              },
+              {
+                "at": [
+                  2.9884,
+                  -2.7293
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0078,
+                  0.0228
+                ]
+              },
+              {
+                "at": [
+                  2.7506,
+                  -2.4076
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0233,
+                  0.0456
+                ]
+              },
+              {
+                "at": [
+                  2.8068,
+                  -2.3706
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0078,
+                  0.0274
+                ]
+              },
+              {
+                "at": [
+                  2.801,
+                  -2.5129
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0078,
+                  0.0274
+                ]
+              },
+              {
+                "at": [
+                  3.9632,
+                  -3.2271
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0776,
+                  0.1595
+                ]
+              },
+              {
+                "at": [
+                  3.578,
+                  -3.2014
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0776,
+                  0.1595
+                ]
+              },
+              {
+                "at": [
+                  3.1901,
+                  -2.0396
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.1587,
+                  0.2558
+                ]
+              },
+              {
+                "at": [
+                  0.177,
+                  0.7604
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.2704,
+                  0.3418
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.5839,
+                  0.7753
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.9639,
+                  -2.4002
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.5783,
+                  0.5525
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.3099,
+                  -2.3998
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.0565,
+                  -2.686
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.9015,
+                  -2.3975
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.0136,
+                  -2.0974
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.161,
+                  -2.2215
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.1135,
+                  -2.3549
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.0064,
+                  -2.4457
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.2241,
+                  0.7725
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 85,
+                "label": "PortalTraceE1",
+                "path": [
+                  [
+                    0.2241,
+                    0.7725
+                  ],
+                  [
+                    0.221,
+                    0.7157
+                  ],
+                  [
+                    0.2021,
+                    0.6847
+                  ],
+                  [
+                    0.173,
+                    0.652
+                  ],
+                  [
+                    0.1659,
+                    0.6347
+                  ],
+                  [
+                    0.159,
+                    0.6179
+                  ],
+                  [
+                    0.141,
+                    0.6096
+                  ],
+                  [
+                    0.1062,
+                    0.6054
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  0.1064,
+                  0.604
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 180,
+                "label": "PortalTraceE2",
+                "path": [
+                  [
+                    0.1064,
+                    0.604
+                  ],
+                  [
+                    0.1412,
+                    0.6097
+                  ],
+                  [
+                    0.1582,
+                    0.6173
+                  ],
+                  [
+                    0.1658,
+                    0.6351
+                  ],
+                  [
+                    0.1735,
+                    0.6511
+                  ],
+                  [
+                    0.2018,
+                    0.685
+                  ],
+                  [
+                    0.2215,
+                    0.7158
+                  ],
+                  [
+                    0.2245,
+                    0.7752
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  0.3771,
+                  0.4265
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 270.6,
+                "label": "PortalTraceF1",
+                "path": [
+                  [
+                    0.3771,
+                    0.4265
+                  ],
+                  [
+                    0.3738,
+                    0.4308
+                  ],
+                  [
+                    0.3529,
+                    0.4361
+                  ],
+                  [
+                    0.3153,
+                    0.4399
+                  ],
+                  [
+                    0.2981,
+                    0.4217
+                  ],
+                  [
+                    0.2956,
+                    0.3846
+                  ],
+                  [
+                    0.2981,
+                    0.3593
+                  ],
+                  [
+                    0.3044,
+                    0.3384
+                  ],
+                  [
+                    0.3165,
+                    0.3221
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  0.3171,
+                  0.3221
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 355,
+                "label": "PortalTraceF2",
+                "path": [
+                  [
+                    0.3171,
+                    0.3221
+                  ],
+                  [
+                    0.3043,
+                    0.3387
+                  ],
+                  [
+                    0.2991,
+                    0.3595
+                  ],
+                  [
+                    0.2957,
+                    0.3848
+                  ],
+                  [
+                    0.2986,
+                    0.4205
+                  ],
+                  [
+                    0.3165,
+                    0.4395
+                  ],
+                  [
+                    0.3529,
+                    0.4356
+                  ],
+                  [
+                    0.3734,
+                    0.431
+                  ],
+                  [
+                    0.3774,
+                    0.4261
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  0.3826,
+                  0.6153
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 316.4,
+                "label": "PortalTraceG1",
+                "path": [
+                  [
+                    0.3826,
+                    0.6153
+                  ],
+                  [
+                    0.3769,
+                    0.6216
+                  ],
+                  [
+                    0.3674,
+                    0.6409
+                  ],
+                  [
+                    0.363,
+                    0.6549
+                  ],
+                  [
+                    0.3681,
+                    0.6673
+                  ],
+                  [
+                    0.4068,
+                    0.6724
+                  ],
+                  [
+                    0.4427,
+                    0.6746
+                  ],
+                  [
+                    0.4707,
+                    0.6692
+                  ],
+                  [
+                    0.4782,
+                    0.6526
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  0.478,
+                  0.6528
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 50,
+                "label": "PortalTraceG2",
+                "path": [
+                  [
+                    0.478,
+                    0.6528
+                  ],
+                  [
+                    0.4709,
+                    0.6692
+                  ],
+                  [
+                    0.4438,
+                    0.6751
+                  ],
+                  [
+                    0.4065,
+                    0.6702
+                  ],
+                  [
+                    0.3673,
+                    0.6672
+                  ],
+                  [
+                    0.3617,
+                    0.6517
+                  ],
+                  [
+                    0.3659,
+                    0.6394
+                  ],
+                  [
+                    0.3801,
+                    0.6167
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  0.3095,
+                  0.7801
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 120,
+                "label": "PortalTraceH1",
+                "path": [
+                  [
+                    0.3115,
+                    0.7801
+                  ],
+                  [
+                    0.3074,
+                    0.7697
+                  ],
+                  [
+                    0.2976,
+                    0.7377
+                  ],
+                  [
+                    0.2842,
+                    0.6614
+                  ],
+                  [
+                    0.2796,
+                    0.5823
+                  ],
+                  [
+                    0.2866,
+                    0.5097
+                  ],
+                  [
+                    0.2985,
+                    0.4742
+                  ],
+                  [
+                    0.3137,
+                    0.4427
+                  ],
+                  [
+                    0.3525,
+                    0.4232
+                  ],
+                  [
+                    0.3908,
+                    0.4242
+                  ],
+                  [
+                    0.4359,
+                    0.4729
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  0.4359,
+                  0.4729
+                ],
+                "kind": "payload",
+                "side": null,
+                "yaw": 70,
+                "label": "PortalTraceH2",
+                "path": [
+                  [
+                    0.4359,
+                    0.4729
+                  ],
+                  [
+                    0.3927,
+                    0.4238
+                  ],
+                  [
+                    0.3714,
+                    0.4192
+                  ],
+                  [
+                    0.3519,
+                    0.4236
+                  ],
+                  [
+                    0.3127,
+                    0.4425
+                  ],
+                  [
+                    0.2973,
+                    0.4721
+                  ],
+                  [
+                    0.285,
+                    0.5071
+                  ],
+                  [
+                    0.2792,
+                    0.5838
+                  ],
+                  [
+                    0.2837,
+                    0.6618
+                  ],
+                  [
+                    0.2964,
+                    0.7354
+                  ],
+                  [
+                    0.3112,
+                    0.7794
+                  ]
+                ]
+              },
+              {
+                "at": [
+                  2.8846,
+                  -2.4453
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.4017,
+                  0.5434
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.1047,
+                  -2.2207
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  3.1088,
+                  -2.2207
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  3.0934,
+                  -2.0515
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  3.0735,
+                  -2.0515
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  3.0551,
+                  -1.9801
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.4765,
+                  0.546
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.5046,
+                  0.594
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.1125,
+                  -2.7407
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.3662,
+                  0.3886
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.3662,
+                  0.3886
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.7814,
+                  -2.401
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.5694,
+                  0.2544
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.5694,
+                  0.2199
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.1087,
+                  -2.2594
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.1087,
+                  -2.2946
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.0993,
+                  -2.2946
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.4064,
+                  0.5434
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.9051,
+                  -2.4453
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.9146,
+                  -2.4817
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.9146,
+                  -2.4096
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.9207,
+                  -2.4453
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.8312,
+                  -2.401
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.9098,
+                  -2.4453
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.9274,
+                  -2.4453
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.8941,
+                  -2.4453
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.3993,
+                  -2.3925
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  3.3764,
+                  -2.3925
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.5789,
+                  0.6515
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  3.2908,
+                  -2.2501
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  3.2479,
+                  -2.2501
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 296.6
+              },
+              {
+                "at": [
+                  2.8727,
+                  -2.4006
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.2701,
+                  -2.2251
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  0.371,
+                  0.5438
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.2701,
+                  -2.2734
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  3.2406,
+                  -2.2501
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  3.26,
+                  -2.2251
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  3.26,
+                  -2.2772
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  3.2173,
+                  -2.596
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  3.2173,
+                  -2.5554
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  3.3163,
+                  -1.991
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  3.3163,
+                  -1.9954
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  3.1739,
+                  -2.5058
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  3.1739,
+                  -2.4523
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  2.8927,
+                  -2.5755
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.0941,
+                  -2.556
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  3.0632,
+                  -2.5616
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  2.8417,
+                  -2.3304
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 180
+              },
+              {
+                "at": [
+                  2.8308,
+                  -2.3724
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 180
+              },
+              {
+                "at": [
+                  2.851,
+                  -2.4886
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 180
+              },
+              {
+                "at": [
+                  2.851,
+                  -2.4873
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 180
+              },
+              {
+                "at": [
+                  2.851,
+                  -2.454
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 180
+              },
+              {
+                "at": [
+                  2.8355,
+                  -2.5607
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 180
+              },
+              {
+                "at": [
+                  2.903,
+                  -2.4417
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 180
+              },
+              {
+                "at": [
+                  -1.2175,
+                  0.5434
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.8747,
+                  -2.5755
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.4245,
+                  0.491
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.4245,
+                  0.599
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  -1.1591,
+                  0.5434
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  -0.7532,
+                  2.4123
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  -4.1153,
+                  0.5434
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.0378,
+                  2.762
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  4.7796,
+                  2.762
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  1.2666,
+                  -4.5378
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  -0.5486,
+                  -4.5378
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.9652,
+                  -2.2352
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.8736,
+                  -2.5755
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.9652,
+                  -2.1812
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.093,
+                  -2.2186
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.9652,
+                  -1.9923
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.9236,
+                  -2.1014
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.0237,
+                  -2.1014
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.0462,
+                  -2.3269
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.0462,
+                  -2.4367
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.2222,
+                  -2.3601
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.2194,
+                  -2.115
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.5006,
+                  -2.3925
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 0
+              },
+              {
+                "at": [
+                  2.9035,
+                  -2.4829
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.0197,
+                  -2.5617
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.9964,
+                  -2.2805
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.115,
+                  -2.3651
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.9037,
+                  -2.317
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.841,
+                  -2.0133
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.8048,
+                  -2.3227
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.8347,
+                  -2.616
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.8065,
+                  -2.8918
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.3143,
+                  -2.6951
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.3413,
+                  -2.5928
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  2.8876,
+                  -2.4902
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 200
+              },
+              {
+                "at": [
+                  3.3413,
+                  -2.4185
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.4572,
+                  -2.4185
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.2237,
+                  -2.5163
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.1585,
+                  -2.6703
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.813,
+                  0.4809
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.0052,
+                  -2.3793
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.0043,
+                  -2.3974
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.0043,
+                  -2.4952
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  3.0462,
+                  -2.6492
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.3984,
+                  0.5434
+                ],
+                "kind": "respawn",
+                "side": null,
+                "yaw": 270
+              }
+            ],
+            "tutorial": false,
+            "image": "/media/layouts/7404655d144e274b210a.webp"
+          }
+        ],
+        "layoutSourcePage": "https://rivals.gs/maps/sanctum-sanctorum/",
+        "layoutAvailability": "available"
+      },
+      "shenloong-arena": {
+        "name": "Shenloong Arena",
+        "image": "/media/maps/d4fcc8e51e96d9ea745c.webp",
+        "sourceName": "K'un-Lun: Shenloong Arena",
+        "sourcePage": "https://www.marvelrivals.com/",
+        "kind": "official-scene-artwork",
+        "floorplan": false,
+        "layouts": [
+          {
+            "id": "kunlunec01",
+            "name": "Shenloong Arena",
+            "sourceImage": "https://rivals.gs/img/layouts/kunlunec01.webp",
+            "width": 1593,
+            "height": 1600,
+            "sourceUrl": "https://rivals.gs/maps/shenloong-arena/",
+            "floorplan": true,
+            "metresPerPx": 0.1861,
+            "markers": [
+              {
+                "at": [
+                  0.4965,
+                  0.1475
+                ],
+                "kind": "door",
+                "side": "red",
+                "yaw": 180
+              },
+              {
+                "at": [
+                  0.637,
+                  0.1354
+                ],
+                "kind": "door",
+                "side": "red",
+                "yaw": 140
+              },
+              {
+                "at": [
+                  0.2773,
+                  0.1372
+                ],
+                "kind": "door",
+                "side": "red",
+                "yaw": 200
+              },
+              {
+                "at": [
+                  0.6372,
+                  0.8646
+                ],
+                "kind": "door",
+                "side": "blue",
+                "yaw": 220
+              },
+              {
+                "at": [
+                  0.2771,
+                  0.8627
+                ],
+                "kind": "door",
+                "side": "blue",
+                "yaw": 160
+              },
+              {
+                "at": [
+                  0.4965,
+                  0.8521
+                ],
+                "kind": "door",
+                "side": "blue",
+                "yaw": 180
+              },
+              {
+                "at": [
+                  0.4957,
+                  0.5001
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.3373,
+                  0.3358
+                ]
+              },
+              {
+                "at": [
+                  0.9804,
+                  0.5001
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0297,
+                  0.0185
+                ]
+              },
+              {
+                "at": [
+                  -0.0416,
+                  0.3624
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0122,
+                  0.0237
+                ]
+              },
+              {
+                "at": [
+                  -0.0484,
+                  0.6378
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0122,
+                  0.0239
+                ]
+              },
+              {
+                "at": [
+                  0.9314,
+                  0.3057
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0337,
+                  0.0185
+                ]
+              },
+              {
+                "at": [
+                  0.8376,
+                  0.0977
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 325,
+                "size": [
+                  0.0084,
+                  0.0145
+                ]
+              },
+              {
+                "at": [
+                  0.9314,
+                  0.6946
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0034,
+                  0.0185
+                ]
+              },
+              {
+                "at": [
+                  0.8376,
+                  0.9026
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 215,
+                "size": [
+                  0.0034,
+                  0.0145
+                ]
+              },
+              {
+                "at": [
+                  -0.0146,
+                  0.5001
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0913,
+                  0.0443
+                ]
+              },
+              {
+                "at": [
+                  0.353,
+                  0.3238
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0183,
+                  0.0078
+                ]
+              },
+              {
+                "at": [
+                  0.353,
+                  0.6764
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0183,
+                  0.0078
+                ]
+              },
+              {
+                "at": [
+                  -0.045,
+                  0.5001
+                ],
+                "kind": "deathzone",
+                "side": null,
+                "yaw": 270,
+                "size": [
+                  0.0169,
+                  0.0176
+                ]
+              },
+              {
+                "at": [
+                  0.5349,
+                  0.5005
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.2498,
+                  0.3074
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.4617,
+                  0.3947
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.462,
+                  0.6046
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.4937,
+                  0.7604
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.4954,
+                  0.4414
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.4954,
+                  0.5589
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.322,
+                  0.5001
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.6276,
+                  0.5001
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.1098,
+                  0.3587
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.2664,
+                  0.4279
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.1102,
+                  0.6445
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.1007,
+                  0.5005
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.2502,
+                  0.6926
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.2664,
+                  0.5723
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.4954,
+                  0.2389
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.4289,
+                  0.5005
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.8414,
+                  0.3849
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.7068,
+                  0.2533
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.8982,
+                  0.6701
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.7927,
+                  0.5001
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.8966,
+                  0.3304
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.8387,
+                  0.2622
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.7402,
+                  0.3169
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.7043,
+                  0.5001
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.9544,
+                  0.5001
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.7093,
+                  0.7459
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.8414,
+                  0.6162
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.839,
+                  0.7386
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              },
+              {
+                "at": [
+                  0.7378,
+                  0.6823
+                ],
+                "kind": "health",
+                "side": null,
+                "yaw": 270
+              }
+            ],
+            "tutorial": false,
+            "image": "/media/layouts/b516fdddad426b9ffbb4.webp"
+          }
+        ],
+        "layoutSourcePage": "https://rivals.gs/maps/shenloong-arena/",
+        "layoutAvailability": "available"
       }
     },
     "teams": {
@@ -17923,6 +22589,261 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
+        }
+      },
+      "aura_rivals": {
+        "name": "Aura Rivals",
+        "printedName": "AURARIVALS",
+        "sourceUrl": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+        "sourcePublishedAt": "2026-09-08",
+        "sprite": {
+          "src": "/media/teams/stage2-2026-roster.png",
+          "x": 1506,
+          "y": 665,
+          "width": 127,
+          "height": 104,
+          "sheetWidth": 1920,
+          "sheetHeight": 1080
+        }
+      },
+      "biharkelonde": {
+        "name": "BiharKeLonde",
+        "printedName": "BIHARKeLONDE",
+        "sourceUrl": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+        "sourcePublishedAt": "2026-09-08",
+        "sprite": {
+          "src": "/media/teams/stage2-2026-roster.png",
+          "x": 421,
+          "y": 665,
+          "width": 127,
+          "height": 104,
+          "sheetWidth": 1920,
+          "sheetHeight": 1080
+        }
+      },
+      "chosen_ones": {
+        "name": "The Chosen Ones",
+        "printedName": "THE CHOSEN ONES",
+        "sourceUrl": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+        "sourcePublishedAt": "2026-09-08",
+        "sprite": {
+          "src": "/media/teams/stage2-2026-roster.png",
+          "x": 1506,
+          "y": 444,
+          "width": 127,
+          "height": 104,
+          "sheetWidth": 1920,
+          "sheetHeight": 1080
+        }
+      },
+      "dawn_mercy_accord": {
+        "name": "Dawn Mercy Accord",
+        "printedName": "DAWN MERCY ACCORD",
+        "sourceUrl": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+        "sourcePublishedAt": "2026-09-08",
+        "sprite": {
+          "src": "/media/teams/stage2-2026-roster.png",
+          "x": 1639,
+          "y": 665,
+          "width": 127,
+          "height": 104,
+          "sheetWidth": 1920,
+          "sheetHeight": 1080
+        }
+      },
+      "delicious_food": {
+        "name": "Delicious Food",
+        "printedName": "DELICIOUS FOOD",
+        "sourceUrl": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+        "sourcePublishedAt": "2026-09-08",
+        "sprite": {
+          "src": "/media/teams/stage2-2026-roster.png",
+          "x": 1240,
+          "y": 801,
+          "width": 127,
+          "height": 104,
+          "sheetWidth": 1920,
+          "sheetHeight": 1080
+        }
+      },
+      "disband": {
+        "name": "Disband",
+        "printedName": "DISBAND",
+        "sourceUrl": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+        "sourcePublishedAt": "2026-09-08",
+        "sprite": {
+          "src": "/media/teams/stage2-2026-roster.png",
+          "x": 1506,
+          "y": 308,
+          "width": 127,
+          "height": 104,
+          "sheetWidth": 1920,
+          "sheetHeight": 1080
+        }
+      },
+      "dreamland": {
+        "name": "Dreamland",
+        "printedName": "DREAMLAND",
+        "sourceUrl": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+        "sourcePublishedAt": "2026-09-08",
+        "sprite": {
+          "src": "/media/teams/stage2-2026-roster.png",
+          "x": 288,
+          "y": 444,
+          "width": 127,
+          "height": 104,
+          "sheetWidth": 1920,
+          "sheetHeight": 1080
+        }
+      },
+      "dynasty": {
+        "name": "Dynasty",
+        "printedName": "DYNASTY GAMING",
+        "sourceUrl": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+        "sourcePublishedAt": "2026-09-08",
+        "sprite": {
+          "src": "/media/teams/stage2-2026-roster.png",
+          "x": 1374,
+          "y": 801,
+          "width": 127,
+          "height": 104,
+          "sheetWidth": 1920,
+          "sheetHeight": 1080
+        }
+      },
+      "everlast": {
+        "name": "Everlast",
+        "printedName": "EVERLAST",
+        "sourceUrl": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+        "sourcePublishedAt": "2026-09-08",
+        "sprite": {
+          "src": "/media/teams/stage2-2026-roster.png",
+          "x": 1506,
+          "y": 801,
+          "width": 127,
+          "height": 104,
+          "sheetWidth": 1920,
+          "sheetHeight": 1080
+        }
+      },
+      "free_eats": {
+        "name": "FREE EATS",
+        "printedName": "FREE EATS",
+        "sourceUrl": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+        "sourcePublishedAt": "2026-09-08",
+        "sprite": {
+          "src": "/media/teams/stage2-2026-roster.png",
+          "x": 1097,
+          "y": 665,
+          "width": 127,
+          "height": 104,
+          "sheetWidth": 1920,
+          "sheetHeight": 1080
+        }
+      },
+      "hekkers": {
+        "name": "Hekkers",
+        "printedName": "HEKKERS",
+        "sourceUrl": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+        "sourcePublishedAt": "2026-09-08",
+        "sprite": {
+          "src": "/media/teams/stage2-2026-roster.png",
+          "x": 698,
+          "y": 801,
+          "width": 127,
+          "height": 104,
+          "sheetWidth": 1920,
+          "sheetHeight": 1080
+        }
+      },
+      "hypertune": {
+        "name": "Team Hypertune",
+        "printedName": "TEAM HYPERTUNE",
+        "sourceUrl": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+        "sourcePublishedAt": "2026-09-08",
+        "sprite": {
+          "src": "/media/teams/stage2-2026-roster.png",
+          "x": 1374,
+          "y": 444,
+          "width": 127,
+          "height": 104,
+          "sheetWidth": 1920,
+          "sheetHeight": 1080
+        }
+      },
+      "monarch": {
+        "name": "Monarch",
+        "printedName": "MONARCH GAMING",
+        "sourceUrl": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+        "sourcePublishedAt": "2026-09-08",
+        "sprite": {
+          "src": "/media/teams/stage2-2026-roster.png",
+          "x": 1639,
+          "y": 801,
+          "width": 127,
+          "height": 104,
+          "sheetWidth": 1920,
+          "sheetHeight": 1080
+        }
+      },
+      "planet_sainage_pac": {
+        "name": "Planet Sainage PAC",
+        "printedName": "PLANET SAINAGE",
+        "sourceUrl": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+        "sourcePublishedAt": "2026-09-08",
+        "sprite": {
+          "src": "/media/teams/stage2-2026-roster.png",
+          "x": 155,
+          "y": 801,
+          "width": 127,
+          "height": 104,
+          "sheetWidth": 1920,
+          "sheetHeight": 1080
+        }
+      },
+      "straw_hats": {
+        "name": "Straw Hats",
+        "printedName": "STRAW HATS",
+        "sourceUrl": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+        "sourcePublishedAt": "2026-09-08",
+        "sprite": {
+          "src": "/media/teams/stage2-2026-roster.png",
+          "x": 554,
+          "y": 444,
+          "width": 127,
+          "height": 104,
+          "sheetWidth": 1920,
+          "sheetHeight": 1080
+        }
+      },
+      "the_shawrmaz": {
+        "name": "The Shawrmaz",
+        "printedName": "THE SHAWRMAZ",
+        "sourceUrl": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+        "sourcePublishedAt": "2026-09-08",
+        "sprite": {
+          "src": "/media/teams/stage2-2026-roster.png",
+          "x": 288,
+          "y": 801,
+          "width": 127,
+          "height": 104,
+          "sheetWidth": 1920,
+          "sheetHeight": 1080
+        }
+      },
+      "vengeful": {
+        "name": "Vengeful",
+        "printedName": "VENGEFUL",
+        "sourceUrl": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+        "sourcePublishedAt": "2026-09-08",
+        "sprite": {
+          "src": "/media/teams/stage2-2026-roster.png",
+          "x": 1639,
+          "y": 444,
+          "width": 127,
+          "height": 104,
+          "sheetWidth": 1920,
+          "sheetHeight": 1080
         }
       }
     }
@@ -25825,6 +30746,169 @@
       "sourceHeight": 910,
       "width": 1600,
       "height": 910
+    },
+    "/media/teams/stage2-2026-roster.png": {
+      "sourceUrl": "https://r.res.easebar.com/pic/20260908/6dd652dd-bc9b-44e3-aad5-093fdc96968e.png",
+      "sourcePage": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+      "sha256": "e657753dd939ea3b99765b63b413e4a833b377f434c66e9c2861d33a77fa7ef3",
+      "bytes": 1677760,
+      "type": "image/png",
+      "width": 1920,
+      "height": 1080
+    },
+    "/media/layouts/e41303b0c8f5fbe95ab8.webp": {
+      "sourceUrl": "https://rivals.gs/img/layouts/nuevayorkm01.webp",
+      "sourcePage": "https://rivals.gs/maps/alchemax-headquarters/",
+      "sha256": "e41303b0c8f5fbe95ab8f9f2777ec43fd1a9c08878e14cc1af0318db3975139c",
+      "bytes": 118372,
+      "type": "image/webp"
+    },
+    "/media/layouts/04fd7290b9ac2256adb1.webp": {
+      "sourceUrl": "https://rivals.gs/img/layouts/nuevayorkcq01.webp",
+      "sourcePage": "https://rivals.gs/maps/alchemax-headquarters/",
+      "sha256": "04fd7290b9ac2256adb1a0b609f0767f19f24c374e6adc376d9acf3b725c4db4",
+      "bytes": 23190,
+      "type": "image/webp"
+    },
+    "/media/layouts/c962e2fd0141ae985903.webp": {
+      "sourceUrl": "https://rivals.gs/img/layouts/godquarryc01.webp",
+      "sourcePage": "https://rivals.gs/maps/god-quarry/",
+      "sha256": "c962e2fd0141ae98590393618971c1459d721463a3412cfe9b81a0c65ba28bb5",
+      "bytes": 82464,
+      "type": "image/webp"
+    },
+    "/media/layouts/4a53a108683080c3ef68.webp": {
+      "sourceUrl": "https://rivals.gs/img/layouts/gardencq01.webp",
+      "sourcePage": "https://rivals.gs/maps/grand-garden/",
+      "sha256": "4a53a108683080c3ef688260de969db57a2eefeec907351a3b3182d0e75f741b",
+      "bytes": 104844,
+      "type": "image/webp"
+    },
+    "/media/layouts/31242f0fc36e56732195.webp": {
+      "sourceUrl": "https://rivals.gs/img/layouts/godquarryc02.webp",
+      "sourcePage": "https://rivals.gs/maps/god-quarry/",
+      "sha256": "31242f0fc36e567321957dcdc097ec7cab8698c4519b97db261cea28c63e6521",
+      "bytes": 86564,
+      "type": "image/webp"
+    },
+    "/media/layouts/de966256904df1cfcf3a.webp": {
+      "sourceUrl": "https://rivals.gs/img/layouts/godquarryc03.webp",
+      "sourcePage": "https://rivals.gs/maps/god-quarry/",
+      "sha256": "de966256904df1cfcf3ab44ed8fd18e88449a23a50b36b5c890984ef05ad97d3",
+      "bytes": 133904,
+      "type": "image/webp"
+    },
+    "/media/layouts/7404655d144e274b210a.webp": {
+      "sourceUrl": "https://rivals.gs/img/layouts/newyorkm01.webp",
+      "sourcePage": "https://rivals.gs/maps/sanctum-sanctorum/",
+      "sha256": "7404655d144e274b210ae6dfe2585c5bdad8b9071ebb44db71eaff93a293d51e",
+      "bytes": 69164,
+      "type": "image/webp"
+    },
+    "/media/layouts/b516fdddad426b9ffbb4.webp": {
+      "sourceUrl": "https://rivals.gs/img/layouts/kunlunec01.webp",
+      "sourcePage": "https://rivals.gs/maps/shenloong-arena/",
+      "sha256": "b516fdddad426b9ffbb4f3cd7af27dafe54dc6e1f2567bb614c95cbf24c69bb4",
+      "bytes": 249920,
+      "type": "image/webp"
+    },
+    "/media/layouts/2816941bb3a5f2fb1bd8.webp": {
+      "sourceUrl": "https://rivals.gs/img/layouts/timesquare.webp",
+      "sourcePage": "https://rivals.gs/maps/times-square/",
+      "sha256": "2816941bb3a5f2fb1bd8af2763babf60a8fa767d014044ea218da6c6e3aff6a7",
+      "bytes": 50508,
+      "type": "image/webp"
+    },
+    "/media/layouts/3e9a6cef825b4cc6c754.webp": {
+      "sourceUrl": "https://rivals.gs/img/layouts/klyntarec01.webp",
+      "sourcePage": "https://rivals.gs/maps/throne-of-knull/",
+      "sha256": "3e9a6cef825b4cc6c754b21c23be891654da5f0b9c975d7ee84260221e66f134",
+      "bytes": 305388,
+      "type": "image/webp"
+    },
+    "/media/layouts/8358c878ab0e918482a8.webp": {
+      "sourceUrl": "https://rivals.gs/img/layouts/novicellevel_resourcerumbletutorial.webp",
+      "sourcePage": "https://rivals.gs/maps/throne-of-knull/",
+      "sha256": "8358c878ab0e918482a8bd9f075bb3e6df0c20ede8b00aa2c194d718e64289a5",
+      "bytes": 59682,
+      "type": "image/webp"
+    },
+    "/media/maps/b687fe20f2ba2371b083.webp": {
+      "sourceUrl": "https://www.marvelrivals.com/pc/gw/20241128194803/img/22_213fa5f7.jpg",
+      "sourcePage": "https://www.marvelrivals.com/",
+      "sha256": "b687fe20f2ba2371b08331f295887376cd400e7237ad63a28f47b7e57be0cb4b",
+      "bytes": 147530,
+      "type": "image/webp",
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "width": 1600,
+      "height": 900
+    },
+    "/media/maps/bb981c5ff9a1ae2db467.webp": {
+      "sourceUrl": "https://www.marvelrivals.com/pc/gw/20241128194803/img/8_ecaa3f49.jpg",
+      "sourcePage": "https://www.marvelrivals.com/",
+      "sha256": "bb981c5ff9a1ae2db46745f89bc215da8d1879c105fd66e51b87dedf31d539f6",
+      "bytes": 123650,
+      "type": "image/webp",
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "width": 1600,
+      "height": 900
+    },
+    "/media/maps/5899fcc92db7c4a8921f.webp": {
+      "sourceUrl": "https://www.marvelrivals.com/pc/gw/20241128194803/img/19_246b0db4.jpg",
+      "sourcePage": "https://www.marvelrivals.com/",
+      "sha256": "5899fcc92db7c4a8921f68d090b884c3c2f1f4846bf09bcc7daab6d128252f8f",
+      "bytes": 80920,
+      "type": "image/webp",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "width": 1600,
+      "height": 900
+    },
+    "/media/maps/2ca2310d91ef1a0f61dd.webp": {
+      "sourceUrl": "https://www.marvelrivals.com/pc/gw/20241128194803/img/7_df8eaf86.jpg",
+      "sourcePage": "https://www.marvelrivals.com/",
+      "sha256": "2ca2310d91ef1a0f61dd20e9a3a142be730f86ce88a2265570881ad0259741e6",
+      "bytes": 259056,
+      "type": "image/webp",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "width": 1600,
+      "height": 900
+    },
+    "/media/maps/ba34f723cb69dcc996a7.webp": {
+      "sourceUrl": "https://www.marvelrivals.com/pc/gw/20241128194803/img/5_407a76f0.jpg",
+      "sourcePage": "https://www.marvelrivals.com/",
+      "sha256": "ba34f723cb69dcc996a766d738f917a864f4588b52ba110527712fb2dc6d4968",
+      "bytes": 102786,
+      "type": "image/webp",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "width": 1600,
+      "height": 900
+    },
+    "/media/maps/750ce8a8ee59c81d9ad9.webp": {
+      "sourceUrl": "https://r.res.easebar.com/pic/20250117/edb3223e-8a2c-45b2-b220-b518c31fcf16.jpg",
+      "sourcePage": "https://www.marvelrivals.com/",
+      "sha256": "750ce8a8ee59c81d9ad919dfd140e5f1e33e2eec0c0c7e042c66ca8a27b082b3",
+      "bytes": 225284,
+      "type": "image/webp",
+      "sourceWidth": 1920,
+      "sourceHeight": 1080,
+      "width": 1600,
+      "height": 900
+    },
+    "/media/maps/d4fcc8e51e96d9ea745c.webp": {
+      "sourceUrl": "https://www.marvelrivals.com/pc/gw/20241128194803/img/20_eff4a975.jpg",
+      "sourcePage": "https://www.marvelrivals.com/",
+      "sha256": "d4fcc8e51e96d9ea745cda9e04d538cb8ad66a6d9d253fdfd4b395b579f41728",
+      "bytes": 173714,
+      "type": "image/webp",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160,
+      "width": 1600,
+      "height": 900
     }
   },
   "coverage": {
@@ -25833,20 +30917,20 @@
     "heroArt": 56,
     "abilities": 641,
     "abilityIcons": 641,
-    "maps": 17,
-    "mapArt": 17,
-    "mapsWithLayouts": 17,
-    "mapLayouts": 29,
-    "mapMarkers": 1040,
+    "maps": 24,
+    "mapArt": 24,
+    "mapsWithLayouts": 24,
+    "mapLayouts": 40,
+    "mapMarkers": 1442,
     "teamUps": 106,
     "teamUpIcons": 106,
     "teams": 67,
-    "teamLogos": 46,
+    "teamLogos": 63,
     "sourcePersonImages": 311,
     "localPersonImages": 0
   },
   "source": "Official Marvel Rivals catalog and public source metadata; top-down floorplans from Rival.GS; Hall of Djalia game art credited to NetEase via Beebom. Marvel/NetEase retain game artwork rights.",
-  "updatedAt": "2026-10-16T14:22:36.541Z",
+  "updatedAt": "2026-10-16T15:15:20.463Z",
   "failures": [],
   "teamProvenance": [
     {
@@ -25871,5 +30955,12 @@
         "pendingTeamLogos": 52
       }
     }
+  },
+  "teamProvenanceStage2": {
+    "sourcePage": "https://www.marvelrivalsesports.com/20260908/42828_1313342.html",
+    "sourceUrl": "https://r.res.easebar.com/pic/20260908/6dd652dd-bc9b-44e3-aad5-093fdc96968e.png",
+    "publishedDate": "2026-09-08",
+    "sha256": "e657753dd939ea3b99765b63b413e4a833b377f434c66e9c2861d33a77fa7ef3",
+    "note": "Visually verified exact printed team labels and regions. Viewports contain symbols only, excluding labels. Supplement existing sprites without remapping other team identities."
   }
 }
