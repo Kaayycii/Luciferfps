@@ -1,10 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, readFile, rm, stat } from 'node:fs/promises';
+import { mkdtemp, readFile, rm, stat, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { atomicUpdate, canonicalHero, contentHash, fetchText, normalizeData, parseCatalog, summarizePatch, sync, validateData } from '../scripts/sync-data.mjs';
 import { canonicalHeroName, heroLookupIndex } from '../src/lib/hero-identity.js';
+import { applyOfficialCatalog, parseGorrCooldownConflict, parseOfficialMaps, syncOfficialCatalog } from '../scripts/official-catalog.mjs';
 
 function fixture() {
   const feeds = {
@@ -150,4 +151,94 @@ test('non-retryable HTTP failure returns safely without a write', async () => {
 
 test('patch summary retains mechanical change context and excludes appended commentary', () => {
   assert.equal(summarizePatch('Reduce base health from 850 to 825. Now the party can begin!'), 'Reduce base health from 850 to 825.');
+});
+
+test('official map catalog resolves regional names and shared artwork without merging separate maps', () => {
+  const html = `<div class="part-maps">${['The God Quarry', 'YGGSGARD: YGGDRASILL PATH AND ROYAL PALACE', 'Times Square', 'The God Quarry'].map(name => `<div class="map-img"><img src="https://www.marvelrivals.com/map.jpg"><h3>${name}<a href="#"></a></h3></div>`).join('')}</div>`;
+  const layouts = '<a href="/maps/god-quarry/">God Quarry</a>';
+  const maps = parseOfficialMaps(html, layouts);
+  assert.equal(maps.length, 4);
+  assert.deepEqual(maps.map(map => map.id), ['god-quarry', 'royal-palace', 'times-square', 'yggdrasill-path']);
+  assert.equal(maps.find(map => map.id === 'god-quarry').layoutAvailability, 'source-listed');
+  assert.equal(maps.find(map => map.id === 'royal-palace').layoutAvailability, 'unavailable');
+  assert.equal(maps.find(map => map.id === 'times-square').classification, 'social');
+  assert.deepEqual(maps.find(map => map.id === 'god-quarry').modes, ['Domination']);
+});
+
+test('official supplementation preserves source competitive records and does not imply a ranked map pool', () => {
+  const { feeds, catalog } = fixture(), original = normalizeData(feeds, catalog);
+  const official = { updatedAt: '2026-10-16T00:00:00Z', heroes: [], maps: [{ id: 'times-square', name: 'Times Square', image: 'https://www.marvelrivals.com/square.jpg', sourceUrl: 'https://www.marvelrivals.com/', catalogSource: 'official', modes: ['Social hub'], classification: 'social' }], sourceConflicts: [] };
+  const next = applyOfficialCatalog(original, official);
+  assert.equal(next.maps.length, 2);
+  assert.deepEqual(next.matches, original.matches);
+  assert.deepEqual(next.teams, original.teams);
+  assert.deepEqual(next.players, original.players);
+  assert.deepEqual(next.heroes[0].stats, original.heroes[0].stats);
+  assert.deepEqual(next.maps.find(map => map.id === 'example-map'), original.maps[0]);
+  assert.deepEqual(next.maps.find(map => map.id === 'times-square').stats, { matches: 0 });
+  assert.equal(next.maps.find(map => map.id === 'times-square').classification, 'social');
+  assert.equal(next.meta.syncedAt, original.meta.syncedAt);
+  assert.equal(original.maps.length, 1);
+  assert.equal(normalizeData(feeds, catalog, { officialCatalog: official }).maps.length, 2);
+});
+
+test('Gorr official balance identity resolves history while conflicting cooldown provenance stays distinct', () => {
+  const { feeds, catalog } = fixture();
+  catalog.heroes.push({ name: 'Gorr', baseName: 'Gorr', role: 'Duelist' });
+  feeds.kits.heroes.Gorr = [{ name: 'Living Abyss', stats: [{ label: 'Cooldown', value: '13s' }] }];
+  feeds.patches.patches[0].sections.push({ hero: 'Gorr the God Butcher', scope: 'hero', label: 'Gorr the God Butcher', changes: [{ text: 'Reduce Living Abyss cooldown from 15s to 12s.', tag: 'buff' }] });
+  const data = normalizeData(feeds, catalog), gorr = data.heroes.find(hero => hero.name === 'Gorr');
+  assert.equal(gorr.balanceHistory.length, 1);
+  assert.equal(gorr.balanceHistory[0].changes[0].hero, 'Gorr');
+  assert.equal(gorr.balanceHistory[0].changes[0].sourceHero, 'Gorr the God Butcher');
+  const conflicts = parseGorrCooldownConflict('<h3>Living Abyss</h3><td>Cooldown</td><td>13s</td>', '<h1>Marvel Rivals Version 20261009 Balance Post</h1><p>Reduce Living Abyss cooldown from 15s to 12s.</p>', 'https://www.marvelrivals.com/gorr.html', 'https://www.marvelrivals.com/balance.html');
+  const next = applyOfficialCatalog(data, { maps: [], sourceConflicts: conflicts });
+  // Conflict application requires a verified catalog; a malformed empty catalog
+  // must not silently alter otherwise valid data.
+  assert.equal(next, data);
+  const enriched = applyOfficialCatalog(data, { maps: data.maps, heroes: [], sourceConflicts: conflicts }).heroes.find(hero => hero.name === 'Gorr');
+  assert.equal(enriched.abilities[0].stats[0].value, '13s');
+  assert.equal(enriched.sourceConflicts[0].patchValue, '12s');
+  assert.equal(enriched.sourceConflicts[0].effectiveDate, '2026-10-09');
+  assert.deepEqual(parseGorrCooldownConflict('Living Abyss Cooldown 12s', 'Version 20261009 Reduce Living Abyss cooldown from 15s to 12s.', 'hero', 'patch'), []);
+});
+
+test('official outage still materializes cached discoveries and repeated outages preserve bytes and timestamps', async () => {
+  const dir = await mkdtemp(join(tmpdir(), 'lucifer-official-outage-'));
+  try {
+    const catalogPath = join(dir, 'official.json'), dataPath = join(dir, 'siteData.json');
+    const data = normalizeData(...Object.values(fixture())), catalog = { schemaVersion: 1, updatedAt: '2026-10-15T00:00:00Z', heroes: [], sourceConflicts: [], maps: [{ id: 'god-quarry', name: 'God Quarry', image: 'https://www.marvelrivals.com/quarry.jpg', sourceUrl: 'https://www.marvelrivals.com/', catalogSource: 'official', modes: ['Domination'] }] };
+    await writeFile(catalogPath, JSON.stringify(catalog, null, 2) + '\n');
+    await writeFile(dataPath, JSON.stringify(data, null, 2) + '\n');
+    const fetchImpl = async () => new Response('', { status: 503 });
+    const result = await syncOfficialCatalog({ catalogPath, dataPath, fetchImpl });
+    assert.equal(result.catalogChanged, false);
+    assert.equal(result.siteChanged, true);
+    assert.equal(result.data.maps.length, 2);
+    assert.deepEqual(result.data.matches, data.matches);
+    assert.match(result.warnings[0], /cached verified catalog retained/);
+    const before = await readFile(dataPath, 'utf8'), beforeStat = await stat(dataPath);
+    const again = await syncOfficialCatalog({ catalogPath, dataPath, fetchImpl, now: '2026-10-17T00:00:00Z' });
+    assert.equal(again.changed, false);
+    assert.equal(await readFile(dataPath, 'utf8'), before);
+    assert.equal((await stat(dataPath)).mtimeMs, beforeStat.mtimeMs);
+  } finally { await rm(dir, { recursive: true, force: true }); }
+});
+
+test('unchanged successful official research does not generate timestamp-only commits', async () => {
+  const dir = await mkdtemp(join(tmpdir(), 'lucifer-official-stable-'));
+  try {
+    const catalogPath = join(dir, 'official.json'), dataPath = join(dir, 'siteData.json');
+    await writeFile(dataPath, JSON.stringify(normalizeData(...Object.values(fixture())), null, 2) + '\n');
+    const home = '<div class="part-maps">' + Array.from({ length: 20 }, (_, i) => `<div class="map-img"><img src="https://www.marvelrivals.com/map${i}.jpg"><h3>Map ${i}<a href="#"></a></h3></div>`).join('');
+    const heroes = Array.from({ length: 40 }, (_, i) => `<div class="heroNewsList"><a data-name="Hero ${i}" data-url="https://www.marvelrivals.com/hero${i}.html">${'<img src="https://www.marvelrivals.com/image.png">'.repeat(3)}</a></div>`).join('');
+    const layouts = Array.from({ length: 20 }, (_, i) => `<a href="/maps/map-${i}/">Map ${i}</a>`).join('');
+    const fetchImpl = async url => new Response(url === 'https://www.marvelrivals.com/' ? home : url === 'https://www.marvelrivals.com/heroes/' ? heroes : layouts);
+    await syncOfficialCatalog({ catalogPath, dataPath, fetchImpl, now: '2026-10-16T00:00:00Z' });
+    const before = await readFile(catalogPath, 'utf8'), beforeStat = await stat(catalogPath);
+    const result = await syncOfficialCatalog({ catalogPath, dataPath, fetchImpl, now: '2026-10-17T00:00:00Z' });
+    assert.equal(result.changed, false);
+    assert.equal(await readFile(catalogPath, 'utf8'), before);
+    assert.equal((await stat(catalogPath)).mtimeMs, beforeStat.mtimeMs);
+  } finally { await rm(dir, { recursive: true, force: true }); }
 });
