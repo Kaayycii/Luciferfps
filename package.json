@@ -11,6 +11,7 @@
     "sync": "node scripts/sync-data.mjs",
     "official:sync": "node scripts/sync-official-updates.mjs",
     "catalog:sync": "node scripts/official-catalog.mjs",
+    "competitive:sync": "node scripts/sync-competitive-results.mjs",
     "media:sync": "node scripts/image-assets.mjs",
     "media:check": "node scripts/check-media.mjs",
     "check": "node scripts/check-data.mjs",

@@ -47,12 +47,12 @@ The single structured store exports `meta`, `heroes`, `maps`, `matches`, `teams`
 - Bans retain source action type and side; save/lock actions must not be counted as bans. Draft formats differ by season. Draft-role A/B frequently differs from display team A/B, so action ownership follows the explicit `team_a_draft_role`/`team_b_draft_role` mapping. Missing ownership stays unknown.
 - Player statistics aggregate recorded appearances. A directory player without recorded match statistics has zero known appearances, not an invented performance history. Case-only raw aliases use the unique directory spelling and preserve `sourceName`/`aliases`; no broader identity aliases are inferred. Stable hash suffixes prevent remaining Unicode/name ID collisions.
 - Match wall-clock times have no published timezone. They are preserved without inventing a timezone conversion.
-- Streams are a snapshot. The 12-hour schedule does not make them live real-time data.
+- Streams are a snapshot. The Monday schedule does not make them live real-time data.
 - `teamUps` contains published hero/partner definitions. A hero pair appearing in a scoreboard does not prove that the team-up was selected, activated, or enhanced. The public composition detail projection reported temporary unavailability during the audit; its full-match fallback rejected public access. The available `teamUpSummary` is an upstream team-level aggregate with no individual selection identity and does not follow client-side filters.
 
 ## Automated refresh
 
-`.github/workflows/auto-update.yml` runs at `0 */12 * * *` (00:00 and 12:00 UTC) and supports **Run workflow**. GitHub may delay scheduled runs and can disable inactive repository schedules. Runs use a concurrency lock and read public API feeds sequentially to avoid overloading the community service.
+`.github/workflows/auto-update.yml` runs at `0 14 * * 1` (14:00 UTC on Mondays) and supports **Run workflow**. GitHub may delay scheduled runs and can disable inactive repository schedules. Runs use a concurrency lock and read public API feeds sequentially to avoid overloading the community service.
 
 The Node script uses timeouts, bounded response sizes, transient-error retries and schema checks. A failed fetch/parse/validation leaves the last good snapshot untouched. A greater-than-20% decrease in heroes, matches, teams, players, staff or team-up definitions fails for investigation. Updates use a temporary file and atomic rename. Comparison ignores retrieval timestamps, so unchanged content produces no rewrite or timestamp-only commit.
 

@@ -1,16 +1,20 @@
 # Lucifer.fps update policy
 
-The owner requested a research and publishing review every 12 hours. Keep the current grayscale map colors until the owner asks for a color pass.
+The owner requested a research and publishing review every Monday. On October 18, the owner authorized an immediate independent results refresh and a color pass for the tactical map layouts. Preserve verified geometry and markers, distinguish any illustrative palette from measured in-game materials, and retain an original-layout option.
 
 ## Scheduled website refresh
 
-The existing GitHub Actions updater runs at 00:00 and 12:00 UTC and can be run manually. It independently refreshes official article metadata and the official map/hero catalog, then refreshes the community competitive snapshot and bundled imagery. A community-source outage does not block official updates. Data checks, image checks, tests and a production build gate every automatic commit. Updates preserve previous valid content when a source fails and avoid timestamp-only commits.
+The existing GitHub Actions updater runs on Mondays at 14:00 UTC (`0 14 * * 1`) and can be run manually. It independently refreshes official article metadata and the official map/hero catalog, then refreshes the community competitive snapshot and bundled imagery. A community-source outage does not block official updates. Data checks, image checks, tests and a production build gate every automatic commit. Updates preserve previous valid content when a source fails and avoid timestamp-only commits.
 
-The workflow stages only `data/siteData.json`, `data/official-catalog.json`, `data/rivals-updates.json`, `data/asset-manifest.json` and `public/media`. It never force-pushes. A configured hosting deploy hook is called after a meaningful update; the existing Vercel Git integration also observes repository pushes. Confirm actual deployment rather than treating a successful fetch or commit as proof.
+The workflow independently refreshes `data/competitive-results.json` before attempting the older community feed. It stages that file, `data/siteData.json`, `data/official-catalog.json`, `data/rivals-updates.json`, `data/asset-manifest.json` and `public/media`. It never force-pushes. A configured hosting deploy hook is called after a meaningful update; the existing Vercel Git integration also observes repository pushes. Confirm actual deployment rather than treating a successful fetch or commit as proof.
 
 ## Research review
 
-A separate 12-hour Codex heartbeat in this chat reviews official game updates, balance posts, map/hero catalogs, ranked/gameplay rules and esports news. It maintains original, concise knowledge notes with primary URLs, publication/effective dates and review dates. The website scraper refreshes article metadata; it does not autonomously turn arbitrary article text into new mechanics or counter claims. Local research runs require the Codex application and this computer to be available; the GitHub workflow runs independently.
+A separate Monday Codex heartbeat in this chat, scheduled for 09:00 America/Chicago, reviews official game updates, balance posts, map/hero catalogs, ranked/gameplay rules and esports news. It maintains original, concise knowledge notes with primary URLs, publication/effective dates and review dates. The website scraper refreshes article metadata; it does not autonomously turn arbitrary article text into new mechanics or counter claims. Local research runs require the Codex application and this computer to be available; the GitHub workflow runs independently. These schedules replaced the previous twelve-hour cadence.
+
+## Independent competitive results
+
+The current tournament series archive is maintained separately from historical map-level scoreboards. Every result and fixture retains a direct source URL. Series wins, losses, form and win rates update together from the same series records. Player combat totals, hero picks and bans, map win rates, current rosters and transfers require their own published evidence; a series score alone cannot refresh them. Never merge a best-of-series score into the map archive or count a scheduled match as a completed result.
 
 Prioritize the current competition rather than leaving an old event permanently live. Event phase labels derive from the published date range. Distinguish a tournament's stated game version from the live client. Do not fabricate results, standings, counters, win rates, replay IDs or map geometry. A conflicting official value retains both sources until independently resolved.
 
