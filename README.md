@@ -1,6 +1,6 @@
 # Lucifer.fps
 
-Official game and esports updates now have a separate `/updates` page and homepage section. The 12-hour workflow refreshes official bulletin metadata and map catalogs independently of the competitive source. Reviewed knowledge notes retain their source and review dates. See [the update policy](docs/UPDATE-POLICY.md) for cadence, source conflicts and the recurring research review.
+Official game and esports updates now have a separate `/updates` page and homepage section. The Monday workflow refreshes official bulletin metadata and map catalogs independently of the competitive source. Reviewed knowledge notes retain their source and review dates. See [the update policy](docs/UPDATE-POLICY.md) for cadence, source conflicts and the recurring research review.
 
 Maintenance commands: `npm run official:sync` refreshes publisher bulletins; `npm run catalog:sync` refreshes and applies the official map catalog; `npm run sync` refreshes competitive records; `npm run media:sync` refreshes bundled artwork.
 
@@ -10,7 +10,7 @@ An original Marvel Rivals intelligence and practice platform built with React, V
 
 1. **Import this GitHub repository** into [Vercel](https://vercel.com/new) or [Netlify](https://app.netlify.com/start). Use the root directory, `npm run build`, and output directory `dist`. The included configuration selects these settings. Node 22.12+ is required. No environment variables are required for the core site.
 2. **Name the project `lucifer-fps` and deploy.** You receive a free provider subdomain, such as `lucifer-fps.vercel.app` or `lucifer-fps.netlify.app`, if that name is available. The brand is Lucifer.fps; an independently registered custom domain is a separate purchase. Free plans have usage limits and provider eligibility requirements. See [Vercel domains](https://vercel.com/docs/domains/working-with-domains) and [Netlify repository deployment](https://docs.netlify.com/start/quickstarts/deploy-from-repository/).
-3. **Enable GitHub Actions and run “Refresh public game data” once.** The workflow also runs at 00:00 and 12:00 UTC. To guarantee that data commits start a deployment, create a provider deploy/build hook and save it as the repository Actions secret `DEPLOY_HOOK_URL`. No hook is needed to build or browse the site. Never put the hook in a `VITE_` variable. Scheduled jobs and builds can be delayed; deployment is not instantaneous. See [GitHub scheduled events](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule) and [workflow triggering rules](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow).
+3. **Enable GitHub Actions and run “Refresh public game data” once.** The workflow also runs at 14:00 UTC on Mondays. To guarantee that data commits start a deployment, create a provider deploy/build hook and save it as the repository Actions secret `DEPLOY_HOOK_URL`. No hook is needed to build or browse the site. Never put the hook in a `VITE_` variable. Scheduled jobs and builds can be delayed; deployment is not instantaneous. See [GitHub scheduled events](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule) and [workflow triggering rules](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow).
 
 Vercel Hobby can restrict Git deployments based on commit authorship; using its deploy hook avoids relying on an automated data commit being treated as an owner-authored Git deployment. Check your provider's current free-plan terms before enabling automatic deployments.
 
@@ -49,7 +49,7 @@ npm run preview
 
 The complete reference deconstruction, implementation locations, adaptations and gaps are in [FEATURE-PARITY.md](docs/FEATURE-PARITY.md). This project does **not** claim a byte-for-byte mirror or exact 100% equivalence to inaccessible source internals. Reference publisher prose and identity are not republished wholesale; Lucifer.fps has original branding, layout and editorial content.
 
-## Data and 12-hour refresh
+## Data and Monday refresh
 
 Game imagery is bundled with the app in `public/media`, with verified source mappings and provenance in `data/asset-manifest.json`. Every indexed hero has local portrait/full artwork and every published ability has a real icon. All 17 map records include local scenery and published overhead layouts for the planner. Official tournament graphics supply verified team marks. Player photos and additional team marks are recovered only when their source is available; unrelated images are never presented as identity photos.
 
