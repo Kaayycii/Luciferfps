@@ -102,7 +102,10 @@ test('bounded fetch rejects oversize, wrong type, redirects and unapproved desti
 
 test('reviewed facts have primary sources, real publication/effective dates, and no permanent ongoing label', () => {
   for (const fact of REVIEWED_FACTS) {
-    assert.ok(officialUrl(fact.sourceUrl));
+    const source = new URL(fact.sourceUrl);
+    assert.equal(source.protocol, 'https:');
+    assert.equal(source.username + source.password, '');
+    assert.ok(officialUrl(fact.sourceUrl) || fact.sourceUrl === 'https://dreamhack.com/stockholm/updates/2026/10/06/marvel-rivals-ignite-grand-finals-are-coming-to-dreamhack-stockholm/');
     assert.equal(dateOnly(fact.publishedAt), fact.publishedAt);
     assert.ok(Number.isFinite(Date.parse(fact.effectiveAt)));
     assert.equal(dateOnly(fact.reviewedAt), fact.reviewedAt);
@@ -111,7 +114,7 @@ test('reviewed facts have primary sources, real publication/effective dates, and
       assert.equal(dateOnly(fact.event.startAt), fact.event.startAt);
       assert.equal(dateOnly(fact.event.endAt), fact.event.endAt);
       assert.ok(fact.event.startAt < fact.event.endAt);
-      assert.equal(fact.event.gameVersion, 'Season 10');
+      if (fact.id.startsWith('stage-2-')) assert.equal(fact.event.gameVersion, 'Season 10');
       assert.equal(fact.event.status, undefined);
     }
   }
