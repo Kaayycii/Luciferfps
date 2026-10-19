@@ -2,7 +2,7 @@
 
 Official game and esports updates now have a separate `/updates` page and homepage section. The Monday workflow refreshes official bulletin metadata and map catalogs independently of the competitive source. Reviewed knowledge notes retain their source and review dates. See [the update policy](docs/UPDATE-POLICY.md) for cadence, source conflicts and the recurring research review.
 
-Maintenance commands: `npm run official:sync` refreshes publisher bulletins; `npm run catalog:sync` refreshes and applies the official map catalog; `npm run sync` refreshes competitive records; `npm run media:sync` refreshes bundled artwork.
+Maintenance commands: `npm run official:sync` refreshes publisher bulletins; `npm run catalog:sync` refreshes and applies the official map catalog; `npm run competitive:sync` refreshes independent tournament results; `npm run sync` attempts the older detailed scoreboard feed; `npm run media:sync` refreshes bundled artwork.
 
 An original Marvel Rivals intelligence and practice platform built with React, Vite and Tailwind CSS. Obsidian surfaces, crimson and cyan accents, self-hosted fonts, compact mobile navigation, source-aware analytics and persistent tactical tools.
 
@@ -51,7 +51,7 @@ The complete reference deconstruction, implementation locations, adaptations and
 
 ## Data and Monday refresh
 
-Game imagery is bundled with the app in `public/media`, with verified source mappings and provenance in `data/asset-manifest.json`. Every indexed hero has local portrait/full artwork and every published ability has a real icon. All 17 map records include local scenery and published overhead layouts for the planner. Official tournament graphics supply verified team marks. Player photos and additional team marks are recovered only when their source is available; unrelated images are never presented as identity photos.
+Game imagery is bundled with the app in `public/media`, with verified source mappings and provenance in `data/asset-manifest.json`. Every indexed hero has local portrait/full artwork and every published ability has a real icon. All 24 map records include local scenery and published overhead layouts for the planner. Official tournament graphics supply verified team marks. Player photos and additional team marks are recovered only when their source is available; unrelated images are never presented as identity photos.
 
 `npm run media:check` verifies that the referenced image files exist and contain real image bytes. `npm run media:sync` maintains the public image catalog while retaining verified files on source failures. The regular build checks image coverage in GitHub Actions. The scheduled updater refreshes and commits image assets along with meaningful source data changes.
 
