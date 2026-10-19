@@ -96,8 +96,14 @@ export async function fetchOfficialIndex(url, { fetchImpl = fetch, timeoutMs = 2
 }
 
 // These are dated, manually reviewed notes, not generated opinions or copied articles.
-// Daily discovery updates article metadata. It never silently rewrites reviewed game facts.
+// Scheduled discovery updates article metadata. It never silently rewrites reviewed game facts.
 export const REVIEWED_FACTS = Object.freeze([
+  {
+    id: 'ignite-grand-finals-2026', title: 'IGNITE Grand Finals: Stockholm, November 23–29', category: 'esports',
+    summary: 'The event host announces the IGNITE Grand Finals for November 23–29 in Stockholm. DreamHack Stockholm hosts the public main stage on November 27–29. These are event dates, not individual match start times; the announcement does not specify the tournament game version.',
+    sourceUrl: 'https://dreamhack.com/stockholm/updates/2026/10/06/marvel-rivals-ignite-grand-finals-are-coming-to-dreamhack-stockholm/', publishedAt: '2026-10-06', effectiveAt: '2026-11-23', reviewedAt: '2026-10-19',
+    event: { startAt: '2026-11-23', endAt: '2026-11-29', datePrecision: 'day' },
+  },
   {
     id: 'patch-20261015', title: 'October 15 patch: hero fixes and map collisions', category: 'patches',
     summary: 'This patch fixes Jeff’s Blood Hunt Reservoir interaction, Black Widow’s excessive movement from Widow’s Bite Slam, and collision problems that could trap heroes. It also starts the Halloween event. No new balance table is published in these notes.',

@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T19:13:29.875Z",
-  "checkedAt": "2026-10-18T19:13:29.875Z",
-  "latestResultAt": "2026-10-18T15:00:00.000Z",
+  "updatedAt": "2026-10-19T14:06:39.069Z",
+  "checkedAt": "2026-10-19T14:06:39.069Z",
+  "latestResultAt": "2026-10-19T00:00:00.000Z",
   "coverage": {
     "event": "Marvel Rivals Ignite 2026 Stage 2",
-    "completedSeries": 178,
-    "scheduledSeries": 2,
-    "awaitingResultSeries": 1,
+    "completedSeries": 181,
+    "scheduledSeries": 0,
+    "awaitingResultSeries": 0,
     "teams": 48,
-    "mapResults": 389,
-    "throughDate": "2026-10-18",
+    "mapResults": 419,
+    "throughDate": "2026-10-19",
     "scope": "Published series results and available map scores only. This does not refresh player scoreboards, rosters, hero picks, bans or ranked statistics.",
     "attribution": "Match facts: Esports Watch Guide / Liquipedia, CC BY-SA 3.0. Structured and deduplicated by Lucifer.fps.",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
@@ -53,33 +53,48 @@
       "label": "Ignite 2026 Stage 2 · Pacific Asia",
       "region": "Asia",
       "url": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/",
-      "state": "ok",
-      "rejectedRows": 0
+      "state": "last-good",
+      "error": "pacific-asia: results page contract changed"
     }
   ],
-  "corroboration": [],
+  "corroboration": [
+    {
+      "sourceUrl": "https://navi.gg/en/publications/navi-ignite-s2-emea-champions",
+      "publishedAt": "2026-10-18",
+      "reviewedAt": "2026-10-19",
+      "scope": "NAVI official championship report confirms Natus Vincere 4–1 Virtus.pro in the EMEA final. It does not supply individual scoreboards or the Americas final map breakdown."
+    }
+  ],
   "sourceSnapshots": {
     "americas": [
       {
-        "id": "ignite26-64816135ea6c31ff21",
+        "id": "ignite26-db7276bdfb3efa1eb7",
         "date": "2026-10-19",
         "scheduledAt": "2026-10-19T00:00:00.000Z",
         "teamA": "Team Liquid Citadel",
-        "teamB": "TBD",
+        "teamB": "FlyQuest",
         "teamAId": "tlc",
-        "teamBId": "tbd",
-        "scoreA": null,
-        "scoreB": null,
-        "winner": null,
-        "status": "scheduled",
+        "teamBId": "flyquest",
+        "scoreA": 4,
+        "scoreB": 2,
+        "winner": "Team Liquid Citadel",
+        "status": "completed",
         "bestOf": 7,
         "event": "Ignite 2026 Stage 2 · Americas",
         "region": "NA",
         "stage": "Playoffs",
-        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-americas/#schedule",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-americas/#results",
         "sourceId": "americas",
         "vodUrl": null,
-        "maps": [],
+        "maps": [
+          {
+            "name": "Hell's Heaven",
+            "mapId": "hell-s-heaven",
+            "scoreA": 1,
+            "scoreB": 2,
+            "winner": "FlyQuest"
+          }
+        ],
         "breakdownComplete": false
       },
       {
@@ -90,19 +105,55 @@
         "teamB": "Swamp Gaming",
         "teamAId": "flyquest",
         "teamBId": "swamp",
-        "scoreA": null,
-        "scoreB": null,
-        "winner": null,
-        "status": "scheduled",
+        "scoreA": 3,
+        "scoreB": 2,
+        "winner": "FlyQuest",
+        "status": "completed",
         "bestOf": 5,
         "event": "Ignite 2026 Stage 2 · Americas",
         "region": "NA",
         "stage": "Playoffs",
-        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-americas/#schedule",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-americas/#results",
         "sourceId": "americas",
         "vodUrl": null,
-        "maps": [],
-        "breakdownComplete": false
+        "maps": [
+          {
+            "name": "God Quarry",
+            "mapId": "god-quarry",
+            "scoreA": 2,
+            "scoreB": 1,
+            "winner": "FlyQuest"
+          },
+          {
+            "name": "Symbiotic Surface",
+            "mapId": "symbiotic-surface",
+            "scoreA": 3,
+            "scoreB": 2,
+            "winner": "FlyQuest"
+          },
+          {
+            "name": "Thebes",
+            "mapId": "thebes",
+            "scoreA": 0,
+            "scoreB": 2,
+            "winner": "Swamp Gaming"
+          },
+          {
+            "name": "Heart of Heaven",
+            "mapId": "heart-of-heaven",
+            "scoreA": 3,
+            "scoreB": 4,
+            "winner": "Swamp Gaming"
+          },
+          {
+            "name": "Midtown",
+            "mapId": "midtown",
+            "scoreA": 3,
+            "scoreB": 2,
+            "winner": "FlyQuest"
+          }
+        ],
+        "breakdownComplete": true
       },
       {
         "id": "ignite26-581d2c3a300bae65ad",
@@ -1877,19 +1928,55 @@
         "teamB": "Virtus.pro",
         "teamAId": "navi",
         "teamBId": "virtus_pro",
-        "scoreA": null,
-        "scoreB": null,
-        "winner": null,
-        "status": "awaiting-result",
+        "scoreA": 4,
+        "scoreB": 1,
+        "winner": "Natus Vincere",
+        "status": "completed",
         "bestOf": 7,
         "event": "Ignite 2026 Stage 2 · EMEA",
         "region": "EU",
         "stage": "Playoffs",
-        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-emea/#schedule",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-emea/#results",
         "sourceId": "emea",
         "vodUrl": null,
-        "maps": [],
-        "breakdownComplete": false
+        "maps": [
+          {
+            "name": "Hell's Heaven",
+            "mapId": "hell-s-heaven",
+            "scoreA": 2,
+            "scoreB": 0,
+            "winner": "Natus Vincere"
+          },
+          {
+            "name": "Yggdrasill Path",
+            "mapId": "yggdrasill-path",
+            "scoreA": 3,
+            "scoreB": 2,
+            "winner": "Natus Vincere"
+          },
+          {
+            "name": "Heart of Heaven",
+            "mapId": "heart-of-heaven",
+            "scoreA": 1,
+            "scoreB": 0,
+            "winner": "Natus Vincere"
+          },
+          {
+            "name": "Krakoa",
+            "mapId": "krakoa",
+            "scoreA": 1,
+            "scoreB": 2,
+            "winner": "Virtus.pro"
+          },
+          {
+            "name": "Museum of Contemplation",
+            "mapId": "museum-of-contemplation",
+            "scoreA": 2,
+            "scoreB": 1,
+            "winner": "Natus Vincere"
+          }
+        ],
+        "breakdownComplete": true
       },
       {
         "id": "ignite26-e87fc94e71188442d0",
@@ -2208,31 +2295,9 @@
         "stage": "Playoffs",
         "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-emea/#results",
         "sourceId": "emea",
-        "vodUrl": "https://youtu.be/hUdSZcPt634?t=12791",
-        "maps": [
-          {
-            "name": "Birnin T'Challa",
-            "mapId": "birnin-t-challa",
-            "scoreA": 0,
-            "scoreB": 2,
-            "winner": "Team Heretics"
-          },
-          {
-            "name": "Yggdrasill Path",
-            "mapId": "yggdrasill-path",
-            "scoreA": 1,
-            "scoreB": 2,
-            "winner": "Team Heretics"
-          },
-          {
-            "name": "Central Park",
-            "mapId": "central-park",
-            "scoreA": 0,
-            "scoreB": 1,
-            "winner": "Team Heretics"
-          }
-        ],
-        "breakdownComplete": true
+        "vodUrl": null,
+        "maps": [],
+        "breakdownComplete": false
       },
       {
         "id": "ignite26-1fe8b760cf20b34504",
@@ -2479,31 +2544,9 @@
         "stage": "Playoffs",
         "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-emea/#results",
         "sourceId": "emea",
-        "vodUrl": "https://youtu.be/-BSxS-erQok?t=2953",
-        "maps": [
-          {
-            "name": "Birnin T'Challa",
-            "mapId": "birnin-t-challa",
-            "scoreA": 2,
-            "scoreB": 0,
-            "winner": "Natus Vincere"
-          },
-          {
-            "name": "Yggdrasill Path",
-            "mapId": "yggdrasill-path",
-            "scoreA": 2,
-            "scoreB": 1,
-            "winner": "Natus Vincere"
-          },
-          {
-            "name": "Central Park",
-            "mapId": "central-park",
-            "scoreA": 1,
-            "scoreB": 0,
-            "winner": "Natus Vincere"
-          }
-        ],
-        "breakdownComplete": true
+        "vodUrl": null,
+        "maps": [],
+        "breakdownComplete": false
       },
       {
         "id": "ignite26-ce0b6a85f5200aebee",
@@ -5450,8 +5493,23 @@
         "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
         "sourceId": "pacific",
         "vodUrl": null,
-        "maps": [],
-        "breakdownComplete": false
+        "maps": [
+          {
+            "name": "Birnin T'Challa",
+            "mapId": "birnin-t-challa",
+            "scoreA": 2,
+            "scoreB": 0,
+            "winner": "Zero Tenacity"
+          },
+          {
+            "name": "Midtown",
+            "mapId": "midtown",
+            "scoreA": 3,
+            "scoreB": 0,
+            "winner": "Zero Tenacity"
+          }
+        ],
+        "breakdownComplete": true
       },
       {
         "id": "ignite26-c9b72157ae48f77527",
@@ -5472,8 +5530,23 @@
         "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
         "sourceId": "pacific",
         "vodUrl": null,
-        "maps": [],
-        "breakdownComplete": false
+        "maps": [
+          {
+            "name": "Birnin T'Challa",
+            "mapId": "birnin-t-challa",
+            "scoreA": 2,
+            "scoreB": 0,
+            "winner": "AAAd"
+          },
+          {
+            "name": "Arakko",
+            "mapId": "arakko",
+            "scoreA": 3,
+            "scoreB": 2,
+            "winner": "AAAd"
+          }
+        ],
+        "breakdownComplete": true
       },
       {
         "id": "ignite26-c22b1ad48e4dc9f55f",
@@ -5494,8 +5567,23 @@
         "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
         "sourceId": "pacific",
         "vodUrl": null,
-        "maps": [],
-        "breakdownComplete": false
+        "maps": [
+          {
+            "name": "Birnin T'Challa",
+            "mapId": "birnin-t-challa",
+            "scoreA": 2,
+            "scoreB": 0,
+            "winner": "REJECT"
+          },
+          {
+            "name": "Central Park",
+            "mapId": "central-park",
+            "scoreA": 1,
+            "scoreB": 0,
+            "winner": "REJECT"
+          }
+        ],
+        "breakdownComplete": true
       },
       {
         "id": "ignite26-e6e150ec06214b3e38",
@@ -5516,8 +5604,23 @@
         "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
         "sourceId": "pacific",
         "vodUrl": null,
-        "maps": [],
-        "breakdownComplete": false
+        "maps": [
+          {
+            "name": "Celestial Husk",
+            "mapId": "celestial-husk",
+            "scoreA": 0,
+            "scoreB": 2,
+            "winner": "XOXO01"
+          },
+          {
+            "name": "Central Park",
+            "mapId": "central-park",
+            "scoreA": 0,
+            "scoreB": 1,
+            "winner": "XOXO01"
+          }
+        ],
+        "breakdownComplete": true
       },
       {
         "id": "ignite26-3a71d455d287001e79",
@@ -5538,8 +5641,23 @@
         "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
         "sourceId": "pacific",
         "vodUrl": null,
-        "maps": [],
-        "breakdownComplete": false
+        "maps": [
+          {
+            "name": "Birnin T'Challa",
+            "mapId": "birnin-t-challa",
+            "scoreA": 2,
+            "scoreB": 0,
+            "winner": "Zero Tenacity"
+          },
+          {
+            "name": "Museum of Contemplation",
+            "mapId": "museum-of-contemplation",
+            "scoreA": 4,
+            "scoreB": 3,
+            "winner": "Zero Tenacity"
+          }
+        ],
+        "breakdownComplete": true
       },
       {
         "id": "ignite26-310a123f6df9710553",
@@ -5560,8 +5678,23 @@
         "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
         "sourceId": "pacific",
         "vodUrl": null,
-        "maps": [],
-        "breakdownComplete": false
+        "maps": [
+          {
+            "name": "Krakoa",
+            "mapId": "krakoa",
+            "scoreA": 2,
+            "scoreB": 0,
+            "winner": "XOXO01"
+          },
+          {
+            "name": "Arakko",
+            "mapId": "arakko",
+            "scoreA": 3,
+            "scoreB": 0,
+            "winner": "XOXO01"
+          }
+        ],
+        "breakdownComplete": true
       },
       {
         "id": "ignite26-70ebcc3f8343ff9aae",
@@ -5582,8 +5715,23 @@
         "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
         "sourceId": "pacific",
         "vodUrl": null,
-        "maps": [],
-        "breakdownComplete": false
+        "maps": [
+          {
+            "name": "Hell's Heaven",
+            "mapId": "hell-s-heaven",
+            "scoreA": 0,
+            "scoreB": 2,
+            "winner": "The Shawrmaz"
+          },
+          {
+            "name": "Midtown",
+            "mapId": "midtown",
+            "scoreA": 1,
+            "scoreB": 2,
+            "winner": "The Shawrmaz"
+          }
+        ],
+        "breakdownComplete": true
       },
       {
         "id": "ignite26-2d082c1b6ba0573759",
@@ -5604,8 +5752,23 @@
         "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
         "sourceId": "pacific",
         "vodUrl": null,
-        "maps": [],
-        "breakdownComplete": false
+        "maps": [
+          {
+            "name": "Birnin T'Challa",
+            "mapId": "birnin-t-challa",
+            "scoreA": 0,
+            "scoreB": 2,
+            "winner": "Zero Tenacity"
+          },
+          {
+            "name": "Central Park",
+            "mapId": "central-park",
+            "scoreA": 2,
+            "scoreB": 3,
+            "winner": "Zero Tenacity"
+          }
+        ],
+        "breakdownComplete": true
       },
       {
         "id": "ignite26-92f470f83f09a976d2",
@@ -5626,8 +5789,23 @@
         "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
         "sourceId": "pacific",
         "vodUrl": null,
-        "maps": [],
-        "breakdownComplete": false
+        "maps": [
+          {
+            "name": "Hell's Heaven",
+            "mapId": "hell-s-heaven",
+            "scoreA": 2,
+            "scoreB": 0,
+            "winner": "REJECT"
+          },
+          {
+            "name": "Museum of Contemplation",
+            "mapId": "museum-of-contemplation",
+            "scoreA": 2,
+            "scoreB": 1,
+            "winner": "REJECT"
+          }
+        ],
+        "breakdownComplete": true
       },
       {
         "id": "ignite26-6d9efc01873183a281",
@@ -5648,8 +5826,710 @@
         "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
         "sourceId": "pacific",
         "vodUrl": null,
-        "maps": [],
-        "breakdownComplete": false
+        "maps": [
+          {
+            "name": "Celestial Husk",
+            "mapId": "celestial-husk",
+            "scoreA": 2,
+            "scoreB": 0,
+            "winner": "XOXO01"
+          },
+          {
+            "name": "Thebes",
+            "mapId": "thebes",
+            "scoreA": 1,
+            "scoreB": 0,
+            "winner": "XOXO01"
+          }
+        ],
+        "breakdownComplete": true
+      },
+      {
+        "id": "ignite26-82992ac88df2759938",
+        "date": "2026-10-02",
+        "scheduledAt": "2026-10-02T12:30:00.000Z",
+        "teamA": "REJECT",
+        "teamB": "The Shawrmaz",
+        "teamAId": "reject",
+        "teamBId": "the_shawrmaz",
+        "scoreA": 2,
+        "scoreB": 1,
+        "winner": "REJECT",
+        "status": "completed",
+        "bestOf": 3,
+        "event": "Ignite 2026 Stage 2 · Pacific",
+        "region": "Pacific",
+        "stage": "Asia regional",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+        "sourceId": "pacific",
+        "vodUrl": null,
+        "maps": [
+          {
+            "name": "Krakoa",
+            "mapId": "krakoa",
+            "scoreA": 2,
+            "scoreB": 1,
+            "winner": "REJECT"
+          },
+          {
+            "name": "Arakko",
+            "mapId": "arakko",
+            "scoreA": 2,
+            "scoreB": 3,
+            "winner": "The Shawrmaz"
+          },
+          {
+            "name": "Central Park",
+            "mapId": "central-park",
+            "scoreA": 3,
+            "scoreB": 1,
+            "winner": "REJECT"
+          }
+        ],
+        "breakdownComplete": true
+      },
+      {
+        "id": "ignite26-ff89a24b6392f3db0a",
+        "date": "2026-10-02",
+        "scheduledAt": "2026-10-02T11:00:00.000Z",
+        "teamA": "Planet Sainage PAC",
+        "teamB": "Loyalty",
+        "teamAId": "planet_sainage_pac",
+        "teamBId": "loyalty",
+        "scoreA": 2,
+        "scoreB": 0,
+        "winner": "Planet Sainage PAC",
+        "status": "completed",
+        "bestOf": 3,
+        "event": "Ignite 2026 Stage 2 · Pacific",
+        "region": "Pacific",
+        "stage": "Asia regional",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+        "sourceId": "pacific",
+        "vodUrl": null,
+        "maps": [
+          {
+            "name": "Krakoa",
+            "mapId": "krakoa",
+            "scoreA": 2,
+            "scoreB": 1,
+            "winner": "Planet Sainage PAC"
+          },
+          {
+            "name": "Museum of Contemplation",
+            "mapId": "museum-of-contemplation",
+            "scoreA": 1,
+            "scoreB": 0,
+            "winner": "Planet Sainage PAC"
+          }
+        ],
+        "breakdownComplete": true
+      },
+      {
+        "id": "ignite26-c2346a2917e869a7e4",
+        "date": "2026-10-02",
+        "scheduledAt": "2026-10-02T09:30:00.000Z",
+        "teamA": "BiharKeLonde",
+        "teamB": "AAAd",
+        "teamAId": "biharkelonde",
+        "teamBId": "aaad",
+        "scoreA": 0,
+        "scoreB": 2,
+        "winner": "AAAd",
+        "status": "completed",
+        "bestOf": 3,
+        "event": "Ignite 2026 Stage 2 · Pacific",
+        "region": "Pacific",
+        "stage": "Asia regional",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+        "sourceId": "pacific",
+        "vodUrl": null,
+        "maps": [
+          {
+            "name": "Celestial Husk",
+            "mapId": "celestial-husk",
+            "scoreA": 1,
+            "scoreB": 2,
+            "winner": "AAAd"
+          },
+          {
+            "name": "Spider-Islands",
+            "mapId": "spider-islands",
+            "scoreA": 0,
+            "scoreB": 1,
+            "winner": "AAAd"
+          }
+        ],
+        "breakdownComplete": true
+      },
+      {
+        "id": "ignite26-8d0c09840c48263100",
+        "date": "2026-10-02",
+        "scheduledAt": "2026-10-02T08:00:00.000Z",
+        "teamA": "XOXO01",
+        "teamB": "Zero Tenacity",
+        "teamAId": "xoxo01",
+        "teamBId": "zero_tenacity",
+        "scoreA": 0,
+        "scoreB": 2,
+        "winner": "Zero Tenacity",
+        "status": "completed",
+        "bestOf": 3,
+        "event": "Ignite 2026 Stage 2 · Pacific",
+        "region": "Pacific",
+        "stage": "Asia regional",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+        "sourceId": "pacific",
+        "vodUrl": null,
+        "maps": [
+          {
+            "name": "Krakoa",
+            "mapId": "krakoa",
+            "scoreA": 0,
+            "scoreB": 2,
+            "winner": "Zero Tenacity"
+          },
+          {
+            "name": "Thebes",
+            "mapId": "thebes",
+            "scoreA": 1,
+            "scoreB": 2,
+            "winner": "Zero Tenacity"
+          }
+        ],
+        "breakdownComplete": true
+      },
+      {
+        "id": "ignite26-5f5ec186e5e9f513df",
+        "date": "2026-09-27",
+        "scheduledAt": "2026-09-27T12:00:00.000Z",
+        "teamA": "Zero Tenacity",
+        "teamB": "The Shawrmaz",
+        "teamAId": "zero_tenacity",
+        "teamBId": "the_shawrmaz",
+        "scoreA": 2,
+        "scoreB": 0,
+        "winner": "Zero Tenacity",
+        "status": "completed",
+        "bestOf": 3,
+        "event": "Ignite 2026 Stage 2 · Pacific",
+        "region": "Pacific",
+        "stage": "Asia regional",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+        "sourceId": "pacific",
+        "vodUrl": null,
+        "maps": [
+          {
+            "name": "Hell's Heaven",
+            "mapId": "hell-s-heaven",
+            "scoreA": 2,
+            "scoreB": 0,
+            "winner": "Zero Tenacity"
+          },
+          {
+            "name": "Arakko",
+            "mapId": "arakko",
+            "scoreA": 1,
+            "scoreB": 0,
+            "winner": "Zero Tenacity"
+          }
+        ],
+        "breakdownComplete": true
+      },
+      {
+        "id": "ignite26-a65deefffeaa6776cd",
+        "date": "2026-09-27",
+        "scheduledAt": "2026-09-27T10:30:00.000Z",
+        "teamA": "Loyalty",
+        "teamB": "AAAd",
+        "teamAId": "loyalty",
+        "teamBId": "aaad",
+        "scoreA": 0,
+        "scoreB": 2,
+        "winner": "AAAd",
+        "status": "completed",
+        "bestOf": 3,
+        "event": "Ignite 2026 Stage 2 · Pacific",
+        "region": "Pacific",
+        "stage": "Asia regional",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+        "sourceId": "pacific",
+        "vodUrl": null,
+        "maps": [
+          {
+            "name": "Krakoa",
+            "mapId": "krakoa",
+            "scoreA": 0,
+            "scoreB": 2,
+            "winner": "AAAd"
+          },
+          {
+            "name": "Museum of Contemplation",
+            "mapId": "museum-of-contemplation",
+            "scoreA": 0,
+            "scoreB": 2,
+            "winner": "AAAd"
+          }
+        ],
+        "breakdownComplete": true
+      },
+      {
+        "id": "ignite26-ea000949022e742052",
+        "date": "2026-09-27",
+        "scheduledAt": "2026-09-27T09:00:00.000Z",
+        "teamA": "Planet Sainage PAC",
+        "teamB": "BiharKeLonde",
+        "teamAId": "planet_sainage_pac",
+        "teamBId": "biharkelonde",
+        "scoreA": 2,
+        "scoreB": 0,
+        "winner": "Planet Sainage PAC",
+        "status": "completed",
+        "bestOf": 3,
+        "event": "Ignite 2026 Stage 2 · Pacific",
+        "region": "Pacific",
+        "stage": "Asia regional",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+        "sourceId": "pacific",
+        "vodUrl": null,
+        "maps": [
+          {
+            "name": "Krakoa",
+            "mapId": "krakoa",
+            "scoreA": 2,
+            "scoreB": 0,
+            "winner": "Planet Sainage PAC"
+          },
+          {
+            "name": "Heart of Heaven",
+            "mapId": "heart-of-heaven",
+            "scoreA": 2,
+            "scoreB": 0,
+            "winner": "Planet Sainage PAC"
+          }
+        ],
+        "breakdownComplete": true
+      },
+      {
+        "id": "ignite26-64707f24e9a832389d",
+        "date": "2026-09-27",
+        "scheduledAt": "2026-09-27T07:30:00.000Z",
+        "teamA": "XOXO01",
+        "teamB": "REJECT",
+        "teamAId": "xoxo01",
+        "teamBId": "reject",
+        "scoreA": 1,
+        "scoreB": 2,
+        "winner": "REJECT",
+        "status": "completed",
+        "bestOf": 3,
+        "event": "Ignite 2026 Stage 2 · Pacific",
+        "region": "Pacific",
+        "stage": "Asia regional",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+        "sourceId": "pacific",
+        "vodUrl": null,
+        "maps": [
+          {
+            "name": "Hell's Heaven",
+            "mapId": "hell-s-heaven",
+            "scoreA": 0,
+            "scoreB": 2,
+            "winner": "REJECT"
+          },
+          {
+            "name": "Thebes",
+            "mapId": "thebes",
+            "scoreA": 2,
+            "scoreB": 1,
+            "winner": "XOXO01"
+          },
+          {
+            "name": "Central Park",
+            "mapId": "central-park",
+            "scoreA": 1,
+            "scoreB": 3,
+            "winner": "REJECT"
+          }
+        ],
+        "breakdownComplete": true
+      },
+      {
+        "id": "ignite26-2e2e8fb312903a0175",
+        "date": "2026-09-27",
+        "scheduledAt": "2026-09-27T06:00:00.000Z",
+        "teamA": "Loyalty",
+        "teamB": "The Shawrmaz",
+        "teamAId": "loyalty",
+        "teamBId": "the_shawrmaz",
+        "scoreA": 0,
+        "scoreB": 2,
+        "winner": "The Shawrmaz",
+        "status": "completed",
+        "bestOf": 3,
+        "event": "Ignite 2026 Stage 2 · Pacific",
+        "region": "Pacific",
+        "stage": "Asia regional",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+        "sourceId": "pacific",
+        "vodUrl": null,
+        "maps": [
+          {
+            "name": "Birnin T'Challa",
+            "mapId": "birnin-t-challa",
+            "scoreA": 0,
+            "scoreB": 2,
+            "winner": "The Shawrmaz"
+          },
+          {
+            "name": "Museum of Contemplation",
+            "mapId": "museum-of-contemplation",
+            "scoreA": 1,
+            "scoreB": 2,
+            "winner": "The Shawrmaz"
+          }
+        ],
+        "breakdownComplete": true
+      },
+      {
+        "id": "ignite26-3c81a707b42ad25801",
+        "date": "2026-09-26",
+        "scheduledAt": "2026-09-26T12:00:00.000Z",
+        "teamA": "Planet Sainage PAC",
+        "teamB": "AAAd",
+        "teamAId": "planet_sainage_pac",
+        "teamBId": "aaad",
+        "scoreA": 0,
+        "scoreB": 2,
+        "winner": "AAAd",
+        "status": "completed",
+        "bestOf": 3,
+        "event": "Ignite 2026 Stage 2 · Pacific",
+        "region": "Pacific",
+        "stage": "Asia regional",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+        "sourceId": "pacific",
+        "vodUrl": null,
+        "maps": [
+          {
+            "name": "Celestial Husk",
+            "mapId": "celestial-husk",
+            "scoreA": 1,
+            "scoreB": 2,
+            "winner": "AAAd"
+          },
+          {
+            "name": "Museum of Contemplation",
+            "mapId": "museum-of-contemplation",
+            "scoreA": 2,
+            "scoreB": 3,
+            "winner": "AAAd"
+          }
+        ],
+        "breakdownComplete": true
+      },
+      {
+        "id": "ignite26-9407f512fd30868b06",
+        "date": "2026-09-26",
+        "scheduledAt": "2026-09-26T10:30:00.000Z",
+        "teamA": "Zero Tenacity",
+        "teamB": "REJECT",
+        "teamAId": "zero_tenacity",
+        "teamBId": "reject",
+        "scoreA": 0,
+        "scoreB": 2,
+        "winner": "REJECT",
+        "status": "completed",
+        "bestOf": 3,
+        "event": "Ignite 2026 Stage 2 · Pacific",
+        "region": "Pacific",
+        "stage": "Asia regional",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+        "sourceId": "pacific",
+        "vodUrl": null,
+        "maps": [
+          {
+            "name": "Krakoa",
+            "mapId": "krakoa",
+            "scoreA": 1,
+            "scoreB": 2,
+            "winner": "REJECT"
+          },
+          {
+            "name": "Museum of Contemplation",
+            "mapId": "museum-of-contemplation",
+            "scoreA": 1,
+            "scoreB": 3,
+            "winner": "REJECT"
+          }
+        ],
+        "breakdownComplete": true
+      },
+      {
+        "id": "ignite26-6b6daf0ce3508c2988",
+        "date": "2026-09-26",
+        "scheduledAt": "2026-09-26T09:00:00.000Z",
+        "teamA": "XOXO01",
+        "teamB": "The Shawrmaz",
+        "teamAId": "xoxo01",
+        "teamBId": "the_shawrmaz",
+        "scoreA": 2,
+        "scoreB": 0,
+        "winner": "XOXO01",
+        "status": "completed",
+        "bestOf": 3,
+        "event": "Ignite 2026 Stage 2 · Pacific",
+        "region": "Pacific",
+        "stage": "Asia regional",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+        "sourceId": "pacific",
+        "vodUrl": null,
+        "maps": [
+          {
+            "name": "Birnin T'Challa",
+            "mapId": "birnin-t-challa",
+            "scoreA": 2,
+            "scoreB": 0,
+            "winner": "XOXO01"
+          },
+          {
+            "name": "Museum of Contemplation",
+            "mapId": "museum-of-contemplation",
+            "scoreA": 2,
+            "scoreB": 1,
+            "winner": "XOXO01"
+          }
+        ],
+        "breakdownComplete": true
+      },
+      {
+        "id": "ignite26-5faeef93716c991528",
+        "date": "2026-09-26",
+        "scheduledAt": "2026-09-26T07:30:00.000Z",
+        "teamA": "Loyalty",
+        "teamB": "BiharKeLonde",
+        "teamAId": "loyalty",
+        "teamBId": "biharkelonde",
+        "scoreA": 2,
+        "scoreB": 0,
+        "winner": "Loyalty",
+        "status": "completed",
+        "bestOf": 3,
+        "event": "Ignite 2026 Stage 2 · Pacific",
+        "region": "Pacific",
+        "stage": "Asia regional",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+        "sourceId": "pacific",
+        "vodUrl": null,
+        "maps": [
+          {
+            "name": "Birnin T'Challa",
+            "mapId": "birnin-t-challa",
+            "scoreA": 2,
+            "scoreB": 0,
+            "winner": "Loyalty"
+          },
+          {
+            "name": "Midtown",
+            "mapId": "midtown",
+            "scoreA": 1,
+            "scoreB": 0,
+            "winner": "Loyalty"
+          }
+        ],
+        "breakdownComplete": true
+      },
+      {
+        "id": "ignite26-cafbb4706e673342ff",
+        "date": "2026-09-26",
+        "scheduledAt": "2026-09-26T06:00:00.000Z",
+        "teamA": "Planet Sainage PAC",
+        "teamB": "REJECT",
+        "teamAId": "planet_sainage_pac",
+        "teamBId": "reject",
+        "scoreA": 0,
+        "scoreB": 2,
+        "winner": "REJECT",
+        "status": "completed",
+        "bestOf": 3,
+        "event": "Ignite 2026 Stage 2 · Pacific",
+        "region": "Pacific",
+        "stage": "Asia regional",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+        "sourceId": "pacific",
+        "vodUrl": null,
+        "maps": [
+          {
+            "name": "Krakoa",
+            "mapId": "krakoa",
+            "scoreA": 0,
+            "scoreB": 2,
+            "winner": "REJECT"
+          },
+          {
+            "name": "Museum of Contemplation",
+            "mapId": "museum-of-contemplation",
+            "scoreA": 0,
+            "scoreB": 1,
+            "winner": "REJECT"
+          }
+        ],
+        "breakdownComplete": true
+      },
+      {
+        "id": "ignite26-7975a133fed101df7d",
+        "date": "2026-09-25",
+        "scheduledAt": "2026-09-25T12:30:00.000Z",
+        "teamA": "Zero Tenacity",
+        "teamB": "BiharKeLonde",
+        "teamAId": "zero_tenacity",
+        "teamBId": "biharkelonde",
+        "scoreA": 2,
+        "scoreB": 0,
+        "winner": "Zero Tenacity",
+        "status": "completed",
+        "bestOf": 3,
+        "event": "Ignite 2026 Stage 2 · Pacific",
+        "region": "Pacific",
+        "stage": "Asia regional",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+        "sourceId": "pacific",
+        "vodUrl": null,
+        "maps": [
+          {
+            "name": "Krakoa",
+            "mapId": "krakoa",
+            "scoreA": 2,
+            "scoreB": 0,
+            "winner": "Zero Tenacity"
+          },
+          {
+            "name": "Central Park",
+            "mapId": "central-park",
+            "scoreA": 3,
+            "scoreB": 0,
+            "winner": "Zero Tenacity"
+          }
+        ],
+        "breakdownComplete": true
+      },
+      {
+        "id": "ignite26-eda20fc4a3d2d0e886",
+        "date": "2026-09-25",
+        "scheduledAt": "2026-09-25T11:00:00.000Z",
+        "teamA": "XOXO01",
+        "teamB": "AAAd",
+        "teamAId": "xoxo01",
+        "teamBId": "aaad",
+        "scoreA": 2,
+        "scoreB": 0,
+        "winner": "XOXO01",
+        "status": "completed",
+        "bestOf": 3,
+        "event": "Ignite 2026 Stage 2 · Pacific",
+        "region": "Pacific",
+        "stage": "Asia regional",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+        "sourceId": "pacific",
+        "vodUrl": null,
+        "maps": [
+          {
+            "name": "Birnin T'Challa",
+            "mapId": "birnin-t-challa",
+            "scoreA": 2,
+            "scoreB": 0,
+            "winner": "XOXO01"
+          },
+          {
+            "name": "Museum of Contemplation",
+            "mapId": "museum-of-contemplation",
+            "scoreA": 2,
+            "scoreB": 1,
+            "winner": "XOXO01"
+          }
+        ],
+        "breakdownComplete": true
+      },
+      {
+        "id": "ignite26-495d4909a9b527d8a1",
+        "date": "2026-09-25",
+        "scheduledAt": "2026-09-25T09:30:00.000Z",
+        "teamA": "Loyalty",
+        "teamB": "REJECT",
+        "teamAId": "loyalty",
+        "teamBId": "reject",
+        "scoreA": 0,
+        "scoreB": 2,
+        "winner": "REJECT",
+        "status": "completed",
+        "bestOf": 3,
+        "event": "Ignite 2026 Stage 2 · Pacific",
+        "region": "Pacific",
+        "stage": "Asia regional",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+        "sourceId": "pacific",
+        "vodUrl": null,
+        "maps": [
+          {
+            "name": "Birnin T'Challa",
+            "mapId": "birnin-t-challa",
+            "scoreA": 0,
+            "scoreB": 2,
+            "winner": "REJECT"
+          },
+          {
+            "name": "Museum of Contemplation",
+            "mapId": "museum-of-contemplation",
+            "scoreA": 0,
+            "scoreB": 3,
+            "winner": "REJECT"
+          }
+        ],
+        "breakdownComplete": true
+      },
+      {
+        "id": "ignite26-842290ffa8a129668b",
+        "date": "2026-09-25",
+        "scheduledAt": "2026-09-25T08:00:00.000Z",
+        "teamA": "Planet Sainage PAC",
+        "teamB": "The Shawrmaz",
+        "teamAId": "planet_sainage_pac",
+        "teamBId": "the_shawrmaz",
+        "scoreA": 1,
+        "scoreB": 2,
+        "winner": "The Shawrmaz",
+        "status": "completed",
+        "bestOf": 3,
+        "event": "Ignite 2026 Stage 2 · Pacific",
+        "region": "Pacific",
+        "stage": "Asia regional",
+        "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+        "sourceId": "pacific",
+        "vodUrl": null,
+        "maps": [
+          {
+            "name": "Birnin T'Challa",
+            "mapId": "birnin-t-challa",
+            "scoreA": 1,
+            "scoreB": 2,
+            "winner": "The Shawrmaz"
+          },
+          {
+            "name": "Hall of Djalia",
+            "mapId": "hall-of-djalia",
+            "scoreA": 3,
+            "scoreB": 2,
+            "winner": "Planet Sainage PAC"
+          },
+          {
+            "name": "Museum of Contemplation",
+            "mapId": "museum-of-contemplation",
+            "scoreA": 2,
+            "scoreB": 3,
+            "winner": "The Shawrmaz"
+          }
+        ],
+        "breakdownComplete": true
       },
       {
         "id": "ignite26-862a0045464efbfb28",
@@ -6945,25 +7825,33 @@
   },
   "series": [
     {
-      "id": "ignite26-64816135ea6c31ff21",
+      "id": "ignite26-db7276bdfb3efa1eb7",
       "date": "2026-10-19",
       "scheduledAt": "2026-10-19T00:00:00.000Z",
       "teamA": "Team Liquid Citadel",
-      "teamB": "TBD",
+      "teamB": "FlyQuest",
       "teamAId": "tlc",
-      "teamBId": "tbd",
-      "scoreA": null,
-      "scoreB": null,
-      "winner": null,
-      "status": "scheduled",
+      "teamBId": "flyquest",
+      "scoreA": 4,
+      "scoreB": 2,
+      "winner": "Team Liquid Citadel",
+      "status": "completed",
       "bestOf": 7,
       "event": "Ignite 2026 Stage 2 · Americas",
       "region": "NA",
       "stage": "Playoffs",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-americas/#schedule",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-americas/#results",
       "sourceId": "americas",
       "vodUrl": null,
-      "maps": [],
+      "maps": [
+        {
+          "name": "Hell's Heaven",
+          "mapId": "hell-s-heaven",
+          "scoreA": 1,
+          "scoreB": 2,
+          "winner": "FlyQuest"
+        }
+      ],
       "breakdownComplete": false
     },
     {
@@ -6974,19 +7862,55 @@
       "teamB": "Swamp Gaming",
       "teamAId": "flyquest",
       "teamBId": "swamp",
-      "scoreA": null,
-      "scoreB": null,
-      "winner": null,
-      "status": "scheduled",
+      "scoreA": 3,
+      "scoreB": 2,
+      "winner": "FlyQuest",
+      "status": "completed",
       "bestOf": 5,
       "event": "Ignite 2026 Stage 2 · Americas",
       "region": "NA",
       "stage": "Playoffs",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-americas/#schedule",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-americas/#results",
       "sourceId": "americas",
       "vodUrl": null,
-      "maps": [],
-      "breakdownComplete": false
+      "maps": [
+        {
+          "name": "God Quarry",
+          "mapId": "god-quarry",
+          "scoreA": 2,
+          "scoreB": 1,
+          "winner": "FlyQuest"
+        },
+        {
+          "name": "Symbiotic Surface",
+          "mapId": "symbiotic-surface",
+          "scoreA": 3,
+          "scoreB": 2,
+          "winner": "FlyQuest"
+        },
+        {
+          "name": "Thebes",
+          "mapId": "thebes",
+          "scoreA": 0,
+          "scoreB": 2,
+          "winner": "Swamp Gaming"
+        },
+        {
+          "name": "Heart of Heaven",
+          "mapId": "heart-of-heaven",
+          "scoreA": 3,
+          "scoreB": 4,
+          "winner": "Swamp Gaming"
+        },
+        {
+          "name": "Midtown",
+          "mapId": "midtown",
+          "scoreA": 3,
+          "scoreB": 2,
+          "winner": "FlyQuest"
+        }
+      ],
+      "breakdownComplete": true
     },
     {
       "id": "ignite26-3d4e5913edaf3d3fd9",
@@ -6996,19 +7920,55 @@
       "teamB": "Virtus.pro",
       "teamAId": "navi",
       "teamBId": "virtus_pro",
-      "scoreA": null,
-      "scoreB": null,
-      "winner": null,
-      "status": "awaiting-result",
+      "scoreA": 4,
+      "scoreB": 1,
+      "winner": "Natus Vincere",
+      "status": "completed",
       "bestOf": 7,
       "event": "Ignite 2026 Stage 2 · EMEA",
       "region": "EU",
       "stage": "Playoffs",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-emea/#schedule",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-emea/#results",
       "sourceId": "emea",
       "vodUrl": null,
-      "maps": [],
-      "breakdownComplete": false
+      "maps": [
+        {
+          "name": "Hell's Heaven",
+          "mapId": "hell-s-heaven",
+          "scoreA": 2,
+          "scoreB": 0,
+          "winner": "Natus Vincere"
+        },
+        {
+          "name": "Yggdrasill Path",
+          "mapId": "yggdrasill-path",
+          "scoreA": 3,
+          "scoreB": 2,
+          "winner": "Natus Vincere"
+        },
+        {
+          "name": "Heart of Heaven",
+          "mapId": "heart-of-heaven",
+          "scoreA": 1,
+          "scoreB": 0,
+          "winner": "Natus Vincere"
+        },
+        {
+          "name": "Krakoa",
+          "mapId": "krakoa",
+          "scoreA": 1,
+          "scoreB": 2,
+          "winner": "Virtus.pro"
+        },
+        {
+          "name": "Museum of Contemplation",
+          "mapId": "museum-of-contemplation",
+          "scoreA": 2,
+          "scoreB": 1,
+          "winner": "Natus Vincere"
+        }
+      ],
+      "breakdownComplete": true
     },
     {
       "id": "ignite26-e87fc94e71188442d0",
@@ -7940,31 +8900,9 @@
       "stage": "Playoffs",
       "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-emea/#results",
       "sourceId": "emea",
-      "vodUrl": "https://youtu.be/hUdSZcPt634?t=12791",
-      "maps": [
-        {
-          "name": "Birnin T'Challa",
-          "mapId": "birnin-t-challa",
-          "scoreA": 0,
-          "scoreB": 2,
-          "winner": "Team Heretics"
-        },
-        {
-          "name": "Yggdrasill Path",
-          "mapId": "yggdrasill-path",
-          "scoreA": 1,
-          "scoreB": 2,
-          "winner": "Team Heretics"
-        },
-        {
-          "name": "Central Park",
-          "mapId": "central-park",
-          "scoreA": 0,
-          "scoreB": 1,
-          "winner": "Team Heretics"
-        }
-      ],
-      "breakdownComplete": true
+      "vodUrl": null,
+      "maps": [],
+      "breakdownComplete": false
     },
     {
       "id": "ignite26-1fe8b760cf20b34504",
@@ -8504,31 +9442,9 @@
       "stage": "Playoffs",
       "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-emea/#results",
       "sourceId": "emea",
-      "vodUrl": "https://youtu.be/-BSxS-erQok?t=2953",
-      "maps": [
-        {
-          "name": "Birnin T'Challa",
-          "mapId": "birnin-t-challa",
-          "scoreA": 2,
-          "scoreB": 0,
-          "winner": "Natus Vincere"
-        },
-        {
-          "name": "Yggdrasill Path",
-          "mapId": "yggdrasill-path",
-          "scoreA": 2,
-          "scoreB": 1,
-          "winner": "Natus Vincere"
-        },
-        {
-          "name": "Central Park",
-          "mapId": "central-park",
-          "scoreA": 1,
-          "scoreB": 0,
-          "winner": "Natus Vincere"
-        }
-      ],
-      "breakdownComplete": true
+      "vodUrl": null,
+      "maps": [],
+      "breakdownComplete": false
     },
     {
       "id": "ignite26-6dd94be03a7c00f7d9",
@@ -9390,8 +10306,23 @@
       "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
       "sourceId": "pacific",
       "vodUrl": null,
-      "maps": [],
-      "breakdownComplete": false
+      "maps": [
+        {
+          "name": "Birnin T'Challa",
+          "mapId": "birnin-t-challa",
+          "scoreA": 2,
+          "scoreB": 0,
+          "winner": "Zero Tenacity"
+        },
+        {
+          "name": "Midtown",
+          "mapId": "midtown",
+          "scoreA": 3,
+          "scoreB": 0,
+          "winner": "Zero Tenacity"
+        }
+      ],
+      "breakdownComplete": true
     },
     {
       "id": "ignite26-a1e6dffb76172326e9",
@@ -9449,8 +10380,23 @@
       "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
       "sourceId": "pacific",
       "vodUrl": null,
-      "maps": [],
-      "breakdownComplete": false
+      "maps": [
+        {
+          "name": "Birnin T'Challa",
+          "mapId": "birnin-t-challa",
+          "scoreA": 2,
+          "scoreB": 0,
+          "winner": "AAAd"
+        },
+        {
+          "name": "Arakko",
+          "mapId": "arakko",
+          "scoreA": 3,
+          "scoreB": 2,
+          "winner": "AAAd"
+        }
+      ],
+      "breakdownComplete": true
     },
     {
       "id": "ignite26-49c63d59bae4b9531b",
@@ -9493,8 +10439,23 @@
       "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
       "sourceId": "pacific",
       "vodUrl": null,
-      "maps": [],
-      "breakdownComplete": false
+      "maps": [
+        {
+          "name": "Birnin T'Challa",
+          "mapId": "birnin-t-challa",
+          "scoreA": 2,
+          "scoreB": 0,
+          "winner": "REJECT"
+        },
+        {
+          "name": "Central Park",
+          "mapId": "central-park",
+          "scoreA": 1,
+          "scoreB": 0,
+          "winner": "REJECT"
+        }
+      ],
+      "breakdownComplete": true
     },
     {
       "id": "ignite26-e6e150ec06214b3e38",
@@ -9515,8 +10476,23 @@
       "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
       "sourceId": "pacific",
       "vodUrl": null,
-      "maps": [],
-      "breakdownComplete": false
+      "maps": [
+        {
+          "name": "Celestial Husk",
+          "mapId": "celestial-husk",
+          "scoreA": 0,
+          "scoreB": 2,
+          "winner": "XOXO01"
+        },
+        {
+          "name": "Central Park",
+          "mapId": "central-park",
+          "scoreA": 0,
+          "scoreB": 1,
+          "winner": "XOXO01"
+        }
+      ],
+      "breakdownComplete": true
     },
     {
       "id": "ignite26-3a71d455d287001e79",
@@ -9537,8 +10513,23 @@
       "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
       "sourceId": "pacific",
       "vodUrl": null,
-      "maps": [],
-      "breakdownComplete": false
+      "maps": [
+        {
+          "name": "Birnin T'Challa",
+          "mapId": "birnin-t-challa",
+          "scoreA": 2,
+          "scoreB": 0,
+          "winner": "Zero Tenacity"
+        },
+        {
+          "name": "Museum of Contemplation",
+          "mapId": "museum-of-contemplation",
+          "scoreA": 4,
+          "scoreB": 3,
+          "winner": "Zero Tenacity"
+        }
+      ],
+      "breakdownComplete": true
     },
     {
       "id": "ignite26-a81fad560efd61bcdb",
@@ -9810,8 +10801,23 @@
       "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
       "sourceId": "pacific",
       "vodUrl": null,
-      "maps": [],
-      "breakdownComplete": false
+      "maps": [
+        {
+          "name": "Krakoa",
+          "mapId": "krakoa",
+          "scoreA": 2,
+          "scoreB": 0,
+          "winner": "XOXO01"
+        },
+        {
+          "name": "Arakko",
+          "mapId": "arakko",
+          "scoreA": 3,
+          "scoreB": 0,
+          "winner": "XOXO01"
+        }
+      ],
+      "breakdownComplete": true
     },
     {
       "id": "ignite26-c01c7fa89ee6f0e00c",
@@ -9886,10 +10892,10 @@
       "status": "completed",
       "bestOf": 3,
       "event": "Ignite 2026 Stage 2 · Pacific",
-      "region": "Asia",
+      "region": "Pacific",
       "stage": "Asia regional",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/#results",
-      "sourceId": "pacific-asia",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+      "sourceId": "pacific",
       "vodUrl": null,
       "maps": [
         {
@@ -9928,8 +10934,23 @@
       "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
       "sourceId": "pacific",
       "vodUrl": null,
-      "maps": [],
-      "breakdownComplete": false
+      "maps": [
+        {
+          "name": "Birnin T'Challa",
+          "mapId": "birnin-t-challa",
+          "scoreA": 0,
+          "scoreB": 2,
+          "winner": "Zero Tenacity"
+        },
+        {
+          "name": "Central Park",
+          "mapId": "central-park",
+          "scoreA": 2,
+          "scoreB": 3,
+          "winner": "Zero Tenacity"
+        }
+      ],
+      "breakdownComplete": true
     },
     {
       "id": "ignite26-b030b2437c9c4d040b",
@@ -9972,8 +10993,23 @@
       "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
       "sourceId": "pacific",
       "vodUrl": null,
-      "maps": [],
-      "breakdownComplete": false
+      "maps": [
+        {
+          "name": "Hell's Heaven",
+          "mapId": "hell-s-heaven",
+          "scoreA": 2,
+          "scoreB": 0,
+          "winner": "REJECT"
+        },
+        {
+          "name": "Museum of Contemplation",
+          "mapId": "museum-of-contemplation",
+          "scoreA": 2,
+          "scoreB": 1,
+          "winner": "REJECT"
+        }
+      ],
+      "breakdownComplete": true
     },
     {
       "id": "ignite26-6d9efc01873183a281",
@@ -9994,8 +11030,23 @@
       "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
       "sourceId": "pacific",
       "vodUrl": null,
-      "maps": [],
-      "breakdownComplete": false
+      "maps": [
+        {
+          "name": "Celestial Husk",
+          "mapId": "celestial-husk",
+          "scoreA": 2,
+          "scoreB": 0,
+          "winner": "XOXO01"
+        },
+        {
+          "name": "Thebes",
+          "mapId": "thebes",
+          "scoreA": 1,
+          "scoreB": 0,
+          "winner": "XOXO01"
+        }
+      ],
+      "breakdownComplete": true
     },
     {
       "id": "ignite26-a1a9bba89f325da00c",
@@ -10269,13 +11320,35 @@
       "status": "completed",
       "bestOf": 3,
       "event": "Ignite 2026 Stage 2 · Pacific",
-      "region": "Asia",
+      "region": "Pacific",
       "stage": "Asia regional",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/#results",
-      "sourceId": "pacific-asia",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+      "sourceId": "pacific",
       "vodUrl": null,
-      "maps": [],
-      "breakdownComplete": false
+      "maps": [
+        {
+          "name": "Krakoa",
+          "mapId": "krakoa",
+          "scoreA": 2,
+          "scoreB": 1,
+          "winner": "REJECT"
+        },
+        {
+          "name": "Arakko",
+          "mapId": "arakko",
+          "scoreA": 2,
+          "scoreB": 3,
+          "winner": "The Shawrmaz"
+        },
+        {
+          "name": "Central Park",
+          "mapId": "central-park",
+          "scoreA": 3,
+          "scoreB": 1,
+          "winner": "REJECT"
+        }
+      ],
+      "breakdownComplete": true
     },
     {
       "id": "ignite26-0dbe81904d386b5423",
@@ -10328,13 +11401,28 @@
       "status": "completed",
       "bestOf": 3,
       "event": "Ignite 2026 Stage 2 · Pacific",
-      "region": "Asia",
+      "region": "Pacific",
       "stage": "Asia regional",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/#results",
-      "sourceId": "pacific-asia",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+      "sourceId": "pacific",
       "vodUrl": null,
-      "maps": [],
-      "breakdownComplete": false
+      "maps": [
+        {
+          "name": "Krakoa",
+          "mapId": "krakoa",
+          "scoreA": 2,
+          "scoreB": 1,
+          "winner": "Planet Sainage PAC"
+        },
+        {
+          "name": "Museum of Contemplation",
+          "mapId": "museum-of-contemplation",
+          "scoreA": 1,
+          "scoreB": 0,
+          "winner": "Planet Sainage PAC"
+        }
+      ],
+      "breakdownComplete": true
     },
     {
       "id": "ignite26-ed0b88979e79f226f8",
@@ -10380,13 +11468,28 @@
       "status": "completed",
       "bestOf": 3,
       "event": "Ignite 2026 Stage 2 · Pacific",
-      "region": "Asia",
+      "region": "Pacific",
       "stage": "Asia regional",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/#results",
-      "sourceId": "pacific-asia",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+      "sourceId": "pacific",
       "vodUrl": null,
-      "maps": [],
-      "breakdownComplete": false
+      "maps": [
+        {
+          "name": "Celestial Husk",
+          "mapId": "celestial-husk",
+          "scoreA": 1,
+          "scoreB": 2,
+          "winner": "AAAd"
+        },
+        {
+          "name": "Spider-Islands",
+          "mapId": "spider-islands",
+          "scoreA": 0,
+          "scoreB": 1,
+          "winner": "AAAd"
+        }
+      ],
+      "breakdownComplete": true
     },
     {
       "id": "ignite26-8d0c09840c48263100",
@@ -10402,10 +11505,10 @@
       "status": "completed",
       "bestOf": 3,
       "event": "Ignite 2026 Stage 2 · Pacific",
-      "region": "Asia",
+      "region": "Pacific",
       "stage": "Asia regional",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/#results",
-      "sourceId": "pacific-asia",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+      "sourceId": "pacific",
       "vodUrl": null,
       "maps": [
         {
@@ -10698,10 +11801,10 @@
       "status": "completed",
       "bestOf": 3,
       "event": "Ignite 2026 Stage 2 · Pacific",
-      "region": "Asia",
+      "region": "Pacific",
       "stage": "Asia regional",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/#results",
-      "sourceId": "pacific-asia",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+      "sourceId": "pacific",
       "vodUrl": null,
       "maps": [
         {
@@ -10772,10 +11875,10 @@
       "status": "completed",
       "bestOf": 3,
       "event": "Ignite 2026 Stage 2 · Pacific",
-      "region": "Asia",
+      "region": "Pacific",
       "stage": "Asia regional",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/#results",
-      "sourceId": "pacific-asia",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+      "sourceId": "pacific",
       "vodUrl": null,
       "maps": [
         {
@@ -10853,10 +11956,10 @@
       "status": "completed",
       "bestOf": 3,
       "event": "Ignite 2026 Stage 2 · Pacific",
-      "region": "Asia",
+      "region": "Pacific",
       "stage": "Asia regional",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/#results",
-      "sourceId": "pacific-asia",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+      "sourceId": "pacific",
       "vodUrl": null,
       "maps": [
         {
@@ -10890,10 +11993,10 @@
       "status": "completed",
       "bestOf": 3,
       "event": "Ignite 2026 Stage 2 · Pacific",
-      "region": "Asia",
+      "region": "Pacific",
       "stage": "Asia regional",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/#results",
-      "sourceId": "pacific-asia",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+      "sourceId": "pacific",
       "vodUrl": null,
       "maps": [
         {
@@ -10934,10 +12037,10 @@
       "status": "completed",
       "bestOf": 3,
       "event": "Ignite 2026 Stage 2 · Pacific",
-      "region": "Asia",
+      "region": "Pacific",
       "stage": "Asia regional",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/#results",
-      "sourceId": "pacific-asia",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+      "sourceId": "pacific",
       "vodUrl": null,
       "maps": [
         {
@@ -11332,10 +12435,10 @@
       "status": "completed",
       "bestOf": 3,
       "event": "Ignite 2026 Stage 2 · Pacific",
-      "region": "Asia",
+      "region": "Pacific",
       "stage": "Asia regional",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/#results",
-      "sourceId": "pacific-asia",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+      "sourceId": "pacific",
       "vodUrl": null,
       "maps": [
         {
@@ -11413,10 +12516,10 @@
       "status": "completed",
       "bestOf": 3,
       "event": "Ignite 2026 Stage 2 · Pacific",
-      "region": "Asia",
+      "region": "Pacific",
       "stage": "Asia regional",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/#results",
-      "sourceId": "pacific-asia",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+      "sourceId": "pacific",
       "vodUrl": null,
       "maps": [
         {
@@ -11487,10 +12590,10 @@
       "status": "completed",
       "bestOf": 3,
       "event": "Ignite 2026 Stage 2 · Pacific",
-      "region": "Asia",
+      "region": "Pacific",
       "stage": "Asia regional",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/#results",
-      "sourceId": "pacific-asia",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+      "sourceId": "pacific",
       "vodUrl": null,
       "maps": [
         {
@@ -11524,10 +12627,10 @@
       "status": "completed",
       "bestOf": 3,
       "event": "Ignite 2026 Stage 2 · Pacific",
-      "region": "Asia",
+      "region": "Pacific",
       "stage": "Asia regional",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/#results",
-      "sourceId": "pacific-asia",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+      "sourceId": "pacific",
       "vodUrl": null,
       "maps": [
         {
@@ -11561,10 +12664,10 @@
       "status": "completed",
       "bestOf": 3,
       "event": "Ignite 2026 Stage 2 · Pacific",
-      "region": "Asia",
+      "region": "Pacific",
       "stage": "Asia regional",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/#results",
-      "sourceId": "pacific-asia",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+      "sourceId": "pacific",
       "vodUrl": null,
       "maps": [
         {
@@ -11864,10 +12967,10 @@
       "status": "completed",
       "bestOf": 3,
       "event": "Ignite 2026 Stage 2 · Pacific",
-      "region": "Asia",
+      "region": "Pacific",
       "stage": "Asia regional",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/#results",
-      "sourceId": "pacific-asia",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+      "sourceId": "pacific",
       "vodUrl": null,
       "maps": [
         {
@@ -11938,10 +13041,10 @@
       "status": "completed",
       "bestOf": 3,
       "event": "Ignite 2026 Stage 2 · Pacific",
-      "region": "Asia",
+      "region": "Pacific",
       "stage": "Asia regional",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/#results",
-      "sourceId": "pacific-asia",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+      "sourceId": "pacific",
       "vodUrl": null,
       "maps": [
         {
@@ -12012,10 +13115,10 @@
       "status": "completed",
       "bestOf": 3,
       "event": "Ignite 2026 Stage 2 · Pacific",
-      "region": "Asia",
+      "region": "Pacific",
       "stage": "Asia regional",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/#results",
-      "sourceId": "pacific-asia",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+      "sourceId": "pacific",
       "vodUrl": null,
       "maps": [
         {
@@ -12049,10 +13152,10 @@
       "status": "completed",
       "bestOf": 3,
       "event": "Ignite 2026 Stage 2 · Pacific",
-      "region": "Asia",
+      "region": "Pacific",
       "stage": "Asia regional",
-      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific-asia/#results",
-      "sourceId": "pacific-asia",
+      "sourceUrl": "https://esportswatchguide.com/marvel-rivals/events/mr-ignite-2026-stage-2-pacific/#results",
+      "sourceId": "pacific",
       "vodUrl": null,
       "maps": [
         {
