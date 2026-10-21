@@ -1,17 +1,17 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { createReport, newId, normalizeReport, parseWorkspaceImport, serializeWorkspace } from './analyst.js';
 
-import { ANALYST_STORAGE_KEY, ANALYST_CHANGE_EVENT, readAnalystReports, mergeAnalystReports } from './analyst-store.js';
+import { ANALYST_STORAGE_KEY, ANALYST_CHANGE_EVENT, readAnalystReports, readAnalystState, mergeAnalystReports } from './analyst-store.js';
 export { attachAnalystBoard, readAnalystBoard } from './analyst-store.js';
 const CHANGE_EVENT = ANALYST_CHANGE_EVENT;
 function announce() { window.dispatchEvent(new Event(CHANGE_EVENT)); }
 const SELECT_KEY = 'lucifer.fps:analyst:selected';
-const memory = { reports: null };
+const memory = { reports: null, error: '', baseRaw: undefined };
 const failure = error => `Changes are only in memory: ${error?.message || 'browser storage is unavailable'}. Export a JSON backup before leaving.`;
 export function useAnalystWorkspace() {
   const boot = useRef(null);
   if (!boot.current) {
-    try { boot.current = { reports: memory.reports || readAnalystReports(), error: '' }; }
+    try { boot.current = readAnalystState(localStorage, memory.reports ? memory : null); }
     catch (error) { boot.current = { reports: memory.reports || [], error: `Existing browser data could not be opened: ${error.message}. It has not been replaced. Export or recover that browser data before clearing it.` }; }
   }
   const [reports, setReports] = useState(boot.current.reports), ref = useRef(reports);
@@ -21,27 +21,28 @@ export function useAnalystWorkspace() {
     try { return fromUrl || sessionStorage.getItem(SELECT_KEY) || reports[0]?.id || ''; } catch { return fromUrl || reports[0]?.id || ''; }
   });
   const commit = useCallback(transform => {
-    let base = ref.current;
+    let base = ref.current, baseRaw;
     // Read the current snapshot before editing so separate tabs do not erase unrelated reports.
-    try { const latest = readAnalystReports(); if (!memory.reports) base = latest; }
+    try { const latest = readAnalystState(localStorage, memory.reports ? memory : null); base = latest.reports; baseRaw = latest.raw; }
     catch (error) { setStorageError(failure(error)); }
     let next, serialized;
     try { next = transform(base); serialized = serializeWorkspace(next); }
     catch(error) { setStorageError(`Change was not saved: ${error.message}`); return false; }
-    ref.current = next; setReports(next); memory.reports = next;
+    ref.current = next; setReports(next); if (!memory.reports) memory.baseRaw = baseRaw; memory.reports = next;
     try {
       // Do not overwrite a corrupt existing backup with an empty fallback.
       const raw = localStorage.getItem(ANALYST_STORAGE_KEY);
       if (raw) parseWorkspaceImport(raw);
+      if (memory.baseRaw !== undefined && raw !== memory.baseRaw) throw new Error('Another tab saved a different version. Back up all, reload, then import your backup to retain both versions');
       localStorage.setItem(ANALYST_STORAGE_KEY, serialized);
-      memory.reports = null; setStorageError(''); announce();
-    } catch (error) { setStorageError(failure(error)); }
+      memory.reports = null; memory.error = ''; memory.baseRaw = undefined; setStorageError(''); announce();
+    } catch (error) { memory.error = failure(error); setStorageError(memory.error); }
     return next;
   }, []);
   useEffect(() => {
     const sync = event => {
       if (event.type === 'storage' && event.key !== ANALYST_STORAGE_KEY) return;
-      try { const next = readAnalystReports(); ref.current = next; setReports(next); setStorageError(''); }
+      try { const next = readAnalystState(localStorage, memory.reports ? memory : null); ref.current = next.reports; setReports(next.reports); setStorageError(next.error); }
       catch (error) { setStorageError(failure(error)); }
     };
     window.addEventListener('storage', sync); window.addEventListener(CHANGE_EVENT, sync);

@@ -29,3 +29,12 @@ export function readAnalystBoard(reportId, boardId, storage = globalThis.localSt
   try { return readAnalystReports(storage).find(report => report.id === reportId)?.boards.find(board => board.id === boardId) || null; }
   catch { return null; }
 }
+
+export function readAnalystState(storage = globalThis.localStorage, pending = null) {
+  const raw = storage.getItem(ANALYST_STORAGE_KEY);
+  if (pending?.reports) {
+    const conflict = pending.baseRaw !== undefined && pending.baseRaw !== raw;
+    return {reports: pending.reports, raw, error: conflict ? 'Another tab saved a different workspace while these changes were unsaved. Back up all, reload this page, then import that backup to retain both versions.' : pending.error || 'Changes are only in memory. Export a JSON backup before leaving.'};
+  }
+  return {reports: raw ? parseWorkspaceImport(raw) : [], raw, error: ''};
+}
