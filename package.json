@@ -15,7 +15,8 @@
     "media:sync": "node scripts/image-assets.mjs",
     "media:check": "node scripts/check-media.mjs",
     "check": "node scripts/check-data.mjs",
-    "test": "node --test"
+    "test": "node --test",
+    "players:sync": "node scripts/sync-players.mjs"
   },
   "engines": {
     "node": ">=22.12.0"
