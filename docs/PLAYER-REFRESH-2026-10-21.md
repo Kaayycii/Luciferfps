@@ -1,0 +1,11 @@
+# Player refresh — October 21, 2026
+
+The Players page now opens an independently sourced current series-scoreboard sample from [MRVL](https://www.mrvl.net/). It contains **89 completed series, 239 distinct source player identities, 38 teams and 1072 player-series observations**, covering Americas, EMEA, China and Pacific. Latest match: **October 19, 2026 UTC**. This is partial tournament coverage, not a complete season, global player population or current contract directory.
+
+Each source supplies individual kills, deaths, assists, final hits, damage, damage taken, healing, role and observed heroes. Series results and dates are checked against the independently verified competition index. Example: [Liquid Citadel–FlyQuest final](https://www.mrvl.net/matches/js79pdyscdxgjz414n9jjae7jh8gkwp3?game=null). Combined series totals are kept separate from historical map observations. Heroes can include switches; no hero-specific allocation, player map count, per-10 rate, damage blocked or accuracy is invented. Latest observed team/role does not establish a transfer or contract.
+
+The older 531-player map-scoreboard directory remains available in Historical map archive, with its actual sample date and roster caveat. It is not relabeled current. Five source pages were excluded from this refresh because the combined scoreboard or player identity was unavailable. Existing good records survive source failure.
+
+The Monday workflow now runs `npm run players:sync` alongside existing updates. It discovers public scoreboard references from six reviewed Stage 2 event pages, validates at most 120 pages per run with three concurrent reads, and preserves failed/conflicting records. Unchanged content does not rewrite the snapshot or its review timestamp. No access controls are bypassed, and the blocked legacy statistics feed is not required.
+
+Tests cover identity resolution, source status/date/score corroboration, missing metric rejection, exact zero, damage-taken semantics, outage/no-op preservation, aggregation and filters. Browser checks validate Energy's final-only totals (156 kills, 42 deaths, 21 assists, 78 final hits, 137,920 damage, 76,697 damage taken and 0 healing), date filtering, source profiles and historical access.

@@ -33,6 +33,8 @@ jobs:
         run: npm run catalog:sync
       - name: Refresh independently sourced competitive results and fixtures
         run: npm run competitive:sync
+      - name: Refresh independently published individual series scoreboards
+        run: npm run players:sync
       - name: Read public feeds and preserve last good snapshot on failure
         continue-on-error: true
         run: npm run sync
@@ -50,7 +52,7 @@ jobs:
         env:
           DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
-          git add -- data/siteData.json data/official-catalog.json data/rivals-updates.json data/competitive-results.json data/asset-manifest.json public/media
+          git add -- data/siteData.json data/official-catalog.json data/rivals-updates.json data/competitive-results.json data/player-updates.json data/asset-manifest.json public/media
           if git diff --cached --quiet; then
             echo 'changed=false' >> "$GITHUB_OUTPUT"
             exit 0

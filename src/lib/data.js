@@ -1,8 +1,9 @@
+import playerUpdates from '../../data/player-updates.json';
 import historicalData from '../../data/siteData.json';
 import { competitiveResults } from './competitive-results.js';
 import { canonicalHeroName, heroLookupIndex } from './hero-identity.js';
 
-const siteData = { ...historicalData, competitiveResults };
+const siteData = { ...historicalData, competitiveResults, playerUpdates };
 export { siteData };
 export const { heroes, maps, matches, teams, players, staff, teamUps, patches, streams } = siteData;
 export const heroById = heroLookupIndex(heroes);
