@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowDown, ArrowUp, ArrowUpRight, Check, ChevronDown, ChevronUp, Circle, Copy, Download, Eraser, Hand, Highlighter, Layers, Minus, MousePointer2, Move, Plus, Redo2, RotateCcw, Save, Search, Share2, Shield, Swords, Trash2, Type, Undo2, X, ZoomIn, ZoomOut } from 'lucide-react';
-import { cleanFilename, copySnapshot, downloadImage, getDragId, readSnapshot, setDragId, uniqueId, useHistory, useStoredState, validDraft, validTier, validBingo, validPlan, resizeBingo, fitMapImage, projectMapPoint } from '../lib/tools';
+import { cleanFilename, copySnapshot, downloadImage, getDragId, readSnapshot, setDragId, uniqueId, useHistory, useStoredState, validDraft, validTier, validBingo, validPlan, resizeBingo, fitMapImage, projectMapPoint, liveMapRoomsEnabled } from '../lib/tools';
 import { HeroMedia, TeamMedia, MapMedia, AbilityMedia, PersonMedia } from '../components/Media';
 import { heroMediaSources, abilityMediaSources, mapMediaSources, mediaSources, mediaEntity } from '../lib/media';
 import MapColorGuide, { MapColorFilter, MapViewControls } from '../components/MapColorGuide';
@@ -151,7 +151,7 @@ function PlanObject({ object, heroes, onPointerDown, markerId = 'tool-arrow-head
   return <line {...common} x1={object.x} y1={object.y} x2={object.x2} y2={object.y2} stroke={object.color} strokeWidth={object.width || 3} strokeDasharray={object.dashed ? '10 7' : undefined} strokeLinecap="round" markerEnd={object.type === 'arrow' ? `url(#${markerId})` : undefined} pointerEvents="stroke" />;
 }
 function useLivePlan(plan, replace, setNotice) {
-  const config = !!(import.meta.env.VITE_SUPABASE_URL && import.meta.env.VITE_SUPABASE_ANON_KEY);
+  const config = liveMapRoomsEnabled(import.meta.env);
   const [invitation] = useState(() => { const token = new URLSearchParams(window.location.search).get('room'); return /^[a-zA-Z0-9-]{20,100}$/.test(token || '') ? token : ''; });
   const [room, setRoom] = useState('');
   const [status, setStatus] = useState('Offline'), [peers, setPeers] = useState(0);
@@ -190,14 +190,14 @@ function useLivePlan(plan, replace, setNotice) {
     return () => clearTimeout(timeout);
   }, [plan, status]);
   async function start() {
-    if (!config) { setNotice('Live rooms require VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY. Local planning and snapshot sharing work immediately.'); setStatus('Setup required'); return; }
-    if (!globalThis.crypto?.getRandomValues) { setNotice('A secure browser context is required to create a private room link. Use HTTPS or localhost.'); return; }
+    if (!config) { setNotice('Live rooms are disabled unless the owner explicitly enables public room sharing. Local planning and snapshot sharing remain available.'); setStatus('Setup required'); return; }
+    if (!globalThis.crypto?.getRandomValues) { setNotice('A secure browser context is required to create a secure random room link. Use HTTPS or localhost.'); return; }
     const token = room || [...crypto.getRandomValues(new Uint8Array(24))].map(value => value.toString(16).padStart(2, '0')).join(''); setRoom(token);
     const url = new URL(window.location.href); url.searchParams.set('room', token); url.searchParams.delete('plan'); window.history.replaceState({}, '', url);
     try { await navigator.clipboard.writeText(url.href); setNotice('Room link copied. Anyone with this link can edit while connected. Live edits use last-write-wins; rooms are not stored on a server.'); } catch { setNotice('Room started. Copy this page’s URL to invite a collaborator.'); }
   }
   function join() {
-    if (!config) { setNotice('Joining a live room requires VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY on this deployment. You can still work locally.'); setStatus('Setup required'); return; }
+    if (!config) { setNotice('Public room sharing is disabled on this deployment. You can still work locally.'); setStatus('Setup required'); return; }
     if (invitation) { setRoom(invitation); setNotice('Joining shared room. Anyone with its link can edit; the latest edit replaces the shared document.'); }
   }
   function stop() { setRoom(''); setStatus('Offline'); setPeers(0); const url = new URL(window.location.href); url.searchParams.delete('room'); window.history.replaceState({}, '', url); }
