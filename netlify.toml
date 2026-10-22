@@ -14,5 +14,9 @@
   for = "/*"
   [headers.values]
     X-Content-Type-Options = "nosniff"
+    # Inline styles support the map canvas, custom tier colors and image exports.
+    # Scripts stay same-origin; secure connections preserve optional Supabase and image exports.
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data: blob:; font-src 'self' data:; connect-src 'self' https: wss: data: blob:; object-src 'none'; base-uri 'none'; frame-src 'none'; frame-ancestors 'none'; form-action 'self'; worker-src 'none'; upgrade-insecure-requests"
+    X-Frame-Options = "DENY"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"

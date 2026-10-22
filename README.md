@@ -73,14 +73,15 @@ Read [DATA-SOURCES.md](docs/DATA-SOURCES.md) for endpoints, attribution, license
 
 ## Optional shared map rooms
 
-Core tools work without a backend. For cross-device map collaboration, create a free Supabase project with Realtime enabled and configure the two **public** variables in `.env.example` on your deployment provider:
+Core tools work without a backend. For cross-device map collaboration, create a free Supabase project with Realtime enabled and explicitly opt in to public room sharing and configure these **public** variables in `.env.example` on your deployment provider:
 
 ```text
 VITE_SUPABASE_URL
 VITE_SUPABASE_ANON_KEY
+VITE_MAP_ROOMS_ENABLED=true
 ```
 
-Start/Join explicitly opens a Realtime broadcast channel using an unguessable room token. Anyone with the room URL can edit; treat the URL as an edit capability. Broadcast rooms use last-write-wins updates, are not durable document storage and have no promised seven-day retention. Save/share a plan snapshot to preserve it. No service-role key belongs in the frontend. Deployment providers rebuild after frontend variables change.
+Cloud backup credentials alone do not enable public rooms. Keep this opt-in disabled for confidential coaching. Start/Join explicitly opens a Realtime broadcast channel using an unguessable room token. Anyone with the room URL can edit; treat the URL as an edit capability. Broadcast rooms use last-write-wins updates, are not durable document storage and have no promised seven-day retention. Save/share a plan snapshot to preserve it. No service-role key belongs in the frontend. Deployment providers rebuild after frontend variables change.
 
 ## Project map
 
