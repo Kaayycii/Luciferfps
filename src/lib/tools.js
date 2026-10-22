@@ -2,6 +2,12 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { toPng } from 'html-to-image';
 
 const PREFIX = 'lucifer.fps:tools:v1:';
+// Personal cloud backup credentials must never implicitly enable public rooms.
+export function liveMapRoomsEnabled(env = {}) {
+  return env.VITE_MAP_ROOMS_ENABLED === 'true' &&
+    typeof env.VITE_SUPABASE_URL === 'string' && Boolean(env.VITE_SUPABASE_URL.trim()) &&
+    typeof env.VITE_SUPABASE_ANON_KEY === 'string' && Boolean(env.VITE_SUPABASE_ANON_KEY.trim());
+}
 const validReferenceImage = value => value === undefined || (typeof value === 'string' && value.length <= 2_000_000 && /^data:image\/(?:jpeg|png|webp);base64,[a-zA-Z0-9+/=]+$/.test(value));
 export const validDraft = d => !!(d && typeof d.title === 'string' && d.title.length <= 1000 && ['tournament', 'ranked'].includes(d.preset) && ['mapId', 'enemyTeamId', 'mode'].every(key => d[key] === undefined || typeof d[key] === 'string') && ['blue', 'red'].every(side => d[side] && Array.isArray(d[side].timeline) && d[side].timeline.length === 7 && Array.isArray(d[side].comp) && d[side].comp.length === 6 && [...d[side].timeline, ...d[side].comp].every(v => v === null || typeof v === 'string') && typeof d[side].notes === 'string'));
 export const validTier = value => !!(value && typeof value.title === 'string' && Array.isArray(value.rows) && value.rows.length <= 20 && value.rows.every(row => row && typeof row.id === 'string' && typeof row.name === 'string' && typeof row.color === 'string' && Array.isArray(row.items) && row.items.every(id => typeof id === 'string')) && Array.isArray(value.custom) && value.custom.every(item => item && typeof item.id === 'string' && typeof item.name === 'string'));

@@ -1,5 +1,16 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { liveMapRoomsEnabled } from './tools.js';
+
+test('Personal cloud backup configuration never implicitly enables public map rooms', () => {
+  const credentials = { VITE_SUPABASE_URL: 'https://project.supabase.co', VITE_SUPABASE_ANON_KEY: 'public-example', VITE_ANALYST_CLOUD_ENABLED: 'true' };
+  assert.equal(liveMapRoomsEnabled(), false);
+  assert.equal(liveMapRoomsEnabled(credentials), false);
+  for (const flag of ['false', 'TRUE', true, undefined]) assert.equal(liveMapRoomsEnabled({ ...credentials, VITE_MAP_ROOMS_ENABLED: flag }), false);
+  assert.equal(liveMapRoomsEnabled({ ...credentials, VITE_MAP_ROOMS_ENABLED: 'true' }), true);
+  assert.equal(liveMapRoomsEnabled({ ...credentials, VITE_MAP_ROOMS_ENABLED: 'true', VITE_SUPABASE_URL: ' ' }), false);
+  assert.equal(liveMapRoomsEnabled({ ...credentials, VITE_MAP_ROOMS_ENABLED: 'true', VITE_SUPABASE_ANON_KEY: undefined }), false);
+});
 import { createHistoryState, decodeSnapshot, encodeSnapshot, fitMapImage, getDragId, historyCommit, historyRedo, historyUndo, projectMapPoint, resizeBingo, safeRead, setDragId, snapshotFromSearch, validBingo, validDraft, validPlan, validTier } from './tools.js';
 
 function draft() { return { title: 'Opening · 日本語', preset: 'tournament', blue: { timeline: Array(7).fill(null), comp: Array(6).fill(null), notes: '' }, red: { timeline: Array(7).fill(null), comp: Array(6).fill(null), notes: '' } }; }

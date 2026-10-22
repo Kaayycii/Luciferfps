@@ -1,4 +1,4 @@
-const MAX_IMPORT_BYTES = 5 * 1024 * 1024;
+export const MAX_IMPORT_BYTES = 5 * 1024 * 1024;
 const MAX_REPORTS = 500;
 const TYPES = ['scouting', 'review', 'map-prep', 'patch'];
 const OUTCOMES = ['win', 'loss', 'draw', 'unknown'];

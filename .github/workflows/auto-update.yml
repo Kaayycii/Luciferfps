@@ -22,6 +22,7 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4, pinned from the official repository
         with:
           ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4, pinned from the official repository
         with:
           node-version: '22'
@@ -45,12 +46,11 @@ jobs:
           npm run check
           npm run media:check
           npm test
+          npm audit --package-lock-only --audit-level=high
           npm run build
       - name: Commit only a meaningful data change
         id: commit
         shell: bash
-        env:
-          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
           git add -- data/siteData.json data/official-catalog.json data/rivals-updates.json data/competitive-results.json data/player-updates.json data/asset-manifest.json public/media
           if git diff --cached --quiet; then
@@ -60,8 +60,21 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git commit -m 'data: refresh public snapshot and bundled artwork'
-          git push origin "HEAD:$DEFAULT_BRANCH"
           echo 'changed=true' >> "$GITHUB_OUTPUT"
+      - name: Scan generated data commit before publishing
+        if: steps.commit.outputs.changed == 'true'
+        uses: gitleaks/gitleaks-action@e0c47f4f8be36e29cdc102c57e68cb5cbf0e8d1e # v3
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITLEAKS_VERSION: '8.30.1'
+          GITLEAKS_ENABLE_COMMENTS: 'false'
+          GITLEAKS_ENABLE_UPLOAD_ARTIFACT: 'false'
+          GITLEAKS_ENABLE_SUMMARY: 'false'
+      - name: Publish validated data commit
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: git push origin "HEAD:$DEFAULT_BRANCH"
       - name: Notify configured hosting deploy hook
         if: steps.commit.outputs.changed == 'true'
         env:
