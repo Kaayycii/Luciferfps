@@ -99,9 +99,25 @@ export async function fetchOfficialIndex(url, { fetchImpl = fetch, timeoutMs = 2
 // Scheduled discovery updates article metadata. It never silently rewrites reviewed game facts.
 export const REVIEWED_FACTS = Object.freeze([
   {
+    id: 'patch-20261022', title: 'October 22 patch: movement fixes and Competitive achievement repair', category: 'patches',
+    summary: 'Black Cat can again use wall portals immediately after Fortune’s Favor – Phantom Pursuit. Black Widow’s Widow’s Bite Slam receives a directional fix, and Hawkeye’s bow display is repaired. Competitive Team Wipes count toward ACE achievements when an opponent has already left. This patch lists no numerical hero balance changes or IGNITE tournament-version announcement.',
+    sourceUrl: 'https://www.marvelrivals.com/gameupdate/20261021/41548_1317253.html', publishedAt: '2026-10-21', effectiveAt: '2026-10-22T09:00:00Z', reviewedAt: '2026-10-26', relatedHeroIds: ['black-cat', 'black-widow', 'hawkeye'],
+  },
+  {
+    id: 'endgame-20261022', title: 'Endgame event: limited weekly mode sessions', category: 'season',
+    summary: 'The event runs October 22–November 26 at 09:00 UTC. The mode began October 24 and has limited sessions over four weeks. The published UTC windows are 01:00–03:00, 10:00–12:00 and 18:00–20:00. Event duration does not mean the mode is continuously available; check the official schedule before queuing.',
+    sourceUrl: 'https://www.marvelrivals.com/gameupdate/20261021/41548_1317253.html', publishedAt: '2026-10-21', effectiveAt: '2026-10-22T09:00:00Z', reviewedAt: '2026-10-26',
+    event: { startAt: '2026-10-22', endAt: '2026-11-26', datePrecision: 'day' },
+  },
+  {
+    id: 'ignite-stage-2-emea-champion-2026', title: 'Stage 2 EMEA complete: NAVI defeats Virtus.pro 4–1', category: 'esports',
+    summary: 'NAVI’s official team report confirms a 4–1 grand-final win over Virtus.pro. Its final standings list NAVI, Virtus.pro, Pulsar and Shikigami in the top four. Stage 2 has concluded; the next confirmed major event is the November 23–29 Grand Finals. A series score does not establish individual performance or current contracts.',
+    sourceUrl: 'https://navi.gg/en/publications/navi-ignite-s2-emea-champions', publishedAt: '2026-10-20', effectiveAt: '2026-10-18', reviewedAt: '2026-10-26',
+  },
+  {
     id: 'ignite-grand-finals-2026', title: 'IGNITE Grand Finals: Stockholm, November 23–29', category: 'esports',
     summary: 'The event host announces the IGNITE Grand Finals for November 23–29 in Stockholm. DreamHack Stockholm hosts the public main stage on November 27–29. These are event dates, not individual match start times; the announcement does not specify the tournament game version.',
-    sourceUrl: 'https://dreamhack.com/stockholm/updates/2026/10/06/marvel-rivals-ignite-grand-finals-are-coming-to-dreamhack-stockholm/', publishedAt: '2026-10-06', effectiveAt: '2026-11-23', reviewedAt: '2026-10-19',
+    sourceUrl: 'https://dreamhack.com/stockholm/updates/2026/10/06/marvel-rivals-ignite-grand-finals-are-coming-to-dreamhack-stockholm/', publishedAt: '2026-10-06', effectiveAt: '2026-11-23', reviewedAt: '2026-10-26',
     event: { startAt: '2026-11-23', endAt: '2026-11-29', datePrecision: 'day' },
   },
   {
@@ -144,7 +160,7 @@ export const REVIEWED_FACTS = Object.freeze([
   {
     id: 'gorr-living-abyss-source-conflict', title: 'Gorr: official cooldown sources disagree', category: 'heroes',
     summary: 'The October 9 balance post changes Living Abyss from 15 to 12 seconds. The official hero page displays 13 seconds. These official sources disagree, so the cooldown remains flagged for verification rather than silently replaced with a guessed value.',
-    sourceUrl: 'https://www.marvelrivals.com/balancepost/20261006/41667_1315864.html', publishedAt: '2026-10-06', effectiveAt: '2026-10-09', reviewedAt: '2026-10-16', relatedHeroIds: ['gorr'],
+    sourceUrl: 'https://www.marvelrivals.com/balancepost/20261006/41667_1315864.html', publishedAt: '2026-10-06', effectiveAt: '2026-10-09', reviewedAt: '2026-10-26', relatedHeroIds: ['gorr'],
     conflict: { field: 'Living Abyss cooldown', status: 'unresolved', alternatives: [
       { value: '12 seconds', sourceUrl: 'https://www.marvelrivals.com/balancepost/20261006/41667_1315864.html', publishedAt: '2026-10-06' },
       { value: '13 seconds', sourceUrl: 'https://www.marvelrivals.com/20260911/41360_1313617.html', publishedAt: '2026-09-11' },
