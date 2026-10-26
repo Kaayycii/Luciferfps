@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T14:11:47.684Z",
+  "updatedAt": "2026-10-26T18:51:42.667Z",
   "sources": [
     {
       "id": "game-home",
@@ -9,6 +9,9 @@
       "status": "ok",
       "articleCount": 13,
       "articleIds": [
+        "game-1317554",
+        "game-1317253",
+        "game-1317131",
         "game-1316982",
         "game-1316802",
         "game-1316797",
@@ -18,13 +21,10 @@
         "game-1315865",
         "game-1315568",
         "game-1314808",
-        "game-1314225",
-        "game-1314013",
-        "game-1313397",
-        "game-1313441"
+        "game-1314225"
       ],
-      "contentFingerprint": "26ab6df859b538791b9401b93969ac178c405e92784eb41e0b22a99a036a69bb",
-      "lastContentChangeAt": "2026-10-19T14:06:36.243Z"
+      "contentFingerprint": "1187aa20ba8374495b9e760b0c9f314658494f01ea6b198f50189646535085ed",
+      "lastContentChangeAt": "2026-10-26T18:48:59.289Z"
     },
     {
       "id": "game-updates",
@@ -33,6 +33,7 @@
       "status": "ok",
       "articleCount": 9,
       "articleIds": [
+        "game-1317253",
         "game-1316588",
         "game-1315865",
         "game-1315568",
@@ -40,11 +41,10 @@
         "game-1314013",
         "game-1313441",
         "game-1312948",
-        "game-1312268",
-        "game-1311622"
+        "game-1312268"
       ],
-      "contentFingerprint": "993b80a2121ef356ba128476c9cd708b748116d06ea4099d39daafecf637ae70",
-      "lastContentChangeAt": "2026-10-16T15:10:20.403Z"
+      "contentFingerprint": "0eba6fcc071efd71f7aa637beb57878b1778ce844d6f33ba823630477aecb7ec",
+      "lastContentChangeAt": "2026-10-26T18:48:59.289Z"
     },
     {
       "id": "game-balance",
@@ -73,6 +73,7 @@
       "status": "ok",
       "articleCount": 9,
       "articleIds": [
+        "game-1317131",
         "game-1316802",
         "game-1316797",
         "game-1314225",
@@ -80,11 +81,10 @@
         "game-1312335",
         "game-1311340",
         "game-1308181",
-        "game-1306499",
         "game-1306504"
       ],
-      "contentFingerprint": "948f5bc6905b11aeecd898c43e043178992916289c0b9c6218d233d1aea4df2d",
-      "lastContentChangeAt": "2026-10-16T15:10:20.403Z"
+      "contentFingerprint": "a169482702436bc5999ee7e4bac1700d5b034cec2dc80f571c160aa54b7573b6",
+      "lastContentChangeAt": "2026-10-26T18:48:59.289Z"
     },
     {
       "id": "ignite-official",
@@ -111,6 +111,39 @@
     }
   ],
   "articles": [
+    {
+      "id": "game-1317554",
+      "title": "Art Vision Vol. 06 // Behind The Scenes (Part 2): Dedication and Passion | Marvel Rivals",
+      "url": "https://www.marvelrivals.com/devdiaries/20261023/40954_1317554.html",
+      "publishedAt": "2026-10-23",
+      "category": "development",
+      "sourceIds": [
+        "game-home"
+      ]
+    },
+    {
+      "id": "game-1317253",
+      "title": "Marvel Rivals Version 20261022 Patch Notes",
+      "url": "https://www.marvelrivals.com/gameupdate/20261021/41548_1317253.html",
+      "publishedAt": "2026-10-21",
+      "category": "patches",
+      "effectiveAt": "2026-10-22",
+      "sourceIds": [
+        "game-home",
+        "game-updates"
+      ]
+    },
+    {
+      "id": "game-1317131",
+      "title": "Join Twitch Path to Doomsday Event & Go for 3,000 Gifted Subs!",
+      "url": "https://www.marvelrivals.com/announcements/20261020/40955_1317131.html",
+      "publishedAt": "2026-10-20",
+      "category": "announcements",
+      "sourceIds": [
+        "game-announcements",
+        "game-home"
+      ]
+    },
     {
       "id": "game-1316982",
       "title": "Art Vision Vol. 06 // Behind The Scenes (Part 1): Dedication and Passion",
@@ -563,6 +596,46 @@
   ],
   "facts": [
     {
+      "id": "patch-20261022",
+      "title": "October 22 patch: movement fixes and Competitive achievement repair",
+      "category": "patches",
+      "summary": "Black Cat can again use wall portals immediately after Fortune’s Favor – Phantom Pursuit. Black Widow’s Widow’s Bite Slam receives a directional fix, and Hawkeye’s bow display is repaired. Competitive Team Wipes count toward ACE achievements when an opponent has already left. This patch lists no numerical hero balance changes or IGNITE tournament-version announcement.",
+      "sourceUrl": "https://www.marvelrivals.com/gameupdate/20261021/41548_1317253.html",
+      "publishedAt": "2026-10-21",
+      "effectiveAt": "2026-10-22T09:00:00Z",
+      "reviewedAt": "2026-10-26",
+      "relatedHeroIds": [
+        "black-cat",
+        "black-widow",
+        "hawkeye"
+      ]
+    },
+    {
+      "id": "endgame-20261022",
+      "title": "Endgame event: limited weekly mode sessions",
+      "category": "season",
+      "summary": "The event runs October 22–November 26 at 09:00 UTC. The mode began October 24 and has limited sessions over four weeks. The published UTC windows are 01:00–03:00, 10:00–12:00 and 18:00–20:00. Event duration does not mean the mode is continuously available; check the official schedule before queuing.",
+      "sourceUrl": "https://www.marvelrivals.com/gameupdate/20261021/41548_1317253.html",
+      "publishedAt": "2026-10-21",
+      "effectiveAt": "2026-10-22T09:00:00Z",
+      "reviewedAt": "2026-10-26",
+      "event": {
+        "startAt": "2026-10-22",
+        "endAt": "2026-11-26",
+        "datePrecision": "day"
+      }
+    },
+    {
+      "id": "ignite-stage-2-emea-champion-2026",
+      "title": "Stage 2 EMEA complete: NAVI defeats Virtus.pro 4–1",
+      "category": "esports",
+      "summary": "NAVI’s official team report confirms a 4–1 grand-final win over Virtus.pro. Its final standings list NAVI, Virtus.pro, Pulsar and Shikigami in the top four. Stage 2 has concluded; the next confirmed major event is the November 23–29 Grand Finals. A series score does not establish individual performance or current contracts.",
+      "sourceUrl": "https://navi.gg/en/publications/navi-ignite-s2-emea-champions",
+      "publishedAt": "2026-10-20",
+      "effectiveAt": "2026-10-18",
+      "reviewedAt": "2026-10-26"
+    },
+    {
       "id": "ignite-grand-finals-2026",
       "title": "IGNITE Grand Finals: Stockholm, November 23–29",
       "category": "esports",
@@ -570,7 +643,7 @@
       "sourceUrl": "https://dreamhack.com/stockholm/updates/2026/10/06/marvel-rivals-ignite-grand-finals-are-coming-to-dreamhack-stockholm/",
       "publishedAt": "2026-10-06",
       "effectiveAt": "2026-11-23",
-      "reviewedAt": "2026-10-19",
+      "reviewedAt": "2026-10-26",
       "event": {
         "startAt": "2026-11-23",
         "endAt": "2026-11-29",
@@ -692,7 +765,7 @@
       "sourceUrl": "https://www.marvelrivals.com/balancepost/20261006/41667_1315864.html",
       "publishedAt": "2026-10-06",
       "effectiveAt": "2026-10-09",
-      "reviewedAt": "2026-10-16",
+      "reviewedAt": "2026-10-26",
       "relatedHeroIds": [
         "gorr"
       ],
