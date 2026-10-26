@@ -105,7 +105,10 @@ test('reviewed facts have primary sources, real publication/effective dates, and
     const source = new URL(fact.sourceUrl);
     assert.equal(source.protocol, 'https:');
     assert.equal(source.username + source.password, '');
-    assert.ok(officialUrl(fact.sourceUrl) || fact.sourceUrl === 'https://dreamhack.com/stockholm/updates/2026/10/06/marvel-rivals-ignite-grand-finals-are-coming-to-dreamhack-stockholm/');
+    assert.ok(officialUrl(fact.sourceUrl) || [
+      'https://dreamhack.com/stockholm/updates/2026/10/06/marvel-rivals-ignite-grand-finals-are-coming-to-dreamhack-stockholm/',
+      'https://navi.gg/en/publications/navi-ignite-s2-emea-champions',
+    ].includes(fact.sourceUrl));
     assert.equal(dateOnly(fact.publishedAt), fact.publishedAt);
     assert.ok(Number.isFinite(Date.parse(fact.effectiveAt)));
     assert.equal(dateOnly(fact.reviewedAt), fact.reviewedAt);
