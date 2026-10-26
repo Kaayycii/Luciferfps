@@ -5690,7 +5690,7 @@
           },
           {
             "id": "krakoac02",
-            "name": "THE GROVE",
+            "name": "The Grove",
             "sourceImage": "https://rivals.gs/img/layouts/krakoac02.webp",
             "width": 1600,
             "height": 796,
@@ -5932,7 +5932,7 @@
           },
           {
             "id": "krakoac03",
-            "name": "CAROUSEL",
+            "name": "Carousel",
             "sourceImage": "https://rivals.gs/img/layouts/krakoac03.webp",
             "width": 1600,
             "height": 916,
@@ -7175,7 +7175,7 @@
         "layouts": [
           {
             "id": "asgardc01",
-            "name": "ODIN'S ARCHIVE",
+            "name": "Odin'S Archive",
             "sourceImage": "https://rivals.gs/img/layouts/asgardc01.webp",
             "width": 1600,
             "height": 640,
@@ -7425,7 +7425,7 @@
           },
           {
             "id": "asgardc02",
-            "name": "BIFROST GARDEN",
+            "name": "Bifrost Garden",
             "sourceImage": "https://rivals.gs/img/layouts/asgardc02.webp",
             "width": 1600,
             "height": 640,
@@ -7610,7 +7610,7 @@
           },
           {
             "id": "asgardc03",
-            "name": "THRONE ROOM",
+            "name": "Throne Room",
             "sourceImage": "https://rivals.gs/img/layouts/asgardc03.webp",
             "width": 1600,
             "height": 640,
@@ -30930,7 +30930,7 @@
     "localPersonImages": 0
   },
   "source": "Official Marvel Rivals catalog and public source metadata; top-down floorplans from Rival.GS; Hall of Djalia game art credited to NetEase via Beebom. Marvel/NetEase retain game artwork rights.",
-  "updatedAt": "2026-10-16T15:15:20.463Z",
+  "updatedAt": "2026-10-26T19:27:20.830Z",
   "failures": [],
   "teamProvenance": [
     {
