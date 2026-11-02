@@ -9,6 +9,7 @@ const data=JSON.parse(await readFile(resolve(root,'data/siteData.json'),'utf8'))
 const paths=new Set();
 function collect(value){if(typeof value==='string'&&value.startsWith('/media/'))paths.add(value);else if(Array.isArray(value))value.forEach(collect);else if(value&&typeof value==='object')Object.values(value).forEach(collect);}
 collect(manifest);
+collect(JSON.parse(await readFile(resolve(root,'data/hero-headshots.json'),'utf8')));
 const errors=[];
 for(const path of paths){
   const absolute=resolve(publicRoot,'.'+path);
