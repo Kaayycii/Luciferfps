@@ -181,7 +181,7 @@ export async function syncImageAssets() {
   });
   // Rival.GS publishes named top-down layouts. Discover map links in its visible
   // navigation and only use exact catalog IDs; do not infer map geometry.
-  try {
+  if (!manifest.plannerPolicy?.pinned) try {
     const indexPage='https://rivals.gs/maps/';
     const indexHTML=(await fetchBuffer(indexPage)).bytes.toString();
     const links=new Set([...indexHTML.matchAll(/<a[^>]*href="(\/maps\/[^\"]+\/)"/g)].map(match=>match[1]));
@@ -238,7 +238,7 @@ export async function syncImageAssets() {
   }
   manifest.sourceImageStatus={origins:originStatuses};
   manifest.coverage={heroes:data.heroes.length,heroPortraits:data.heroes.filter(h=>manifest.entities.heroes[h.id]?.portrait).length,heroArt:data.heroes.filter(h=>manifest.entities.heroes[h.id]?.art).length,abilities:data.heroes.reduce((n,h)=>n+h.abilities.length,0),abilityIcons:data.heroes.reduce((n,h)=>n+Object.keys(manifest.entities.heroes[h.id]?.abilities||{}).length,0),maps:data.maps.length,mapArt:data.maps.filter(m=>manifest.entities.maps[m.id]?.image).length,mapsWithLayouts:data.maps.filter(m=>manifest.entities.maps[m.id]?.layouts?.length).length,mapLayouts:data.maps.reduce((n,m)=>n+(manifest.entities.maps[m.id]?.layouts?.length||0),0),mapMarkers:data.maps.reduce((n,m)=>n+(manifest.entities.maps[m.id]?.layouts||[]).reduce((sum,layout)=>sum+(layout.markers?.length||0),0),0),teamUps:data.teamUps.length,teamUpIcons:data.teamUps.filter(t=>manifest.assets[t.image]).length,teams:data.teams.length,teamLogos:data.teams.filter(t=>manifest.entities.teams?.[t.id]?.logo||manifest.entities.teams?.[t.id]?.sprite||manifest.assets[t.logo]).length,sourcePersonImages:photos.length,localPersonImages:photos.filter(url=>manifest.assets[url]).length};
-  manifest.source='Official Marvel Rivals catalog and public source metadata; top-down floorplans from Rival.GS; Hall of Djalia game art credited to NetEase via Beebom. Marvel/NetEase retain game artwork rights.';
+  if (!manifest.plannerPolicy?.pinned) manifest.source='Official Marvel Rivals catalog and public source metadata; top-down floorplans from Rival.GS; Hall of Djalia game art credited to NetEase via Beebom. Marvel/NetEase retain game artwork rights.';
   manifest.failures=failures;
   manifest.assets=Object.fromEntries(Object.entries(manifest.assets).sort(([a],[b])=>a.localeCompare(b)));
   const changed=JSON.stringify({...manifest,updatedAt:undefined})!==previousMeaningful;
