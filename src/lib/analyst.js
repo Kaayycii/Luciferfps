@@ -1,3 +1,4 @@
+import {validateCoaching,clone} from './coaching.js';
 export const MAX_IMPORT_BYTES = 5 * 1024 * 1024;
 const MAX_REPORTS = 500;
 const TYPES = ['scouting', 'review', 'map-prep', 'patch'];
@@ -104,6 +105,7 @@ function normalizePlan(value) {
     const type = choice(object.type, OBJECT_TYPES, 'Board object type');
     if (!type) throw new TypeError('Board object requires a supported type.');
     const clean = { id: identifier(object.id, objectIds), type, x: finite(object.x, 'Object x'), y: finite(object.y, 'Object y') };
+    if (object.intent !== undefined) clean.intent = choice(object.intent, ['Planned','Observed','Hypothetical'], 'Annotation meaning');
     for (const key of ['heroId', 'abilityId']) if (object[key] !== undefined) clean[key] = string(object[key], `Object ${key}`, 200);
     for (const key of ['text', 'label']) if (object[key] !== undefined) clean[key] = string(object[key], `Object ${key}`, 10_000);
     if (object.color !== undefined) {
@@ -121,6 +123,7 @@ function normalizePlan(value) {
     if (['pen', 'highlight'].includes(type) && !Array.isArray(object.points)) throw new TypeError('A stroke requires drawing points.');
     return clean;
   });
+  if(p.coaching!==undefined){if(!validateCoaching(p.coaching))throw new Error('Invalid board coaching notes');result.coaching=clone(p.coaching);if(result.coaching.phases)result.coaching.phases=result.coaching.phases.map(phase=>({...phase,snapshot:normalizePlan(phase.snapshot)}));}
   return result;
 }
 
@@ -135,6 +138,7 @@ function normalize(input, seen) {
   result.side = choice(source.side, ['both', 'attack', 'defense', 'neutral', 'blue', 'red'], 'Side', 'both');
   result.sourceUrl = httpsUrl(source.sourceUrl);
   for (const key of ['summary', 'mapNotes', 'winCondition', 'risks', 'patchNotes', 'recommendation']) result[key] = string(source[key], key, 30_000);
+  if(source.coaching!==undefined){if(!validateCoaching(source.coaching))throw new Error('Invalid report coaching notes');result.coaching=clone(source.coaching);}
   result.findings = collection(source.findings, 'Findings', 300, finding => ({
     id: identifier(finding.id, seen), claim: string(finding.claim, 'Finding claim', 5000), evidence: string(finding.evidence, 'Finding evidence', 15_000),
     sourceUrl: httpsUrl(finding.sourceUrl), timestamp: string(finding.timestamp, 'Finding timestamp', 40), confidence: choice(finding.confidence, CONFIDENCES, 'Finding confidence', 'uncertain'),
@@ -235,7 +239,7 @@ export function reportMarkdown(input) {
   const decisions = report.decisions.length ? report.decisions.map((decision, index) => `${index + 1}. **${markdown(decision.kind)} — ${markdown(decision.hero || 'Hero not recorded')}** (${markdown(decision.team || 'Team not recorded')})\n\n   ${markdown(decision.note || 'No note recorded').replace(/\n/g, '\n   ')}`).join('\n\n') : 'No draft decisions recorded.';
   const boards = report.boards.length ? report.boards.map(board => `### ${markdown(board.title || board.plan.title || 'Untitled board')}\n\n${field('Map', board.mapId || board.plan.mapId)}  \n${field('Layout', board.layoutId || board.plan.layoutId)}  \n${field('Attached', board.attachedAt)}  \n${field('Plan title', board.plan.title)}  \n${field('Plan objects', String(board.plan.objects.length))}\n\nThe attached drawing is preserved in the JSON workspace export.`).join('\n\n') : 'No tactical boards attached.';
   const actions = report.actions.length ? report.actions.map(action => `- [${action.status === 'done' ? 'x' : ' '}] ${markdown(action.title || 'Untitled action')} — Owner: ${markdown(action.owner || 'Unassigned')}; due: ${markdown(action.due || 'Not set')}\n  Reason: ${markdown(action.reason || 'Not recorded').replace(/\n/g, '\n  ')}`).join('\n\n') : 'No actions recorded.';
-  return [`# ${markdown(report.title)}`, metadata, section('Summary', report.summary), section('Map notes', report.mapNotes), section('Win condition', report.winCondition), section('Risks', report.risks), section('Patch notes', report.patchNotes), section('Recommendation', report.recommendation), `## Findings\n\n${findings}`, `## Fight log\n\n${metrics}\n\n${fights}`, `## Draft decisions\n\n${decisions}`, `## Tactical boards\n\n${boards}`, `## Actions\n\n${actions}`].join('\n\n') + '\n';
+  return [`# ${markdown(report.title)}`, metadata, section('Coaching brief and linked preparation',report.coaching?JSON.stringify(report.coaching,null,2):''), section('Summary', report.summary), section('Map notes', report.mapNotes), section('Win condition', report.winCondition), section('Risks', report.risks), section('Patch notes', report.patchNotes), section('Recommendation', report.recommendation), `## Findings\n\n${findings}`, `## Fight log\n\n${metrics}\n\n${fights}`, `## Draft decisions\n\n${decisions}`, `## Tactical boards\n\n${boards}`, `## Actions\n\n${actions}`].join('\n\n') + '\n';
 }
 
 function csvCell(value) {
