@@ -1,3 +1,4 @@
+import SiteLink from '../components/SiteLink.jsx';
 import {AnalystBrief} from '../components/CoachingWorkbench.jsx';
 import {PendingHandoff} from '../components/CoachUI.jsx';
 import React, { useEffect, useRef, useState } from 'react';
@@ -18,7 +19,7 @@ const arr = value => Array.isArray(value) ? value : [];
 const percent = value => value == null ? '—' : `${Math.round(value * 100)}%`;
 const readableDate = value => { const date = new Date(value); return Number.isNaN(date.getTime()) ? 'Not dated' : date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }); };
 function safeUrl(value) { try { const url = new URL(value); return url.protocol === 'https:' && !url.username && !url.password ? url.href : null; } catch { return null; } }
-function SourceLink({ url, time, children = 'Open source' }) { const href = safeUrl(time ? buildVideoUrl(url, time) : url); return href ? <a className="an-source" href={href} target="_blank" rel="noreferrer">{children}<ArrowUpRight size={13} /></a> : null; }
+function SourceLink({ url, time, children = 'Open source' }) { const href = safeUrl(time ? buildVideoUrl(url, time) : url); return href ? <SiteLink className="an-source" href={href} target="_blank" rel="noreferrer">{children}<ArrowUpRight size={13} /></SiteLink> : null; }
 function download(content, filename, type) { const blob = new Blob([content], { type }); const url = URL.createObjectURL(blob); const link = document.createElement('a'); link.href = url; link.download = filename; document.body.appendChild(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000); }
 function filename(report) { return (report.title || 'analyst-report').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 80) || 'analyst-report'; }
 

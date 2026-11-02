@@ -1,7 +1,7 @@
 {
   "source": "https://rivalskins.com/assets/lord-icons/",
   "reviewedAt": "2026-11-02",
-  "notes": "Base forms only. Marvel / NetEase artwork, original files. Deadpool roles share a portrait. Full artwork retained separately.",
+  "notes": "Base forms only. Marvel / NetEase artwork, original files. Deadpool roles share a portrait. Full artwork retained separately. Elsa/Rogue identity mapping visually corrected 2026-11-02; existing asset filenames retained to avoid duplicate files and stale cached portraits.",
   "heroes": {
     "hulk": {
       "path": "/media/heroes/lord/hulk.webp",
@@ -239,9 +239,9 @@
       "sourceLabel": "item_herohead_21058020"
     },
     "rogue": {
-      "path": "/media/heroes/lord/rogue.webp",
-      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21059020.png",
-      "sourceLabel": "item_herohead_21059020"
+      "path": "/media/heroes/lord/elsa-bloodstone.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/img_squarehead_21065020_avatar.png",
+      "sourceLabel": "img_squarehead_21065020_avatar"
     },
     "white-fox": {
       "path": "/media/heroes/lord/white-fox.webp",
@@ -269,9 +269,9 @@
       "sourceLabel": "item_herohead_21064020"
     },
     "elsa-bloodstone": {
-      "path": "/media/heroes/lord/elsa-bloodstone.webp",
-      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/img_squarehead_21065020_avatar.png",
-      "sourceLabel": "img_squarehead_21065020_avatar"
+      "path": "/media/heroes/lord/rogue.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21059020.png",
+      "sourceLabel": "item_herohead_21059020"
     },
     "the-hood": {
       "path": "/media/heroes/lord/the-hood.webp",
