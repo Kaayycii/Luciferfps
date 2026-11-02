@@ -30,3 +30,12 @@ test('a manifest team logo is preferred even without an original URL alias',()=>
   try {assert.equal(teamMediaSources({id:key,name:'Verified team',logo:'https://example.org/protected.png'})[0],'/media/teams/real-mark.webp');}
   finally {if(previous===undefined) delete manifest.entities.teams[key];else manifest.entities.teams[key]=previous;}
 });
+
+ test('selected Lord portraits cover every hero without replacing full artwork',async()=>{
+ const {default:headshots}=await import('../../data/hero-headshots.json',{with:{type:'json'}});
+ for(const hero of data.heroes){assert.equal(heroMediaSources(hero)[0],headshots.heroes[hero.id].path);assert.notEqual(heroMediaSources(hero,true)[0],headshots.heroes[hero.id].path);}
+ assert.equal(new Set(Object.values(headshots.heroes).map(h=>h.path)).size,54);
+ assert.equal(heroMediaSources({id:'duelpool'})[0],heroMediaSources({id:'tankpool'})[0]);
+ assert.equal(headshots.heroes.magik.sourceLabel,'item_herohead_21029020');
+ assert.equal(headshots.heroes.hulk.sourceLabel,'item_herohead_21011021');
+ });
