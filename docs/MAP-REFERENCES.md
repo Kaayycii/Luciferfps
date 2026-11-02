@@ -6,7 +6,7 @@ The source acknowledges rough edges. These images have not been independently ce
 
 Surface colours are preserved. Height colour filters, height relief and old gameplay coordinates are not applied to textured images. No positions, geometry or tactical facts are invented. Users can place hero/ability tokens and draw annotated plans. Labeled cyan Allies, coral Opponents and gold Objective drawing presets distinguish tactical annotations from surfaces.
 
-The 40 superseded grayscale files and their asset aliases were removed from the deployed source. Normal Git history remains recoverable; history was not rewritten. The new set retains original pixel resolution and alpha, with WebP encoding optimised for delivery. It is more detailed and larger than the former height rasters, not a storage reduction overall.
+The 40 superseded grayscale files and their asset aliases were removed from the deployed source. Normal Git history remains recoverable; history was not rewritten. The new set uses up to 4K resolution, matching the source planner's display canvas, with aspect ratio and alpha preserved and WebP encoding optimised for delivery. It is more detailed and larger than the former height rasters, not a storage reduction overall.
 
 Saved boards are never silently reassigned to replacement geometry. A retired named stage or an unversioned board with existing annotations opens on a blank reference with its annotations intact. The user must choose a current stage explicitly and review positions. Analyst report snapshots follow the same rule. Undo, sharing, uploaded references and PNG export remain available.
 
