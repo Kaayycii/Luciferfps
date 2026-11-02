@@ -1,3 +1,4 @@
+import {validateCoaching} from './coaching.js';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { toPng } from 'html-to-image';
 
@@ -9,10 +10,10 @@ export function liveMapRoomsEnabled(env = {}) {
     typeof env.VITE_SUPABASE_ANON_KEY === 'string' && Boolean(env.VITE_SUPABASE_ANON_KEY.trim());
 }
 const validReferenceImage = value => value === undefined || (typeof value === 'string' && value.length <= 2_000_000 && /^data:image\/(?:jpeg|png|webp);base64,[a-zA-Z0-9+/=]+$/.test(value));
-export const validDraft = d => !!(d && typeof d.title === 'string' && d.title.length <= 1000 && ['tournament', 'ranked'].includes(d.preset) && ['mapId', 'enemyTeamId', 'mode'].every(key => d[key] === undefined || typeof d[key] === 'string') && ['blue', 'red'].every(side => d[side] && Array.isArray(d[side].timeline) && d[side].timeline.length === 7 && Array.isArray(d[side].comp) && d[side].comp.length === 6 && [...d[side].timeline, ...d[side].comp].every(v => v === null || typeof v === 'string') && typeof d[side].notes === 'string'));
+export const validDraft = d => !!(d && typeof d.title === 'string' && d.title.length <= 1000 && ['tournament', 'ranked', 'custom'].includes(d.preset) && validateCoaching(d.coaching) && ['mapId', 'enemyTeamId', 'mode'].every(key => d[key] === undefined || typeof d[key] === 'string') && ['blue', 'red'].every(side => d[side] && Array.isArray(d[side].timeline) && d[side].timeline.length === 7 && Array.isArray(d[side].comp) && d[side].comp.length === 6 && [...d[side].timeline, ...d[side].comp].every(v => v === null || typeof v === 'string') && typeof d[side].notes === 'string'));
 export const validTier = value => !!(value && typeof value.title === 'string' && Array.isArray(value.rows) && value.rows.length <= 20 && value.rows.every(row => row && typeof row.id === 'string' && typeof row.name === 'string' && typeof row.color === 'string' && Array.isArray(row.items) && row.items.every(id => typeof id === 'string')) && Array.isArray(value.custom) && value.custom.every(item => item && typeof item.id === 'string' && typeof item.name === 'string'));
 export const validBingo = value => !!(value && typeof value.title === 'string' && [3, 4, 5, 6, 7].includes(value.size) && typeof value.free === 'boolean' && Array.isArray(value.cells) && value.cells.length === 49 && value.cells.every(cell => typeof cell === 'string') && Array.isArray(value.marks) && value.marks.every(mark => Number.isInteger(mark) && mark >= 0 && mark < 49));
-export const validPlan = value => !!(value && typeof value.title === 'string' && value.title.length <= 1000 && typeof value.mapId === 'string' && (value.layoutId === undefined || typeof value.layoutId === 'string') && (value.referenceMode === undefined || ['floorplan', 'art'].includes(value.referenceMode)) && validReferenceImage(value.referenceImage) && (value.referenceName === undefined || (typeof value.referenceName === 'string' && value.referenceName.length <= 120)) && Array.isArray(value.objects) && value.objects.length <= 2000 && value.objects.every(object => object && typeof object.id === 'string' && ['hero', 'text', 'pen', 'arrow', 'line', 'highlight', 'zone'].includes(object.type) && Number.isFinite(object.x) && Number.isFinite(object.y) && (object.color === undefined || /^#[0-9a-f]{6}$/i.test(object.color)) && (object.text === undefined || typeof object.text === 'string') && (object.label === undefined || typeof object.label === 'string') && (object.abilityId === undefined || typeof object.abilityId === 'string') && (object.width === undefined || Number.isFinite(object.width)) && (!['line', 'arrow', 'zone'].includes(object.type) || (Number.isFinite(object.x2) && Number.isFinite(object.y2))) && (!['pen', 'highlight'].includes(object.type) || (Array.isArray(object.points) && object.points.length <= 20000 && object.points.every(point => point && Number.isFinite(point.x) && Number.isFinite(point.y))))));
+export const validPlan = value => !!(value && typeof value.title === 'string' && value.title.length <= 1000 && typeof value.mapId === 'string' && validateCoaching(value.coaching) && (!value.coaching?.phases || value.coaching.phases.every(p => validPlan(p.snapshot))) && (value.layoutId === undefined || typeof value.layoutId === 'string') && (value.referenceMode === undefined || ['floorplan', 'art'].includes(value.referenceMode)) && validReferenceImage(value.referenceImage) && (value.referenceName === undefined || (typeof value.referenceName === 'string' && value.referenceName.length <= 120)) && Array.isArray(value.objects) && value.objects.length <= 2000 && value.objects.every(object => object && typeof object.id === 'string' && ['hero', 'text', 'pen', 'arrow', 'line', 'highlight', 'zone'].includes(object.type) && Number.isFinite(object.x) && Number.isFinite(object.y) && (object.color === undefined || /^#[0-9a-f]{6}$/i.test(object.color)) && (object.text === undefined || typeof object.text === 'string') && (object.label === undefined || typeof object.label === 'string') && (object.intent === undefined || ['Planned','Observed','Hypothetical'].includes(object.intent)) && (object.abilityId === undefined || typeof object.abilityId === 'string') && (object.width === undefined || Number.isFinite(object.width)) && (!['line', 'arrow', 'zone'].includes(object.type) || (Number.isFinite(object.x2) && Number.isFinite(object.y2))) && (!['pen', 'highlight'].includes(object.type) || (Array.isArray(object.points) && object.points.length <= 20000 && object.points.every(point => point && Number.isFinite(point.x) && Number.isFinite(point.y))))));
 export function resizeBingo(state, size) {
   if (![3, 4, 5, 6, 7].includes(size)) throw new RangeError('Bingo sizes must be from 3 to 7.');
   return { ...state, size };
@@ -43,10 +44,14 @@ export function safeRead(key, fallback, validate = () => true) {
     return value && validate(value) ? value : fallback;
   } catch { return fallback; }
 }
-export function useStoredState(key, initial, validate) {
-  const [value, setValue] = useState(() => safeRead(key, typeof initial === 'function' ? initial() : initial, validate));
-  useEffect(() => { try { localStorage.setItem(PREFIX + key, JSON.stringify(value)); } catch { /* Storage can be unavailable in private mode. */ } }, [key, value]);
-  return [value, setValue];
+const pendingToolState = new Map();
+export function useStoredState(key, initial, validate = () => true) {
+  const boot=useRef(null);
+  if(!boot.current && pendingToolState.has(key))boot.current=pendingToolState.get(key);
+  if(!boot.current){const fallback=typeof initial==='function'?initial():initial;try{const raw=key?localStorage.getItem(PREFIX+key):null;const parsed=raw?JSON.parse(raw):fallback;if(!validate(parsed))throw Error('Saved data is invalid');boot.current={value:parsed,raw};}catch{boot.current={value:fallback,blocked:true};}}
+  const [value,setValue]=useState(boot.current.value), raw=useRef(boot.current.raw), blocked=useRef(boot.current.blocked);
+  useEffect(()=>{if(!key)return;let message='Saved on this device';try{if(blocked.current)throw Error('Existing data could not be read and has not been replaced');if(localStorage.getItem(PREFIX+key)!==raw.current&&!(raw.current===undefined&&localStorage.getItem(PREFIX+key)===null))throw Error('Another tab saved different work. Export before reloading');if(!validate(value))throw Error('This change exceeds workspace limits');const next=JSON.stringify(value);localStorage.setItem(PREFIX+key,next);raw.current=next;pendingToolState.delete(key);}catch(e){pendingToolState.set(key,{value,raw:raw.current,blocked:blocked.current});message='Unsaved — '+e.message;}window.dispatchEvent(new CustomEvent('lf-save-status',{detail:{key,message}}));},[key,value]);
+  return [value,setValue];
 }
 export function useHistory(initial, key, validate = () => true) {
   const [value, setValue] = useStoredState(key, initial, validate);
@@ -77,7 +82,7 @@ export function decodeSnapshot(value) {
   } catch { return null; }
 }
 export async function copySnapshot(key, value) {
-  const url = new URL(window.location.href); url.searchParams.delete('room'); url.searchParams.set(key, encodeSnapshot(value));
+  const url = new URL(window.location.href); url.search=''; const encoded=encodeSnapshot(value);if(encoded.length>60000)throw Error('This plan is too large for a link. Export JSON instead.');url.searchParams.set(key, encoded);if(key==='plan')url.searchParams.set('view','1');
   try { if (navigator.clipboard?.writeText) { await navigator.clipboard.writeText(url.href); return 'Link copied to clipboard'; } } catch { /* Keep a selectable link when clipboard permissions are unavailable. */ }
   return `Copy this link: ${url.href}`;
 }
