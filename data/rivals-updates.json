@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T18:51:42.667Z",
+  "updatedAt": "2026-11-02T15:11:59.520Z",
   "sources": [
     {
       "id": "game-home",
@@ -9,6 +9,8 @@
       "status": "ok",
       "articleCount": 13,
       "articleIds": [
+        "game-1318421",
+        "game-1317925",
         "game-1317554",
         "game-1317253",
         "game-1317131",
@@ -19,12 +21,10 @@
         "game-1315872",
         "game-1315864",
         "game-1315865",
-        "game-1315568",
-        "game-1314808",
-        "game-1314225"
+        "game-1315568"
       ],
-      "contentFingerprint": "1187aa20ba8374495b9e760b0c9f314658494f01ea6b198f50189646535085ed",
-      "lastContentChangeAt": "2026-10-26T18:48:59.289Z"
+      "contentFingerprint": "7ed96f5b6cf6e998b1f0be182a6514fb340cc7274e5da44a8227cdb151a5da77",
+      "lastContentChangeAt": "2026-11-02T15:11:59.520Z"
     },
     {
       "id": "game-updates",
@@ -33,6 +33,7 @@
       "status": "ok",
       "articleCount": 9,
       "articleIds": [
+        "game-1317925",
         "game-1317253",
         "game-1316588",
         "game-1315865",
@@ -40,11 +41,10 @@
         "game-1314808",
         "game-1314013",
         "game-1313441",
-        "game-1312948",
-        "game-1312268"
+        "game-1312948"
       ],
-      "contentFingerprint": "0eba6fcc071efd71f7aa637beb57878b1778ce844d6f33ba823630477aecb7ec",
-      "lastContentChangeAt": "2026-10-26T18:48:59.289Z"
+      "contentFingerprint": "e1fa145bda5caebfd611b6551bf78d335e3294f9b90b19b9bae70805cd10bcfe",
+      "lastContentChangeAt": "2026-11-02T15:11:59.520Z"
     },
     {
       "id": "game-balance",
@@ -111,6 +111,28 @@
     }
   ],
   "articles": [
+    {
+      "id": "game-1318421",
+      "title": "Art Vision Vol. 07 // Behind The Scenes (Part 3): Dedication and Passion",
+      "url": "https://www.marvelrivals.com/devdiaries/20261102/40954_1318421.html",
+      "publishedAt": "2026-11-02",
+      "category": "development",
+      "sourceIds": [
+        "game-home"
+      ]
+    },
+    {
+      "id": "game-1317925",
+      "title": "Marvel Rivals Version 20261029 Patch Notes",
+      "url": "https://www.marvelrivals.com/gameupdate/20261028/41548_1317925.html",
+      "publishedAt": "2026-10-28",
+      "category": "patches",
+      "effectiveAt": "2026-10-29",
+      "sourceIds": [
+        "game-home",
+        "game-updates"
+      ]
+    },
     {
       "id": "game-1317554",
       "title": "Art Vision Vol. 06 // Behind The Scenes (Part 2): Dedication and Passion | Marvel Rivals",
