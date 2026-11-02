@@ -1,0 +1,287 @@
+{
+  "source": "https://rivalskins.com/assets/lord-icons/",
+  "reviewedAt": "2026-11-02",
+  "notes": "Base forms only. Marvel / NetEase artwork, original files. Deadpool roles share a portrait. Full artwork retained separately.",
+  "heroes": {
+    "hulk": {
+      "path": "/media/heroes/lord/hulk.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21011021.png",
+      "sourceLabel": "item_herohead_21011021"
+    },
+    "the-punisher": {
+      "path": "/media/heroes/lord/the-punisher.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21014020.png",
+      "sourceLabel": "item_herohead_21014020"
+    },
+    "storm": {
+      "path": "/media/heroes/lord/storm.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21015020.png",
+      "sourceLabel": "item_herohead_21015020"
+    },
+    "loki": {
+      "path": "/media/heroes/lord/loki.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21016020.png",
+      "sourceLabel": "item_herohead_21016020"
+    },
+    "human-torch": {
+      "path": "/media/heroes/lord/human-torch.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21017020.png",
+      "sourceLabel": "item_herohead_21017020"
+    },
+    "doctor-strange": {
+      "path": "/media/heroes/lord/doctor-strange.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21018020.png",
+      "sourceLabel": "item_herohead_21018020"
+    },
+    "mantis": {
+      "path": "/media/heroes/lord/mantis.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21020020.png",
+      "sourceLabel": "item_herohead_21020020"
+    },
+    "hawkeye": {
+      "path": "/media/heroes/lord/hawkeye.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21021020.png",
+      "sourceLabel": "item_herohead_21021020"
+    },
+    "captain-america": {
+      "path": "/media/heroes/lord/captain-america.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21022020.png",
+      "sourceLabel": "item_herohead_21022020"
+    },
+    "rocket-raccoon": {
+      "path": "/media/heroes/lord/rocket-raccoon.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21023020.png",
+      "sourceLabel": "item_herohead_21023020"
+    },
+    "hela": {
+      "path": "/media/heroes/lord/hela.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21024020.png",
+      "sourceLabel": "item_herohead_21024020"
+    },
+    "cloak-and-dagger": {
+      "path": "/media/heroes/lord/cloak-and-dagger.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21025020.png",
+      "sourceLabel": "item_herohead_21025020"
+    },
+    "black-panther": {
+      "path": "/media/heroes/lord/black-panther.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21026020.png",
+      "sourceLabel": "item_herohead_21026020"
+    },
+    "groot": {
+      "path": "/media/heroes/lord/groot.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21027020.png",
+      "sourceLabel": "item_herohead_21027020"
+    },
+    "ultron": {
+      "path": "/media/heroes/lord/ultron.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21028020.png",
+      "sourceLabel": "item_herohead_21028020"
+    },
+    "magik": {
+      "path": "/media/heroes/lord/magik.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21029020.png",
+      "sourceLabel": "item_herohead_21029020"
+    },
+    "moon-knight": {
+      "path": "/media/heroes/lord/moon-knight.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21030020.png",
+      "sourceLabel": "item_herohead_21030020"
+    },
+    "luna-snow": {
+      "path": "/media/heroes/lord/luna-snow.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21031020.png",
+      "sourceLabel": "item_herohead_21031020"
+    },
+    "squirrel-girl": {
+      "path": "/media/heroes/lord/squirrel-girl.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21032020.png",
+      "sourceLabel": "item_herohead_21032020"
+    },
+    "black-widow": {
+      "path": "/media/heroes/lord/black-widow.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21033020.png",
+      "sourceLabel": "item_herohead_21033020"
+    },
+    "iron-man": {
+      "path": "/media/heroes/lord/iron-man.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21034020.png",
+      "sourceLabel": "item_herohead_21034020"
+    },
+    "venom": {
+      "path": "/media/heroes/lord/venom.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21035020.png",
+      "sourceLabel": "item_herohead_21035020"
+    },
+    "spider-man": {
+      "path": "/media/heroes/lord/spider-man.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21036020.png",
+      "sourceLabel": "item_herohead_21036020"
+    },
+    "magneto": {
+      "path": "/media/heroes/lord/magneto.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21037020.png",
+      "sourceLabel": "item_herohead_21037020"
+    },
+    "scarlet-witch": {
+      "path": "/media/heroes/lord/scarlet-witch.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21038020.png",
+      "sourceLabel": "item_herohead_21038020"
+    },
+    "thor": {
+      "path": "/media/heroes/lord/thor.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21039020.png",
+      "sourceLabel": "item_herohead_21039020"
+    },
+    "mister-fantastic": {
+      "path": "/media/heroes/lord/mister-fantastic.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21040020.png",
+      "sourceLabel": "item_herohead_21040020"
+    },
+    "winter-soldier": {
+      "path": "/media/heroes/lord/winter-soldier.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21041020.png",
+      "sourceLabel": "item_herohead_21041020"
+    },
+    "peni-parker": {
+      "path": "/media/heroes/lord/peni-parker.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21042020.png",
+      "sourceLabel": "item_herohead_21042020"
+    },
+    "star-lord": {
+      "path": "/media/heroes/lord/star-lord.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21043020.png",
+      "sourceLabel": "item_herohead_21043020"
+    },
+    "blade": {
+      "path": "/media/heroes/lord/blade.png",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21044020.png",
+      "sourceLabel": "item_herohead_21044020"
+    },
+    "namor": {
+      "path": "/media/heroes/lord/namor.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21045020.png",
+      "sourceLabel": "item_herohead_21045020"
+    },
+    "adam-warlock": {
+      "path": "/media/heroes/lord/adam-warlock.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21046020.png",
+      "sourceLabel": "item_herohead_21046020"
+    },
+    "jeff-the-land-shark": {
+      "path": "/media/heroes/lord/jeff-the-land-shark.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21047020.png",
+      "sourceLabel": "item_herohead_21047020"
+    },
+    "psylocke": {
+      "path": "/media/heroes/lord/psylocke.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21048020.png",
+      "sourceLabel": "item_herohead_21048020"
+    },
+    "wolverine": {
+      "path": "/media/heroes/lord/wolverine.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21049020.png",
+      "sourceLabel": "item_herohead_21049020"
+    },
+    "invisible-woman": {
+      "path": "/media/heroes/lord/invisible-woman.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21050020.png",
+      "sourceLabel": "item_herohead_21050020"
+    },
+    "the-thing": {
+      "path": "/media/heroes/lord/the-thing.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21051020.png",
+      "sourceLabel": "item_herohead_21051020"
+    },
+    "iron-fist": {
+      "path": "/media/heroes/lord/iron-fist.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21052020.png",
+      "sourceLabel": "item_herohead_21052020"
+    },
+    "emma-frost": {
+      "path": "/media/heroes/lord/emma-frost.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21053020.png",
+      "sourceLabel": "item_herohead_21053020"
+    },
+    "phoenix": {
+      "path": "/media/heroes/lord/phoenix.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21054020.png",
+      "sourceLabel": "item_herohead_21054020"
+    },
+    "daredevil": {
+      "path": "/media/heroes/lord/daredevil.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21055020.png",
+      "sourceLabel": "item_herohead_21055020"
+    },
+    "angela": {
+      "path": "/media/heroes/lord/angela.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21056020.png",
+      "sourceLabel": "item_herohead_21056020"
+    },
+    "duelpool": {
+      "path": "/media/heroes/lord/deadpool.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21057020.png",
+      "sourceLabel": "item_herohead_21057020"
+    },
+    "healpool": {
+      "path": "/media/heroes/lord/deadpool.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21057020.png",
+      "sourceLabel": "item_herohead_21057020"
+    },
+    "tankpool": {
+      "path": "/media/heroes/lord/deadpool.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21057020.png",
+      "sourceLabel": "item_herohead_21057020"
+    },
+    "gambit": {
+      "path": "/media/heroes/lord/gambit.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21058020.png",
+      "sourceLabel": "item_herohead_21058020"
+    },
+    "rogue": {
+      "path": "/media/heroes/lord/rogue.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21059020.png",
+      "sourceLabel": "item_herohead_21059020"
+    },
+    "white-fox": {
+      "path": "/media/heroes/lord/white-fox.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21060020.png",
+      "sourceLabel": "item_herohead_21060020"
+    },
+    "black-cat": {
+      "path": "/media/heroes/lord/black-cat.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21061020.png",
+      "sourceLabel": "item_herohead_21061020"
+    },
+    "devil-dinosaur": {
+      "path": "/media/heroes/lord/devil-dinosaur.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21062020.png",
+      "sourceLabel": "item_herohead_21062020"
+    },
+    "cyclops": {
+      "path": "/media/heroes/lord/cyclops.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21063020.png",
+      "sourceLabel": "item_herohead_21063020"
+    },
+    "jubilee": {
+      "path": "/media/heroes/lord/jubilee.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/item_herohead_21064020.png",
+      "sourceLabel": "item_herohead_21064020"
+    },
+    "elsa-bloodstone": {
+      "path": "/media/heroes/lord/elsa-bloodstone.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/img_squarehead_21065020_avatar.png",
+      "sourceLabel": "img_squarehead_21065020_avatar"
+    },
+    "the-hood": {
+      "path": "/media/heroes/lord/the-hood.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/img_squarehead_21066020_avatar.png",
+      "sourceLabel": "img_squarehead_21066020_avatar"
+    },
+    "gorr": {
+      "path": "/media/heroes/lord/gorr.webp",
+      "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/img_squarehead_21067020_avatar.png",
+      "sourceLabel": "img_squarehead_21067020_avatar"
+    }
+  }
+}
