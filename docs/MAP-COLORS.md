@@ -1,5 +1,7 @@
 # Colored map planning
 
+Historical notes: this height-raster renderer was superseded on November 2, 2026. See [current textured map references](MAP-REFERENCES.md). Retired grayscale files and unaligned source markers are no longer deployed.
+
 The 40 bundled overhead layouts retain the original rivals.gs game-file geometry and actor coordinates. The default display now applies a realm-specific color ramp: cool / dark lower areas through warmer / brighter higher areas. Tokyo, Wakanda, Yggsgard, Hydra, Klyntar and the other environments have distinct restrained palettes inspired by the bundled map imagery. No geometry or material boundaries are generated.
 
 These are illustrative display palettes, not official textured overhead renders. Surface colors indicate relative source height; they do not identify grass, water, walls, walkable areas, team ownership, exact elevation differences or live destructible state. The original grayscale remains available alongside a consistent blue / sand option. The planner's visible legend explains this distinction, and PNG exports include the same map, color legend and actor legend.

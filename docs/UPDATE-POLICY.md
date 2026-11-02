@@ -23,7 +23,7 @@ Prioritize the current competition rather than leaving an old event permanently 
 - Current official roster: 54 distinct heroes represented by 56 role entries, including Deadpool's three roles.
 - Latest official game patch: version 20261015, published October 14 and effective October 15. Current live season: 10.5, released October 9.
 - IGNITE Stage 2 playoffs run October 8–18; its official guide specifies Season 10. Do not infer that tournament matches use the current live patch.
-- Catalog expanded to 24 maps, including arcade and social locations that are not automatically classified as ranked maps. Every map has real artwork and source-provided floorplans: 40 layouts with 1,442 source gameplay markers.
+- Catalog contains 24 map records, including arcade and social locations not automatically classified as ranked maps. All have scene artwork; the November 2 authorised collection supplies 32 textured overhead variants for 18 families. Six families have no textured reference. Retired height-raster coordinates are not overlaid on replacement imagery. See MAP-REFERENCES.md.
 - Current official Stage 2 graphics extend verified team-mark coverage to 63 of 67 directory teams. ExG, Stick Drift, The Burgers and The Lions remain unverified.
 - Gorr's balance history now matches canonical hero identity. His Living Abyss cooldown remains an explicit source conflict: the hero page displays 13 seconds; the October 9 balance post specifies 12 seconds.
 - The independent official bulletin contains 41 source-linked articles and eight individually reviewed knowledge notes at this review. These counts can grow on subsequent refreshes.
