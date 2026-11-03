@@ -21,3 +21,27 @@
 @media(max-width:700px){.portfolio-copy h1{font-size:clamp(35px,7.5vw,48px);letter-spacing:-1.5px}.portfolio-hero{padding:38px 20px 62px;min-height:420px}.portfolio-real-map{inset:0;opacity:.5}.portfolio-real-map:after{background:linear-gradient(90deg,#080a0df5,#080a0d80),linear-gradient(0deg,#080a0d,transparent)}.portfolio-description{font-size:14px}.portfolio-copy .portfolio-kicker{font-size:8px;gap:10px;letter-spacing:1.2px}.portfolio-paths{grid-template-columns:1fr;gap:22px}.portfolio-path-icon{width:44px;height:44px}.portfolio-library,.portfolio-map-workspace{padding:16px}.portfolio-library-heading h2,.portfolio-map-workspace h2{font-size:21px}.portfolio-library-heading>a{display:none}.portfolio-heroes img{height:125px}.portfolio-heroes>a>div{padding:10px 7px}.portfolio-heroes h3{font-size:11px}.portfolio-heroes{min-height:192px}.portfolio-map-canvas{height:300px}.portfolio-feed{padding:20px 16px}.portfolio-feed-heading{align-items:start;flex-direction:column;gap:12px}.portfolio-feed h2{font-size:23px}.portfolio-feed .series-row{display:flex;flex-direction:column;gap:14px}.portfolio-feed .series-date{display:flex;flex-wrap:wrap;gap:10px}.portfolio-feed .series-matchup{width:100%}.portfolio-feed .series-context{display:flex;flex-wrap:wrap;gap:10px;width:100%}.portfolio-socials{margin-left:0;gap:15px}.portfolio-contact{padding:18px 4px}.portfolio-map-roster{gap:5px}.portfolio-map-roster a{font-size:8px}.portfolio-map-roster img{width:24px;height:24px}}
 @media(prefers-reduced-motion:reduce){.portfolio-heroes>a{transition:none}.portfolio-heroes>a:hover{transform:none}}
 
+
+/* Personal contact shortcuts */
+.sidebar .brand{padding-bottom:15px}
+.sidebar-contacts{margin:0 19px 13px;flex-shrink:0}
+.sidebar-contact-heading{display:flex;justify-content:space-between;align-items:center;margin:0 2px 7px;font-size:8px;letter-spacing:1.3px;color:#858591;font-weight:650}
+.sidebar-contact-heading span+span{font-size:9px;letter-spacing:.1px;color:#c3c4cd;font-weight:500}
+.sidebar-socials{display:flex;gap:7px}
+.sidebar-socials a,.sidebar-socials button{display:flex;align-items:center;justify-content:center;flex:1;min-width:0;height:32px;color:#b7bac8;background:#15161d;border:1px solid #30313b;border-radius:5px;cursor:pointer;transition:color .2s,border-color .2s,background .2s}
+.sidebar-socials svg{width:15px;height:15px;fill:currentColor}
+.sidebar-socials a:last-child svg{fill:none}
+.sidebar-socials a:hover,.sidebar-socials button:hover,.sidebar-socials a:focus-visible,.sidebar-socials button:focus-visible{color:#fff;border-color:#ff365a;background:#ff365a1a;outline:none}
+.sidebar-contact-status{display:block;font-size:9px;line-height:1.3;color:#b7bac8}
+.sidebar-contact-status:empty{display:none}
+html[data-theme=light] .sidebar-socials a,html[data-theme=light] .sidebar-socials button{color:#383847;background:#f7f7fa;border-color:#ceced8}
+html[data-theme=light] .sidebar-contact-heading span+span{color:#363642}
+@media(max-width:760px){.sidebar.open .brand{padding-bottom:15px}}
+
+/* Compact icon row, inspired by the reference provided by Lucifer. */
+.sidebar-contacts{margin:0 19px 13px}
+.sidebar-contact-heading{justify-content:center;margin-bottom:5px;letter-spacing:.1px;font-size:10px;font-weight:500;color:#bcbcc7}
+.sidebar-socials{justify-content:center;gap:10px}
+.sidebar-socials a,.sidebar-socials button{flex:0 0 30px;width:30px;height:30px;background:transparent;border:1px solid transparent;border-radius:4px}
+.sidebar-socials a:hover,.sidebar-socials button:hover,.sidebar-socials a:focus-visible,.sidebar-socials button:focus-visible{background:#ff365a12}
+html[data-theme=light] .sidebar-socials a,html[data-theme=light] .sidebar-socials button{background:transparent;border-color:transparent}
