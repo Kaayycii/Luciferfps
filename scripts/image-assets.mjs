@@ -104,7 +104,9 @@ async function pool(items, task, count = 5) {
 }
 export async function syncImageAssets() {
   const data=JSON.parse(await readFile(resolve(ROOT,'data/siteData.json'),'utf8'));
-  let manifest; try { manifest=JSON.parse(await readFile(MANIFEST,'utf8')); } catch { manifest={schemaVersion:1,assets:{},entities:{heroes:{},maps:{}},files:{},coverage:{}}; }
+  let manifest; let hasPreviousManifest = false;
+  try { manifest=JSON.parse(await readFile(MANIFEST,'utf8')); hasPreviousManifest=Boolean(manifest && manifest.assets && manifest.entities && manifest.files); }
+  catch { manifest={schemaVersion:1,assets:{},entities:{heroes:{},maps:{}},files:{},coverage:{}}; }
   const previousMeaningful=JSON.stringify({...manifest,updatedAt:undefined});
   manifest.assets ||= {}; manifest.entities ||= {}; manifest.entities.heroes ||= {}; manifest.entities.maps ||= {}; manifest.files ||= {};
   let sharp; if(process.env.SHARP_MODULE_PATH) sharp=(await import(pathToFileURL(process.env.SHARP_MODULE_PATH).href)).default;
@@ -126,9 +128,19 @@ export async function syncImageAssets() {
       } catch(error){ failures.push({url,error:error.message,sourcePage});return prior||null; }
     })();memo.set(key,pending);return pending;
   }
-  const officialHTML=(await fetchBuffer(`${OFFICIAL}heroes/`)).bytes.toString();
-  const officialHeroes=parseHeroCatalog(officialHTML);
-  if(officialHeroes.length<40)throw new Error('Official hero catalog unexpectedly incomplete');
+  let officialHeroes;
+  try {
+    const officialHTML=(await fetchBuffer(`${OFFICIAL}heroes/`)).bytes.toString();
+    officialHeroes=parseHeroCatalog(officialHTML);
+    if(officialHeroes.length<40)throw new Error('Official hero catalog unexpectedly incomplete');
+  } catch(error) {
+    // Do not use a partial catalog or overwrite last-good media on an outage.
+    // The workflow still validates the existing manifest and local files before
+    // publishing independently verified data updates.
+    if(!hasPreviousManifest)throw error;
+    console.warn(`Image refresh skipped: ${error.message}; retaining the last-good asset manifest and images.`);
+    return manifest;
+  }
   const officialByName=new Map(officialHeroes.map(hero=>[canon(hero.name),hero]));
   await pool(data.heroes, async hero=>{
     const official=officialByName.get(canon(hero.baseName||hero.name));

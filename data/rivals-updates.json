@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T15:15:00.000Z",
+  "updatedAt": "2026-11-09T17:23:32.354Z",
   "sources": [
     {
       "id": "game-home",
@@ -9,6 +9,8 @@
       "status": "ok",
       "articleCount": 13,
       "articleIds": [
+        "game-1318632",
+        "game-1318635",
         "game-1318421",
         "game-1317925",
         "game-1317554",
@@ -19,12 +21,10 @@
         "game-1316797",
         "game-1316588",
         "game-1315872",
-        "game-1315864",
-        "game-1315865",
-        "game-1315568"
+        "game-1315865"
       ],
-      "contentFingerprint": "7ed96f5b6cf6e998b1f0be182a6514fb340cc7274e5da44a8227cdb151a5da77",
-      "lastContentChangeAt": "2026-11-02T15:11:59.520Z"
+      "contentFingerprint": "9a182f6d6d85597c2591119cfee447a364b047db3cbbc9e36a3468574ac2b335",
+      "lastContentChangeAt": "2026-11-09T17:23:32.354Z"
     },
     {
       "id": "game-updates",
@@ -33,6 +33,7 @@
       "status": "ok",
       "articleCount": 9,
       "articleIds": [
+        "game-1318632",
         "game-1317925",
         "game-1317253",
         "game-1316588",
@@ -40,11 +41,10 @@
         "game-1315568",
         "game-1314808",
         "game-1314013",
-        "game-1313441",
-        "game-1312948"
+        "game-1313441"
       ],
-      "contentFingerprint": "e1fa145bda5caebfd611b6551bf78d335e3294f9b90b19b9bae70805cd10bcfe",
-      "lastContentChangeAt": "2026-11-02T15:11:59.520Z"
+      "contentFingerprint": "a0af898401e8162cfd213295b475f167870f9c13737edaed4049d2e5ca452c87",
+      "lastContentChangeAt": "2026-11-09T17:23:32.354Z"
     },
     {
       "id": "game-balance",
@@ -73,6 +73,7 @@
       "status": "ok",
       "articleCount": 9,
       "articleIds": [
+        "game-1318635",
         "game-1317131",
         "game-1316802",
         "game-1316797",
@@ -80,11 +81,10 @@
         "game-1313065",
         "game-1312335",
         "game-1311340",
-        "game-1308181",
-        "game-1306504"
+        "game-1308181"
       ],
-      "contentFingerprint": "a169482702436bc5999ee7e4bac1700d5b034cec2dc80f571c160aa54b7573b6",
-      "lastContentChangeAt": "2026-10-26T18:48:59.289Z"
+      "contentFingerprint": "7366095cc054a9405991b3af245b21a22f7313dc057843d04d9944742588671a",
+      "lastContentChangeAt": "2026-11-09T17:23:32.354Z"
     },
     {
       "id": "ignite-official",
@@ -111,6 +111,29 @@
     }
   ],
   "articles": [
+    {
+      "id": "game-1318632",
+      "title": "Marvel Rivals Version 20261105 Patch Notes",
+      "url": "https://www.marvelrivals.com/gameupdate/20261104/41548_1318632.html",
+      "publishedAt": "2026-11-04",
+      "category": "patches",
+      "effectiveAt": "2026-11-05",
+      "sourceIds": [
+        "game-home",
+        "game-updates"
+      ]
+    },
+    {
+      "id": "game-1318635",
+      "title": "Marvel Rivals Teams Up With RESPAWN By Razer For A Limited Edition Gum & Mints Collection",
+      "url": "https://www.marvelrivals.com/announcements/20261104/40955_1318635.html",
+      "publishedAt": "2026-11-04",
+      "category": "announcements",
+      "sourceIds": [
+        "game-announcements",
+        "game-home"
+      ]
+    },
     {
       "id": "game-1318421",
       "title": "Art Vision Vol. 07 // Behind The Scenes (Part 3): Dedication and Passion",
@@ -617,6 +640,23 @@
     }
   ],
   "facts": [
+    {
+      "id": "patch-20261105",
+      "title": "November 5 patch: Moon Knight and Captain America team-up fixes",
+      "category": "patches",
+      "summary": "Moon Knight’s Talons of Khonshu from his Blood Moon Team-Up with Elsa Bloodstone can now damage blocking Doctor Strange and other shields. Captain America’s Stars Aligned Team-Up with Winter Soldier no longer suffers a landing-position desynchronization that could prevent his buffs. The notes list no numerical balance changes and do not specify the IGNITE Grand Finals game version.",
+      "sourceUrl": "https://www.marvelrivals.com/gameupdate/20261104/41548_1318632.html",
+      "publishedAt": "2026-11-04",
+      "effectiveAt": "2026-11-05T09:00:00Z",
+      "reviewedAt": "2026-11-09",
+      "relatedHeroIds": [
+        "moon-knight",
+        "elsa-bloodstone",
+        "doctor-strange",
+        "captain-america",
+        "winter-soldier"
+      ]
+    },
     {
       "id": "patch-20261029",
       "title": "October 29 patch: Gorr, Black Cat and Invisible Woman fixes",
