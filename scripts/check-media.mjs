@@ -6,10 +6,11 @@ const root=fileURLToPath(new URL('../',import.meta.url));
 const publicRoot=resolve(root,'public');
 const manifest=JSON.parse(await readFile(resolve(root,'data/asset-manifest.json'),'utf8'));
 const data=JSON.parse(await readFile(resolve(root,'data/siteData.json'),'utf8'));
+const headshots=JSON.parse(await readFile(resolve(root,'data/hero-headshots.json'),'utf8'));
 const paths=new Set();
 function collect(value){if(typeof value==='string'&&value.startsWith('/media/'))paths.add(value);else if(Array.isArray(value))value.forEach(collect);else if(value&&typeof value==='object')Object.values(value).forEach(collect);}
 collect(manifest);
-collect(JSON.parse(await readFile(resolve(root,'data/hero-headshots.json'),'utf8')));
+collect(headshots);
 const errors=[];
 for(const path of paths){
   const absolute=resolve(publicRoot,'.'+path);
@@ -27,8 +28,14 @@ for(const path of paths){
 }
 for(const hero of data.heroes){
   const record=manifest.entities?.heroes?.[hero.id];
-  if(!paths.has(record?.portrait)||!paths.has(record?.art))errors.push(`Missing local portrait/art for ${hero.name}`);
-  for(const ability of hero.abilities||[])if(!paths.has(record?.abilities?.[ability.id]))errors.push(`Missing local ability icon: ${hero.name} / ${ability.name}`);
+  const portrait=headshots.heroes?.[hero.id]?.path || record?.portrait;
+  if(!paths.has(portrait)||!paths.has(record?.art))errors.push(`Missing local portrait/art for ${hero.name}`);
+  for(const ability of hero.abilities||[]){
+    // Fresh official roster entries can precede a static ability-data release.
+    // Keep their named abilities visible, but never pretend an icon was verified.
+    if(ability.type==='official roster') continue;
+    if(!paths.has(record?.abilities?.[ability.id]))errors.push(`Missing local ability icon: ${hero.name} / ${ability.name}`);
+  }
 }
 for(const teamup of data.teamUps||[])if(!paths.has(manifest.assets?.[teamup.image]))errors.push(`Missing local team-up icon: ${teamup.name}`);
 for(const map of data.maps){

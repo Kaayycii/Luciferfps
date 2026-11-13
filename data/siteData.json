@@ -2,7 +2,7 @@
   "meta": {
     "schemaVersion": 1,
     "name": "Lucifer.fps",
-    "syncedAt": "2026-10-16T07:53:23.617Z",
+    "syncedAt": "2026-11-13T18:36:05.281Z",
     "source": "https://arianwever.com/",
     "publicOnly": true,
     "attribution": [
@@ -16,11 +16,11 @@
     "counts": {
       "matches": 480,
       "playerAppearances": 5760,
-      "heroes": 56,
+      "heroes": 57,
       "teams": 67,
       "players": 531,
       "staff": 55,
-      "patches": 60,
+      "patches": 61,
       "maps": 24
     },
     "limitations": [
@@ -69,7 +69,7 @@
     ],
     "officialCatalog": {
       "sourceUrl": "https://www.marvelrivals.com/",
-      "updatedAt": "2026-10-16T15:09:51.485Z",
+      "updatedAt": "2026-11-13T18:36:04.247Z",
       "publishedMapCount": 23,
       "publishedHeroCount": 54
     }
@@ -452,6 +452,44 @@
       ],
       "forms": null,
       "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Adam Warlock",
+              "text": "Avatar Life Stream initial healing reduced from 95 to 55 while bounces increase from 2 to 4; total healing per cast reduced from 285 to 275.",
+              "type": "rework",
+              "section": "Adam Warlock",
+              "scope": "hero",
+              "facts": [
+                "95",
+                "55",
+                "2",
+                "4",
+                "285",
+                "275"
+              ],
+              "id": "Adam Warlock-38"
+            },
+            {
+              "hero": "Adam Warlock",
+              "text": "Storm Team-Up Soaring Surge speed boost increased from 67% to 100%; Soul Bond ally damage boost reduced from 12% to 8%.",
+              "type": "rework",
+              "section": "Adam Warlock",
+              "scope": "hero",
+              "facts": [
+                "67",
+                "100",
+                "12",
+                "8"
+              ],
+              "id": "Adam Warlock-39"
+            }
+          ]
+        },
         {
           "id": "2026-10-09",
           "date": "2026-10-09",
@@ -1062,6 +1100,51 @@
       ],
       "forms": null,
       "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Angela",
+              "text": "Axes of Ichors first three strikes damage increased from 30 to 35.",
+              "type": "buff",
+              "section": "Angela",
+              "scope": "hero",
+              "facts": [
+                "30",
+                "35"
+              ],
+              "id": "Angela-6"
+            },
+            {
+              "hero": "Angela",
+              "text": "Divine Judgement now grants its movement-speed and Bonus Health buffs for 6s after casting; Wingblade Ascent removes them.",
+              "type": "buff",
+              "section": "Angela",
+              "scope": "hero",
+              "facts": [
+                "6s"
+              ],
+              "id": "Angela-7"
+            },
+            {
+              "hero": "Angela",
+              "text": "Dual-axe Bonus Health per hit increased from 50 to 55; Divine Judgement continuous damage increased from 12.5/s to 15/s.",
+              "type": "buff",
+              "section": "Angela",
+              "scope": "hero",
+              "facts": [
+                "50",
+                "55",
+                "12.5",
+                "15"
+              ],
+              "id": "Angela-8"
+            }
+          ]
+        },
         {
           "id": "2026-09-11",
           "date": "2026-09-11",
@@ -2044,6 +2127,32 @@
         ]
       },
       "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Black Cat",
+              "text": "Feline Fury maximum Fortune per cast increased from 50 to 75; Black Panther Team-Up Feline Alliance Bonus Health increased from 25 to 50 and Fortune gain/cap increased from 50/100 to 100/200.",
+              "type": "buff",
+              "section": "Black Cat",
+              "scope": "hero",
+              "facts": [
+                "50",
+                "75",
+                "25",
+                "50",
+                "50",
+                "100",
+                "100",
+                "200"
+              ],
+              "id": "Black Cat-26"
+            }
+          ]
+        },
         {
           "id": "2026-09-11",
           "date": "2026-09-11",
@@ -3094,6 +3203,42 @@
       ],
       "forms": null,
       "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Black Widow",
+              "text": "Electro-Plasma Blast damage increased from 50–70 to 55–75; Phoenix Team-Up damage increased from 70 to 75.",
+              "type": "buff",
+              "section": "Black Widow",
+              "scope": "hero",
+              "facts": [
+                "50",
+                "70",
+                "55",
+                "75",
+                "70",
+                "75"
+              ],
+              "id": "Black Widow-27"
+            },
+            {
+              "hero": "Black Widow",
+              "text": "Hawkeye Team-Up Allied Agents now grants Bonus Health from Focused-state damage at a 50% ratio, capped at 75.",
+              "type": "buff",
+              "section": "Black Widow",
+              "scope": "hero",
+              "facts": [
+                "50",
+                "75"
+              ],
+              "id": "Black Widow-28"
+            }
+          ]
+        },
         {
           "id": "2026-09-11",
           "date": "2026-09-11",
@@ -5003,6 +5148,45 @@
       },
       "balanceHistory": [
         {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Cloak & Dagger",
+              "text": "Dagger Storm cooldown increased from 12s to 15s and self-healing reduced from 50/s to 35/s; Darkforce Cloak damage increased from 80/s to 85/s and Terror Cape blind reduced from 1.5s to 1s.",
+              "type": "rework",
+              "section": "Cloak & Dagger",
+              "scope": "hero",
+              "facts": [
+                "12s",
+                "15s",
+                "50",
+                "35",
+                "80",
+                "85",
+                "1.5s",
+                "1s"
+              ],
+              "id": "Cloak & Dagger-40"
+            },
+            {
+              "hero": "Cloak & Dagger",
+              "text": "Veil of Lightforce and Terror Cape movement speed increased from 20m/s to 35m/s; each hero hit reduces Dagger Storm cooldown by 0.6s. Hood Team-Up veils now launch enemies hit along their path.",
+              "type": "rework",
+              "section": "Cloak & Dagger",
+              "scope": "hero",
+              "facts": [
+                "20m/s",
+                "35m/s",
+                "0.6s"
+              ],
+              "id": "Cloak & Dagger-41"
+            }
+          ]
+        },
+        {
           "id": "2026-09-11",
           "date": "2026-09-11",
           "title": "Patch - September 11 2026",
@@ -6795,6 +6979,57 @@
       "forms": null,
       "balanceHistory": [
         {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Devil Dinosaur",
+              "text": "Savage Predation control duration reduced from 0.8s to 0.6s and its post-control launch reduced from 1.5s to 1.2s.",
+              "type": "nerf",
+              "section": "Devil Dinosaur",
+              "scope": "hero",
+              "facts": [
+                "0.8s",
+                "0.6s",
+                "1.5s",
+                "1.2s"
+              ],
+              "id": "Devil Dinosaur-10"
+            },
+            {
+              "hero": "Devil Dinosaur",
+              "text": "Buddy Barrier loses its 15% Slow; duration reduced from 6s to 4s and shield reduced from 450 to 400.",
+              "type": "nerf",
+              "section": "Devil Dinosaur",
+              "scope": "hero",
+              "facts": [
+                "15",
+                "6s",
+                "4s",
+                "450",
+                "400"
+              ],
+              "id": "Devil Dinosaur-11"
+            },
+            {
+              "hero": "Devil Dinosaur",
+              "text": "Apex Advantage Bonus Health conversion reduced from 150% to 125% of Bleed damage; Primal Punishment cooldown with The Punisher increased from 12s to 18s.",
+              "type": "nerf",
+              "section": "Devil Dinosaur",
+              "scope": "hero",
+              "facts": [
+                "150",
+                "125",
+                "12s",
+                "18s"
+              ],
+              "id": "Devil Dinosaur-12"
+            }
+          ]
+        },
+        {
           "id": "2026-10-09",
           "date": "2026-10-09",
           "title": "Patch - October 9 2026",
@@ -7337,6 +7572,65 @@
       ],
       "forms": null,
       "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Doctor Strange",
+              "text": "Portal movement-direction issue fixed; Birnin T’Challa positioning error and several Season 11 hero/cosmetic bugs addressed.",
+              "type": "fix",
+              "section": "Doctor Strange",
+              "scope": "hero",
+              "facts": [
+                "11"
+              ],
+              "id": "Doctor Strange-5"
+            },
+            {
+              "hero": "Doctor Strange",
+              "text": "Shield of the Seraphim shield reduced from 850 to 800 and recovery reduced from 60/s to 50/s.",
+              "type": "nerf",
+              "section": "Doctor Strange",
+              "scope": "hero",
+              "facts": [
+                "850",
+                "800",
+                "60",
+                "50"
+              ],
+              "id": "Doctor Strange-13"
+            },
+            {
+              "hero": "Doctor Strange",
+              "text": "Invisible Woman Team-Up shield bonus reduced from 150 to 100; Psionic Vortex no longer grants allied Bonus Health and its self conversion rises from 0.5 to 0.7.",
+              "type": "rework",
+              "section": "Doctor Strange",
+              "scope": "hero",
+              "facts": [
+                "150",
+                "100",
+                "0.5",
+                "0.7"
+              ],
+              "id": "Doctor Strange-14"
+            },
+            {
+              "hero": "Doctor Strange",
+              "text": "Hulk Team-Up minimum retained Gamma Maelstrom energy reduced from 50 to 25.",
+              "type": "nerf",
+              "section": "Doctor Strange",
+              "scope": "hero",
+              "facts": [
+                "50",
+                "25"
+              ],
+              "id": "Doctor Strange-15"
+            }
+          ]
+        },
         {
           "id": "2026-09-11",
           "date": "2026-09-11",
@@ -7913,413 +8207,7 @@
         }
       ],
       "forms": null,
-      "balanceHistory": [
-        {
-          "id": "2026-09-11",
-          "date": "2026-09-11",
-          "title": "Patch - September 11 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/20260909/41548_1313441.html",
-          "changes": [
-            {
-              "id": "deadpool-vanguard-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Dual Desert Eagles & Dual Desert Eagles - Upgraded Damage Falloff: Adjust maximum Damage Falloff at 30m from 50% to 75%.",
-              "facts": [
-                "30m",
-                "50%",
-                "75%"
-              ]
-            },
-            {
-              "id": "deadpool-vanguard-1",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase healing gained during The Ban Hammer and The Ban Hammer - Upgraded from 25/s to 35/s. Increase Bonus Health gained when releasing The Ban Hammer (Ultimate Ability) and The Big Test (Ultimate Ability) from 200 to 300.",
-              "facts": [
-                "25",
-                "35",
-                "200",
-                "300"
-              ]
-            },
-            {
-              "id": "deadpool-vanguard-2",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Upgrade! Reduce experience required for every \"Upgrade!\" to 75% of the original values.",
-              "facts": [
-                "75%"
-              ]
-            },
-            {
-              "id": "deadpool-duelist-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Duelist)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase Dual Desert Eagles - Duelist single shot damage from 38 to 42.",
-              "facts": [
-                "38",
-                "42"
-              ]
-            },
-            {
-              "id": "deadpool-duelist-1",
-              "hero": "Deadpool",
-              "section": "Deadpool (Duelist)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Upgrade! Reduce experience required for every \"Upgrade!\" to 75% of the original values.",
-              "facts": [
-                "75%"
-              ]
-            },
-            {
-              "id": "deadpool-strategist-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Strategist)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase base Health from 250 to 275.",
-              "facts": [
-                "250",
-                "275"
-              ]
-            },
-            {
-              "id": "deadpool-strategist-1",
-              "hero": "Deadpool",
-              "section": "Deadpool (Strategist)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Reduce Deadpool In Your Area - Strategist and Deadpool In Your Area - Strategist Upgraded cooldown from 12s to 10s.",
-              "facts": [
-                "12s",
-                "10s"
-              ]
-            },
-            {
-              "id": "deadpool-strategist-2",
-              "hero": "Deadpool",
-              "section": "Deadpool (Strategist)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Upgrade! Reduce experience required for every \"Upgrade!\" to 75% of the original values.",
-              "facts": [
-                "75%"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-07-10",
-          "date": "2026-07-10",
-          "title": "Patch - July 10 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-vanguard-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase Dual Desert Eagles - Vanguard single-shot damage from 34 to 36 (standard) and from 39 to 40 (upgraded).",
-              "facts": [
-                "34",
-                "36",
-                "39",
-                "40"
-              ]
-            },
-            {
-              "id": "deadpool-vanguard-1",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Deadpool In Your Area - Upgraded (Vanguard): Increase the Damage Reduction provided to allies from 20% to 25% and from 30% to 35% for Deadpool.",
-              "facts": [
-                "20%",
-                "25%",
-                "30%",
-                "35%"
-              ]
-            },
-            {
-              "id": "deadpool-vanguard-2",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase base Health from 450 to 500.",
-              "facts": [
-                "450",
-                "500"
-              ]
-            },
-            {
-              "id": "deadpool-vanguard-3",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Remove the Team-Up Anchor 50 Bonus Health.",
-              "facts": [
-                "50"
-              ]
-            },
-            {
-              "id": "deadpool-duelist-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Duelist)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Remove Team-Up Anchor bonus 5% Damage Boost.",
-              "facts": [
-                "5%"
-              ]
-            },
-            {
-              "id": "deadpool-strategist-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Strategist)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Remove Team-Up Anchor bonus 5% Healing Boost.",
-              "facts": [
-                "5%"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-06-12",
-          "date": "2026-06-12",
-          "title": "Patch - June 12 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-0",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "buff",
-              "text": "In gun form, increase Bouncing Bobblehead continuous healing provided by the spell field from 40/s to 50/s (standard); and from 50/s to 55/s (upgraded).",
-              "facts": [
-                "40",
-                "50",
-                "50",
-                "55"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-05-15",
-          "date": "2026-05-15",
-          "title": "Patch - May 15 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-0",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Reduce The Ban Hammer (Gun Form Ultimate Ability) healing provided while active from 50/s to 25/s.",
-              "facts": [
-                "50",
-                "25"
-              ]
-            },
-            {
-              "id": "deadpool-1",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Reduce Dual Desert Eagles - Vanguard single-shot damage from 36 to 34 (standard) and from 42 to 39 (upgraded).",
-              "facts": [
-                "36",
-                "34",
-                "42",
-                "39"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-04-17",
-          "date": "2026-04-17",
-          "title": "Patch - April 17 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-0",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Reduce The Ban Hammer (Gun Form Ultimate Ability) Bonus Health gained per hammer hit from 80 to 60 (standard) and from 80 to 70 (upgraded).",
-              "facts": [
-                "80",
-                "60",
-                "80",
-                "70"
-              ]
-            },
-            {
-              "id": "deadpool-1",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Reduce The Ban Hammer (Gun Form Ultimate Ability) damage dealt per hammer hit from 45 to 35.",
-              "facts": [
-                "45",
-                "35"
-              ]
-            },
-            {
-              "id": "deadpool-2",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Reduce bonus Attack Speed provided by Deadpool in Your Area - Vanguard to Dual Desert Eagles - Vanguard from 60% to 40%.",
-              "facts": [
-                "60%",
-                "40%"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-03-26",
-          "date": "2026-03-26",
-          "title": "Patch - March 26 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-0",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Slightly reduced Deadpool's mobility. (We noticed some players using extreme inputs to execute a rapid cycle combo of Kick@$$ Katanas -> Hazardous Hijinks -> Bunny Hop.",
-              "facts": []
-            },
-            {
-              "id": "deadpool-1",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Bunny Bounce (Vanguard), Bunny Hop (Duelist), and Healing Hop (Strategist) now have a 0.5s cooldown after a successful refresh. (Note: Because this cooldown is so short, it will not be displayed on the ability icon.)",
-              "facts": [
-                "0.5s"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-03-20",
-          "date": "2026-03-20",
-          "title": "Patch - March 20 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-vanguard-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Reduce Deadpool In Your Area - Vanguard (Upgraded) Damage Reduction from 40% to 30%.",
-              "facts": [
-                "40%",
-                "30%"
-              ]
-            },
-            {
-              "id": "deadpool-vanguard-1",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Increase Ultimate Ability cooldown from 45s to 60s.",
-              "facts": [
-                "45s",
-                "60s"
-              ]
-            },
-            {
-              "id": "deadpool-duelist-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Duelist)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase base health from 250 to 275.",
-              "facts": [
-                "250",
-                "275"
-              ]
-            },
-            {
-              "id": "deadpool-duelist-1",
-              "hero": "Deadpool",
-              "section": "Deadpool (Duelist)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Increase Ultimate Ability cooldown from 45s to 60s.",
-              "facts": [
-                "45s",
-                "60s"
-              ]
-            },
-            {
-              "id": "deadpool-strategist-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Strategist)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Increase Ultimate Ability cooldown from 45s to 60s.",
-              "facts": [
-                "45s",
-                "60s"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-02-13",
-          "date": "2026-02-13",
-          "title": "Patch - February 13 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-0",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase Healing Amount gained when releasing Pop Quiz! (Ultimate Ability) from 30 to 35 and from 60 to 70 upon passing the challenge.",
-              "facts": [
-                "30",
-                "35",
-                "60",
-                "70"
-              ]
-            }
-          ]
-        }
-      ],
+      "balanceHistory": [],
       "sourceUrl": "https://www.marvelrivals.com/heroes/",
       "thumbnail": "https://arianwever.com/Graphics/Derived/Hero%20Icons/72/Hero_Icon_Deadpool.webp"
     },
@@ -8850,6 +8738,28 @@
       ],
       "forms": null,
       "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Elsa Bloodstone",
+              "text": "Double-Barrel Blaster damage falloff now begins at 10m instead of 20m; Devil Dinosaur Team-Up removes one charge and changes Smoky Snare cooldown from 15s to 12s.",
+              "type": "nerf",
+              "section": "Elsa Bloodstone",
+              "scope": "hero",
+              "facts": [
+                "10m",
+                "20m",
+                "15s",
+                "12s"
+              ],
+              "id": "Elsa Bloodstone-29"
+            }
+          ]
+        },
         {
           "id": "2026-09-11",
           "date": "2026-09-11",
@@ -9527,6 +9437,43 @@
         ]
       },
       "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Emma Frost",
+              "text": "Mind's Aegis shield reduced from 400 to 350 and recovery reduced from 80/s to 65/s.",
+              "type": "nerf",
+              "section": "Emma Frost",
+              "scope": "hero",
+              "facts": [
+                "400",
+                "350",
+                "80",
+                "65"
+              ],
+              "id": "Emma Frost-16"
+            },
+            {
+              "hero": "Emma Frost",
+              "text": "Psychic Spear extraction damage changed from 25% maximum Health to 60 + 10% maximum Health; Iced Out Diamond shield with Luna Snow reduced from 350 to 300.",
+              "type": "nerf",
+              "section": "Emma Frost",
+              "scope": "hero",
+              "facts": [
+                "25",
+                "60",
+                "10",
+                "350",
+                "300"
+              ],
+              "id": "Emma Frost-17"
+            }
+          ]
+        },
         {
           "id": "2026-09-11",
           "date": "2026-09-11",
@@ -10400,6 +10347,28 @@
       ],
       "forms": null,
       "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Gambit",
+              "text": "Kinetic Cards outer-card spread increased from 2° to 3°; Healing Hearts self-healing reduced from 30/s to 20/s.",
+              "type": "nerf",
+              "section": "Gambit",
+              "scope": "hero",
+              "facts": [
+                "2",
+                "3",
+                "30",
+                "20"
+              ],
+              "id": "Gambit-42"
+            }
+          ]
+        },
         {
           "id": "2026-10-09",
           "date": "2026-10-09",
@@ -11545,6 +11514,37 @@
       "forms": null,
       "balanceHistory": [
         {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Groot",
+              "text": "Thornlash Wall Flora Colossus damage increased from 60 to 65; Ironwood Wall Health reduced from 600 to 550.",
+              "type": "rework",
+              "section": "Groot",
+              "scope": "hero",
+              "facts": [
+                "60",
+                "65",
+                "600",
+                "550"
+              ],
+              "id": "Groot-18"
+            },
+            {
+              "hero": "Groot",
+              "text": "Mantis Team-Up Wild Wall now also receives the Flora Colossus passive.",
+              "type": "buff",
+              "section": "Groot",
+              "scope": "hero",
+              "facts": [],
+              "id": "Groot-19"
+            }
+          ]
+        },
+        {
           "id": "2026-09-11",
           "date": "2026-09-11",
           "title": "Patch - September 11 2026",
@@ -12521,413 +12521,7 @@
         }
       ],
       "forms": null,
-      "balanceHistory": [
-        {
-          "id": "2026-09-11",
-          "date": "2026-09-11",
-          "title": "Patch - September 11 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/20260909/41548_1313441.html",
-          "changes": [
-            {
-              "id": "deadpool-vanguard-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Dual Desert Eagles & Dual Desert Eagles - Upgraded Damage Falloff: Adjust maximum Damage Falloff at 30m from 50% to 75%.",
-              "facts": [
-                "30m",
-                "50%",
-                "75%"
-              ]
-            },
-            {
-              "id": "deadpool-vanguard-1",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase healing gained during The Ban Hammer and The Ban Hammer - Upgraded from 25/s to 35/s. Increase Bonus Health gained when releasing The Ban Hammer (Ultimate Ability) and The Big Test (Ultimate Ability) from 200 to 300.",
-              "facts": [
-                "25",
-                "35",
-                "200",
-                "300"
-              ]
-            },
-            {
-              "id": "deadpool-vanguard-2",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Upgrade! Reduce experience required for every \"Upgrade!\" to 75% of the original values.",
-              "facts": [
-                "75%"
-              ]
-            },
-            {
-              "id": "deadpool-duelist-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Duelist)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase Dual Desert Eagles - Duelist single shot damage from 38 to 42.",
-              "facts": [
-                "38",
-                "42"
-              ]
-            },
-            {
-              "id": "deadpool-duelist-1",
-              "hero": "Deadpool",
-              "section": "Deadpool (Duelist)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Upgrade! Reduce experience required for every \"Upgrade!\" to 75% of the original values.",
-              "facts": [
-                "75%"
-              ]
-            },
-            {
-              "id": "deadpool-strategist-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Strategist)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase base Health from 250 to 275.",
-              "facts": [
-                "250",
-                "275"
-              ]
-            },
-            {
-              "id": "deadpool-strategist-1",
-              "hero": "Deadpool",
-              "section": "Deadpool (Strategist)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Reduce Deadpool In Your Area - Strategist and Deadpool In Your Area - Strategist Upgraded cooldown from 12s to 10s.",
-              "facts": [
-                "12s",
-                "10s"
-              ]
-            },
-            {
-              "id": "deadpool-strategist-2",
-              "hero": "Deadpool",
-              "section": "Deadpool (Strategist)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Upgrade! Reduce experience required for every \"Upgrade!\" to 75% of the original values.",
-              "facts": [
-                "75%"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-07-10",
-          "date": "2026-07-10",
-          "title": "Patch - July 10 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-vanguard-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase Dual Desert Eagles - Vanguard single-shot damage from 34 to 36 (standard) and from 39 to 40 (upgraded).",
-              "facts": [
-                "34",
-                "36",
-                "39",
-                "40"
-              ]
-            },
-            {
-              "id": "deadpool-vanguard-1",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Deadpool In Your Area - Upgraded (Vanguard): Increase the Damage Reduction provided to allies from 20% to 25% and from 30% to 35% for Deadpool.",
-              "facts": [
-                "20%",
-                "25%",
-                "30%",
-                "35%"
-              ]
-            },
-            {
-              "id": "deadpool-vanguard-2",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase base Health from 450 to 500.",
-              "facts": [
-                "450",
-                "500"
-              ]
-            },
-            {
-              "id": "deadpool-vanguard-3",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Remove the Team-Up Anchor 50 Bonus Health.",
-              "facts": [
-                "50"
-              ]
-            },
-            {
-              "id": "deadpool-duelist-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Duelist)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Remove Team-Up Anchor bonus 5% Damage Boost.",
-              "facts": [
-                "5%"
-              ]
-            },
-            {
-              "id": "deadpool-strategist-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Strategist)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Remove Team-Up Anchor bonus 5% Healing Boost.",
-              "facts": [
-                "5%"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-06-12",
-          "date": "2026-06-12",
-          "title": "Patch - June 12 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-0",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "buff",
-              "text": "In gun form, increase Bouncing Bobblehead continuous healing provided by the spell field from 40/s to 50/s (standard); and from 50/s to 55/s (upgraded).",
-              "facts": [
-                "40",
-                "50",
-                "50",
-                "55"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-05-15",
-          "date": "2026-05-15",
-          "title": "Patch - May 15 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-0",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Reduce The Ban Hammer (Gun Form Ultimate Ability) healing provided while active from 50/s to 25/s.",
-              "facts": [
-                "50",
-                "25"
-              ]
-            },
-            {
-              "id": "deadpool-1",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Reduce Dual Desert Eagles - Vanguard single-shot damage from 36 to 34 (standard) and from 42 to 39 (upgraded).",
-              "facts": [
-                "36",
-                "34",
-                "42",
-                "39"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-04-17",
-          "date": "2026-04-17",
-          "title": "Patch - April 17 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-0",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Reduce The Ban Hammer (Gun Form Ultimate Ability) Bonus Health gained per hammer hit from 80 to 60 (standard) and from 80 to 70 (upgraded).",
-              "facts": [
-                "80",
-                "60",
-                "80",
-                "70"
-              ]
-            },
-            {
-              "id": "deadpool-1",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Reduce The Ban Hammer (Gun Form Ultimate Ability) damage dealt per hammer hit from 45 to 35.",
-              "facts": [
-                "45",
-                "35"
-              ]
-            },
-            {
-              "id": "deadpool-2",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Reduce bonus Attack Speed provided by Deadpool in Your Area - Vanguard to Dual Desert Eagles - Vanguard from 60% to 40%.",
-              "facts": [
-                "60%",
-                "40%"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-03-26",
-          "date": "2026-03-26",
-          "title": "Patch - March 26 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-0",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Slightly reduced Deadpool's mobility. (We noticed some players using extreme inputs to execute a rapid cycle combo of Kick@$$ Katanas -> Hazardous Hijinks -> Bunny Hop.",
-              "facts": []
-            },
-            {
-              "id": "deadpool-1",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Bunny Bounce (Vanguard), Bunny Hop (Duelist), and Healing Hop (Strategist) now have a 0.5s cooldown after a successful refresh. (Note: Because this cooldown is so short, it will not be displayed on the ability icon.)",
-              "facts": [
-                "0.5s"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-03-20",
-          "date": "2026-03-20",
-          "title": "Patch - March 20 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-vanguard-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Reduce Deadpool In Your Area - Vanguard (Upgraded) Damage Reduction from 40% to 30%.",
-              "facts": [
-                "40%",
-                "30%"
-              ]
-            },
-            {
-              "id": "deadpool-vanguard-1",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Increase Ultimate Ability cooldown from 45s to 60s.",
-              "facts": [
-                "45s",
-                "60s"
-              ]
-            },
-            {
-              "id": "deadpool-duelist-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Duelist)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase base health from 250 to 275.",
-              "facts": [
-                "250",
-                "275"
-              ]
-            },
-            {
-              "id": "deadpool-duelist-1",
-              "hero": "Deadpool",
-              "section": "Deadpool (Duelist)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Increase Ultimate Ability cooldown from 45s to 60s.",
-              "facts": [
-                "45s",
-                "60s"
-              ]
-            },
-            {
-              "id": "deadpool-strategist-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Strategist)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Increase Ultimate Ability cooldown from 45s to 60s.",
-              "facts": [
-                "45s",
-                "60s"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-02-13",
-          "date": "2026-02-13",
-          "title": "Patch - February 13 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-0",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase Healing Amount gained when releasing Pop Quiz! (Ultimate Ability) from 30 to 35 and from 60 to 70 upon passing the challenge.",
-              "facts": [
-                "30",
-                "35",
-                "60",
-                "70"
-              ]
-            }
-          ]
-        }
-      ],
+      "balanceHistory": [],
       "sourceUrl": "https://www.marvelrivals.com/heroes/",
       "thumbnail": "https://arianwever.com/Graphics/Derived/Hero%20Icons/72/Hero_Icon_Deadpool.webp"
     },
@@ -14744,6 +14338,23 @@
       "forms": null,
       "balanceHistory": [
         {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Human Torch",
+              "text": "Fire Cluster projectile spread changed from random to fixed.",
+              "type": "rework",
+              "section": "Human Torch",
+              "scope": "hero",
+              "facts": [],
+              "id": "Human Torch-30"
+            }
+          ]
+        },
+        {
           "id": "2026-07-10",
           "date": "2026-07-10",
           "title": "Patch - July 10 2026",
@@ -15359,6 +14970,30 @@
       ],
       "forms": null,
       "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Invisible Woman",
+              "text": "Veiled Step cooldown increased from 6s to 8s; Psionic Vortex center Slow reduced from 50% to 40% and edge Slow increased from 0% to 20%.",
+              "type": "rework",
+              "section": "Invisible Woman",
+              "scope": "hero",
+              "facts": [
+                "6s",
+                "8s",
+                "50",
+                "40",
+                "0",
+                "20"
+              ],
+              "id": "Invisible Woman-43"
+            }
+          ]
+        },
         {
           "id": "2026-09-11",
           "date": "2026-09-11",
@@ -17915,6 +17550,41 @@
       "forms": null,
       "balanceHistory": [
         {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Jubilee",
+              "text": "Sparkle Mark no longer grants allies a 20% Healing Boost; Firework Finale field healing increased from 180/s to 190/s and outer-plasmoid rotation speed increased from 20m/s to 25m/s.",
+              "type": "rework",
+              "section": "Jubilee",
+              "scope": "hero",
+              "facts": [
+                "20",
+                "180",
+                "190",
+                "20m/s",
+                "25m/s"
+              ],
+              "id": "Jubilee-44"
+            },
+            {
+              "hero": "Jubilee",
+              "text": "Blade Team-Up Vampiric Kin Lifesteal increased from 30% to 40%.",
+              "type": "buff",
+              "section": "Jubilee",
+              "scope": "hero",
+              "facts": [
+                "30",
+                "40"
+              ],
+              "id": "Jubilee-45"
+            }
+          ]
+        },
+        {
           "id": "2026-10-09",
           "date": "2026-10-09",
           "title": "Patch - October 9 2026",
@@ -18421,6 +18091,27 @@
       ],
       "forms": null,
       "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Loki",
+              "text": "Deception cooldown increased from 15s to 18s; Hela Team-Up grants 1s Doppelganger and Devious Exchange cooldown when an illusion is destroyed; Mantis Team-Up removes Regeneration Domain ally damage boost.",
+              "type": "rework",
+              "section": "Loki",
+              "scope": "hero",
+              "facts": [
+                "15s",
+                "18s",
+                "1s"
+              ],
+              "id": "Loki-46"
+            }
+          ]
+        },
         {
           "id": "2026-09-11",
           "date": "2026-09-11",
@@ -19032,6 +18723,42 @@
       ],
       "forms": null,
       "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Luna Snow",
+              "text": "Absolute Zero freeze reduced from 2.7s to 1.5s; White Fox Team-Up removes Charm while increasing Spirit Fox ally healing from 70 to 80 and enemy damage from 35 to 45.",
+              "type": "rework",
+              "section": "Luna Snow",
+              "scope": "hero",
+              "facts": [
+                "2.7s",
+                "1.5s",
+                "70",
+                "80",
+                "35",
+                "45"
+              ],
+              "id": "Luna Snow-47"
+            },
+            {
+              "hero": "Luna Snow",
+              "text": "Adam Warlock Team-Up Duality Dance self-healing conversion increased from 25% to 35%.",
+              "type": "buff",
+              "section": "Luna Snow",
+              "scope": "hero",
+              "facts": [
+                "25",
+                "35"
+              ],
+              "id": "Luna Snow-48"
+            }
+          ]
+        },
         {
           "id": "2026-09-11",
           "date": "2026-09-11",
@@ -21111,6 +20838,31 @@
       "forms": null,
       "balanceHistory": [
         {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Mantis",
+              "text": "Life Energy Blast non-critical hits now grant 0.3 Life Orbs; Spore Slumber sleep reduced from 3.5s to 1.5s; Allied Inspiration costs 2 Life Orbs instead of 1; Nature’s Favor self-healing reduced from 12.5/s to 8/s.",
+              "type": "rework",
+              "section": "Mantis",
+              "scope": "hero",
+              "facts": [
+                "0.3",
+                "3.5s",
+                "1.5s",
+                "2",
+                "1",
+                "12.5",
+                "8"
+              ],
+              "id": "Mantis-49"
+            }
+          ]
+        },
+        {
           "id": "2026-09-11",
           "date": "2026-09-11",
           "title": "Patch - September 11 2026",
@@ -21715,6 +21467,23 @@
       ],
       "forms": null,
       "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Mister Fantastic",
+              "text": "Clobberin’ Research Dept. enhanced effect no longer allows unintended simultaneous Distended Hammer and Stretch Punch casts.",
+              "type": "fix",
+              "section": "Mister Fantastic",
+              "scope": "hero",
+              "facts": [],
+              "id": "Mister Fantastic-4"
+            }
+          ]
+        },
         {
           "id": "2026-09-11",
           "date": "2026-09-11",
@@ -22998,6 +22767,103 @@
       "thumbnail": "https://arianwever.com/Graphics/Derived/Hero%20Icons/72/Hero_Icon_Namor.webp"
     },
     {
+      "id": "nightcrawler",
+      "name": "Nightcrawler",
+      "role": "Strategist",
+      "baseName": "Nightcrawler",
+      "variant": false,
+      "description": "Strategist · Officially released with Season 11. Detailed values are intentionally withheld until a stable publisher dataset is available.",
+      "image": "/media/heroes/b9d60d50595419033a5c.png",
+      "thumbnail": "/media/heroes/b9d60d50595419033a5c.png",
+      "art": "/media/heroes/b9d60d50595419033a5c.png",
+      "stats": {
+        "appearances": 0,
+        "wins": 0,
+        "winRate": null,
+        "sample": "No recorded competitive appearances in the current verified dataset."
+      },
+      "abilities": [
+        {
+          "id": "nightcrawler-0",
+          "name": "Forged Brimstone",
+          "key": null,
+          "type": "official roster",
+          "description": "Official ability name; numerical details await a stable official dataset.",
+          "stats": []
+        },
+        {
+          "id": "nightcrawler-1",
+          "name": "Three-Sword Style",
+          "key": null,
+          "type": "official roster",
+          "description": "Official ability name; numerical details await a stable official dataset.",
+          "stats": []
+        },
+        {
+          "id": "nightcrawler-2",
+          "name": "Swift Intervention",
+          "key": null,
+          "type": "official roster",
+          "description": "Official ability name; numerical details await a stable official dataset.",
+          "stats": []
+        },
+        {
+          "id": "nightcrawler-3",
+          "name": "Smoke Shift",
+          "key": null,
+          "type": "official roster",
+          "description": "Official ability name; numerical details await a stable official dataset.",
+          "stats": []
+        },
+        {
+          "id": "nightcrawler-4",
+          "name": "Tandem Teleport",
+          "key": null,
+          "type": "official roster",
+          "description": "Official ability name; numerical details await a stable official dataset.",
+          "stats": []
+        },
+        {
+          "id": "nightcrawler-5",
+          "name": "Crawler Cling",
+          "key": null,
+          "type": "official roster",
+          "description": "Official ability name; numerical details await a stable official dataset.",
+          "stats": []
+        },
+        {
+          "id": "nightcrawler-6",
+          "name": "Phasing Finale",
+          "key": null,
+          "type": "official roster",
+          "description": "Official ability name; numerical details await a stable official dataset.",
+          "stats": []
+        }
+      ],
+      "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Nightcrawler",
+              "text": "Nightcrawler joins Marvel Rivals as a Strategist in Season 11.",
+              "type": "new",
+              "section": "Nightcrawler",
+              "scope": "hero",
+              "facts": [
+                "11"
+              ],
+              "id": "Nightcrawler-0"
+            }
+          ]
+        }
+      ],
+      "sourceUrl": "https://www.marvelrivals.com/heroes/2mpwiwa9ct6hn/index.html"
+    },
+    {
       "id": "peni-parker",
       "name": "Peni Parker",
       "role": "Vanguard",
@@ -23432,6 +23298,28 @@
       ],
       "forms": null,
       "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Peni Parker",
+              "text": "Cyber-Web Cluster explosion damage reduced from 15 to 12; triggered Arachno-Mine detonation delay increased from 0.6s to 0.7s.",
+              "type": "nerf",
+              "section": "Peni Parker",
+              "scope": "hero",
+              "facts": [
+                "15",
+                "12",
+                "0.6s",
+                "0.7s"
+              ],
+              "id": "Peni Parker-20"
+            }
+          ]
+        },
         {
           "id": "2026-09-11",
           "date": "2026-09-11",
@@ -24011,6 +23899,30 @@
       ],
       "forms": null,
       "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Phoenix",
+              "text": "Spark direct damage reduced from 45 to 40 and area damage reduced from 20 to 15; Endsong Inferno shockwave Spark stacks reduced from 2 to 1.",
+              "type": "nerf",
+              "section": "Phoenix",
+              "scope": "hero",
+              "facts": [
+                "45",
+                "40",
+                "20",
+                "15",
+                "2",
+                "1"
+              ],
+              "id": "Phoenix-31"
+            }
+          ]
+        },
         {
           "id": "2026-10-09",
           "date": "2026-10-09",
@@ -25385,6 +25297,35 @@
       "forms": null,
       "balanceHistory": [
         {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Rocket Raccoon",
+              "text": "Repair Mode post-ally healing reduced from 55 to 50 and self-healing reduced from 30/s to 20/s; primary falloff now starts at 15m and reaches 55% at 30m instead of 10m/40% at 20m; Jetpack Dash grants 25 Bonus Health.",
+              "type": "rework",
+              "section": "Rocket Raccoon",
+              "scope": "hero",
+              "facts": [
+                "55",
+                "50",
+                "30",
+                "20",
+                "15m",
+                "55",
+                "30m",
+                "10m",
+                "40",
+                "20m",
+                "25"
+              ],
+              "id": "Rocket Raccoon-50"
+            }
+          ]
+        },
+        {
           "id": "2026-07-11",
           "date": "2026-07-11",
           "title": "Patch - July 11 2026",
@@ -26057,6 +25998,58 @@
       ],
       "forms": null,
       "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Rogue",
+              "text": "Power Surge Punch first two hits increased from 35 to 40.",
+              "type": "buff",
+              "section": "Rogue",
+              "scope": "hero",
+              "facts": [
+                "35",
+                "40"
+              ],
+              "id": "Rogue-21"
+            },
+            {
+              "hero": "Rogue",
+              "text": "Gambit Team-Up Mr. & Mrs. X cooldown reduced from 30s to 15s; kinetic explosion damage reduced from 5 + 1% maximum Health to 3 + 1%, and ally healing reduced from 15 to 10.",
+              "type": "rework",
+              "section": "Rogue",
+              "scope": "hero",
+              "facts": [
+                "30s",
+                "15s",
+                "5",
+                "1",
+                "3",
+                "1",
+                "15",
+                "10"
+              ],
+              "id": "Rogue-22"
+            },
+            {
+              "hero": "Rogue",
+              "text": "Defensive Stance absorption radius reduced from 2m to 1.2m; damage-to-Energy conversion increased from 0.55 to 0.6.",
+              "type": "rework",
+              "section": "Rogue",
+              "scope": "hero",
+              "facts": [
+                "2m",
+                "1.2m",
+                "0.55",
+                "0.6"
+              ],
+              "id": "Rogue-23"
+            }
+          ]
+        },
         {
           "id": "2026-09-11",
           "date": "2026-09-11",
@@ -27920,6 +27913,58 @@
       "forms": null,
       "balanceHistory": [
         {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Squirrel Girl",
+              "text": "Burst Acorn damage reduced from 110 to 95 and maximum falloff at 3m reduced from 70% to 60%.",
+              "type": "nerf",
+              "section": "Squirrel Girl",
+              "scope": "hero",
+              "facts": [
+                "110",
+                "95",
+                "3m",
+                "70",
+                "60"
+              ],
+              "id": "Squirrel Girl-32"
+            },
+            {
+              "hero": "Squirrel Girl",
+              "text": "Squirrel Blockade projectile speed increased to 60–90m/s; its hit control/damage are reduced and it now creates a 5m Acorn Rain that deals 30/s for 2s with a 20% Slow.",
+              "type": "rework",
+              "section": "Squirrel Girl",
+              "scope": "hero",
+              "facts": [
+                "60",
+                "90m/s",
+                "5m",
+                "30",
+                "2s",
+                "20"
+              ],
+              "id": "Squirrel Girl-33"
+            },
+            {
+              "hero": "Squirrel Girl",
+              "text": "Mammal Bond adds 100% Attack Speed for 5s with faster, gravity-free, lower-damage Burst Acorns; Tail Bounce now grants 25 Bonus Health.",
+              "type": "rework",
+              "section": "Squirrel Girl",
+              "scope": "hero",
+              "facts": [
+                "100",
+                "5s",
+                "25"
+              ],
+              "id": "Squirrel Girl-34"
+            }
+          ]
+        },
+        {
           "id": "2026-05-15",
           "date": "2026-05-15",
           "title": "Patch - May 15 2026",
@@ -28354,6 +28399,30 @@
       ],
       "forms": null,
       "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Star-Lord",
+              "text": "Galactic Legend Element Guns ammo increased from 40 to 50; Human Torch Team-Up Cosmic Soul and resurrection cooldowns reduced from 30s/120s to 25s/105s.",
+              "type": "buff",
+              "section": "Star-Lord",
+              "scope": "hero",
+              "facts": [
+                "40",
+                "50",
+                "30s",
+                "120s",
+                "25s",
+                "105s"
+              ],
+              "id": "Star-Lord-35"
+            }
+          ]
+        },
         {
           "id": "2026-09-11",
           "date": "2026-09-11",
@@ -29385,407 +29454,25 @@
       "forms": null,
       "balanceHistory": [
         {
-          "id": "2026-09-11",
-          "date": "2026-09-11",
-          "title": "Patch - September 11 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/20260909/41548_1313441.html",
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
           "changes": [
             {
-              "id": "deadpool-vanguard-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
+              "hero": "Tankpool",
+              "text": "The Big Test no longer grants nearby allies 50 Bonus Health; self Bonus Health increased from 300 to 400 and the upgraded form self conversion increased from 1 to 1.5.",
+              "type": "rework",
+              "section": "Tankpool",
               "scope": "hero",
-              "type": "buff",
-              "text": "Dual Desert Eagles & Dual Desert Eagles - Upgraded Damage Falloff: Adjust maximum Damage Falloff at 30m from 50% to 75%.",
-              "facts": [
-                "30m",
-                "50%",
-                "75%"
-              ]
-            },
-            {
-              "id": "deadpool-vanguard-1",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase healing gained during The Ban Hammer and The Ban Hammer - Upgraded from 25/s to 35/s. Increase Bonus Health gained when releasing The Ban Hammer (Ultimate Ability) and The Big Test (Ultimate Ability) from 200 to 300.",
-              "facts": [
-                "25",
-                "35",
-                "200",
-                "300"
-              ]
-            },
-            {
-              "id": "deadpool-vanguard-2",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Upgrade! Reduce experience required for every \"Upgrade!\" to 75% of the original values.",
-              "facts": [
-                "75%"
-              ]
-            },
-            {
-              "id": "deadpool-duelist-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Duelist)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase Dual Desert Eagles - Duelist single shot damage from 38 to 42.",
-              "facts": [
-                "38",
-                "42"
-              ]
-            },
-            {
-              "id": "deadpool-duelist-1",
-              "hero": "Deadpool",
-              "section": "Deadpool (Duelist)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Upgrade! Reduce experience required for every \"Upgrade!\" to 75% of the original values.",
-              "facts": [
-                "75%"
-              ]
-            },
-            {
-              "id": "deadpool-strategist-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Strategist)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase base Health from 250 to 275.",
-              "facts": [
-                "250",
-                "275"
-              ]
-            },
-            {
-              "id": "deadpool-strategist-1",
-              "hero": "Deadpool",
-              "section": "Deadpool (Strategist)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Reduce Deadpool In Your Area - Strategist and Deadpool In Your Area - Strategist Upgraded cooldown from 12s to 10s.",
-              "facts": [
-                "12s",
-                "10s"
-              ]
-            },
-            {
-              "id": "deadpool-strategist-2",
-              "hero": "Deadpool",
-              "section": "Deadpool (Strategist)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Upgrade! Reduce experience required for every \"Upgrade!\" to 75% of the original values.",
-              "facts": [
-                "75%"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-07-10",
-          "date": "2026-07-10",
-          "title": "Patch - July 10 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-vanguard-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase Dual Desert Eagles - Vanguard single-shot damage from 34 to 36 (standard) and from 39 to 40 (upgraded).",
-              "facts": [
-                "34",
-                "36",
-                "39",
-                "40"
-              ]
-            },
-            {
-              "id": "deadpool-vanguard-1",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Deadpool In Your Area - Upgraded (Vanguard): Increase the Damage Reduction provided to allies from 20% to 25% and from 30% to 35% for Deadpool.",
-              "facts": [
-                "20%",
-                "25%",
-                "30%",
-                "35%"
-              ]
-            },
-            {
-              "id": "deadpool-vanguard-2",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase base Health from 450 to 500.",
-              "facts": [
-                "450",
-                "500"
-              ]
-            },
-            {
-              "id": "deadpool-vanguard-3",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Remove the Team-Up Anchor 50 Bonus Health.",
-              "facts": [
-                "50"
-              ]
-            },
-            {
-              "id": "deadpool-duelist-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Duelist)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Remove Team-Up Anchor bonus 5% Damage Boost.",
-              "facts": [
-                "5%"
-              ]
-            },
-            {
-              "id": "deadpool-strategist-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Strategist)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Remove Team-Up Anchor bonus 5% Healing Boost.",
-              "facts": [
-                "5%"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-06-12",
-          "date": "2026-06-12",
-          "title": "Patch - June 12 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-0",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "buff",
-              "text": "In gun form, increase Bouncing Bobblehead continuous healing provided by the spell field from 40/s to 50/s (standard); and from 50/s to 55/s (upgraded).",
-              "facts": [
-                "40",
-                "50",
-                "50",
-                "55"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-05-15",
-          "date": "2026-05-15",
-          "title": "Patch - May 15 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-0",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Reduce The Ban Hammer (Gun Form Ultimate Ability) healing provided while active from 50/s to 25/s.",
               "facts": [
                 "50",
-                "25"
-              ]
-            },
-            {
-              "id": "deadpool-1",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Reduce Dual Desert Eagles - Vanguard single-shot damage from 36 to 34 (standard) and from 42 to 39 (upgraded).",
-              "facts": [
-                "36",
-                "34",
-                "42",
-                "39"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-04-17",
-          "date": "2026-04-17",
-          "title": "Patch - April 17 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-0",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Reduce The Ban Hammer (Gun Form Ultimate Ability) Bonus Health gained per hammer hit from 80 to 60 (standard) and from 80 to 70 (upgraded).",
-              "facts": [
-                "80",
-                "60",
-                "80",
-                "70"
-              ]
-            },
-            {
-              "id": "deadpool-1",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Reduce The Ban Hammer (Gun Form Ultimate Ability) damage dealt per hammer hit from 45 to 35.",
-              "facts": [
-                "45",
-                "35"
-              ]
-            },
-            {
-              "id": "deadpool-2",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Reduce bonus Attack Speed provided by Deadpool in Your Area - Vanguard to Dual Desert Eagles - Vanguard from 60% to 40%.",
-              "facts": [
-                "60%",
-                "40%"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-03-26",
-          "date": "2026-03-26",
-          "title": "Patch - March 26 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-0",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Slightly reduced Deadpool's mobility. (We noticed some players using extreme inputs to execute a rapid cycle combo of Kick@$$ Katanas -> Hazardous Hijinks -> Bunny Hop.",
-              "facts": []
-            },
-            {
-              "id": "deadpool-1",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Bunny Bounce (Vanguard), Bunny Hop (Duelist), and Healing Hop (Strategist) now have a 0.5s cooldown after a successful refresh. (Note: Because this cooldown is so short, it will not be displayed on the ability icon.)",
-              "facts": [
-                "0.5s"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-03-20",
-          "date": "2026-03-20",
-          "title": "Patch - March 20 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-vanguard-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Reduce Deadpool In Your Area - Vanguard (Upgraded) Damage Reduction from 40% to 30%.",
-              "facts": [
-                "40%",
-                "30%"
-              ]
-            },
-            {
-              "id": "deadpool-vanguard-1",
-              "hero": "Deadpool",
-              "section": "Deadpool (Vanguard)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Increase Ultimate Ability cooldown from 45s to 60s.",
-              "facts": [
-                "45s",
-                "60s"
-              ]
-            },
-            {
-              "id": "deadpool-duelist-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Duelist)",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase base health from 250 to 275.",
-              "facts": [
-                "250",
-                "275"
-              ]
-            },
-            {
-              "id": "deadpool-duelist-1",
-              "hero": "Deadpool",
-              "section": "Deadpool (Duelist)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Increase Ultimate Ability cooldown from 45s to 60s.",
-              "facts": [
-                "45s",
-                "60s"
-              ]
-            },
-            {
-              "id": "deadpool-strategist-0",
-              "hero": "Deadpool",
-              "section": "Deadpool (Strategist)",
-              "scope": "hero",
-              "type": "nerf",
-              "text": "Increase Ultimate Ability cooldown from 45s to 60s.",
-              "facts": [
-                "45s",
-                "60s"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "2026-02-13",
-          "date": "2026-02-13",
-          "title": "Patch - February 13 2026",
-          "url": "https://www.marvelrivals.com/gameupdate/",
-          "changes": [
-            {
-              "id": "deadpool-0",
-              "hero": "Deadpool",
-              "section": "Deadpool",
-              "scope": "hero",
-              "type": "buff",
-              "text": "Increase Healing Amount gained when releasing Pop Quiz! (Ultimate Ability) from 30 to 35 and from 60 to 70 upon passing the challenge.",
-              "facts": [
-                "30",
-                "35",
-                "60",
-                "70"
-              ]
+                "300",
+                "400",
+                "1",
+                "1.5"
+              ],
+              "id": "Tankpool-9"
             }
           ]
         }
@@ -31220,6 +30907,23 @@
       "forms": null,
       "balanceHistory": [
         {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "The Thing",
+              "text": "Unbreakable Forces base-effect Bonus Health now correctly persists through its duration.",
+              "type": "fix",
+              "section": "The Thing",
+              "scope": "hero",
+              "facts": [],
+              "id": "The Thing-3"
+            }
+          ]
+        },
+        {
           "id": "2026-10-09",
           "date": "2026-10-09",
           "title": "Patch - October 9 2026",
@@ -32437,6 +32141,28 @@
       "forms": null,
       "balanceHistory": [
         {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Ultron",
+              "text": "Imperative: Firewall ally Bonus Health reduced from 40 to 25 and Movement Speed boost reduced from 20% to 10%.",
+              "type": "nerf",
+              "section": "Ultron",
+              "scope": "hero",
+              "facts": [
+                "40",
+                "25",
+                "20",
+                "10"
+              ],
+              "id": "Ultron-51"
+            }
+          ]
+        },
+        {
           "id": "2026-09-11",
           "date": "2026-09-11",
           "title": "Patch - September 11 2026",
@@ -33059,6 +32785,44 @@
       ],
       "forms": null,
       "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Venom",
+              "text": "Dark Predation detection radius slightly increased; Frenzied Arrival falloff now begins at 3m and reaches 60% at 6m instead of beginning at 2m and reaching 40% at 6m.",
+              "type": "rework",
+              "section": "Venom",
+              "scope": "hero",
+              "facts": [
+                "3m",
+                "60",
+                "6m",
+                "2m",
+                "40",
+                "6m"
+              ],
+              "id": "Venom-24"
+            },
+            {
+              "hero": "Venom",
+              "text": "Symbiotic Resilience base Bonus Health reduced from 100 to 75 and lost-Health conversion reduced from 110% to 100%.",
+              "type": "nerf",
+              "section": "Venom",
+              "scope": "hero",
+              "facts": [
+                "100",
+                "75",
+                "110",
+                "100"
+              ],
+              "id": "Venom-25"
+            }
+          ]
+        },
         {
           "id": "2026-08-07",
           "date": "2026-08-07",
@@ -33749,6 +33513,58 @@
       },
       "balanceHistory": [
         {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "White Fox",
+              "text": "Spirit Sanctuary shield reduced from 200 to 100; Spectral Surge ally invincibility removed and Charm radius reduced from 0.6m to 0.4m.",
+              "type": "nerf",
+              "section": "White Fox",
+              "scope": "hero",
+              "facts": [
+                "200",
+                "100",
+                "0.6m",
+                "0.4m"
+              ],
+              "id": "White Fox-52"
+            },
+            {
+              "hero": "White Fox",
+              "text": "Fox Form Awakening duration increased from 7s to 8s with per-tail bonus from 1s to 2s; Claw Strike damage increased from 35 to 40 and Predatory Pounce cooldown reduced from 6s to 4s.",
+              "type": "buff",
+              "section": "White Fox",
+              "scope": "hero",
+              "facts": [
+                "7s",
+                "8s",
+                "1s",
+                "2s",
+                "35",
+                "40",
+                "6s",
+                "4s"
+              ],
+              "id": "White Fox-53"
+            },
+            {
+              "hero": "White Fox",
+              "text": "Kumiho Unleashed can now receive allied healing; Kumiho-state Health reduced from 1200 to 1000.",
+              "type": "rework",
+              "section": "White Fox",
+              "scope": "hero",
+              "facts": [
+                "1200",
+                "1000"
+              ],
+              "id": "White Fox-54"
+            }
+          ]
+        },
+        {
           "id": "2026-09-11",
           "date": "2026-09-11",
           "title": "Patch - September 11 2026",
@@ -34317,6 +34133,30 @@
       ],
       "forms": null,
       "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Winter Soldier",
+              "text": "Roterstern maximum falloff changed from 70% at 40m to 65% at 30m; spell field damage reduced from 45 to 40.",
+              "type": "nerf",
+              "section": "Winter Soldier",
+              "scope": "hero",
+              "facts": [
+                "70",
+                "40m",
+                "65",
+                "30m",
+                "45",
+                "40"
+              ],
+              "id": "Winter Soldier-36"
+            }
+          ]
+        },
         {
           "id": "2026-09-11",
           "date": "2026-09-11",
@@ -34892,6 +34732,28 @@
       ],
       "forms": null,
       "balanceHistory": [
+        {
+          "id": "2026-11-13",
+          "date": "2026-11-13",
+          "title": "Season 11 / Balance Post — November 13 2026",
+          "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+          "changes": [
+            {
+              "hero": "Wolverine",
+              "text": "Feral Leap cooldown increased from 12s to 15s; Last Stand rage impact bonus reduced from 0.3% to 0.2% max Health per Rage.",
+              "type": "nerf",
+              "section": "Wolverine",
+              "scope": "hero",
+              "facts": [
+                "12s",
+                "15s",
+                "0.3",
+                "0.2"
+              ],
+              "id": "Wolverine-37"
+            }
+          ]
+        },
         {
           "id": "2026-09-11",
           "date": "2026-09-11",
@@ -220882,6 +220744,791 @@
     }
   ],
   "patches": [
+    {
+      "id": "2026-11-13",
+      "date": "2026-11-13",
+      "title": "Season 11 / Balance Post — November 13 2026",
+      "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+      "urlIsIndex": false,
+      "source": "official",
+      "highlights": [
+        "Season 11: Doomsday",
+        "New Strategist: Nightcrawler",
+        "Optional Aim Assist Target Prediction",
+        "IGNITE Grand Finals: November 23–29"
+      ],
+      "changes": [
+        {
+          "hero": "Nightcrawler",
+          "text": "Nightcrawler joins Marvel Rivals as a Strategist in Season 11.",
+          "type": "new",
+          "section": "Nightcrawler",
+          "scope": "hero",
+          "facts": [
+            "11"
+          ],
+          "id": "Nightcrawler-0"
+        },
+        {
+          "hero": null,
+          "text": "Aim Assist Target Prediction is an optional controller setting that improves switching Aim Assist targets between enemies.",
+          "type": "new",
+          "section": "Season 11",
+          "scope": "system",
+          "facts": [],
+          "id": "season-11-1"
+        },
+        {
+          "hero": null,
+          "text": "Season 11 IGNITE Grand Finals Group Stage runs November 23–25; the Main Event runs November 27–29 in Stockholm.",
+          "type": "new",
+          "section": "Season 11",
+          "scope": "system",
+          "facts": [
+            "11",
+            "23",
+            "25",
+            "27",
+            "29"
+          ],
+          "id": "season-11-2"
+        },
+        {
+          "hero": "The Thing",
+          "text": "Unbreakable Forces base-effect Bonus Health now correctly persists through its duration.",
+          "type": "fix",
+          "section": "The Thing",
+          "scope": "hero",
+          "facts": [],
+          "id": "The Thing-3"
+        },
+        {
+          "hero": "Mister Fantastic",
+          "text": "Clobberin’ Research Dept. enhanced effect no longer allows unintended simultaneous Distended Hammer and Stretch Punch casts.",
+          "type": "fix",
+          "section": "Mister Fantastic",
+          "scope": "hero",
+          "facts": [],
+          "id": "Mister Fantastic-4"
+        },
+        {
+          "hero": "Doctor Strange",
+          "text": "Portal movement-direction issue fixed; Birnin T’Challa positioning error and several Season 11 hero/cosmetic bugs addressed.",
+          "type": "fix",
+          "section": "Doctor Strange",
+          "scope": "hero",
+          "facts": [
+            "11"
+          ],
+          "id": "Doctor Strange-5"
+        },
+        {
+          "hero": "Angela",
+          "text": "Axes of Ichors first three strikes damage increased from 30 to 35.",
+          "type": "buff",
+          "section": "Angela",
+          "scope": "hero",
+          "facts": [
+            "30",
+            "35"
+          ],
+          "id": "Angela-6"
+        },
+        {
+          "hero": "Angela",
+          "text": "Divine Judgement now grants its movement-speed and Bonus Health buffs for 6s after casting; Wingblade Ascent removes them.",
+          "type": "buff",
+          "section": "Angela",
+          "scope": "hero",
+          "facts": [
+            "6s"
+          ],
+          "id": "Angela-7"
+        },
+        {
+          "hero": "Angela",
+          "text": "Dual-axe Bonus Health per hit increased from 50 to 55; Divine Judgement continuous damage increased from 12.5/s to 15/s.",
+          "type": "buff",
+          "section": "Angela",
+          "scope": "hero",
+          "facts": [
+            "50",
+            "55",
+            "12.5",
+            "15"
+          ],
+          "id": "Angela-8"
+        },
+        {
+          "hero": "Tankpool",
+          "text": "The Big Test no longer grants nearby allies 50 Bonus Health; self Bonus Health increased from 300 to 400 and the upgraded form self conversion increased from 1 to 1.5.",
+          "type": "rework",
+          "section": "Tankpool",
+          "scope": "hero",
+          "facts": [
+            "50",
+            "300",
+            "400",
+            "1",
+            "1.5"
+          ],
+          "id": "Tankpool-9"
+        },
+        {
+          "hero": "Devil Dinosaur",
+          "text": "Savage Predation control duration reduced from 0.8s to 0.6s and its post-control launch reduced from 1.5s to 1.2s.",
+          "type": "nerf",
+          "section": "Devil Dinosaur",
+          "scope": "hero",
+          "facts": [
+            "0.8s",
+            "0.6s",
+            "1.5s",
+            "1.2s"
+          ],
+          "id": "Devil Dinosaur-10"
+        },
+        {
+          "hero": "Devil Dinosaur",
+          "text": "Buddy Barrier loses its 15% Slow; duration reduced from 6s to 4s and shield reduced from 450 to 400.",
+          "type": "nerf",
+          "section": "Devil Dinosaur",
+          "scope": "hero",
+          "facts": [
+            "15",
+            "6s",
+            "4s",
+            "450",
+            "400"
+          ],
+          "id": "Devil Dinosaur-11"
+        },
+        {
+          "hero": "Devil Dinosaur",
+          "text": "Apex Advantage Bonus Health conversion reduced from 150% to 125% of Bleed damage; Primal Punishment cooldown with The Punisher increased from 12s to 18s.",
+          "type": "nerf",
+          "section": "Devil Dinosaur",
+          "scope": "hero",
+          "facts": [
+            "150",
+            "125",
+            "12s",
+            "18s"
+          ],
+          "id": "Devil Dinosaur-12"
+        },
+        {
+          "hero": "Doctor Strange",
+          "text": "Shield of the Seraphim shield reduced from 850 to 800 and recovery reduced from 60/s to 50/s.",
+          "type": "nerf",
+          "section": "Doctor Strange",
+          "scope": "hero",
+          "facts": [
+            "850",
+            "800",
+            "60",
+            "50"
+          ],
+          "id": "Doctor Strange-13"
+        },
+        {
+          "hero": "Doctor Strange",
+          "text": "Invisible Woman Team-Up shield bonus reduced from 150 to 100; Psionic Vortex no longer grants allied Bonus Health and its self conversion rises from 0.5 to 0.7.",
+          "type": "rework",
+          "section": "Doctor Strange",
+          "scope": "hero",
+          "facts": [
+            "150",
+            "100",
+            "0.5",
+            "0.7"
+          ],
+          "id": "Doctor Strange-14"
+        },
+        {
+          "hero": "Doctor Strange",
+          "text": "Hulk Team-Up minimum retained Gamma Maelstrom energy reduced from 50 to 25.",
+          "type": "nerf",
+          "section": "Doctor Strange",
+          "scope": "hero",
+          "facts": [
+            "50",
+            "25"
+          ],
+          "id": "Doctor Strange-15"
+        },
+        {
+          "hero": "Emma Frost",
+          "text": "Mind's Aegis shield reduced from 400 to 350 and recovery reduced from 80/s to 65/s.",
+          "type": "nerf",
+          "section": "Emma Frost",
+          "scope": "hero",
+          "facts": [
+            "400",
+            "350",
+            "80",
+            "65"
+          ],
+          "id": "Emma Frost-16"
+        },
+        {
+          "hero": "Emma Frost",
+          "text": "Psychic Spear extraction damage changed from 25% maximum Health to 60 + 10% maximum Health; Iced Out Diamond shield with Luna Snow reduced from 350 to 300.",
+          "type": "nerf",
+          "section": "Emma Frost",
+          "scope": "hero",
+          "facts": [
+            "25",
+            "60",
+            "10",
+            "350",
+            "300"
+          ],
+          "id": "Emma Frost-17"
+        },
+        {
+          "hero": "Groot",
+          "text": "Thornlash Wall Flora Colossus damage increased from 60 to 65; Ironwood Wall Health reduced from 600 to 550.",
+          "type": "rework",
+          "section": "Groot",
+          "scope": "hero",
+          "facts": [
+            "60",
+            "65",
+            "600",
+            "550"
+          ],
+          "id": "Groot-18"
+        },
+        {
+          "hero": "Groot",
+          "text": "Mantis Team-Up Wild Wall now also receives the Flora Colossus passive.",
+          "type": "buff",
+          "section": "Groot",
+          "scope": "hero",
+          "facts": [],
+          "id": "Groot-19"
+        },
+        {
+          "hero": "Peni Parker",
+          "text": "Cyber-Web Cluster explosion damage reduced from 15 to 12; triggered Arachno-Mine detonation delay increased from 0.6s to 0.7s.",
+          "type": "nerf",
+          "section": "Peni Parker",
+          "scope": "hero",
+          "facts": [
+            "15",
+            "12",
+            "0.6s",
+            "0.7s"
+          ],
+          "id": "Peni Parker-20"
+        },
+        {
+          "hero": "Rogue",
+          "text": "Power Surge Punch first two hits increased from 35 to 40.",
+          "type": "buff",
+          "section": "Rogue",
+          "scope": "hero",
+          "facts": [
+            "35",
+            "40"
+          ],
+          "id": "Rogue-21"
+        },
+        {
+          "hero": "Rogue",
+          "text": "Gambit Team-Up Mr. & Mrs. X cooldown reduced from 30s to 15s; kinetic explosion damage reduced from 5 + 1% maximum Health to 3 + 1%, and ally healing reduced from 15 to 10.",
+          "type": "rework",
+          "section": "Rogue",
+          "scope": "hero",
+          "facts": [
+            "30s",
+            "15s",
+            "5",
+            "1",
+            "3",
+            "1",
+            "15",
+            "10"
+          ],
+          "id": "Rogue-22"
+        },
+        {
+          "hero": "Rogue",
+          "text": "Defensive Stance absorption radius reduced from 2m to 1.2m; damage-to-Energy conversion increased from 0.55 to 0.6.",
+          "type": "rework",
+          "section": "Rogue",
+          "scope": "hero",
+          "facts": [
+            "2m",
+            "1.2m",
+            "0.55",
+            "0.6"
+          ],
+          "id": "Rogue-23"
+        },
+        {
+          "hero": "Venom",
+          "text": "Dark Predation detection radius slightly increased; Frenzied Arrival falloff now begins at 3m and reaches 60% at 6m instead of beginning at 2m and reaching 40% at 6m.",
+          "type": "rework",
+          "section": "Venom",
+          "scope": "hero",
+          "facts": [
+            "3m",
+            "60",
+            "6m",
+            "2m",
+            "40",
+            "6m"
+          ],
+          "id": "Venom-24"
+        },
+        {
+          "hero": "Venom",
+          "text": "Symbiotic Resilience base Bonus Health reduced from 100 to 75 and lost-Health conversion reduced from 110% to 100%.",
+          "type": "nerf",
+          "section": "Venom",
+          "scope": "hero",
+          "facts": [
+            "100",
+            "75",
+            "110",
+            "100"
+          ],
+          "id": "Venom-25"
+        },
+        {
+          "hero": "Black Cat",
+          "text": "Feline Fury maximum Fortune per cast increased from 50 to 75; Black Panther Team-Up Feline Alliance Bonus Health increased from 25 to 50 and Fortune gain/cap increased from 50/100 to 100/200.",
+          "type": "buff",
+          "section": "Black Cat",
+          "scope": "hero",
+          "facts": [
+            "50",
+            "75",
+            "25",
+            "50",
+            "50",
+            "100",
+            "100",
+            "200"
+          ],
+          "id": "Black Cat-26"
+        },
+        {
+          "hero": "Black Widow",
+          "text": "Electro-Plasma Blast damage increased from 50–70 to 55–75; Phoenix Team-Up damage increased from 70 to 75.",
+          "type": "buff",
+          "section": "Black Widow",
+          "scope": "hero",
+          "facts": [
+            "50",
+            "70",
+            "55",
+            "75",
+            "70",
+            "75"
+          ],
+          "id": "Black Widow-27"
+        },
+        {
+          "hero": "Black Widow",
+          "text": "Hawkeye Team-Up Allied Agents now grants Bonus Health from Focused-state damage at a 50% ratio, capped at 75.",
+          "type": "buff",
+          "section": "Black Widow",
+          "scope": "hero",
+          "facts": [
+            "50",
+            "75"
+          ],
+          "id": "Black Widow-28"
+        },
+        {
+          "hero": "Elsa Bloodstone",
+          "text": "Double-Barrel Blaster damage falloff now begins at 10m instead of 20m; Devil Dinosaur Team-Up removes one charge and changes Smoky Snare cooldown from 15s to 12s.",
+          "type": "nerf",
+          "section": "Elsa Bloodstone",
+          "scope": "hero",
+          "facts": [
+            "10m",
+            "20m",
+            "15s",
+            "12s"
+          ],
+          "id": "Elsa Bloodstone-29"
+        },
+        {
+          "hero": "Human Torch",
+          "text": "Fire Cluster projectile spread changed from random to fixed.",
+          "type": "rework",
+          "section": "Human Torch",
+          "scope": "hero",
+          "facts": [],
+          "id": "Human Torch-30"
+        },
+        {
+          "hero": "Phoenix",
+          "text": "Spark direct damage reduced from 45 to 40 and area damage reduced from 20 to 15; Endsong Inferno shockwave Spark stacks reduced from 2 to 1.",
+          "type": "nerf",
+          "section": "Phoenix",
+          "scope": "hero",
+          "facts": [
+            "45",
+            "40",
+            "20",
+            "15",
+            "2",
+            "1"
+          ],
+          "id": "Phoenix-31"
+        },
+        {
+          "hero": "Squirrel Girl",
+          "text": "Burst Acorn damage reduced from 110 to 95 and maximum falloff at 3m reduced from 70% to 60%.",
+          "type": "nerf",
+          "section": "Squirrel Girl",
+          "scope": "hero",
+          "facts": [
+            "110",
+            "95",
+            "3m",
+            "70",
+            "60"
+          ],
+          "id": "Squirrel Girl-32"
+        },
+        {
+          "hero": "Squirrel Girl",
+          "text": "Squirrel Blockade projectile speed increased to 60–90m/s; its hit control/damage are reduced and it now creates a 5m Acorn Rain that deals 30/s for 2s with a 20% Slow.",
+          "type": "rework",
+          "section": "Squirrel Girl",
+          "scope": "hero",
+          "facts": [
+            "60",
+            "90m/s",
+            "5m",
+            "30",
+            "2s",
+            "20"
+          ],
+          "id": "Squirrel Girl-33"
+        },
+        {
+          "hero": "Squirrel Girl",
+          "text": "Mammal Bond adds 100% Attack Speed for 5s with faster, gravity-free, lower-damage Burst Acorns; Tail Bounce now grants 25 Bonus Health.",
+          "type": "rework",
+          "section": "Squirrel Girl",
+          "scope": "hero",
+          "facts": [
+            "100",
+            "5s",
+            "25"
+          ],
+          "id": "Squirrel Girl-34"
+        },
+        {
+          "hero": "Star-Lord",
+          "text": "Galactic Legend Element Guns ammo increased from 40 to 50; Human Torch Team-Up Cosmic Soul and resurrection cooldowns reduced from 30s/120s to 25s/105s.",
+          "type": "buff",
+          "section": "Star-Lord",
+          "scope": "hero",
+          "facts": [
+            "40",
+            "50",
+            "30s",
+            "120s",
+            "25s",
+            "105s"
+          ],
+          "id": "Star-Lord-35"
+        },
+        {
+          "hero": "Winter Soldier",
+          "text": "Roterstern maximum falloff changed from 70% at 40m to 65% at 30m; spell field damage reduced from 45 to 40.",
+          "type": "nerf",
+          "section": "Winter Soldier",
+          "scope": "hero",
+          "facts": [
+            "70",
+            "40m",
+            "65",
+            "30m",
+            "45",
+            "40"
+          ],
+          "id": "Winter Soldier-36"
+        },
+        {
+          "hero": "Wolverine",
+          "text": "Feral Leap cooldown increased from 12s to 15s; Last Stand rage impact bonus reduced from 0.3% to 0.2% max Health per Rage.",
+          "type": "nerf",
+          "section": "Wolverine",
+          "scope": "hero",
+          "facts": [
+            "12s",
+            "15s",
+            "0.3",
+            "0.2"
+          ],
+          "id": "Wolverine-37"
+        },
+        {
+          "hero": "Adam Warlock",
+          "text": "Avatar Life Stream initial healing reduced from 95 to 55 while bounces increase from 2 to 4; total healing per cast reduced from 285 to 275.",
+          "type": "rework",
+          "section": "Adam Warlock",
+          "scope": "hero",
+          "facts": [
+            "95",
+            "55",
+            "2",
+            "4",
+            "285",
+            "275"
+          ],
+          "id": "Adam Warlock-38"
+        },
+        {
+          "hero": "Adam Warlock",
+          "text": "Storm Team-Up Soaring Surge speed boost increased from 67% to 100%; Soul Bond ally damage boost reduced from 12% to 8%.",
+          "type": "rework",
+          "section": "Adam Warlock",
+          "scope": "hero",
+          "facts": [
+            "67",
+            "100",
+            "12",
+            "8"
+          ],
+          "id": "Adam Warlock-39"
+        },
+        {
+          "hero": "Cloak & Dagger",
+          "text": "Dagger Storm cooldown increased from 12s to 15s and self-healing reduced from 50/s to 35/s; Darkforce Cloak damage increased from 80/s to 85/s and Terror Cape blind reduced from 1.5s to 1s.",
+          "type": "rework",
+          "section": "Cloak & Dagger",
+          "scope": "hero",
+          "facts": [
+            "12s",
+            "15s",
+            "50",
+            "35",
+            "80",
+            "85",
+            "1.5s",
+            "1s"
+          ],
+          "id": "Cloak & Dagger-40"
+        },
+        {
+          "hero": "Cloak & Dagger",
+          "text": "Veil of Lightforce and Terror Cape movement speed increased from 20m/s to 35m/s; each hero hit reduces Dagger Storm cooldown by 0.6s. Hood Team-Up veils now launch enemies hit along their path.",
+          "type": "rework",
+          "section": "Cloak & Dagger",
+          "scope": "hero",
+          "facts": [
+            "20m/s",
+            "35m/s",
+            "0.6s"
+          ],
+          "id": "Cloak & Dagger-41"
+        },
+        {
+          "hero": "Gambit",
+          "text": "Kinetic Cards outer-card spread increased from 2° to 3°; Healing Hearts self-healing reduced from 30/s to 20/s.",
+          "type": "nerf",
+          "section": "Gambit",
+          "scope": "hero",
+          "facts": [
+            "2",
+            "3",
+            "30",
+            "20"
+          ],
+          "id": "Gambit-42"
+        },
+        {
+          "hero": "Invisible Woman",
+          "text": "Veiled Step cooldown increased from 6s to 8s; Psionic Vortex center Slow reduced from 50% to 40% and edge Slow increased from 0% to 20%.",
+          "type": "rework",
+          "section": "Invisible Woman",
+          "scope": "hero",
+          "facts": [
+            "6s",
+            "8s",
+            "50",
+            "40",
+            "0",
+            "20"
+          ],
+          "id": "Invisible Woman-43"
+        },
+        {
+          "hero": "Jubilee",
+          "text": "Sparkle Mark no longer grants allies a 20% Healing Boost; Firework Finale field healing increased from 180/s to 190/s and outer-plasmoid rotation speed increased from 20m/s to 25m/s.",
+          "type": "rework",
+          "section": "Jubilee",
+          "scope": "hero",
+          "facts": [
+            "20",
+            "180",
+            "190",
+            "20m/s",
+            "25m/s"
+          ],
+          "id": "Jubilee-44"
+        },
+        {
+          "hero": "Jubilee",
+          "text": "Blade Team-Up Vampiric Kin Lifesteal increased from 30% to 40%.",
+          "type": "buff",
+          "section": "Jubilee",
+          "scope": "hero",
+          "facts": [
+            "30",
+            "40"
+          ],
+          "id": "Jubilee-45"
+        },
+        {
+          "hero": "Loki",
+          "text": "Deception cooldown increased from 15s to 18s; Hela Team-Up grants 1s Doppelganger and Devious Exchange cooldown when an illusion is destroyed; Mantis Team-Up removes Regeneration Domain ally damage boost.",
+          "type": "rework",
+          "section": "Loki",
+          "scope": "hero",
+          "facts": [
+            "15s",
+            "18s",
+            "1s"
+          ],
+          "id": "Loki-46"
+        },
+        {
+          "hero": "Luna Snow",
+          "text": "Absolute Zero freeze reduced from 2.7s to 1.5s; White Fox Team-Up removes Charm while increasing Spirit Fox ally healing from 70 to 80 and enemy damage from 35 to 45.",
+          "type": "rework",
+          "section": "Luna Snow",
+          "scope": "hero",
+          "facts": [
+            "2.7s",
+            "1.5s",
+            "70",
+            "80",
+            "35",
+            "45"
+          ],
+          "id": "Luna Snow-47"
+        },
+        {
+          "hero": "Luna Snow",
+          "text": "Adam Warlock Team-Up Duality Dance self-healing conversion increased from 25% to 35%.",
+          "type": "buff",
+          "section": "Luna Snow",
+          "scope": "hero",
+          "facts": [
+            "25",
+            "35"
+          ],
+          "id": "Luna Snow-48"
+        },
+        {
+          "hero": "Mantis",
+          "text": "Life Energy Blast non-critical hits now grant 0.3 Life Orbs; Spore Slumber sleep reduced from 3.5s to 1.5s; Allied Inspiration costs 2 Life Orbs instead of 1; Nature’s Favor self-healing reduced from 12.5/s to 8/s.",
+          "type": "rework",
+          "section": "Mantis",
+          "scope": "hero",
+          "facts": [
+            "0.3",
+            "3.5s",
+            "1.5s",
+            "2",
+            "1",
+            "12.5",
+            "8"
+          ],
+          "id": "Mantis-49"
+        },
+        {
+          "hero": "Rocket Raccoon",
+          "text": "Repair Mode post-ally healing reduced from 55 to 50 and self-healing reduced from 30/s to 20/s; primary falloff now starts at 15m and reaches 55% at 30m instead of 10m/40% at 20m; Jetpack Dash grants 25 Bonus Health.",
+          "type": "rework",
+          "section": "Rocket Raccoon",
+          "scope": "hero",
+          "facts": [
+            "55",
+            "50",
+            "30",
+            "20",
+            "15m",
+            "55",
+            "30m",
+            "10m",
+            "40",
+            "20m",
+            "25"
+          ],
+          "id": "Rocket Raccoon-50"
+        },
+        {
+          "hero": "Ultron",
+          "text": "Imperative: Firewall ally Bonus Health reduced from 40 to 25 and Movement Speed boost reduced from 20% to 10%.",
+          "type": "nerf",
+          "section": "Ultron",
+          "scope": "hero",
+          "facts": [
+            "40",
+            "25",
+            "20",
+            "10"
+          ],
+          "id": "Ultron-51"
+        },
+        {
+          "hero": "White Fox",
+          "text": "Spirit Sanctuary shield reduced from 200 to 100; Spectral Surge ally invincibility removed and Charm radius reduced from 0.6m to 0.4m.",
+          "type": "nerf",
+          "section": "White Fox",
+          "scope": "hero",
+          "facts": [
+            "200",
+            "100",
+            "0.6m",
+            "0.4m"
+          ],
+          "id": "White Fox-52"
+        },
+        {
+          "hero": "White Fox",
+          "text": "Fox Form Awakening duration increased from 7s to 8s with per-tail bonus from 1s to 2s; Claw Strike damage increased from 35 to 40 and Predatory Pounce cooldown reduced from 6s to 4s.",
+          "type": "buff",
+          "section": "White Fox",
+          "scope": "hero",
+          "facts": [
+            "7s",
+            "8s",
+            "1s",
+            "2s",
+            "35",
+            "40",
+            "6s",
+            "4s"
+          ],
+          "id": "White Fox-53"
+        },
+        {
+          "hero": "White Fox",
+          "text": "Kumiho Unleashed can now receive allied healing; Kumiho-state Health reduced from 1200 to 1000.",
+          "type": "rework",
+          "section": "White Fox",
+          "scope": "hero",
+          "facts": [
+            "1200",
+            "1000"
+          ],
+          "id": "White Fox-54"
+        }
+      ]
+    },
     {
       "id": "2026-10-15",
       "date": "2026-10-15",

@@ -33,8 +33,13 @@ test('a manifest team logo is preferred even without an original URL alias',()=>
 
  test('selected Lord portraits cover every hero without replacing full artwork',async()=>{
  const {default:headshots}=await import('../../data/hero-headshots.json',{with:{type:'json'}});
- for(const hero of data.heroes){assert.equal(heroMediaSources(hero)[0],headshots.heroes[hero.id].path);assert.notEqual(heroMediaSources(hero,true)[0],headshots.heroes[hero.id].path);}
- assert.equal(new Set(Object.values(headshots.heroes).map(h=>h.path)).size,54);
+ for(const hero of data.heroes){
+  assert.equal(heroMediaSources(hero)[0],headshots.heroes[hero.id].path);
+  // A freshly released hero may only have a verified official portrait until
+  // the publisher supplies a separate full-art asset. Do not invent artwork.
+  if(headshots.heroes[hero.id].sourceLabel!=='official-nightcrawler-portrait') assert.notEqual(heroMediaSources(hero,true)[0],headshots.heroes[hero.id].path);
+ }
+ assert.equal(new Set(Object.values(headshots.heroes).map(h=>h.path)).size,data.heroes.length-2);
  assert.equal(heroMediaSources({id:'duelpool'})[0],heroMediaSources({id:'tankpool'})[0]);
  assert.equal(headshots.heroes.magik.sourceLabel,'item_herohead_21029020');
  assert.equal(headshots.heroes.hulk.sourceLabel,'item_herohead_21011021');

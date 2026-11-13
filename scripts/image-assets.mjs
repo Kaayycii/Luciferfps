@@ -38,15 +38,25 @@ function imageType(bytes) {
   throw new Error('Response is not a supported raster image');
 }
 export function parseHeroCatalog(html) {
-  return [...html.matchAll(/<div class="heroNewsList">\s*<a([^>]+)>([\s\S]*?)<\/a>/g)].map(match => ({
-    name: match[1].match(/data-name="([^"]+)/)?.[1],
-    title: match[1].match(/title="([^"]+)/)?.[1],
-    url: safeUrl(match[1].match(/data-url="([^"]+)/)?.[1]),
-    images: imageSources(match[2]),
-  })).filter(hero => hero.name && hero.images.length >= 3);
+  return [...html.matchAll(/<div class="heroNewsList">\s*<a([^>]+)>([\s\S]*?)<\/a>/g)].map(match => {
+    const attributes = match[1];
+    const heroId = attributes.match(/data-hero-id="([^"]+)/)?.[1] || attributes.match(/data-id="([^"]+)/)?.[1];
+    // Newly released heroes can appear in the publisher's roster before their
+    // news URL is populated. Their stable hero ID still resolves to the
+    // official detail page, so use it rather than dropping the hero or issuing
+    // a request to an invalid /undefined path.
+    const publishedUrl = attributes.match(/data-url="([^"]*)"/)?.[1];
+    return {
+      name: attributes.match(/data-name="([^"]+)/)?.[1],
+      title: attributes.match(/title="([^"]+)/)?.[1],
+      url: safeUrl(publishedUrl || `heroes/${heroId}/index.html`),
+      images: imageSources(match[2]),
+    };
+  }).filter(hero => hero.name && hero.images.length >= 3);
 }
 export function parseHeroDetail(html) {
   const gallery = html.match(/<table[^>]*class="tableImg"[^>]*>([\s\S]*?)<\/table>/)?.[1] || '';
+  const portrait = html.match(/<img[^>]*class="role-pic"[^>]*src="([^"]+)"/i)?.[1];
   const records=[...html.matchAll(/<tr[^>]*>\s*<td[^>]*>\s*([1-4])\s*<\/td>\s*<td[^>]*>([\s\S]*?)<\/td>\s*<td[^>]*>([\s\S]*?)<\/td>/gi)];
   const abilities = records.map((match,index) => {
     const tail=html.slice(match.index+match[0].length,records[index+1]?.index||html.length);
@@ -59,7 +69,7 @@ export function parseHeroDetail(html) {
     if(name==='Karmic Revival' && key==='F' && description==='Take to the skies, entering a flying state and swiftly surge forward') name='Soaring Surge';
     return { type: Number(match[1]), name, key, image: imageSources(match[3])[0] };
   }).filter(item => item.name && item.image);
-  return { gallery: imageSources(gallery), abilities };
+  return { gallery: imageSources(gallery), portrait: portrait ? safeUrl(portrait) : null, abilities };
 }
 export function parseMapCatalog(html) {
   const section = html.slice(html.indexOf('class="part-maps"'));
@@ -157,10 +167,10 @@ export async function syncImageAssets() {
       if(previous.art?.startsWith('/media/heroes/') && manifest.files[previous.art]) {
         try { if((await stat(resolve(ROOT,'public',previous.art.slice(1)))).size)return previous.art; }catch{}
       }
-      return vendor(official.images[1],'heroes',official.url,{maxWidth:1000,maxHeight:1200,trim:true});
+      return vendor(detail.portrait || official.images[1],'heroes',official.url,{maxWidth:1000,maxHeight:1200,trim:true});
     }
     const [portrait,art,card]=await Promise.all([
-      vendor(official.images[0],'heroes',official.url,{maxWidth:256}),
+      vendor(detail.portrait || official.images[0],'heroes',official.url,{maxWidth:256}),
       heroArt(),
       vendor(official.images[1],'heroes',official.url,{maxWidth:480}),
     ]);

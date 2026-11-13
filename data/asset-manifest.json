@@ -1,6 +1,58 @@
 {
   "schemaVersion": 1,
   "assets": {
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=aaad": "/media/teams/d8dc600350a1421739e2.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=aura_rivals": "/media/teams/15a8668849c114d9036f.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=biharkelonde": "/media/teams/a1ad23dc51bf080438f1.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=chiefs_esports_club": "/media/teams/dfddb3a8db9fd87667a2.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=crownfall": "/media/teams/9d320363acfc14512dcc.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=dawn_mercy_accord": "/media/teams/b564fde1d77378d16d36.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=delicious_food": "/media/teams/f8355a62e8c138c8afd8.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=dreamland": "/media/teams/cca3fff2250b8711398b.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=dxa_esports": "/media/teams/3f48ba3931acfe7c99d4.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=everlast": "/media/teams/202e50bee088d119c61f.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=fl_esports_club": "/media/teams/743061095c59ccf84bc5.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=flyquest": "/media/teams/1aa4e8fba2f49938eac9.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=free_eats": "/media/teams/6496b9846a2dd5b13601.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=fury": "/media/teams/434f7f8f1e074c1bb4be.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=fyr_strays": "/media/teams/ed53562a0f7f6b4ad970.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=geng": "/media/teams/a2a7ee70cdd6fb0b6de6.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=hekkers": "/media/teams/beac18d3b24ca58f4827.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=heretics": "/media/teams/1f80d633006908c7c33f.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=hundred_thieves": "/media/teams/d471afc1539e59f3c255.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=hypertune": "/media/teams/5b1a7cd147c73bc0bc88.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=jft_esports": "/media/teams/e7876df2eaf6394d0ae3.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=kanga_esports": "/media/teams/69ff0b5d6e5d6dda7924.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=monarch": "/media/teams/aac906663927e7d22c9c.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=n1hex": "/media/teams/fa6f69f3baa76133380a.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=navi": "/media/teams/5954fd75e364a6497664.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=nrg_shock": "/media/teams/a89b228c76a8c083acb0.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=ntmr": "/media/teams/e89913f67eb275dfb626.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=oug": "/media/teams/785612532e2deb24d0d8.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=peps": "/media/teams/85b3a516b7581d37c1aa.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=planet_sainage_pac": "/media/teams/c2afeb52e767cc7b8d99.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=rad": "/media/teams/e4b9375abdb2b8dfa3d4.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=reason": "/media/teams/6aa028be339b4689c3a7.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=reject": "/media/teams/035a4eec3314c28cd116.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=rival": "/media/teams/a66abdcff33f14af9b9a.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=sentinels": "/media/teams/a2b456923df5546b5d0e.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=shikigami": "/media/teams/c9000cdedd8d42082514.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=slzz": "/media/teams/f636212bf08856e707f4.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=ssg": "/media/teams/8d9ec9fd3b8a79d9db7f.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=stickdrift": "/media/teams/cbfdbf8b1caa2ac61e3c.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=straw_hats": "/media/teams/3eb27f70ae372948f374.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=swamp": "/media/teams/175f1b5c4110553f74ff.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=the_burgers": "/media/teams/dd4667e712cee7d67b5c.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=the_lions": "/media/teams/1e91b13dc8f729952ac1.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=tlc": "/media/teams/50c6c83a1131599bba33.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=tsm": "/media/teams/a56c2c5d16440189a884.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=vengeful": "/media/teams/4d839514467ea405d51e.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=virtus_pro": "/media/teams/3ad8f1ca7db930d87d1f.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=vision": "/media/teams/a18272e3953f192a82c1.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=vulcan_red": "/media/teams/290ce2770a952715dd6d.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=xoxo01": "/media/teams/34f01d778216a970ac3b.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=ywl": "/media/teams/e06bc92f8d1787c1f5a6.png",
+    "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=zero_tenacity": "/media/teams/3673d87ba1fd21cfb16e.png",
     "https://api.arianwever.com/public-cache-image.php?kind=teamup-icon&key=0009357ea45469ff94251df0936c9a656e49746c6108499aac56b8c55426a1c2": "/media/abilities/cff458f27da53122f43a.webp",
     "https://api.arianwever.com/public-cache-image.php?kind=teamup-icon&key=00893502f66447e2f265e3ad9d1596516fe1a72b0041e2fca670e62ee12d5fc3": "/media/abilities/9893f26398594e933715.webp",
     "https://api.arianwever.com/public-cache-image.php?kind=teamup-icon&key=01de74701aebf764ae04b0cfe46c2f15b63ebaf02c97fa94d3bacfe88da36266": "/media/abilities/d898b8123641389668f7.webp",
@@ -107,6 +159,7 @@
     "https://api.arianwever.com/public-cache-image.php?kind=teamup-icon&key=f8c9bcec0ac589a9a5b8e17cc33563ccf8bfb6326ed45debdd6dd2b125cfdfc2": "/media/abilities/60d9c7556f104d5163a5.webp",
     "https://api.arianwever.com/public-cache-image.php?kind=teamup-icon&key=f9e354a9428569615762b181b66d0b703e79742254ba8ba2ee91bea8c108d5c4": "/media/abilities/0a52ff17dcde6a38ac5f.webp",
     "https://api.arianwever.com/public-cache-image.php?kind=teamup-icon&key=faf6e1730e556309d42a02a66775e866c5d8928b90b6d92af8e28f062e15729f": "/media/abilities/4506d08edc2daa4f2015.webp",
+    "https://api.arianwever.com/public-cache-image.php?kind=twitch-avatar&key=rad_denis": "/media/people/b5ffa3e03ae193a15bd2.png",
     "https://arianwever.com/Graphics/Character%20Icons/Hero_Devil_Dinosaur.webp": "/media/heroes/53bffa845bc8f2d88ddc.webp",
     "https://arianwever.com/Graphics/Character%20Icons/Hero_Icon_Adam_Warlock.webp": "/media/heroes/dad371c307816d5c00d0.webp",
     "https://arianwever.com/Graphics/Character%20Icons/Hero_Icon_Angela.png": "/media/heroes/d57ab176a28b969f1527.webp",
@@ -959,6 +1012,7 @@
     "https://www.marvelrivals.com/pc/gw/20241128194803/img/7_df8eaf86.jpg": "/media/maps/2ca2310d91ef1a0f61dd.webp",
     "https://www.marvelrivals.com/pc/gw/20241128194803/img/8_ecaa3f49.jpg": "/media/maps/bb981c5ff9a1ae2db467.webp",
     "https://www.marvelrivals.com/pc/gw/20241128194803/img/9_d1e6afd2.jpg": "/media/maps/8024ca198a79ab8cdd6e.webp",
+    "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2mpwiwa9ct6hn/variants/01-portrait_2bbd8753.png": "/media/heroes/b9d60d50595419033a5c.png",
     "https://www.marvelrivals.com/pc/gw/5da825b19a6a/heros/head_1.png": "/media/heroes/4992863f26c69573f611.webp",
     "https://www.marvelrivals.com/pc/gw/5da825b19a6a/heros/head_10.png": "/media/heroes/8f78b3ec63a58b9acb42.webp",
     "https://www.marvelrivals.com/pc/gw/5da825b19a6a/heros/head_11.png": "/media/heroes/63ea0c63f431c9653552.webp",
@@ -1040,10 +1094,10 @@
         "name": "Black Panther",
         "officialName": "BLACK PANTHER",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195677.html",
-        "portrait": "/media/heroes/4992863f26c69573f611.webp",
-        "thumbnail": "/media/heroes/4992863f26c69573f611.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/4bd0785dbe2eff48f7b1.webp",
-        "card": "/media/heroes/e877331ce4aba315fbaa.webp",
+        "card": null,
         "abilities": {
           "black-panther-vibranium-claws-0": "/media/abilities/4e09db4fdd0b772d6952.webp",
           "black-panther-bast-s-descent-1": "/media/abilities/56ae8b90b5af34cffb0a.webp",
@@ -1062,10 +1116,10 @@
         "name": "Black Widow",
         "officialName": "BLACK WIDOW",
         "sourcePage": "https://www.marvelrivals.com/20241204/41360_1198106.html",
-        "portrait": "/media/heroes/f01ff9ab2c412930da93.webp",
-        "thumbnail": "/media/heroes/f01ff9ab2c412930da93.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/cf86d2fc5b0d5ee43a6e.webp",
-        "card": "/media/heroes/a147ed1d0c7267ee37fe.webp",
+        "card": null,
         "abilities": {
           "black-widow-widow-s-bite-baton-0": "/media/abilities/ae40b28d2d973ed1114f.webp",
           "black-widow-red-room-rifle-1": "/media/abilities/9715d76bd214363c592b.webp",
@@ -1083,10 +1137,10 @@
         "name": "Angela",
         "officialName": "ANGELA",
         "sourcePage": "https://www.marvelrivals.com/20250911/41360_1258873.html",
-        "portrait": "/media/heroes/d57ab176a28b969f1527.webp",
-        "thumbnail": "/media/heroes/d57ab176a28b969f1527.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/547c2cc272d92f002665.webp",
-        "card": "/media/heroes/7aa345ea612777c89c5c.webp",
+        "card": null,
         "abilities": {
           "angela-spear-of-ichors-0": "/media/abilities/9188ccc31db9ff0c1d15.webp",
           "angela-axes-of-ichors-1": "/media/abilities/fd08fd9b44239d088815.webp",
@@ -1106,10 +1160,10 @@
         "name": "Blade",
         "officialName": "BLADE",
         "sourcePage": "https://www.marvelrivals.com/20250808/41360_1252733.html",
-        "portrait": "/media/heroes/7f0e420029947f247795.webp",
-        "thumbnail": "/media/heroes/7f0e420029947f247795.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/2b8aa6e078b1286af910.webp",
-        "card": "/media/heroes/78616f2bebe0b2ad6bed.webp",
+        "card": null,
         "abilities": {
           "blade-ancestral-sword-0": "/media/abilities/b843957fd361bc5e9fa1.webp",
           "blade-hunter-s-shotgun-1": "/media/abilities/5eeabda596edb23de36d.webp",
@@ -1127,10 +1181,10 @@
         "name": "Black Cat",
         "officialName": "BLACK CAT",
         "sourcePage": "https://www.marvelrivals.com/20260416/41360_1296480.html",
-        "portrait": "/media/heroes/2e7ae4344056d30ed24b.webp",
-        "thumbnail": "/media/heroes/2e7ae4344056d30ed24b.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/5a90e372e53fb9d5b5c6.webp",
-        "card": "/media/heroes/0ced9f689baebf809993.webp",
+        "card": null,
         "abilities": {
           "black-cat-feline-fury-0": "/media/abilities/63c8da857076acf405cf.webp",
           "black-cat-calling-card-1": "/media/abilities/8c7cc7a2d55b1c31185d.webp",
@@ -1159,12 +1213,12 @@
       },
       "cloak-and-dagger": {
         "name": "Cloak & Dagger",
-        "officialName": "CLOAK&DAGGER",
+        "officialName": "CLOAK&amp;DAGGER",
         "sourcePage": "https://www.marvelrivals.com/20241204/41360_1198095.html",
-        "portrait": "/media/heroes/2ca0443381dd407d27c2.webp",
-        "thumbnail": "/media/heroes/2ca0443381dd407d27c2.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/7c23840d1fd2f5782e4d.webp",
-        "card": "/media/heroes/7522455bac0b5561efc5.webp",
+        "card": null,
         "abilities": {
           "cloak-and-dagger-darkforce-cloak-0": "/media/abilities/b621b589ad5b449f9e1a.webp",
           "cloak-and-dagger-eternal-bond-1": "/media/abilities/aef4db2cdcbf84757644.webp",
@@ -1186,10 +1240,10 @@
         "name": "Captain America",
         "officialName": "CAPTAIN AMERICA",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195652.html",
-        "portrait": "/media/heroes/3d31218d4731f2410a48.webp",
-        "thumbnail": "/media/heroes/3d31218d4731f2410a48.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/088fff4a8f21b0c3d2a2.webp",
-        "card": "/media/heroes/f8f9c2013dc0f5c606dd.webp",
+        "card": null,
         "abilities": {
           "captain-america-sentinel-strike-0": "/media/abilities/34e4ddec85627fc9249a.webp",
           "captain-america-freedom-charge-1": "/media/abilities/47766b04b48338951adc.webp",
@@ -1208,10 +1262,10 @@
         "name": "Cyclops",
         "officialName": "CYCLOPS",
         "sourcePage": "https://www.marvelrivals.com/20260611/41360_1303977.html",
-        "portrait": "/media/heroes/5dda5ceb0ad06f07a57c.webp",
-        "thumbnail": "/media/heroes/5dda5ceb0ad06f07a57c.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/cc576e641fac79eb7f4d.webp",
-        "card": "/media/heroes/b2d789c414a97112f14d.webp",
+        "card": null,
         "abilities": {
           "cyclops-optic-blast-0": "/media/abilities/42777ba1a8e7b922ac4c.webp",
           "cyclops-concussive-beam-1": "/media/abilities/9a8072b98eb6a6755e80.webp",
@@ -1228,12 +1282,12 @@
       },
       "daredevil": {
         "name": "Daredevil",
-        "officialName": "Daredevil",
+        "officialName": "DAREDEVIL",
         "sourcePage": "https://www.marvelrivals.com/20251009/41360_1263889.html",
-        "portrait": "/media/heroes/4ddcce453162756065b2.webp",
-        "thumbnail": "/media/heroes/4ddcce453162756065b2.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/78f79b2431ee2195beae.webp",
-        "card": "/media/heroes/3ab2e2039747be3685f8.webp",
+        "card": null,
         "abilities": {
           "daredevil-justice-jab-0": "/media/abilities/e4a068e2793f5d106aa0.webp",
           "daredevil-righteous-cross-1": "/media/abilities/6113b3be0fe9223d37ae.webp",
@@ -1254,10 +1308,10 @@
         "name": "Devil Dinosaur",
         "officialName": "DEVIL DINOSAUR",
         "sourcePage": "https://www.marvelrivals.com/20260514/41360_1300391.html",
-        "portrait": "/media/heroes/53bffa845bc8f2d88ddc.webp",
-        "thumbnail": "/media/heroes/53bffa845bc8f2d88ddc.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/dbf81c37c12d83fdbe2e.webp",
-        "card": "/media/heroes/5a0b2591753f2b6102a3.webp",
+        "card": null,
         "abilities": {
           "devil-dinosaur-primal-bite-0": "/media/abilities/2e8478ac265eeac20694.webp",
           "devil-dinosaur-impact-beam-1": "/media/abilities/87af1f9ef69a764b75fd.webp",
@@ -1277,10 +1331,10 @@
         "name": "Doctor Strange",
         "officialName": "DOCTOR STRANGE",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195649.html",
-        "portrait": "/media/heroes/5b6817882f22cea5a985.webp",
-        "thumbnail": "/media/heroes/5b6817882f22cea5a985.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/b6cccec5c1ffa5bc404a.webp",
-        "card": "/media/heroes/39d725fb7a306417e194.webp",
+        "card": null,
         "abilities": {
           "doctor-strange-daggers-of-denak-0": "/media/abilities/54a22892883d0c4f79e5.webp",
           "doctor-strange-eye-of-agamotto-1": "/media/abilities/b182681a9941dd4bc224.webp",
@@ -1299,10 +1353,10 @@
         "name": "Duelpool",
         "officialName": "DEADPOOL",
         "sourcePage": "https://www.marvelrivals.com/20260115/41360_1281973.html",
-        "portrait": "/media/heroes/08071d901720173652ff.webp",
-        "thumbnail": "/media/heroes/08071d901720173652ff.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/8cbfc4788d4759c6cb6a.webp",
-        "card": "/media/heroes/2f2391b2c811c3e1be87.webp",
+        "card": null,
         "abilities": {
           "duelpool-healing-factor-0": "/media/abilities/0ca2539b9126bacd530d.webp",
           "duelpool-kick-katana-vanguard-1": "/media/abilities/b69b2618a4cd5b088baf.webp",
@@ -1318,12 +1372,12 @@
       },
       "emma-frost": {
         "name": "Emma Frost",
-        "officialName": "Emma Frost",
+        "officialName": "EMMA FROST",
         "sourcePage": "https://www.marvelrivals.com/20250408/41360_1225547.html",
-        "portrait": "/media/heroes/f6cf9c4c4e3a7e84f3f3.webp",
-        "thumbnail": "/media/heroes/f6cf9c4c4e3a7e84f3f3.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/392f7763603a3ec2ec60.webp",
-        "card": "/media/heroes/cc524a2e628a0665fec6.webp",
+        "card": null,
         "abilities": {
           "emma-frost-telepathic-pulse-0": "/media/abilities/88aa292a5749f70a6bf6.webp",
           "emma-frost-mind-s-aegis-1": "/media/abilities/9d6ab22a9cae05de69f0.webp",
@@ -1343,10 +1397,10 @@
         "name": "Elsa Bloodstone",
         "officialName": "ELSA BLOODSTONE",
         "sourcePage": "https://www.marvelrivals.com/20260212/41360_1286981.html",
-        "portrait": "/media/heroes/0434a7ccea46e3125b6c.webp",
-        "thumbnail": "/media/heroes/0434a7ccea46e3125b6c.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/ce7d1fedf077aba1958b.webp",
-        "card": "/media/heroes/a419b229d2b45291e182.webp",
+        "card": null,
         "abilities": {
           "elsa-bloodstone-double-barrel-blaster-0": "/media/abilities/7e9ba7a1369720a58410.webp",
           "elsa-bloodstone-monster-piercer-1": "/media/abilities/35713c133491fa1453f1.webp",
@@ -1364,12 +1418,12 @@
       },
       "gambit": {
         "name": "Gambit",
-        "officialName": "Gambit",
+        "officialName": "GAMBIT",
         "sourcePage": "https://www.marvelrivals.com/20251114/41360_1270998.html",
-        "portrait": "/media/heroes/dab2f6b6b5bcaa6c618e.webp",
-        "thumbnail": "/media/heroes/dab2f6b6b5bcaa6c618e.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/22fd818b9929a9b82f60.webp",
-        "card": "/media/heroes/dde160b86ee1b4f423e7.webp",
+        "card": null,
         "abilities": {
           "gambit-kinetic-cards-0": "/media/abilities/68605163d6d4aee7398e.webp",
           "gambit-ragin-royal-flush-1": "/media/abilities/591bb54b1527b441c801.webp",
@@ -1391,10 +1445,10 @@
         "name": "Healpool",
         "officialName": "DEADPOOL",
         "sourcePage": "https://www.marvelrivals.com/20260115/41360_1281973.html",
-        "portrait": "/media/heroes/08071d901720173652ff.webp",
-        "thumbnail": "/media/heroes/08071d901720173652ff.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/8cbfc4788d4759c6cb6a.webp",
-        "card": "/media/heroes/2f2391b2c811c3e1be87.webp",
+        "card": null,
         "abilities": {
           "healpool-dual-desert-eagles-vanguard-upgraded-0": "/media/abilities/431413bba04bbf4bc332.webp",
           "healpool-kick-katana-vanguard-upgraded-1": "/media/abilities/4ddd580bd0b642c8e373.webp",
@@ -1409,10 +1463,10 @@
         "name": "Hawkeye",
         "officialName": "HAWKEYE",
         "sourcePage": "https://www.marvelrivals.com/20241124/41360_1195753.html",
-        "portrait": "/media/heroes/933eb12fcfc35ef2c5f9.webp",
-        "thumbnail": "/media/heroes/933eb12fcfc35ef2c5f9.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/35540e935f95ba0d380d.webp",
-        "card": "/media/heroes/babcc1fb6f62d057768d.webp",
+        "card": null,
         "abilities": {
           "hawkeye-piercing-arrow-0": "/media/abilities/a14154728dd3a5d8e5c2.webp",
           "hawkeye-blast-arrow-1": "/media/abilities/a288bb243738678b3a3e.webp",
@@ -1430,12 +1484,12 @@
       },
       "gorr": {
         "name": "Gorr",
-        "officialName": "Gorr the God Butcher",
+        "officialName": "GORR THE GOD BUTCHER",
         "sourcePage": "https://www.marvelrivals.com/20260911/41360_1313617.html",
-        "portrait": "/media/heroes/ddbf29b14a5dcd5b683f.webp",
-        "thumbnail": "/media/heroes/ddbf29b14a5dcd5b683f.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/ed981e2fdd8fdb0d24e8.webp",
-        "card": "/media/heroes/2220ac78aed50af63326.webp",
+        "card": null,
         "abilities": {
           "gorr-all-black-0": "/media/abilities/71d73c6c1ab1ddecd30b.webp",
           "gorr-necro-power-1": "/media/abilities/e1db9e7ce2ab36986531.webp",
@@ -1454,10 +1508,10 @@
         "name": "Groot",
         "officialName": "GROOT",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195653.html",
-        "portrait": "/media/heroes/c9e79208e2bc0ba5a73e.webp",
-        "thumbnail": "/media/heroes/c9e79208e2bc0ba5a73e.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/84cc3c4b8f23a85deadd.webp",
-        "card": "/media/heroes/4be9673b781cafb9607d.webp",
+        "card": null,
         "abilities": {
           "groot-vine-strike-0": "/media/abilities/d0f9cf107f7e3e996eb6.webp",
           "groot-strangling-prison-1": "/media/abilities/c2190879aabdd01e23f7.webp",
@@ -1476,10 +1530,10 @@
         "name": "Human Torch",
         "officialName": "HUMAN TORCH",
         "sourcePage": "https://www.marvelrivals.com/20250220/41360_1213050.html",
-        "portrait": "/media/heroes/227f7bb091f032c4ea57.webp",
-        "thumbnail": "/media/heroes/227f7bb091f032c4ea57.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/d02593416ae4b48f077d.webp",
-        "card": "/media/heroes/e380077ad2aa60e25429.webp",
+        "card": null,
         "abilities": {
           "human-torch-fire-cluster-0": "/media/abilities/9dcd5f1d48fc120670b8.webp",
           "human-torch-blazing-blast-1": "/media/abilities/234b42f8f93574b04fb7.webp",
@@ -1497,10 +1551,10 @@
         "name": "Hela",
         "officialName": "HELA",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195676.html",
-        "portrait": "/media/heroes/9e8130e19d4d68899172.webp",
-        "thumbnail": "/media/heroes/9e8130e19d4d68899172.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/b54fec529d05e1b25cfb.webp",
-        "card": "/media/heroes/53c42e7bb341844b3ab3.webp",
+        "card": null,
         "abilities": {
           "hela-nightsword-thorn-0": "/media/abilities/0e4723e28cb624877b44.webp",
           "hela-goddess-of-death-1": "/media/abilities/32c657ea9ff0f23d5a07.webp",
@@ -1519,10 +1573,10 @@
         "name": "Invisible Woman",
         "officialName": "INVISIBLE WOMAN",
         "sourcePage": "https://www.marvelrivals.com/20250108/41360_1205353.html",
-        "portrait": "/media/heroes/73fc3cbf685a4ae1298a.webp",
-        "thumbnail": "/media/heroes/73fc3cbf685a4ae1298a.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/00af85233a46e08024aa.webp",
-        "card": "/media/heroes/9e8b7a29185cbcf0407b.webp",
+        "card": null,
         "abilities": {
           "invisible-woman-orb-projection-0": "/media/abilities/292c097ddb7f057fef1f.webp",
           "invisible-woman-guardian-shield-1": "/media/abilities/59529fca364f2b6df0f1.webp",
@@ -1541,10 +1595,10 @@
         "name": "Hulk",
         "officialName": "HULK",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195678.html",
-        "portrait": "/media/heroes/8bd2921f7b9a63c04964.webp",
-        "thumbnail": "/media/heroes/8bd2921f7b9a63c04964.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/af6bec1972076d370a03.webp",
-        "card": "/media/heroes/b1c3461ee7394ddee5fa.webp",
+        "card": null,
         "abilities": {
           "hulk-gamma-ray-gun-0": "/media/abilities/356024782e2b3cc0bfbf.webp",
           "hulk-puny-banner-1": "/media/abilities/d21cb7440d655b810a5b.webp",
@@ -1570,10 +1624,10 @@
         "name": "Iron Fist",
         "officialName": "IRON FIST",
         "sourcePage": "https://www.marvelrivals.com/20241201/41360_1197227.html",
-        "portrait": "/media/heroes/c9f70f2a711e2b71a7b5.webp",
-        "thumbnail": "/media/heroes/c9f70f2a711e2b71a7b5.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/c90782d80f68902ccf67.webp",
-        "card": "/media/heroes/4c7785a93a23d7f7386b.webp",
+        "card": null,
         "abilities": {
           "iron-fist-jeet-kune-do-0": "/media/abilities/646833f5a562179c7eaf.webp",
           "iron-fist-yat-jee-chung-kuen-1": "/media/abilities/d95c052395234e17a644.webp",
@@ -1594,10 +1648,10 @@
         "name": "Iron Man",
         "officialName": "IRON MAN",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195687.html",
-        "portrait": "/media/heroes/f1d318e8db4c2f7cd9c9.webp",
-        "thumbnail": "/media/heroes/f1d318e8db4c2f7cd9c9.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/8ed35d71fbaf34f71a01.webp",
-        "card": "/media/heroes/d38eebf7aed6e84eff5f.webp",
+        "card": null,
         "abilities": {
           "iron-man-repulsor-blast-0": "/media/abilities/1ba213e9dbfc1130e48e.webp",
           "iron-man-repulsor-blast-armor-overdrive-1": "/media/abilities/1ba213e9dbfc1130e48e.webp",
@@ -1619,10 +1673,10 @@
         "name": "Jubilee",
         "officialName": "JUBILEE",
         "sourcePage": "https://www.marvelrivals.com/20260707/41360_1306826.html",
-        "portrait": "/media/heroes/0d712f03e7a743b5f1c5.webp",
-        "thumbnail": "/media/heroes/0d712f03e7a743b5f1c5.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/4a9ad6786a6b94951fee.webp",
-        "card": "/media/heroes/5ccff68015bb0e3c7a8c.webp",
+        "card": null,
         "abilities": {
           "jubilee-energy-plasmoids-0": "/media/abilities/1143c92b1a1466d785fa.webp",
           "jubilee-blooming-ball-1": "/media/abilities/cf647b668d168deded4b.webp",
@@ -1640,10 +1694,10 @@
         "name": "Jeff the Land Shark",
         "officialName": "JEFF THE LAND SHARK",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195674.html",
-        "portrait": "/media/heroes/0a76d93894fca4f5de60.webp",
-        "thumbnail": "/media/heroes/0a76d93894fca4f5de60.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/c500bc9ed07cb3eb6e67.webp",
-        "card": "/media/heroes/92c12fa0f955072b9b83.webp",
+        "card": null,
         "abilities": {
           "jeff-the-land-shark-joyful-splash-0": "/media/abilities/0bf720262c2c06b94036.webp",
           "jeff-the-land-shark-aqua-burst-1": "/media/abilities/a0aeb62e69d8ff14d839.webp",
@@ -1661,10 +1715,10 @@
         "name": "Loki",
         "officialName": "LOKI",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195662.html",
-        "portrait": "/media/heroes/0aa3f048d4400d9f9d32.webp",
-        "thumbnail": "/media/heroes/0aa3f048d4400d9f9d32.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/4de69111c5cc6a19a695.webp",
-        "card": "/media/heroes/c2d7f1bdf5a827a7a2e5.webp",
+        "card": null,
         "abilities": {
           "loki-mystical-missile-0": "/media/abilities/e5ef14e659e0b9e03c40.webp",
           "loki-god-of-mischief-1": "/media/abilities/cb1c3b9bf64b59b5002a.webp",
@@ -1683,10 +1737,10 @@
         "name": "Magik",
         "officialName": "MAGIK",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195682.html",
-        "portrait": "/media/heroes/df875b72484f768db9be.webp",
-        "thumbnail": "/media/heroes/df875b72484f768db9be.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/cb73295272752d316210.webp",
-        "card": "/media/heroes/c38a8fbc74db1b8670b9.webp",
+        "card": null,
         "abilities": {
           "magik-soulsword-0": "/media/abilities/9c4b717b263f9baacc6f.webp",
           "magik-darkchild-1": "/media/abilities/74a17e381469340d1447.webp",
@@ -1712,10 +1766,10 @@
         "name": "Magneto",
         "officialName": "MAGNETO",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195655.html",
-        "portrait": "/media/heroes/63ea0c63f431c9653552.webp",
-        "thumbnail": "/media/heroes/63ea0c63f431c9653552.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/0825027216a824d84712.webp",
-        "card": "/media/heroes/6fdaf3627e924ef9ca9a.webp",
+        "card": null,
         "abilities": {
           "magneto-iron-volley-0": "/media/abilities/16e6183347990caba165.webp",
           "magneto-meteor-m-1": "/media/abilities/2f42f087776028fd596b.webp",
@@ -1734,10 +1788,10 @@
         "name": "Luna Snow",
         "officialName": "LUNA SNOW",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195671.html",
-        "portrait": "/media/heroes/c12fac920444979dab8f.webp",
-        "thumbnail": "/media/heroes/c12fac920444979dab8f.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/a730a3c50b48127e0af4.webp",
-        "card": "/media/heroes/971e0a3e9c3f7ee55ba3.webp",
+        "card": null,
         "abilities": {
           "luna-snow-light-and-dark-ice-0": "/media/abilities/51ca26b64dc5b03822f1.webp",
           "luna-snow-fate-of-both-worlds-1": "/media/abilities/5db7aab1abcade89a7aa.webp",
@@ -1757,10 +1811,10 @@
         "name": "Mantis",
         "officialName": "MANTIS",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195661.html",
-        "portrait": "/media/heroes/d4a722ff638e0a24308c.webp",
-        "thumbnail": "/media/heroes/d4a722ff638e0a24308c.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/0dd13188eabcca754517.webp",
-        "card": "/media/heroes/545580419b966935dfba.webp",
+        "card": null,
         "abilities": {
           "mantis-life-energy-blast-0": "/media/abilities/7d66bdb5425e876e6a1e.webp",
           "mantis-soul-resurgence-1": "/media/abilities/a955d382180dedb6366f.webp",
@@ -1779,10 +1833,10 @@
         "name": "Mister Fantastic",
         "officialName": "MISTER FANTASTIC",
         "sourcePage": "https://www.marvelrivals.com/20250108/41360_1205352.html",
-        "portrait": "/media/heroes/1023d1484691b2a7321d.webp",
-        "thumbnail": "/media/heroes/1023d1484691b2a7321d.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/48e252eb3c3d6803364f.webp",
-        "card": "/media/heroes/991dcee4eb500d4e64fd.webp",
+        "card": null,
         "abilities": {
           "mister-fantastic-stretch-punch-0": "/media/abilities/ed2b4500defc95d82d11.webp",
           "mister-fantastic-distended-grip-1": "/media/abilities/c4f610104053641db7bc.webp",
@@ -1800,10 +1854,10 @@
         "name": "Moon Knight",
         "officialName": "MOON KNIGHT",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195685.html",
-        "portrait": "/media/heroes/d5983119e8ac74a821f9.webp",
-        "thumbnail": "/media/heroes/d5983119e8ac74a821f9.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/897a08a701f14243b52b.webp",
-        "card": "/media/heroes/ea2a9d1e8f1849be475a.webp",
+        "card": null,
         "abilities": {
           "moon-knight-crescent-dart-0": "/media/abilities/e80e475e8ce1984c0bf7.webp",
           "moon-knight-hand-of-khonshu-1": "/media/abilities/effb3bbf1329d2e65c60.webp",
@@ -1823,10 +1877,10 @@
         "name": "Namor",
         "officialName": "NAMOR",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195686.html",
-        "portrait": "/media/heroes/9b4535be23dcae033212.webp",
-        "thumbnail": "/media/heroes/9b4535be23dcae033212.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/8c0ca5c4158e64d3b2ee.webp",
-        "card": "/media/heroes/c54f78eb1f03b159d361.webp",
+        "card": null,
         "abilities": {
           "namor-trident-of-neptune-0": "/media/abilities/15f3460be73fbdee30bc.webp",
           "namor-horn-of-proteus-1": "/media/abilities/a8b22bfad370f8cfbd5d.webp",
@@ -1843,10 +1897,10 @@
         "name": "Peni Parker",
         "officialName": "PENI PARKER",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195656.html",
-        "portrait": "/media/heroes/8f78b3ec63a58b9acb42.webp",
-        "thumbnail": "/media/heroes/8f78b3ec63a58b9acb42.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/2e2fe127f8cf957bd222.webp",
-        "card": "/media/heroes/1999e5e738ede7db4a08.webp",
+        "card": null,
         "abilities": {
           "peni-parker-cyber-web-cluster-0": "/media/abilities/da1b72aeb7f727322743.webp",
           "peni-parker-spider-sweeper-1": "/media/abilities/60d42ad6a14c1b958f19.webp",
@@ -1865,10 +1919,10 @@
         "name": "Phoenix",
         "officialName": "PHOENIX",
         "sourcePage": "https://www.marvelrivals.com/20250710/41360_1246363.html",
-        "portrait": "/media/heroes/658914dc69b0a8858059.webp",
-        "thumbnail": "/media/heroes/658914dc69b0a8858059.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/e38532bf66db2631df6d.webp",
-        "card": "/media/heroes/8db2058aa0ce910fe7ac.webp",
+        "card": null,
         "abilities": {
           "phoenix-cosmic-flames-0": "/media/abilities/3a2b325ac2cbf1a4c55c.webp",
           "phoenix-telekinesis-burst-1": "/media/abilities/0b1b074e18a56fae736d.webp",
@@ -1885,10 +1939,10 @@
         "name": "Psylocke",
         "officialName": "PSYLOCKE",
         "sourcePage": "https://www.marvelrivals.com/20241124/41360_1195754.html",
-        "portrait": "/media/heroes/cb6ff445ba98d91f414f.webp",
-        "thumbnail": "/media/heroes/cb6ff445ba98d91f414f.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/5bdf65f1f4899348f58f.webp",
-        "card": "/media/heroes/00b75db6b3c63617183c.webp",
+        "card": null,
         "abilities": {
           "psylocke-psionic-crossbow-0": "/media/abilities/da3c7862c6a9be76fe32.webp",
           "psylocke-dance-of-the-butterfly-1": "/media/abilities/06044b63a53aef0b18bf.webp",
@@ -1905,10 +1959,10 @@
         "name": "Scarlet Witch",
         "officialName": "SCARLET WITCH",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195684.html",
-        "portrait": "/media/heroes/42fdbed0673a54640ff7.webp",
-        "thumbnail": "/media/heroes/42fdbed0673a54640ff7.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/531541a94c732f36954b.webp",
-        "card": "/media/heroes/cb4d61d71a99b0eb2d2e.webp",
+        "card": null,
         "abilities": {
           "scarlet-witch-chaos-control-0": "/media/abilities/0ce6dc35648499b3c833.webp",
           "scarlet-witch-reality-erasure-1": "/media/abilities/7c464647e38f8868aa0c.webp",
@@ -1928,10 +1982,10 @@
         "name": "Rocket Raccoon",
         "officialName": "ROCKET RACCOON",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195663.html",
-        "portrait": "/media/heroes/cebf0c233124d971263d.webp",
-        "thumbnail": "/media/heroes/cebf0c233124d971263d.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/ab732170689430e44b77.webp",
-        "card": "/media/heroes/c770e5781245f1254d67.webp",
+        "card": null,
         "abilities": {
           "rocket-raccoon-bombard-mode-0": "/media/abilities/c987dd0ce708908ee1e8.webp",
           "rocket-raccoon-repair-mode-1": "/media/abilities/cdd518a51060e9822dd7.webp",
@@ -1948,12 +2002,12 @@
       },
       "rogue": {
         "name": "Rogue",
-        "officialName": "Rogue",
+        "officialName": "ROGUE",
         "sourcePage": "https://www.marvelrivals.com/20251212/41360_1276333.html",
-        "portrait": "/media/heroes/33d2b7e279ea3603214d.webp",
-        "thumbnail": "/media/heroes/33d2b7e279ea3603214d.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/5dd065b85b45d5be2e5e.webp",
-        "card": "/media/heroes/39c9cfbb97e5fe8bcdc3.webp",
+        "card": null,
         "abilities": {
           "rogue-power-surge-punch-0": "/media/abilities/926873d796d749e98c4a.webp",
           "rogue-defensive-stance-1": "/media/abilities/4b0d79bd24abfeccf729.webp",
@@ -1972,10 +2026,10 @@
         "name": "Squirrel Girl",
         "officialName": "SQUIRREL GIRL",
         "sourcePage": "https://www.marvelrivals.com/20241205/41360_1198132.html",
-        "portrait": "/media/heroes/4dca8ffd219f5158fa5c.webp",
-        "thumbnail": "/media/heroes/4dca8ffd219f5158fa5c.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/8d088468f3e016a7b1cb.webp",
-        "card": "/media/heroes/7834ba96a45c0f6488c3.webp",
+        "card": null,
         "abilities": {
           "squirrel-girl-burst-acorn-0": "/media/abilities/346e34278da92bf7700f.webp",
           "squirrel-girl-unbeatable-squirrel-tsunami-1": "/media/abilities/34db4c2c5fe1c62397d7.webp",
@@ -1992,10 +2046,10 @@
         "name": "Tankpool",
         "officialName": "DEADPOOL",
         "sourcePage": "https://www.marvelrivals.com/20260115/41360_1281973.html",
-        "portrait": "/media/heroes/08071d901720173652ff.webp",
-        "thumbnail": "/media/heroes/08071d901720173652ff.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/8cbfc4788d4759c6cb6a.webp",
-        "card": "/media/heroes/2f2391b2c811c3e1be87.webp",
+        "card": null,
         "abilities": {
           "tankpool-dual-desert-eagles-vanguard-0": "/media/abilities/814a43b0857f0f16c15f.webp",
           "tankpool-the-ban-hammer-1": "/media/abilities/0189f3b0b6f9fd05b97c.webp",
@@ -2013,10 +2067,10 @@
         "name": "Storm",
         "officialName": "STORM",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195675.html",
-        "portrait": "/media/heroes/a21bf3be46b9df449bd5.webp",
-        "thumbnail": "/media/heroes/a21bf3be46b9df449bd5.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/31f3d424b35205926c27.webp",
-        "card": "/media/heroes/5f8c6996efd0d7e93ddf.webp",
+        "card": null,
         "abilities": {
           "storm-wind-blade-0": "/media/abilities/fdc551ec9fb644e8c5d3.webp",
           "storm-omega-hurricane-1": "/media/abilities/9fd936bb6e3f6d9db714.webp",
@@ -2033,10 +2087,10 @@
         "name": "Star-Lord",
         "officialName": "STAR-LORD",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195683.html",
-        "portrait": "/media/heroes/dc4be61ebd052440a86a.webp",
-        "thumbnail": "/media/heroes/dc4be61ebd052440a86a.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/b7b1b382ce001f3ea47e.webp",
-        "card": "/media/heroes/5f7bf1acf693cac397aa.webp",
+        "card": null,
         "abilities": {
           "star-lord-element-guns-0": "/media/abilities/a5f9166a4eff2615f31a.webp",
           "star-lord-galactic-legend-1": "/media/abilities/01247b2a789439e65bf4.webp",
@@ -2051,12 +2105,12 @@
       },
       "the-hood": {
         "name": "The Hood",
-        "officialName": "The Hood",
+        "officialName": "THE HOOD",
         "sourcePage": "https://www.marvelrivals.com/20260807/41360_1310474.html",
-        "portrait": "/media/heroes/6468679c06f3b196fdab.webp",
-        "thumbnail": "/media/heroes/6468679c06f3b196fdab.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/88066b0704e052845245.webp",
-        "card": "/media/heroes/6befb775a083dfda5d52.webp",
+        "card": null,
         "abilities": {
           "the-hood-accursed-pistols-0": "/media/abilities/5d9964a796cef0c4e540.webp",
           "the-hood-leaded-transformation-1": "/media/abilities/ac05cdc92bafbb8018dd.webp",
@@ -2075,10 +2129,10 @@
         "name": "The Punisher",
         "officialName": "THE PUNISHER",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195673.html",
-        "portrait": "/media/heroes/943c1500d3cb21200645.webp",
-        "thumbnail": "/media/heroes/943c1500d3cb21200645.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/72c67e8b26ef56f345f8.webp",
-        "card": "/media/heroes/728a79d842ead7ed2936.webp",
+        "card": null,
         "abilities": {
           "the-punisher-adjudication-0": "/media/abilities/45b96ebb1bb2811fd2c1.webp",
           "the-punisher-deliverance-1": "/media/abilities/67f605e8698e3017d90d.webp",
@@ -2097,10 +2151,10 @@
         "name": "The Thing",
         "officialName": "THE THING",
         "sourcePage": "https://www.marvelrivals.com/20250220/41360_1213067.html",
-        "portrait": "/media/heroes/cf03ae3420f95cc5bb11.webp",
-        "thumbnail": "/media/heroes/cf03ae3420f95cc5bb11.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/bb9ebca00745472369f5.webp",
-        "card": "/media/heroes/698ef3aa9272bac95ebc.webp",
+        "card": null,
         "abilities": {
           "the-thing-rocky-jab-0": "/media/abilities/477a3ebedaf3ebf5c05e.webp",
           "the-thing-stone-haymaker-1": "/media/abilities/bff54cac83bc118d8778.webp",
@@ -2117,12 +2171,12 @@
       },
       "ultron": {
         "name": "Ultron",
-        "officialName": "Ultron",
+        "officialName": "ULTRON",
         "sourcePage": "https://www.marvelrivals.com/20250529/41360_1237549.html",
-        "portrait": "/media/heroes/5e468e276baafadd98d9.webp",
-        "thumbnail": "/media/heroes/5e468e276baafadd98d9.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/ee7113c4cf30b90626a6.webp",
-        "card": "/media/heroes/e84d09023fff16c327f1.webp",
+        "card": null,
         "abilities": {
           "ultron-encephalo-ray-0": "/media/abilities/eca1b43a5286e128cc03.webp",
           "ultron-imperative-firewall-1": "/media/abilities/ae6137db940d2ce50a05.webp",
@@ -2139,10 +2193,10 @@
         "name": "Thor",
         "officialName": "THOR",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195657.html",
-        "portrait": "/media/heroes/dc1e72b22c3f1a7a0f30.webp",
-        "thumbnail": "/media/heroes/dc1e72b22c3f1a7a0f30.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/3d872ac423bcbbc99115.webp",
-        "card": "/media/heroes/116d935b0ad9dc1859db.webp",
+        "card": null,
         "abilities": {
           "thor-mjolnir-bash-0": "/media/abilities/3da49a87d8c48fde1f09.webp",
           "thor-god-of-thunder-1": "/media/abilities/273ad710d6b3b17467a3.webp",
@@ -2161,10 +2215,10 @@
         "name": "White Fox",
         "officialName": "WHITE FOX",
         "sourcePage": "https://www.marvelrivals.com/20260320/41360_1292187.html",
-        "portrait": "/media/heroes/5cadd67af32a2f6471cf.webp",
-        "thumbnail": "/media/heroes/5cadd67af32a2f6471cf.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/76acec2c780d2371bb09.webp",
-        "card": "/media/heroes/096b62d73f6a5e9879ff.webp",
+        "card": null,
         "abilities": {
           "white-fox-yeowoo-guseul-0": "/media/abilities/a4f5a7d1234f073ad362.webp",
           "white-fox-claw-strike-1": "/media/abilities/e5b74b3ac5ab90272621.webp",
@@ -2186,10 +2240,10 @@
         "name": "Venom",
         "officialName": "VENOM",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195654.html",
-        "portrait": "/media/heroes/d267d2925a703a320909.webp",
-        "thumbnail": "/media/heroes/d267d2925a703a320909.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/dd94ad3b5e70a729a8a2.webp",
-        "card": "/media/heroes/a2d864af6915a816e9f7.webp",
+        "card": null,
         "abilities": {
           "venom-dark-predation-0": "/media/abilities/aa5b4909df3d6c696655.webp",
           "venom-feast-of-the-abyss-1": "/media/abilities/1405bf8a8935c80b8f56.webp",
@@ -2208,10 +2262,10 @@
         "name": "Winter Soldier",
         "officialName": "WINTER SOLDIER",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195681.html",
-        "portrait": "/media/heroes/3bd22b4a037f5b1d8319.webp",
-        "thumbnail": "/media/heroes/3bd22b4a037f5b1d8319.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/3245bfb0d182a5a3b288.webp",
-        "card": "/media/heroes/9cde547ca055b167c84c.webp",
+        "card": null,
         "abilities": {
           "winter-soldier-roterstern-0": "/media/abilities/c0b331134327f08f6c8b.webp",
           "winter-soldier-kraken-impact-1": "/media/abilities/a3161f4be7b69cf449cf.webp",
@@ -2229,10 +2283,10 @@
         "name": "Spider-Man",
         "officialName": "SPIDER-MAN",
         "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195680.html",
-        "portrait": "/media/heroes/2f02b57600c0e34fd148.webp",
-        "thumbnail": "/media/heroes/2f02b57600c0e34fd148.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/b094ef6b2073b63cc68a.webp",
-        "card": "/media/heroes/07fb952d33d8f26f7db6.webp",
+        "card": null,
         "abilities": {
           "spider-man-spider-power-0": "/media/abilities/fa2400672d71111b485b.webp",
           "spider-man-web-cluster-1": "/media/abilities/c769ed3dbf65ff127c19.webp",
@@ -2253,10 +2307,10 @@
         "name": "Wolverine",
         "officialName": "WOLVERINE",
         "sourcePage": "https://www.marvelrivals.com/20241204/41360_1198101.html",
-        "portrait": "/media/heroes/329dbae0a9a6295cbc87.webp",
-        "thumbnail": "/media/heroes/329dbae0a9a6295cbc87.webp",
+        "portrait": null,
+        "thumbnail": null,
         "art": "/media/heroes/43ccc6905e8138739306.webp",
-        "card": "/media/heroes/f85c94a56fc4cd52ce7d.webp",
+        "card": null,
         "abilities": {
           "wolverine-savage-claw-0": "/media/abilities/cf73555c00b48fb366d1.webp",
           "wolverine-last-stand-1": "/media/abilities/4b34bdfebc13665d6c0b.webp",
@@ -2270,6 +2324,16 @@
           "wolverine-pair-of-threes-base-9": "/media/abilities/54547d61fb4507d87ae5.webp",
           "wolverine-pair-of-threes-enhanced-10": "/media/abilities/54547d61fb4507d87ae5.webp"
         }
+      },
+      "nightcrawler": {
+        "name": "Nightcrawler",
+        "officialName": "NIGHTCRAWLER",
+        "sourcePage": "https://www.marvelrivals.com/heroes/2mpwiwa9ct6hn/index.html",
+        "portrait": "/media/heroes/b9d60d50595419033a5c.png",
+        "thumbnail": "/media/heroes/b9d60d50595419033a5c.png",
+        "art": "/media/heroes/b9d60d50595419033a5c.png",
+        "card": null,
+        "abilities": {}
       }
     },
     "maps": {
@@ -3072,7 +3136,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/d471afc1539e59f3c255.png"
       },
       "flyquest": {
         "name": "FlyQuest",
@@ -3085,7 +3150,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/1aa4e8fba2f49938eac9.png"
       },
       "tlc": {
         "name": "Team Liquid Citadel",
@@ -3098,7 +3164,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/50c6c83a1131599bba33.png"
       },
       "nrg_shock": {
         "name": "NRG Shock",
@@ -3111,7 +3178,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/a89b228c76a8c083acb0.png"
       },
       "sentinels": {
         "name": "Sentinels",
@@ -3124,7 +3192,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/a2b456923df5546b5d0e.png"
       },
       "ssg": {
         "name": "Spacestation Gaming",
@@ -3137,7 +3206,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/8d9ec9fd3b8a79d9db7f.png"
       },
       "tsm": {
         "name": "TSM",
@@ -3150,7 +3220,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/a56c2c5d16440189a884.png"
       },
       "ntmr": {
         "name": "NTMR",
@@ -3163,7 +3234,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/e89913f67eb275dfb626.png"
       },
       "swamp": {
         "name": "Swamp Gaming",
@@ -3176,7 +3248,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/175f1b5c4110553f74ff.png"
       },
       "ywl": {
         "name": "Yeah We Lost",
@@ -3189,7 +3262,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/e06bc92f8d1787c1f5a6.png"
       },
       "navi": {
         "name": "Natus Vincere",
@@ -3202,7 +3276,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/5954fd75e364a6497664.png"
       },
       "heretics": {
         "name": "Team Heretics",
@@ -3215,7 +3290,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/1f80d633006908c7c33f.png"
       },
       "virtus_pro": {
         "name": "Virtus.pro",
@@ -3228,7 +3304,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/3ad8f1ca7db930d87d1f.png"
       },
       "fyr_strays": {
         "name": "FYR Strays",
@@ -3241,7 +3318,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/ed53562a0f7f6b4ad970.png"
       },
       "pulsar": {
         "name": "Pulsar Esports",
@@ -3267,7 +3345,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/6aa028be339b4689c3a7.png"
       },
       "shikigami": {
         "name": "Shikigami",
@@ -3280,7 +3359,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/c9000cdedd8d42082514.png"
       },
       "peps": {
         "name": "Team Peps",
@@ -3293,7 +3373,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/85b3a516b7581d37c1aa.png"
       },
       "vision": {
         "name": "Team Vision",
@@ -3306,7 +3387,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/a18272e3953f192a82c1.png"
       },
       "alter_esports": {
         "name": "Alter Esports",
@@ -3332,7 +3414,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/9d320363acfc14512dcc.png"
       },
       "rad": {
         "name": "RAD Esports",
@@ -3345,7 +3428,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/e4b9375abdb2b8dfa3d4.png"
       },
       "reject": {
         "name": "REJECT",
@@ -3358,7 +3442,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/035a4eec3314c28cd116.png"
       },
       "rival": {
         "name": "Rival Esports",
@@ -3371,7 +3456,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/a66abdcff33f14af9b9a.png"
       },
       "xoxo01": {
         "name": "XOXO01",
@@ -3384,7 +3470,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/34f01d778216a970ac3b.png"
       },
       "zero_tenacity": {
         "name": "Zero Tenacity",
@@ -3397,7 +3484,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/3673d87ba1fd21cfb16e.png"
       },
       "aaad": {
         "name": "AAAd",
@@ -3410,7 +3498,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/d8dc600350a1421739e2.png"
       },
       "loyalty": {
         "name": "Loyalty",
@@ -3449,7 +3538,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/fa6f69f3baa76133380a.png"
       },
       "geng": {
         "name": "Gen.G Esports",
@@ -3462,7 +3552,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/a2a7ee70cdd6fb0b6de6.png"
       },
       "fury": {
         "name": "FURY",
@@ -3475,7 +3566,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/434f7f8f1e074c1bb4be.png"
       },
       "kanga_esports": {
         "name": "Kanga Esports",
@@ -3488,7 +3580,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/69ff0b5d6e5d6dda7924.png"
       },
       "vulcan_red": {
         "name": "Vulcan Red",
@@ -3501,7 +3594,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/290ce2770a952715dd6d.png"
       },
       "jft_esports": {
         "name": "JFT Esports",
@@ -3514,7 +3608,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/e7876df2eaf6394d0ae3.png"
       },
       "chiefs_esports_club": {
         "name": "Chiefs Esports Club",
@@ -3527,7 +3622,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/dfddb3a8db9fd87667a2.png"
       },
       "bxiom_japan": {
         "name": "Bxiom Japan",
@@ -3553,7 +3649,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/3f48ba3931acfe7c99d4.png"
       },
       "aconyx": {
         "name": "ACONYX Esports",
@@ -3579,7 +3676,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/785612532e2deb24d0d8.png"
       },
       "fl_esports_club": {
         "name": "FL eSports Club",
@@ -3592,7 +3690,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/743061095c59ccf84bc5.png"
       },
       "slzz": {
         "name": "SLZZ",
@@ -3605,7 +3704,8 @@
           "height": 185,
           "sheetWidth": 3840,
           "sheetHeight": 2160
-        }
+        },
+        "logo": "/media/teams/f636212bf08856e707f4.png"
       },
       "aimmiracle_x": {
         "name": "AimMiracle.X",
@@ -3672,7 +3772,8 @@
           "height": 104,
           "sheetWidth": 1920,
           "sheetHeight": 1080
-        }
+        },
+        "logo": "/media/teams/15a8668849c114d9036f.png"
       },
       "biharkelonde": {
         "name": "BiharKeLonde",
@@ -3687,7 +3788,8 @@
           "height": 104,
           "sheetWidth": 1920,
           "sheetHeight": 1080
-        }
+        },
+        "logo": "/media/teams/a1ad23dc51bf080438f1.png"
       },
       "chosen_ones": {
         "name": "The Chosen Ones",
@@ -3717,7 +3819,8 @@
           "height": 104,
           "sheetWidth": 1920,
           "sheetHeight": 1080
-        }
+        },
+        "logo": "/media/teams/b564fde1d77378d16d36.png"
       },
       "delicious_food": {
         "name": "Delicious Food",
@@ -3732,7 +3835,8 @@
           "height": 104,
           "sheetWidth": 1920,
           "sheetHeight": 1080
-        }
+        },
+        "logo": "/media/teams/f8355a62e8c138c8afd8.png"
       },
       "disband": {
         "name": "Disband",
@@ -3762,7 +3866,8 @@
           "height": 104,
           "sheetWidth": 1920,
           "sheetHeight": 1080
-        }
+        },
+        "logo": "/media/teams/cca3fff2250b8711398b.png"
       },
       "dynasty": {
         "name": "Dynasty",
@@ -3792,7 +3897,8 @@
           "height": 104,
           "sheetWidth": 1920,
           "sheetHeight": 1080
-        }
+        },
+        "logo": "/media/teams/202e50bee088d119c61f.png"
       },
       "free_eats": {
         "name": "FREE EATS",
@@ -3807,7 +3913,8 @@
           "height": 104,
           "sheetWidth": 1920,
           "sheetHeight": 1080
-        }
+        },
+        "logo": "/media/teams/6496b9846a2dd5b13601.png"
       },
       "hekkers": {
         "name": "Hekkers",
@@ -3822,7 +3929,8 @@
           "height": 104,
           "sheetWidth": 1920,
           "sheetHeight": 1080
-        }
+        },
+        "logo": "/media/teams/beac18d3b24ca58f4827.png"
       },
       "hypertune": {
         "name": "Team Hypertune",
@@ -3837,7 +3945,8 @@
           "height": 104,
           "sheetWidth": 1920,
           "sheetHeight": 1080
-        }
+        },
+        "logo": "/media/teams/5b1a7cd147c73bc0bc88.png"
       },
       "monarch": {
         "name": "Monarch",
@@ -3852,7 +3961,8 @@
           "height": 104,
           "sheetWidth": 1920,
           "sheetHeight": 1080
-        }
+        },
+        "logo": "/media/teams/aac906663927e7d22c9c.png"
       },
       "planet_sainage_pac": {
         "name": "Planet Sainage PAC",
@@ -3867,7 +3977,8 @@
           "height": 104,
           "sheetWidth": 1920,
           "sheetHeight": 1080
-        }
+        },
+        "logo": "/media/teams/c2afeb52e767cc7b8d99.png"
       },
       "straw_hats": {
         "name": "Straw Hats",
@@ -3882,7 +3993,8 @@
           "height": 104,
           "sheetWidth": 1920,
           "sheetHeight": 1080
-        }
+        },
+        "logo": "/media/teams/3eb27f70ae372948f374.png"
       },
       "the_shawrmaz": {
         "name": "The Shawrmaz",
@@ -3912,7 +4024,20 @@
           "height": 104,
           "sheetWidth": 1920,
           "sheetHeight": 1080
-        }
+        },
+        "logo": "/media/teams/4d839514467ea405d51e.png"
+      },
+      "stickdrift": {
+        "name": "StickDrift",
+        "logo": "/media/teams/cbfdbf8b1caa2ac61e3c.png"
+      },
+      "the_burgers": {
+        "name": "The Burgers",
+        "logo": "/media/teams/dd4667e712cee7d67b5c.png"
+      },
+      "the_lions": {
+        "name": "The Lions",
+        "logo": "/media/teams/1e91b13dc8f729952ac1.png"
       }
     }
   },
@@ -11965,13 +12090,391 @@
       "originalSha256": "26ab9bc7e758a826e79665f99813e5b9d2c8dcfad7f1d8d36798285af662aa1d",
       "originalBytes": 245144,
       "optimisation": "WebP quality 86, maximum 4096px edge; aspect ratio and alpha retained"
+    },
+    "/media/teams/15a8668849c114d9036f.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=aura_rivals",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "15a8668849c114d9036f12701c8c9fc10090db2d066d8677e5f810c4c373f6b0",
+      "bytes": 114365,
+      "type": "image/png"
+    },
+    "/media/people/b5ffa3e03ae193a15bd2.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=twitch-avatar&key=rad_denis",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "b5ffa3e03ae193a15bd2425dc151c15689a78c72b74b34522325f55bfbd9ea31",
+      "bytes": 91559,
+      "type": "image/png"
+    },
+    "/media/teams/d8dc600350a1421739e2.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=aaad",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "d8dc600350a1421739e2c30f998e57338b7444e066361daa41d6c2a55c6a0204",
+      "bytes": 2691,
+      "type": "image/png"
+    },
+    "/media/teams/a1ad23dc51bf080438f1.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=biharkelonde",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "a1ad23dc51bf080438f1194c34f7735ca49110fd5da2fe8357096dae3ef44c77",
+      "bytes": 78024,
+      "type": "image/png"
+    },
+    "/media/teams/dfddb3a8db9fd87667a2.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=chiefs_esports_club",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "dfddb3a8db9fd87667a22e2b524ce1076af5d6fbdd558ba60d555c2ae81a2e9b",
+      "bytes": 33758,
+      "type": "image/png"
+    },
+    "/media/teams/b564fde1d77378d16d36.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=dawn_mercy_accord",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "b564fde1d77378d16d36c0af77d821ac989173bbf06c301fc2c6f29e68fc01f2",
+      "bytes": 51844,
+      "type": "image/png"
+    },
+    "/media/teams/9d320363acfc14512dcc.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=crownfall",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "9d320363acfc14512dccef2e0175c7fb4f02669db0838e8871f4a2b0ebc9c066",
+      "bytes": 58995,
+      "type": "image/png"
+    },
+    "/media/teams/f8355a62e8c138c8afd8.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=delicious_food",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "f8355a62e8c138c8afd8caf2957066c9b4ca4fa0c5d205466bbfdf7d67f41c20",
+      "bytes": 88058,
+      "type": "image/png"
+    },
+    "/media/teams/cca3fff2250b8711398b.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=dreamland",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "cca3fff2250b8711398b9dca2f13d72006a720393a646f66058b57dea21b408f",
+      "bytes": 61919,
+      "type": "image/png"
+    },
+    "/media/teams/3f48ba3931acfe7c99d4.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=dxa_esports",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "3f48ba3931acfe7c99d450e598a1417115695e797ec72a25e1ac52076b3c74dd",
+      "bytes": 50358,
+      "type": "image/png"
+    },
+    "/media/teams/202e50bee088d119c61f.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=everlast",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "202e50bee088d119c61f1dc49c9d026574a6699741ff54200f371bd858733f60",
+      "bytes": 55184,
+      "type": "image/png"
+    },
+    "/media/teams/1aa4e8fba2f49938eac9.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=flyquest",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "1aa4e8fba2f49938eac922b5b61cc73eae567dff84cfa0ece90d722ab7c50a20",
+      "bytes": 15952,
+      "type": "image/png"
+    },
+    "/media/teams/743061095c59ccf84bc5.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=fl_esports_club",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "743061095c59ccf84bc5292470d45db45b8a1fe26532e639450bf350617a3637",
+      "bytes": 52177,
+      "type": "image/png"
+    },
+    "/media/teams/434f7f8f1e074c1bb4be.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=fury",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "434f7f8f1e074c1bb4bec024fb78cdcdd5350a5f9265cc2be32704147c3ed71b",
+      "bytes": 79963,
+      "type": "image/png"
+    },
+    "/media/teams/ed53562a0f7f6b4ad970.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=fyr_strays",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "ed53562a0f7f6b4ad970ac2e8a63a4072ac1feb8fc7501db3e055a753389ef43",
+      "bytes": 32539,
+      "type": "image/png"
+    },
+    "/media/teams/6496b9846a2dd5b13601.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=free_eats",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "6496b9846a2dd5b136019498fd64eb376353f9283bf890c8df0ee574f7936686",
+      "bytes": 38696,
+      "type": "image/png"
+    },
+    "/media/teams/a2a7ee70cdd6fb0b6de6.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=geng",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "a2a7ee70cdd6fb0b6de62ca25648c5063a001fbf26cb3384ad2e5abdfc0b7f38",
+      "bytes": 6334,
+      "type": "image/png"
+    },
+    "/media/teams/1f80d633006908c7c33f.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=heretics",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "1f80d633006908c7c33f38aa0dc7b4d5db50c1a8cf77fc3a667dc8d068eec9a6",
+      "bytes": 63485,
+      "type": "image/png"
+    },
+    "/media/teams/beac18d3b24ca58f4827.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=hekkers",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "beac18d3b24ca58f482717eb6a6f1013540b67f9f6e510851863cb179e65ac2e",
+      "bytes": 55347,
+      "type": "image/png"
+    },
+    "/media/teams/5b1a7cd147c73bc0bc88.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=hypertune",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "5b1a7cd147c73bc0bc88fb1533d68583eab5dd164ba2a2c16b1f2f9c47f38c98",
+      "bytes": 8437,
+      "type": "image/png"
+    },
+    "/media/teams/d471afc1539e59f3c255.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=hundred_thieves",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "d471afc1539e59f3c2559df747e7f3036eb1d947aa2cc52ebfc70dc0295c594c",
+      "bytes": 66740,
+      "type": "image/png"
+    },
+    "/media/teams/e7876df2eaf6394d0ae3.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=jft_esports",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "e7876df2eaf6394d0ae3fb9968739ce7e82ab8413678f725a18a6de57c7523f1",
+      "bytes": 4478,
+      "type": "image/png"
+    },
+    "/media/teams/69ff0b5d6e5d6dda7924.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=kanga_esports",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "69ff0b5d6e5d6dda7924de1ff9c11c462fef74c3decd86ffecc620cdd3d8f601",
+      "bytes": 18015,
+      "type": "image/png"
+    },
+    "/media/teams/aac906663927e7d22c9c.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=monarch",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "aac906663927e7d22c9ca29f89d66a3348bd5e63b4a93a17156fee925de6b784",
+      "bytes": 103794,
+      "type": "image/png"
+    },
+    "/media/teams/fa6f69f3baa76133380a.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=n1hex",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "fa6f69f3baa76133380a7fa2b678cd4c99279264617b6123f701c2796774b3f9",
+      "bytes": 85775,
+      "type": "image/png"
+    },
+    "/media/teams/5954fd75e364a6497664.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=navi",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "5954fd75e364a64976642cee48d336844eca85ef9342035236edbaf8d92179d9",
+      "bytes": 15881,
+      "type": "image/png"
+    },
+    "/media/teams/a89b228c76a8c083acb0.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=nrg_shock",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "a89b228c76a8c083acb0a6041f89226766d37218c714f20bb05b1960c24499cf",
+      "bytes": 23343,
+      "type": "image/png"
+    },
+    "/media/teams/e89913f67eb275dfb626.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=ntmr",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "e89913f67eb275dfb6264c5e5a2d01158b8f2a60da74238b5ca7d8be7839fa28",
+      "bytes": 64108,
+      "type": "image/png"
+    },
+    "/media/teams/e4b9375abdb2b8dfa3d4.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=rad",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "e4b9375abdb2b8dfa3d4a6d2a3d18a095e7bc953ef4f4799820ff28a03c7d1f3",
+      "bytes": 32593,
+      "type": "image/png"
+    },
+    "/media/teams/85b3a516b7581d37c1aa.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=peps",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "85b3a516b7581d37c1aac456487a061e05033b113afccfb4669fab1e34123088",
+      "bytes": 113643,
+      "type": "image/png"
+    },
+    "/media/teams/035a4eec3314c28cd116.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=reject",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "035a4eec3314c28cd11619b2ca2528fa322bc84376a365f048341e7fdf472819",
+      "bytes": 19025,
+      "type": "image/png"
+    },
+    "/media/teams/f636212bf08856e707f4.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=slzz",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "f636212bf08856e707f463a10b4851b29fa9c979366af445e04034f86cdbb323",
+      "bytes": 38898,
+      "type": "image/png"
+    },
+    "/media/teams/3eb27f70ae372948f374.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=straw_hats",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "3eb27f70ae372948f3746842ee9f91202ea3a628c022b4350ab1ae2de16bb37c",
+      "bytes": 108031,
+      "type": "image/png"
+    },
+    "/media/teams/a56c2c5d16440189a884.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=tsm",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "a56c2c5d16440189a884f53c78cc90f97fe68b776b0225b1d64af6f640efc901",
+      "bytes": 16764,
+      "type": "image/png"
+    },
+    "/media/teams/290ce2770a952715dd6d.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=vulcan_red",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "290ce2770a952715dd6dbf8fa6a465ec9068fac32f32cd0c1baaad354494a480",
+      "bytes": 56566,
+      "type": "image/png"
+    },
+    "/media/teams/6aa028be339b4689c3a7.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=reason",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "6aa028be339b4689c3a75cf14f372ddeae527a18a9887d0c2ddd95fb004ecc58",
+      "bytes": 16284,
+      "type": "image/png"
+    },
+    "/media/teams/785612532e2deb24d0d8.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=oug",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "785612532e2deb24d0d8d5ee7c5636633160f2fe0b34f0c1b62346a19a5992d6",
+      "bytes": 160623,
+      "type": "image/png"
+    },
+    "/media/teams/a66abdcff33f14af9b9a.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=rival",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "a66abdcff33f14af9b9a19988f524b600b3548706beeac80978693071ad0a4d9",
+      "bytes": 12101,
+      "type": "image/png"
+    },
+    "/media/teams/c2afeb52e767cc7b8d99.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=planet_sainage_pac",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "c2afeb52e767cc7b8d99082174beb91169865a868057af80180dfd15a2ccf515",
+      "bytes": 66754,
+      "type": "image/png"
+    },
+    "/media/teams/a2b456923df5546b5d0e.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=sentinels",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "a2b456923df5546b5d0e1a6ed4c128a1a5d76953bba77dd8a25bd1947f49c4c5",
+      "bytes": 5448,
+      "type": "image/png"
+    },
+    "/media/teams/c9000cdedd8d42082514.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=shikigami",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "c9000cdedd8d42082514cd59ff0a60bf0d288d39cf69675314e04f973b662f41",
+      "bytes": 61293,
+      "type": "image/png"
+    },
+    "/media/teams/8d9ec9fd3b8a79d9db7f.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=ssg",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "8d9ec9fd3b8a79d9db7fb271e4e23533526934fe297076940c931adfac626d73",
+      "bytes": 33069,
+      "type": "image/png"
+    },
+    "/media/teams/cbfdbf8b1caa2ac61e3c.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=stickdrift",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "cbfdbf8b1caa2ac61e3ce0340f69d72ce956e67d476f3b9b26d1e52d8f8fb2d0",
+      "bytes": 77393,
+      "type": "image/png"
+    },
+    "/media/teams/175f1b5c4110553f74ff.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=swamp",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "175f1b5c4110553f74ffb5e0e8c36b74220aefc0ab05546c026bcc09de445d6b",
+      "bytes": 68809,
+      "type": "image/png"
+    },
+    "/media/teams/dd4667e712cee7d67b5c.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=the_burgers",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "dd4667e712cee7d67b5c96aa90b20ab1acc338731fdb59b95e879ee9b43954bc",
+      "bytes": 99394,
+      "type": "image/png"
+    },
+    "/media/teams/4d839514467ea405d51e.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=vengeful",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "4d839514467ea405d51ec4caf471d4b35bbb104b9aae347ab1d4693239a8c9a2",
+      "bytes": 46412,
+      "type": "image/png"
+    },
+    "/media/teams/50c6c83a1131599bba33.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=tlc",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "50c6c83a1131599bba33f3f04a5bb8976b4c39ba1f4dbd7b627b3ac93002cad4",
+      "bytes": 50322,
+      "type": "image/png"
+    },
+    "/media/teams/3ad8f1ca7db930d87d1f.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=virtus_pro",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "3ad8f1ca7db930d87d1f29e6d69bee182f41b36d8d4500bff942d768d3ff7884",
+      "bytes": 54057,
+      "type": "image/png"
+    },
+    "/media/teams/a18272e3953f192a82c1.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=vision",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "a18272e3953f192a82c1665b7c010faad43cdf5d53bdd243acd94e7afa71642c",
+      "bytes": 28366,
+      "type": "image/png"
+    },
+    "/media/teams/34f01d778216a970ac3b.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=xoxo01",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "34f01d778216a970ac3b6c07c6aa441be1c089f60ac1d4478cc112c9a9396d18",
+      "bytes": 13351,
+      "type": "image/png"
+    },
+    "/media/teams/e06bc92f8d1787c1f5a6.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=ywl",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "e06bc92f8d1787c1f5a6334b88e5eaedf10bcaf0b066e73f7998db3f2c0b0895",
+      "bytes": 18460,
+      "type": "image/png"
+    },
+    "/media/teams/1e91b13dc8f729952ac1.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=the_lions",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "1e91b13dc8f729952ac1c475fff25eb317f4da9f4722e44f05d4bf27374b9245",
+      "bytes": 148873,
+      "type": "image/png"
+    },
+    "/media/teams/3673d87ba1fd21cfb16e.png": {
+      "sourceUrl": "https://api.arianwever.com/public-cache-image.php?kind=team-logo&key=zero_tenacity",
+      "sourcePage": "https://arianwever.com/",
+      "sha256": "3673d87ba1fd21cfb16e948139d35faa0d835233a27d4e81e99106ce8320ab71",
+      "bytes": 9543,
+      "type": "image/png"
+    },
+    "/media/heroes/b9d60d50595419033a5c.png": {
+      "sourceUrl": "https://www.marvelrivals.com/pc/gw/20261012144108/img/heroes/2mpwiwa9ct6hn/variants/01-portrait_2bbd8753.png",
+      "sourcePage": "https://www.marvelrivals.com/heroes/2mpwiwa9ct6hn/index.html",
+      "sha256": "b9d60d50595419033a5cfa507c3b3405ea5038fb9facc397a32a1f1b93bf62fa",
+      "bytes": 36161,
+      "type": "image/png"
     }
   },
   "coverage": {
-    "heroes": 56,
-    "heroPortraits": 56,
-    "heroArt": 56,
-    "abilities": 641,
+    "heroes": 57,
+    "heroPortraits": 2,
+    "heroArt": 57,
+    "abilities": 648,
     "abilityIcons": 641,
     "maps": 24,
     "mapArt": 24,
@@ -11981,13 +12484,553 @@
     "teamUps": 106,
     "teamUpIcons": 106,
     "teams": 67,
-    "teamLogos": 63,
+    "teamLogos": 66,
     "sourcePersonImages": 311,
-    "localPersonImages": 0
+    "localPersonImages": 1
   },
   "source": "Official Marvel Rivals art and public metadata. Textured overhead references: Arian Wever, reused with permission confirmed by the site owner. Game artwork rights remain with Marvel/NetEase and relevant rights holders.",
-  "updatedAt": "2026-11-02T15:12:33.002Z",
-  "failures": [],
+  "updatedAt": "2026-11-13T18:35:34.850Z",
+  "failures": [
+    {
+      "hero": "Adam Warlock",
+      "error": "No exact official catalog match"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/023s6ao1s3qto/card-image_8aa2ff28.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241204/41360_1198106.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/023s6ao1s3qto/card-image_8aa2ff28.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241204/41360_1198106.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/2g4bea0bj96lx/card-image_e321be87.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20250911/41360_1258873.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/2g4bea0bj96lx/card-image_e321be87.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20250911/41360_1258873.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/2se8196a55ypo/card-image_678c485e.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195677.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/2se8196a55ypo/card-image_678c485e.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195677.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/2la9l05kjlraq/card-image_686d9071.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195652.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/2la9l05kjlraq/card-image_686d9071.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195652.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/26wq9lvvt43cn/card-image_0ccd51b5.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241204/41360_1198095.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/26wq9lvvt43cn/card-image_0ccd51b5.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241204/41360_1198095.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/03kacngf2fr99/card-image_3cd41880.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20260416/41360_1296480.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/03kacngf2fr99/card-image_3cd41880.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20260416/41360_1296480.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0fiivwpc3axbz/card-image_2e1f1caf.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20260611/41360_1303977.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/34s5ggd4at7n9/card-image_b0c37600.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20250808/41360_1252733.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0fiivwpc3axbz/card-image_2e1f1caf.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20260611/41360_1303977.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/34s5ggd4at7n9/card-image_b0c37600.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20250808/41360_1252733.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0ecye05qgza4p/card-image_d2162092.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20251009/41360_1263889.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0ecye05qgza4p/card-image_d2162092.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20251009/41360_1263889.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/3fwwmrinftem5/card-image_9837f63a.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20260115/41360_1281973.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/3fwwmrinftem5/card-image_9837f63a.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20260115/41360_1281973.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/1udf35cfda1w5/card-image_e0b5f449.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20260514/41360_1300391.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/1udf35cfda1w5/card-image_e0b5f449.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20260514/41360_1300391.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/1a68bjjit9agr/card-image_b5a3e5e1.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20260212/41360_1286981.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/1a68bjjit9agr/card-image_b5a3e5e1.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20260212/41360_1286981.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/1885sylnb9foa/card-image_02001222.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195649.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/1885sylnb9foa/card-image_02001222.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195649.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/1zvubw4gcz9v9/card-image_2cf2ec66.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20250408/41360_1225547.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/1zvubw4gcz9v9/card-image_2cf2ec66.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20250408/41360_1225547.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/1e3akq165rqt0/card-image_f6ec2273.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20251114/41360_1270998.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/1e3akq165rqt0/card-image_f6ec2273.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20251114/41360_1270998.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/3ab3nnuhj0l01/card-image_a0358056.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195653.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/3ab3nnuhj0l01/card-image_a0358056.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195653.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0k4tfqxvuk48o/card-image_edca8354.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241124/41360_1195753.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0k4tfqxvuk48o/card-image_edca8354.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241124/41360_1195753.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/2ggfqgft8uagz/card-image_15b64b28.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195676.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/2ggfqgft8uagz/card-image_15b64b28.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195676.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/3srgsedhnqwpy/card-image_e28af8be.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20260911/41360_1313617.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/3srgsedhnqwpy/card-image_e28af8be.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20260911/41360_1313617.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/26wbd16jct7y3/card-image_6fdeb0f0.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195678.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/26wbd16jct7y3/card-image_6fdeb0f0.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195678.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/3qm0npe20wgl7/card-image_d561d035.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241201/41360_1197227.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/3qm0npe20wgl7/card-image_d561d035.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241201/41360_1197227.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/2dtihs4hzomix/card-image_28913c87.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195687.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/2dtihs4hzomix/card-image_28913c87.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195687.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0qmdlat6ntsoy/card-image_423cad6f.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195674.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0qmdlat6ntsoy/card-image_423cad6f.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195674.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/2zwnmbtspadzd/card-image_9520ed32.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20250108/41360_1205353.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/2zwnmbtspadzd/card-image_9520ed32.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20250108/41360_1205353.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0v334i0a6c44e/card-image_9472d62d.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20260707/41360_1306826.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0v334i0a6c44e/card-image_9472d62d.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20260707/41360_1306826.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0y3irl675pm6t/card-image_608356c8.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20250220/41360_1213050.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0y3irl675pm6t/card-image_608356c8.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20250220/41360_1213050.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/1d6lxkihe5j49/card-image_f0c76423.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195662.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/1d6lxkihe5j49/card-image_f0c76423.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195662.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/28nlw6cpjo8pz/card-image_6605830b.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195682.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/28nlw6cpjo8pz/card-image_6605830b.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195682.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/2medpbnf8yfaj/card-image_fb3de11b.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195671.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/2medpbnf8yfaj/card-image_fb3de11b.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195671.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/25xs3w66dq13a/card-image_b5606f0d.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195661.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/25xs3w66dq13a/card-image_b5606f0d.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195661.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0wgpqtfwmiobl/card-image_148a420c.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195655.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0wgpqtfwmiobl/card-image_148a420c.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195655.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/2mpwiwa9ct6hn/card-image_4f49e4f5.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/heroes/2mpwiwa9ct6hn/index.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0n19dqb03eafq/card-image_1946c3b7.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195685.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0n19dqb03eafq/card-image_1946c3b7.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195685.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/14srzf1eun6qj/card-image_54d9f853.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195686.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/14srzf1eun6qj/card-image_54d9f853.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195686.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/109bxrqivqg25/card-image_640636d6.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20250108/41360_1205352.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/109bxrqivqg25/card-image_640636d6.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20250108/41360_1205352.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/3jcs8kuv4wzpi/card-image_76c336f2.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20250710/41360_1246363.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/3jcs8kuv4wzpi/card-image_76c336f2.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20250710/41360_1246363.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0igyncbe3223v/card-image_f8616ce0.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241124/41360_1195754.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0igyncbe3223v/card-image_f8616ce0.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241124/41360_1195754.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/3d57v7spb7z92/card-image_683137ac.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195656.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/3d57v7spb7z92/card-image_683137ac.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195656.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/1r7dptnv9wuzj/card-image_f33ea278.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195663.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/1r7dptnv9wuzj/card-image_f33ea278.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195663.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0arjd4dso01gy/card-image_55754f08.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20251212/41360_1276333.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0arjd4dso01gy/card-image_55754f08.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20251212/41360_1276333.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/20s4uxvi8x721/card-image_02720cef.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195684.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/20s4uxvi8x721/card-image_02720cef.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195684.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0lnmr1uivtdwz/card-image_3c6c38df.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195680.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0lnmr1uivtdwz/card-image_3c6c38df.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195680.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/2oorwtc594su0/card-image_41f3e602.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241205/41360_1198132.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/2oorwtc594su0/card-image_41f3e602.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241205/41360_1198132.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/1w5x2xvuh39tq/card-image_70220e4b.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195683.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/1w5x2xvuh39tq/card-image_70220e4b.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195683.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/004fazux9pvyb/card-image_6f240dc4.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195673.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/004fazux9pvyb/card-image_6f240dc4.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195673.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0szgnvcxspazm/card-image_93cea5ec.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195675.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0szgnvcxspazm/card-image_93cea5ec.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195675.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/1bw3qyyoyzg69/card-image_fd105a46.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20260807/41360_1310474.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/1bw3qyyoyzg69/card-image_fd105a46.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20260807/41360_1310474.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/3g61jk7soo18x/card-image_4f2df36a.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20250220/41360_1213067.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/3g61jk7soo18x/card-image_4f2df36a.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20250220/41360_1213067.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/3967ycx3ftnjf/card-image_dedc2d02.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20250529/41360_1237549.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/3967ycx3ftnjf/card-image_dedc2d02.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20250529/41360_1237549.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0jhzg2kej6tzh/card-image_fc50f81c.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20260320/41360_1292187.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0jhzg2kej6tzh/card-image_fc50f81c.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20260320/41360_1292187.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0eez9a3uaamlz/card-image_b7e4a10f.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195657.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0eez9a3uaamlz/card-image_b7e4a10f.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195657.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/29jechwuy3hum/card-image_dea0a964.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195681.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/29jechwuy3hum/card-image_dea0a964.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195681.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0igspdjvuz3u1/card-image_83f0b04b.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195654.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/0igspdjvuz3u1/card-image_83f0b04b.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241123/41360_1195654.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/09hxm7p0c7nmn/card-image_f795543f.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241204/41360_1198101.html"
+    },
+    {
+      "url": "https://www.marvelrivals.com/img/heroes/09hxm7p0c7nmn/card-image_f795543f.png",
+      "error": "HTTP 404",
+      "sourcePage": "https://www.marvelrivals.com/20241204/41360_1198101.html"
+    }
+  ],
   "teamProvenance": [
     {
       "sourceUrl": "https://www.marvelrivals.com/announcements/20260323/40955_1292438.html",
@@ -12003,12 +13046,6 @@
         "message": "Source image preflight HTTP 403; verified local images are retained.",
         "pendingPhotos": 310,
         "pendingTeamLogos": 10
-      },
-      "https://api.arianwever.com": {
-        "state": "unavailable",
-        "message": "Source image preflight HTTP 403; verified local images are retained.",
-        "pendingPhotos": 1,
-        "pendingTeamLogos": 52
       }
     }
   },

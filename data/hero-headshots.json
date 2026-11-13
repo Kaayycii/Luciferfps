@@ -282,6 +282,11 @@
       "path": "/media/heroes/lord/gorr.webp",
       "sourceUrl": "https://rivalskins.com/wp-content/uploads/marvel-assets/assets/lord-icons/img_squarehead_21067020_avatar.png",
       "sourceLabel": "img_squarehead_21067020_avatar"
+    },
+    "nightcrawler": {
+      "path": "/media/heroes/b9d60d50595419033a5c.png",
+      "sourceUrl": "https://www.marvelrivals.com/heroes/2mpwiwa9ct6hn/index.html",
+      "sourceLabel": "official-nightcrawler-portrait"
     }
   }
 }

@@ -4,10 +4,6 @@
   "layoutIndexUrl": "https://rivals.gs/maps/",
   "heroes": [
     {
-      "name": "ADAM WARLOCK",
-      "sourceUrl": "https://www.marvelrivals.com/20241123/41360_1195670.html"
-    },
-    {
       "name": "ANGELA",
       "sourceUrl": "https://www.marvelrivals.com/20250911/41360_1258873.html"
     },
@@ -32,7 +28,7 @@
       "sourceUrl": "https://www.marvelrivals.com/20241123/41360_1195652.html"
     },
     {
-      "name": "CLOAK&DAGGER",
+      "name": "CLOAK&amp;DAGGER",
       "sourceUrl": "https://www.marvelrivals.com/20241204/41360_1198095.html"
     },
     {
@@ -40,7 +36,7 @@
       "sourceUrl": "https://www.marvelrivals.com/20260611/41360_1303977.html"
     },
     {
-      "name": "Daredevil",
+      "name": "DAREDEVIL",
       "sourceUrl": "https://www.marvelrivals.com/20251009/41360_1263889.html"
     },
     {
@@ -60,15 +56,15 @@
       "sourceUrl": "https://www.marvelrivals.com/20260212/41360_1286981.html"
     },
     {
-      "name": "Emma Frost",
+      "name": "EMMA FROST",
       "sourceUrl": "https://www.marvelrivals.com/20250408/41360_1225547.html"
     },
     {
-      "name": "Gambit",
+      "name": "GAMBIT",
       "sourceUrl": "https://www.marvelrivals.com/20251114/41360_1270998.html"
     },
     {
-      "name": "Gorr the God Butcher",
+      "name": "GORR THE GOD BUTCHER",
       "sourceUrl": "https://www.marvelrivals.com/20260911/41360_1313617.html"
     },
     {
@@ -144,6 +140,10 @@
       "sourceUrl": "https://www.marvelrivals.com/20241123/41360_1195686.html"
     },
     {
+      "name": "NIGHTCRAWLER",
+      "sourceUrl": "https://www.marvelrivals.com/heroes/2mpwiwa9ct6hn/index.html"
+    },
+    {
       "name": "PENI PARKER",
       "sourceUrl": "https://www.marvelrivals.com/20241123/41360_1195656.html"
     },
@@ -160,7 +160,7 @@
       "sourceUrl": "https://www.marvelrivals.com/20241123/41360_1195663.html"
     },
     {
-      "name": "Rogue",
+      "name": "ROGUE",
       "sourceUrl": "https://www.marvelrivals.com/20251212/41360_1276333.html"
     },
     {
@@ -184,7 +184,7 @@
       "sourceUrl": "https://www.marvelrivals.com/20241123/41360_1195675.html"
     },
     {
-      "name": "The Hood",
+      "name": "THE HOOD",
       "sourceUrl": "https://www.marvelrivals.com/20260807/41360_1310474.html"
     },
     {
@@ -200,7 +200,7 @@
       "sourceUrl": "https://www.marvelrivals.com/20241123/41360_1195657.html"
     },
     {
-      "name": "Ultron",
+      "name": "ULTRON",
       "sourceUrl": "https://www.marvelrivals.com/20250529/41360_1237549.html"
     },
     {
@@ -536,5 +536,5 @@
       "message": "The official hero page lists 13s; the linked balance note lists 12s. These published sources disagree. Verify the current value in-game; the hero-page value has not been silently overwritten."
     }
   ],
-  "updatedAt": "2026-10-16T15:09:51.485Z"
+  "updatedAt": "2026-11-13T18:36:04.247Z"
 }

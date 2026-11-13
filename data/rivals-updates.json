@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T17:23:32.354Z",
+  "updatedAt": "2026-11-13T18:36:06.375Z",
   "sources": [
     {
       "id": "game-home",
@@ -9,6 +9,9 @@
       "status": "ok",
       "articleCount": 13,
       "articleIds": [
+        "game-1319403",
+        "game-1319332",
+        "game-1319209",
         "game-1318632",
         "game-1318635",
         "game-1318421",
@@ -18,13 +21,10 @@
         "game-1317131",
         "game-1316982",
         "game-1316802",
-        "game-1316797",
-        "game-1316588",
-        "game-1315872",
-        "game-1315865"
+        "game-1316797"
       ],
-      "contentFingerprint": "9a182f6d6d85597c2591119cfee447a364b047db3cbbc9e36a3468574ac2b335",
-      "lastContentChangeAt": "2026-11-09T17:23:32.354Z"
+      "contentFingerprint": "1c763073b00f818d55f92c56dfae5e06936467a911fd627ee8849096a54a8bf1",
+      "lastContentChangeAt": "2026-11-13T18:08:12.587Z"
     },
     {
       "id": "game-updates",
@@ -33,6 +33,7 @@
       "status": "ok",
       "articleCount": 9,
       "articleIds": [
+        "game-1319332",
         "game-1318632",
         "game-1317925",
         "game-1317253",
@@ -40,11 +41,10 @@
         "game-1315865",
         "game-1315568",
         "game-1314808",
-        "game-1314013",
-        "game-1313441"
+        "game-1314013"
       ],
-      "contentFingerprint": "a0af898401e8162cfd213295b475f167870f9c13737edaed4049d2e5ca452c87",
-      "lastContentChangeAt": "2026-11-09T17:23:32.354Z"
+      "contentFingerprint": "df9a756862b47a2853041c37b43e591806aecbfdb3ca9818207fd44a54d641e1",
+      "lastContentChangeAt": "2026-11-13T18:08:12.587Z"
     },
     {
       "id": "game-balance",
@@ -53,6 +53,7 @@
       "status": "ok",
       "articleCount": 9,
       "articleIds": [
+        "game-1319209",
         "game-1315864",
         "game-1313334",
         "game-1309952",
@@ -60,11 +61,10 @@
         "game-1306647",
         "game-1303507",
         "game-1299947",
-        "game-1295988",
-        "game-1292877"
+        "game-1295988"
       ],
-      "contentFingerprint": "ac3ce1afa29197c5dddbf5cc24616e2becc25862dbe118462685291831bd9cce",
-      "lastContentChangeAt": "2026-10-16T15:10:20.403Z"
+      "contentFingerprint": "25a6fd468632cf4b51fdacedff17c4462c3778ce016de6ebda7a5895900bc7f2",
+      "lastContentChangeAt": "2026-11-13T18:08:12.587Z"
     },
     {
       "id": "game-announcements",
@@ -93,6 +93,7 @@
       "status": "ok",
       "articleCount": 12,
       "articleIds": [
+        "ignite-1319108",
         "ignite-1313342",
         "ignite-1312965",
         "ignite-1310349",
@@ -103,14 +104,57 @@
         "ignite-1295963",
         "ignite-1293068",
         "ignite-1293092",
-        "ignite-1286303",
-        "ignite-1282275"
+        "ignite-1286303"
       ],
-      "contentFingerprint": "0eb8d01720bd27c62919ad9beb97fb0fba83aee77b1d2b05c40084ffd80ecf76",
-      "lastContentChangeAt": "2026-10-16T15:10:20.403Z"
+      "contentFingerprint": "29a73ed361eead6a9124b175b490c521bf115a68ea7ae2a62c3ebc6c81cd38e4",
+      "lastContentChangeAt": "2026-11-13T18:08:12.587Z"
     }
   ],
   "articles": [
+    {
+      "id": "game-1319403",
+      "title": "Season 11: Doomsday // Dev Vision Vol. 23 | Marvel Rivals",
+      "url": "https://www.marvelrivals.com/devdiaries/20261112/40954_1319403.html",
+      "publishedAt": "2026-11-12",
+      "category": "development",
+      "sourceIds": [
+        "game-home"
+      ]
+    },
+    {
+      "id": "game-1319332",
+      "title": "Marvel Rivals Version 20261113 Patch Notes - Season 11 Arrives",
+      "url": "https://www.marvelrivals.com/gameupdate/20261111/41548_1319332.html",
+      "publishedAt": "2026-11-11",
+      "category": "patches",
+      "effectiveAt": "2026-11-13",
+      "sourceIds": [
+        "game-home",
+        "game-updates"
+      ]
+    },
+    {
+      "id": "game-1319209",
+      "title": "Marvel Rivals Version 20261113 Balance Post",
+      "url": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+      "publishedAt": "2026-11-10",
+      "category": "balance",
+      "effectiveAt": "2026-11-13",
+      "sourceIds": [
+        "game-balance",
+        "game-home"
+      ]
+    },
+    {
+      "id": "ignite-1319108",
+      "title": "12 Teams. One Crown. Your Viewer Guide to the Marvel Rivals Ignite 2026 Grand Finals",
+      "url": "https://www.marvelrivalsesports.com/20261109/42828_1319108.html",
+      "publishedAt": "2026-11-09",
+      "category": "esports",
+      "sourceIds": [
+        "ignite-official"
+      ]
+    },
     {
       "id": "game-1318632",
       "title": "Marvel Rivals Version 20261105 Patch Notes",
@@ -640,6 +684,40 @@
     }
   ],
   "facts": [
+    {
+      "id": "season-11-20261113",
+      "title": "Season 11: Nightcrawler, controller option and Grand Finals format",
+      "category": "season",
+      "summary": "Season 11 adds Nightcrawler as a Strategist and introduces the optional Aim Assist Target Prediction setting for controllers. The patch also confirms IGNITE Grand Finals: Group Stage is November 23–25, followed by a November 27–29 double-elimination Main Event in Stockholm. Live-client release information does not establish the tournament game version.",
+      "sourceUrl": "https://www.marvelrivals.com/gameupdate/20261111/41548_1319332.html",
+      "publishedAt": "2026-11-11",
+      "effectiveAt": "2026-11-13T09:00:00Z",
+      "reviewedAt": "2026-11-13",
+      "relatedHeroIds": [
+        "nightcrawler",
+        "the-thing",
+        "mister-fantastic",
+        "doctor-strange",
+        "blade"
+      ]
+    },
+    {
+      "id": "balance-20261113",
+      "title": "November 13 balance: Season 11 roster adjustments",
+      "category": "heroes",
+      "summary": "The official balance post updates multiple Vanguards, Duelists and Strategists. Notable mechanics include Gambit’s wider outer-card spread and lower Healing Hearts self-heal, Devil Dinosaur durability and control reductions, new Squirrel Girl and Cloak & Dagger rotation behavior, and broad Strategist utility changes. Values are recorded in the patch archive; no matchup or tier conclusion is inferred from the notes alone.",
+      "sourceUrl": "https://www.marvelrivals.com/balancepost/20261110/41667_1319209.html",
+      "publishedAt": "2026-11-10",
+      "effectiveAt": "2026-11-13T09:00:00Z",
+      "reviewedAt": "2026-11-13",
+      "relatedHeroIds": [
+        "gambit",
+        "devil-dinosaur",
+        "squirrel-girl",
+        "cloak-and-dagger",
+        "nightcrawler"
+      ]
+    },
     {
       "id": "patch-20261105",
       "title": "November 5 patch: Moon Knight and Captain America team-up fixes",
